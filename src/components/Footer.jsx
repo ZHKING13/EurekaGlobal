@@ -25,7 +25,7 @@ function Footer() {
               
               <p>Le Conseil au service de votre performance.</p>
             </div>
-            {/* Social Handle */}
+            {/* Social Handle mdeia */}
           </div>
                   <div className="flex   flex-col md:flex-row gap-8 border-l border-r  ">
                       <div className=" ">
