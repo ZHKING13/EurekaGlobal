@@ -8,7 +8,7 @@ function Logo() {
                           <p className='text-secondary font-bold md:text-xl title'>EUREKA <span className='text-primary'>GLOBAL</span></p>
                           <span className='architects-daughter-regular'>Votre Cabinet Conseil</span>
                       </div>
-          <img className=' h-[50px] object-contain' src="./log.png" alt="logo eureka" />
+          <img className=' h-[50px] object-contain' src="/log.png" alt="logo eureka" />
 			
 		</div>
   )

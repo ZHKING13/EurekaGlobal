@@ -4,17 +4,48 @@ import App from './App.jsx'
 import './index.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
 import Aos from 'aos';
+import Preambule from './pages/Preambule.jsx';
+import Root from './Root.jsx';
+import Details from './pages/Details.jsx';
+import Solution from './pages/Solution.jsx';
 Aos.init({
    delay: 700, // values from 0 to 3000, with step 50ms
   duration: 400, // values from 0 to 3000, with step 50ms
   easing: 'ease', // default easing for AOS animations
-  once: true, // whether animation should happen only once - while scrolling down
+  once: false, // whether animation should happen only once - while scrolling down
   mirror: false
 });
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Root />,
+    children: [
+      {
+        path: "",
+        element: <App />,
+      },
+       {
+    path: "preambule",
+         element: <Preambule />,
+         
+      },
+      {
+        path: "preambule/:id",
+        element: <Details />,
+      },
+      
+    ]
+  },
+ 
+]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <RouterProvider router={router} />
+  </React.StrictMode>
 )

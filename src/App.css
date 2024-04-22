@@ -1,5 +1,5 @@
 body {
-    font-family: "Manrope ", "montserrat";
+    font-family: "Manrope ",
 }
 
 .logo {
@@ -22,6 +22,10 @@ h1 {
 
 .architect {
     font-family: "Architects Daughter", cursive;
+}
+
+.mont {
+    font-family: "Montserrat", cursive;
 }
 
 .logo:hover {

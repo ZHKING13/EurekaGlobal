@@ -5,6 +5,7 @@ import {
   FaLinkedin,
   FaLocationArrow,
   FaMobileAlt,
+  FaCaretRight
 } from "react-icons/fa";
 import { Button } from './ui/button';
 function Footer() {
@@ -14,18 +15,15 @@ function Footer() {
         <div className=" flex w-full sm:items-center flex-col md:flex-row">
           <div className="w-full md:w-[25%] flex flex-col items-center gap-2 mx-auto px-4 py-4 ">
             <img src="./log.png" alt="" />
-           <div className=' flex flex-col items-center '>
+           <div className=' flex flex-col items-between '>
                           <p className='text-secondary font-bold md:text-xl '>EUREKA <span className='text-white'>GLOBAL</span></p>
                           <span className='architects-daughter-regular'>Votre Cabinet Conseil</span>
                       </div>
             <br />
-            <div className="flex items-center gap-3">
-              <FaLocationArrow />
-              <p>Abidjan, zone 4</p>
-            </div>
+           
             <div className="mt-3 flex items-center gap-3">
-              <FaMobileAlt />
-              <p>+225 123456789</p>
+              
+              <p>Le Conseil au service de votre performance.</p>
             </div>
             {/* Social Handle */}
           </div>
@@ -36,17 +34,17 @@ function Footer() {
                   Liens rapides 
                 </h1>
                 <ul className="flex flex-col gap-2">
-                  <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
-                   Acceuil
+                  <li className="cursor-pointer flex items-center gap-2  transition-all duration-300 hover:translate-x-[2px]">
+                  <FaCaretRight className='text-secondary text-2xl' /> Acceuil
                   </li>
-                  <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
-                    Qui sommes-nous 
+                  <li className="cursor-pointer flex items-center  gap-2 transition-all duration-300 hover:translate-x-[2px]">
+                   <FaCaretRight className='text-secondary text-2xl' /> Qui sommes-nous 
                   </li>
-                  <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
-                    Nos clients
+                  <li className="cursor-pointer flex items-center gap-2  transition-all duration-300 hover:translate-x-[2px]">
+                  <FaCaretRight className='text-secondary text-2xl' />  Nos clients
                   </li>
-                  <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
-                    Cas Pratiques
+                  <li className="cursor-pointer flex items-center  gap-2 transition-all duration-300 hover:translate-x-[2px]">
+                   <FaCaretRight className='text-secondary text-2xl' /> Cas Pratiques
                   </li>
                 </ul>
               </div>
@@ -57,23 +55,23 @@ function Footer() {
                   Nos solutions 
                 </h1>
                 <ul className={`flex flex-col gap-3`}>
-                  <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
-                    Investissseurs
+                  <li className="cursor-pointer flex items-center gap-2  transition-all duration-300 hover:translate-x-[2px]">
+                  <FaCaretRight className='text-secondary text-2xl' />  Investissseurs
                   </li>
-                  <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
-                   Startups
+                  <li className="cursor-pointer flex items-center gap-2  transition-all duration-300 hover:translate-x-[2px]">
+                  <FaCaretRight className='text-secondary text-2xl' /> Startups
                   </li>
-                  <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
-                    TPEs
+                  <li className="cursor-pointer flex items-center gap-2  transition-all duration-300 hover:translate-x-[2px]">
+                  <FaCaretRight className='text-secondary text-2xl' />  TPEs
                   </li>
-                  <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
-                    PMEs
+                  <li className="cursor-pointer flex items-center gap-2  transition-all duration-300 hover:translate-x-[2px]">
+                  <FaCaretRight className='text-secondary text-2xl' />  PMEs
                   </li>
-                  <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
-                    Grandes Entreprises
+                  <li className="cursor-pointer flex items-center gap-2  transition-all duration-300 hover:translate-x-[2px]">
+                  <FaCaretRight className='text-secondary text-2xl' />  Grandes Entreprises
                   </li>
-                  <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
-                    Personnalités Publiques
+                  <li className="cursor-pointer flex items-center gap-2  transition-all duration-300 hover:translate-x-[2px]">
+                  <FaCaretRight className='text-secondary text-2xl' />  Personnalités Publiques
                   </li>
                 </ul>
               </div>
@@ -85,11 +83,11 @@ function Footer() {
                   Nos Catalogues 
                 </h1>
                 <ul className="flex flex-col gap-3">
-                  <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
-                    Produits et Services
+                  <li className="cursor-pointer flex items-cente gap-2 r transition-all duration-300 hover:translate-x-[2px]">
+                 <FaCaretRight className='text-secondary text-2xl' />   Produits et Services
                   </li>
-                  <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
-                    Formations à la Carte
+                  <li className="cursor-pointer flex items-center transition-all duration-300 hover:translate-x-[2px]">
+                  <FaCaretRight className='text-secondary text-2xl' />  Formations à la Carte
                   </li>
                   
                 </ul>

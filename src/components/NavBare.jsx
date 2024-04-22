@@ -27,6 +27,7 @@ import {
 } from "@heroicons/react/24/solid";
 import { Button } from "./ui/button";
 import Logo from "./Logo";
+import { Link } from "react-router-dom";
  
 const navListMenuItems = [
   {
@@ -94,6 +95,7 @@ function NavListMenu() {
               selected={isMenuOpen || isMobileMenuOpen}
               onClick={() => setIsMobileMenuOpen((cur) => !cur)}
             >
+              
               Nos Catalogue
               <ChevronDownIcon
                 strokeWidth={2.5}
@@ -133,9 +135,18 @@ function NavList() {
         color="blue-gray"
         className="font-medium"
       >
-        <ListItem className="flex items-center gap-2 py-2 pr-4">Acceuil</ListItem>
+        <Link to="/"><ListItem className="flex items-center gap-2 py-2 pr-4">Acceuil</ListItem></Link>
       </Typography>
       <NavListMenu />
+      <Typography
+        as="a"
+        href="#"
+        variant="small"
+        color="blue-gray"
+        className="font-medium"
+      >
+        <Link to="/"><ListItem className="flex items-center gap-2 py-2 pr-4">Qui somme nous</ListItem></Link>
+      </Typography>
       <Typography
         as="a"
         href="#"
@@ -163,7 +174,7 @@ export function NavBareMenu() {
   }, []);
  
   return (
-    <Navbar className="mx-auto text-primary max-w-screen-xl px-5 py-2 rounded-[45px]">
+    <Navbar className="mx-auto text-primary  max-w-screen-xl px-5 py-2 rounded-[45px]">
 		  <div className="flex items-center justify-between md:flex-row-reverse ">
 			  <div className="md:order-2">
 				   <Logo/>
