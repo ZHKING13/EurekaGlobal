@@ -37,7 +37,7 @@ export default function App() {
               <span className='text-secondary font-bold'> EUREKA</span>  <span className='font-bold text-primary'> GLOBAL</span> se distingue par son engagement envers l'excellence, l'innovation et la transformation.
             </p>
             <p className='text-start md:text-2xl text-xl'>
-              Laurence Noubissi, notre Gérante Associée, vous invite à explorer notre gamme étendue de produit & services et de formations, conçus pour répondre aux besoins spécifiques de chaque client.
+              Laurence Noubissi, notre Gérante Associée, vous invite à explorer notre gamme étendue de produit & services et de formations, conçus pour répondre aux besoins spécifiques de chaque Entreprise cliente.
             </p>
             <p className='text-start md:text-2xl text-xl'>
               Depuis plus d'une décennie, nous façonnons les parcours de succès de nos partenaires avec passion et précision.

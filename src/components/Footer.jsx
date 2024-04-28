@@ -54,7 +54,7 @@ function Footer() {
                 <h1 className="mb-3 text-justify text-xl font-bold sm:text-left sm:text-xl">
                   Nos solutions 
                 </h1>
-                <ul className={`flex flex-col gap-3`}>
+                <ul className={`flex flex-col text-sm gap-3`}>
                   <li className="cursor-pointer flex items-center gap-2  transition-all duration-300 hover:translate-x-[2px]">
                   <FaCaretRight className='text-secondary text-2xl' />  Investissseurs
                   </li>
@@ -82,7 +82,7 @@ function Footer() {
                 <h1 className="mb-3 text-left text-xl font-bold sm:text-left sm:text-xl">
                   Nos Catalogues 
                 </h1>
-                <ul className="flex flex-col gap-3">
+                <ul className="flex flex-col text-sm gap-3">
                   <li className="cursor-pointer flex items-cente gap-2 r transition-all duration-300 hover:translate-x-[2px]">
                  <FaCaretRight className='text-secondary text-2xl' />   Produits et Services
                   </li>
