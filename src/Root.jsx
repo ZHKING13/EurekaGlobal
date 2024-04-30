@@ -12,16 +12,18 @@ import Footer from "./components/Footer.jsx";
 
 function Root() {
   return (
-      <div className=' relative'>
-          <div className='fixed z-50  top-2 left-0 right-0'>
-        <NavBareMenu/>
+      <div className=" relative">
+          <div className="fixed z-50 container  top-2 left-0 right-0">
+              <div className="md:container">
+                  <NavBareMenu />
+              </div>
           </div>
-          <Outlet/>
+          <Outlet />
           <div>
-        <Footer/>
+              <Footer />
+          </div>
       </div>
-    </div>
-  )
+  );
 }
 
 export default Root
