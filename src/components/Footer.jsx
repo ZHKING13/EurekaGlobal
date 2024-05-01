@@ -70,7 +70,7 @@ function Footer() {
                       </div>
 
                       <div className="flex items-start justify-center border-r md:w-1/2 md:mr-12 pr-2  ">
-                          <div className="px-4 py-8 text-sm ">
+                          <div className="px-4 py-4 text-sm ">
                               <h1 className="mb-2 text-left text-lg font-bold sm:text-left sm:text-lg">
                                   Nos Catalogue
                               </h1>
