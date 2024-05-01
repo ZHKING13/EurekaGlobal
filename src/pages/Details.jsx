@@ -23,7 +23,7 @@ function Details() {
     <div>
       <section style={{
             backgroundImage: `url(${item.bgImg})`,
-          }} className={`bg-[url(${item.bgImg})] mt-20 bg-no-repeat md:bg-cover object-contain bg-cover bg-center h-[90vh]`}>
+          }} className={`bg-[url(${item.bgImg})] mt-20 bg-no-repeat md:bg-cover object-contain bg-cover bg-center md:h-[90vh]`}>
               <div className='h-full w-full flex items-center container bg-[#00226771]'>
                    <div className='md:w-[40%] flex flex-col gap-6 font-bold md:ml-20 text-white'>
                   <h1 className=' md:text-5xl text-4xl font-bold '>Solutions pour les <span className='text-secondary'>{item.title} </span> </h1>
@@ -34,15 +34,15 @@ function Details() {
           </section>
           <section className="m-4 md:m-8 ">
 	<div className="container mx-auto p-4 my-6 space-y-2 text-center">
-		<h2 className="md:text-5xl text-3xl font-bold text-primary">AVANTAGES DE NOS SOLUTIONS</h2>
+		<h2 className="md:text-4xl text-2xl font-bold text-primary">AVANTAGES DE NOS SOLUTIONS</h2>
 	</div>
 	<div className="container mx-auto grid justify-center items-center gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {
             item.avantage && item.avantage.map((avantage, index) => {
               return (
-                <div key={index} data-aos="zoom-out"  className="flex flex-col items-center p-4">
+                <div key={index} data-aos="zoom-out"  className="flex flex-col justify-center items-center p-4">
 			<img className="w-40 h-40 object-contain " src={avantage.icon} alt="" />
-			<h3 className="my-3 md:text-3xl text-2xl text-center text-primary font-semibold">{avantage.title} </h3>
+			<h3 className="my-3 md:text-2xl text-xl text-center text-primary font-semibold">{avantage.title} </h3>
 			<div className="space-y-1 text-center leading-tight">
 				<p> {avantage.desc}</p>
 				
@@ -54,7 +54,7 @@ function Details() {
     }
    </div>
               <div className='w-full mt-10 flex justify-center'>
-                   <Button>
+                   <Button className="rounded-[45px]" >
                   Parcourir  Nos Catalogues
               </Button>
               </div>

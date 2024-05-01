@@ -11,28 +11,32 @@ import { Button } from './ui/button';
 function Footer() {
   return (
       <div className=" text-white bg-primary ">
-          <section className="mx-auto w-full max-w-[1200px] dark:text-white">
+          <section className="mx-auto w-full max-w-[1350px] dark:text-white">
               <div className=" flex w-full sm:items-center flex-col md:flex-row">
-                  <div className="w-full md:w-[22%] flex flex-col items-center gap-2 mx-auto px-1 py-1 ">
-                      <img src="./log.png" alt="" />
-                      <div className=" flex flex-col items-between ">
+                  <div className="w-full md:w-[20%] justify-center flex flex-col items-center gap-2  px-1 py-1 ">
+                      <img src="/log.png" alt="" />
+                      <div className=" flex flex-col items-between text-center ">
                           <p className="text-secondary font-bold md:text-lg ">
                               EUREKA <span className="text-white">GLOBAL</span>
                           </p>
                           <span className="architects-daughter-regular">
                               Votre Cabinet Conseil
                           </span>
+                          <div className="mt-1.5 text-[12px] flex items-center ">
+                          <img src="/ftmg.png" alt="" />
                       </div>
-                      <br />
-
-                      <div className="mt-3 text-[12px] flex items-center gap-3">
+                      </div>
+                          
+                      <div className=" text-[12px] flex items-center gap-3">
                           <p>Le Conseil au service de votre performance.</p>
                       </div>
                       {/* Social Handle mdeia */}
                   </div>
-                  <div className="flex md:w-[60%] justify-center flex-col md:flex-row gap-8   ">
-                      <div className="md:ml-10 border-l  ">
-                          <div className="px-4 py-8 ">
+                  <div className='md:w-[60%]'>
+                      
+                  <div className="flex md:w-[100%] justify-center flex-col md:flex-row gap-8   ">
+                      <div className="md:ml-5 flex items-center justify-center md:w-1/2 border-l  ">
+                          <div className="px-4 py-4 ">
                               <h1 className="mb-3 text-justify text-lg font-bold sm:text-left sm:text-lg">
                                   Nos solutions
                               </h1>
@@ -65,7 +69,7 @@ function Footer() {
                           </div>
                       </div>
 
-                      <div className=" border-r ">
+                      <div className="flex items-start justify-center border-r md:w-1/2 md:mr-12 pr-2  ">
                           <div className="px-4 py-8 text-sm ">
                               <h1 className="mb-2 text-left text-lg font-bold sm:text-left sm:text-lg">
                                   Nos Catalogue
@@ -82,17 +86,25 @@ function Footer() {
                               </ul>
                           </div>
                       </div>
+                      </div>
+                      <div className='w-[100%]'>
+                  <div className="border-t py-1 md:ml-5 md:mr-12 md:border-r md:border-l w-[100% - 20px] border-gray-100  text-center">
+                      @copyright 2024 Eureuka Global
                   </div>
-                  <div className="w-full md:w-[25%]">
-                      <div className="px-4 py-8 ">
+              </div>
+                  </div>
+                  <div className="w-full md:w-[20%]">
+                      <div className="px-2 py-4 flex flex-col ">
                           <h1 className="mb-3 text-justify text-lg font-bold sm:text-left ">
                               Vous souhaitez parler de votre futur projet ?
                           </h1>
-                          <div className="flex flex-col gap-3">
+                          <div className="flex flex-col mt-3">
                               <Button className="bg-secondary" size="lg">
                                   Exprimez vos besoins
                               </Button>
-                              <div className="mt-6 flex items-center gap-3">
+                              
+                          </div>
+                          <div className="mt-9 flex items-center justify-center gap-3">
                                   <a
                                       href="#"
                                       className="duration-200 hover:scale-105"
@@ -112,15 +124,10 @@ function Footer() {
                                       <FaLinkedin className="text-3xl" />
                                   </a>
                               </div>
-                          </div>
                       </div>
                   </div>
               </div>
-              <div>
-                  <div className="border-t-2 border-gray-300/50 py-6 text-center">
-                      @copyright 2024 Eureuka Global
-                  </div>
-              </div>
+              
           </section>
       </div>
   );

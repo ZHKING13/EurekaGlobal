@@ -114,10 +114,10 @@ export default function App() {
                       className="flex mb-3 flex-col md:flex-row gap-6 w-full"
                   >
                       <div className="flex flex-col md:w-[45%] w-full gap-4">
-                          <h2 className="md:text-4xl text-2xl font-bold text-primary">
+                          <h2 className="md:text-3xl text-xl font-bold text-primary">
                               Des solutions sur mesures{" "}
                           </h2>
-                          <p className="text-xl">
+                          <p className="text-lg">
                               EUREKA GLOBAL est votre partenaire stratégique,
                               prêt à vous accompagner vers l'excellence. Notre
                               catalogue de services est une invitation à
@@ -159,11 +159,11 @@ export default function App() {
                           />
                       </div>
                       <div className="flex flex-col  md:w-[45%] w-full gap-4">
-                          <h2 className="md:text-4xl text-2xl font-bold text-primary">
+                          <h2 className="md:text-3xl text-xl font-bold text-primary">
                               Solutions Personnalisées pour une Performance
                               Optimale{" "}
                           </h2>
-                          <p className="text-xl">
+                          <p className="text-lg">
                               Que vous soyez une startup dynamique ou une grande
                               entreprise établie, nos services sont conçus pour
                               catalyser votre croissance. De la création
@@ -192,10 +192,10 @@ export default function App() {
                       className="flex flex-col md:flex-row gap-6 w-full"
                   >
                       <div className="flex flex-col md:w-[45%] w-full gap-4 ml-2">
-                          <h2 className="md:text-4xl text-2xl text-primary font-bold">
+                          <h2 className="md:text-3xl text-xl text-primary font-bold">
                               Élever les Compétences, Transformer les Équipes{" "}
                           </h2>
-                          <p className="text-xl mt-2">
+                          <p className="text-lg mt-2">
                               Nos formations à la carte sont une véritable
                               lumière guidant vos équipes vers l'innovation et
                               l'excellence opérationnelle. Avec des modules
@@ -228,7 +228,7 @@ export default function App() {
           <section className="container">
               {/* testimonial section */}
               <div className="mt-8">
-                  <h1 className="md:text-5xl text-3xl font-bold text-center mb-4">
+                  <h1 className="md:text-5xl text-primary text-2xl font-bold text-center mb-4">
                       Ce qu'ils disent de nous
                   </h1>
                   <Testimanials />

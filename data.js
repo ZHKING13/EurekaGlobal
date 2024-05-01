@@ -1,3 +1,12 @@
+import {
+
+    Square3Stack3DIcon,
+    SunIcon,
+    TagIcon,
+    UserGroupIcon,
+    AcademicCapIcon,
+    CursorArrowRippleIcon
+} from "@heroicons/react/24/solid";
 export const preambule = [{
         title: 'Startups',
         desc: "EUREKA GLOBAL vous propose une gamme diversifiée de produits et services conçus pour catalyser votre potentiel dans divers secteurs. Découvrez ci-dessous notre sélection de solutions personnalisées qui feront de votre projet un moteur d 'innovaton et de croissance.",
@@ -124,7 +133,7 @@ export const preambule = [{
     },
     {
         title: 'Investisseurs ',
-        desc: "EUREKA GLOBAL vous propose une expertise scpificque pour vous accompagber dans la formulation et la mise en oeuvre politiques impactantes. Découvrez ci-dessous notre sélection de solutions personnalisées qui façonnent les nations.",
+        desc: "EUREKA GLOBAL vous propose une expertise specifique pour vous accompagner dans la formulation et la mise en oeuvre politiques impactantes. Découvrez ci-dessous notre sélection de solutions personnalisées qui façonnent les nations.",
         bgImg: "/investBg.png",
         avantage: [{
                 title: 'Optimiser vos Performances ',
@@ -146,6 +155,223 @@ export const preambule = [{
         id: "investisseur"
     },
 ]
+
+export const navListMenuItems = [{
+        title: "Produits & Services",
+        description: "Pour votre Réussite strategique",
+        icon: Square3Stack3DIcon,
+    },
+
+    {
+        title: "Nos Formations à la Carte",
+        description: "Pour vos Equipes",
+        icon: AcademicCapIcon,
+    },
+    {
+        title: "Produits & Services",
+        description: "Pour votre Réussite strategique",
+        icon: Square3Stack3DIcon,
+    },
+
+    {
+        title: "Nos Formations à la Carte",
+        description: "Pour vos Equipes",
+        icon: AcademicCapIcon,
+    },
+    {
+        title: "Produits & Services",
+        description: "Pour votre Réussite strategique",
+        icon: Square3Stack3DIcon,
+    },
+
+    {
+        title: "Nos Formations à la Carte",
+        description: "Pour vos Equipes",
+        icon: AcademicCapIcon,
+    },
+
+
+];
+export const targetAudienceItems = [{
+        title: "Investisseurs",
+        description: "Opportunités d'investissement et rendement financier.",
+        icon: CursorArrowRippleIcon,
+        link: "investisseur"
+    },
+    {
+        title: "Startups",
+        description: "Entreprises innovantes en phase de démarrage.",
+        icon: CursorArrowRippleIcon,
+        link: "startups"
+    },
+    {
+        title: "Très Petites Entreprises (TPEs)",
+        description: "Entreprises de petite taille cherchant à améliorer leur efficacité.",
+        icon: CursorArrowRippleIcon,
+        link: "tres-petite-entreprise"
+    },
+    {
+        title: "Petites & Moyennes Entreprises (PMEs)",
+        description: "Entreprises en croissance avec des besoins spécifiques.",
+        icon: CursorArrowRippleIcon,
+        link: "petite-moyenne-entreprise"
+    },
+    {
+        title: "Grandes Entreprises",
+        description: "Solutions avancées pour rester compétitif.",
+        icon: CursorArrowRippleIcon,
+        link: "grande-entreprise"
+    },
+    {
+        title: "Personnalités Publiques",
+        description: "Gestion de l'image et impact en ligne.",
+        icon: CursorArrowRippleIcon,
+        link: "personnalite-publique"
+    },
+];
+export const productServiceItems = [{
+        title: "Pack Création d'Entreprise",
+        description: "Tout ce dont vous avez besoin pour démarrer votre entreprise.",
+        icon: Square3Stack3DIcon,
+    },
+    {
+        title: "Externalisation Juridique & Fiscale",
+        description: "Gérez vos obligations légales et fiscales en toute simplicité.",
+        icon: Square3Stack3DIcon,
+    },
+    {
+        title: "Externalisation de la Comptabilité",
+        description: "Confiez votre comptabilité à des experts pour plus d'efficacité.",
+        icon: Square3Stack3DIcon,
+    },
+    {
+        title: "Excellence en Diligence Raisonnable",
+        description: "Processus rigoureux pour assurer la qualité et la conformité.",
+        icon: Square3Stack3DIcon,
+    },
+    {
+        title: "Amélioration du Portefeuille",
+        description: "Optimisez la performance de votre portefeuille d'investissement.",
+        icon: Square3Stack3DIcon,
+    },
+    {
+        title: "Starter Success Package",
+        description: "Accompagnement complet pour garantir le succès de votre démarrage.",
+        icon: Square3Stack3DIcon,
+    },
+    {
+        title: "Boost d'Accélération",
+        description: "Accélérez la croissance de votre entreprise avec notre expertise.",
+        icon: Square3Stack3DIcon,
+    },
+    {
+        title: "Entreprise en Pleine Ascension",
+        description: "Soutien personnalisé pour les entreprises en croissance.",
+        icon: Square3Stack3DIcon,
+    },
+    {
+        title: "Accélérateur des Entreprises",
+        description: "Programmes conçus pour stimuler la croissance des entreprises.",
+        icon: Square3Stack3DIcon,
+    },
+    {
+        title: "Performance Essentials",
+        description: "Solutions essentielles pour optimiser les performances de l'entreprise.",
+        icon: Square3Stack3DIcon,
+    },
+    {
+        title: "Boîte à Outils pour l'Expansion des Marchés",
+        description: "Outils stratégiques pour conquérir de nouveaux marchés.",
+        icon: Square3Stack3DIcon,
+    },
+    {
+        title: "Croissance Maîtrisée",
+        description: "Stratégies pour une croissance contrôlée et durable.",
+        icon: Square3Stack3DIcon,
+    },
+    {
+        title: "Optimisation Opérationnelle",
+        description: "Amélioration des processus pour une efficacité accrue.",
+        icon: Square3Stack3DIcon,
+    },
+    {
+        title: "Optimisation 360",
+        description: "Optimisation complète de tous les aspects de votre entreprise.",
+        icon: Square3Stack3DIcon,
+    },
+    {
+        title: "Programme de Refonte Stratégique",
+        description: "Revitalisez votre entreprise avec une refonte stratégique.",
+        icon: Square3Stack3DIcon,
+    },
+    {
+        title: "Intégration d'un Laboratoire Interne d'Innovation",
+        description: "Cultivez l'innovation au sein de votre organisation.",
+        icon: Square3Stack3DIcon,
+    },
+    {
+        title: "Évaluation de l'Impact des Personnalités Publiques",
+        description: "Analyse de l'influence et de l'impact des personnalités publiques.",
+        icon: Square3Stack3DIcon,
+    },
+    {
+        title: "Conseil Stratégique en Gouvernance",
+        description: "Guidance pour une gouvernance d'entreprise efficace.",
+        icon: Square3Stack3DIcon,
+    },
+];
+export const trainingModuleItems = [{
+        title: "Module Innovation",
+        description: "Stimulez l'innovation dans votre entreprise.",
+        icon: AcademicCapIcon,
+    },
+    {
+        title: "Module Managerial Toolkit",
+        description: "Gérez efficacement une équipe et atteignez vos objectifs.",
+        icon: AcademicCapIcon,
+    },
+    {
+        title: "Module Leadership Stratégique",
+        description: "Développez vos compétences en leadership.",
+        icon: AcademicCapIcon,
+    },
+    {
+        title: "Module Communication 360",
+        description: "Maîtrisez les stratégies de communication intégrées.",
+        icon: AcademicCapIcon,
+    },
+    {
+        title: "Module Marketing et Vente",
+        description: "Boostez votre croissance grâce au marketing et à la vente.",
+        icon: AcademicCapIcon,
+    },
+    {
+        title: "Module Stratégie Go-To-Market",
+        description: "Lancez vos produits ou services avec succès sur le marché.",
+        icon: AcademicCapIcon,
+    },
+    {
+        title: "Module Transformation Organisationnelle",
+        description: "Conduisez le changement dans votre organisation.",
+        icon: AcademicCapIcon,
+    },
+    {
+        title: "Module Excellence Opérationnelle",
+        description: "Optimisez l'efficacité de vos opérations.",
+        icon: AcademicCapIcon,
+    },
+    {
+        title: "Module Bureautique Expert",
+        description: "Maîtrisez les outils bureautiques avancés.",
+        icon: AcademicCapIcon,
+    },
+    {
+        title: "Module Gestion et Sécurité des Données",
+        description: "Gérez et sécurisez vos données sensibles.",
+        icon: AcademicCapIcon,
+    },
+];
+
 
 export const produits = [{
         title: "Pack Création d’Entreprise",

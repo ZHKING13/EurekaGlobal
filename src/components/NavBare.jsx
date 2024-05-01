@@ -27,6 +27,7 @@ import {
 import { Button } from "./ui/button";
 import Logo from "./Logo";
 import { Link } from "react-router-dom";
+import { productServiceItems, targetAudienceItems, trainingModuleItems } from "../../data";
  
 const navListMenuItems = [
   {
@@ -69,11 +70,11 @@ const navListMenuItems = [
 function NavListMenu() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
-  const renderItems = navListMenuItems.map(
+  const renderItems = productServiceItems.map(
     ({ icon, title, description }, key) => (
       <a href="#" key={key}>
         <MenuItem className="flex items-center gap-3 rounded-lg">
-          <div className="flex items-center justify-center rounded-lg !bg-blue-gray-50 p-2 ">
+          <div className="flex items-center justify-center rounded-lg !bg-gray-300 p-2 ">
             {" "}
             {React.createElement(icon, {
               strokeWidth: 2,
@@ -84,7 +85,7 @@ function NavListMenu() {
             <Typography
               variant="h6"
               color="blue-gray"
-              className="flex items-center text-sm font-bold"
+              className="flex items-center text-primary text-sm font-bold"
             >
               {title}
             </Typography>
@@ -147,11 +148,11 @@ function NavListMenu() {
 function Cible() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
-  const renderItems = navListMenuItems.map(
-    ({ icon, title, description }, key) => (
-      <a href="#" key={key}>
-        <MenuItem className="flex items-center gap-3 rounded-lg">
-          <div className="flex items-center justify-center rounded-lg !bg-blue-gray-50 p-2 ">
+  const renderItems = targetAudienceItems.map(
+    ({ icon, title, description,link }, key) => (
+      <Link to={`preambule/${link}`} key={key}>
+        <MenuItem className="flex items-center gap-3  rounded-lg">
+          <div className="flex items-center justify-center rounded-lg bg-gray-300 p-2 ">
             {" "}
             {React.createElement(icon, {
               strokeWidth: 2,
@@ -162,7 +163,7 @@ function Cible() {
             <Typography
               variant="h6"
               color="blue-gray"
-              className="flex items-center text-sm font-bold"
+              className="flex items-center text-primary text-sm font-bold"
             >
               {title}
             </Typography>
@@ -174,7 +175,7 @@ function Cible() {
             </Typography>
           </div>
         </MenuItem>
-      </a>
+      </Link>
     ),
   );
  
@@ -225,11 +226,11 @@ function Cible() {
 function Formation() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
-  const renderItems = navListMenuItems.map(
+  const renderItems = trainingModuleItems.map(
     ({ icon, title, description }, key) => (
       <a href="#" key={key}>
         <MenuItem className="flex items-center gap-3 rounded-lg">
-          <div className="flex items-center justify-center rounded-lg !bg-blue-gray-50 p-2 ">
+          <div className="flex items-center justify-center rounded-lg bg-gray-300 p-2 ">
             {" "}
             {React.createElement(icon, {
               strokeWidth: 2,
@@ -240,7 +241,7 @@ function Formation() {
             <Typography
               variant="h6"
               color="blue-gray"
-              className="flex items-center text-sm font-bold"
+              className="flex items-center text-primary text-sm font-bold"
             >
               {title}
             </Typography>
@@ -324,7 +325,7 @@ function NavList() {
               color="blue-gray"
               className="font-medium flex items-center"
           >
-              <Link className="flex" to="/">
+              <Link className="flex" to="/preambule">
                   <ListItem className="flex items-center  gap-2 md:py-2 md:pr-2">
                       Nos cibles
                   </ListItem>
