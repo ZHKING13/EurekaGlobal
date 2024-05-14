@@ -13,6 +13,7 @@ import Preambule from './pages/Preambule.jsx';
 import Root from './Root.jsx';
 import Details from './pages/Details.jsx';
 import Solution from './pages/Solution.jsx';
+import Produits from './pages/Produits.jsx';
 Aos.init({
    delay: 700, // values from 0 to 3000, with step 50ms
   duration: 400, // values from 0 to 3000, with step 50ms
@@ -21,27 +22,32 @@ Aos.init({
   mirror: false
 });
 const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Root />,
-    children: [
-      {
-        path: "",
-        element: <App />,
-      },
-       {
-    path: "preambule",
-         element: <Preambule />,
-         
-      },
-      {
-        path: "preambule/:id",
-        element: <Details />,
-      },
-      
-    ]
-  },
- 
+    {
+        path: "/",
+        element: <Root />,
+        children: [
+            {
+                path: "",
+                element: <App />,
+            },
+            {
+                path: "preambule",
+                element: <Preambule />,
+            },
+            {
+                path: "preambule/:id",
+                element: <Details />,
+            },
+            {
+                path: "prouits&service/:id",
+                element: <Solution />,
+            },
+            {
+                path: "prouits&service",
+                element: <Produits />,
+            },
+        ],
+    },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

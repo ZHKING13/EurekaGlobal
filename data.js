@@ -374,274 +374,730 @@ export const trainingModuleItems = [{
 
 
 export const produits = [{
-        title: "Pack Création d’Entreprise",
-        description: "Notre Pack Création d’Entreprise est une solution complète conçue pour simplifier le processus d'entrepreneuriat en Afrique. EUREKA GLOBAL prend en charge toutes les étapes, depuis les formalités administratives jusqu'aux aspects juridiques et fiscaux, vous permettant ainsi de vous concentrer pleinement sur le développement de votre activité.",
-        importance: "La création d'une entreprise est une étape cruciale qui nécessite une gestion précise et efficace pour assurer sa réussite à long terme. Notre solution offre un accompagnement professionnel et complet pour garantir une mise en place réussie de votre entreprise.",
-        approach: [{
-                title: "Évaluation des besoins",
-                subtitle: "Nous commençons par comprendre les besoins spécifiques de chaque client."
+        "title": "PACK CRÉATION D’ENTREPRISE",
+        "description": "Notre Pack Création d’Entreprise est une solution complète conçue pour simplifier le processus d'entrepreneuriat en Afrique. EUREKA GLOBAL prend en charge toutes les étapes, depuis les formalités administratives jusqu'aux aspects juridiques et fiscaux, vous permettant ainsi de vous concentrer pleinement sur le développement de votre activité.",
+        "importance": "La création d'une entreprise est une étape cruciale qui nécessite une gestion précise et efficace pour assurer sa réussite à long terme. Notre solution offre un accompagnement professionnel et complet pour garantir une mise en place réussie de votre entreprise.",
+        "approach": [{
+                "title": "Évaluation des besoins",
+                "subtitle": "Comprendre les besoins spécifiques de chaque client."
             },
             {
-                title: "Assistance personnalisée",
-                subtitle: "Nous offrons un accompagnement sur mesure, adapté à chaque étape du processus de création d'entreprise."
+                "title": "Assistance personnalisée",
+                "subtitle": "Accompagnement sur mesure adapté à chaque étape du processus de création d'entreprise."
             },
             {
-                title: "Gestion proactive",
-                subtitle: "Notre équipe prend en charge toutes les formalités administratives, juridiques et fiscales de manière proactive."
+                "title": "Gestion proactive",
+                "subtitle": "Prise en charge proactive des formalités administratives, juridiques et fiscales."
             },
             {
-                title: "Suivi continu",
-                subtitle: "Nous assurons un suivi continu pour garantir le bon déroulement du processus et répondre à toutes les questions ou préoccupations éventuelles."
+                "title": "Suivi continu",
+                "subtitle": "Assurer un suivi continu pour garantir le bon déroulement du processus et répondre aux préoccupations éventuelles."
             }
         ],
-        advantages: [
+        "advantages": [
             "Simplification du processus de création d'entreprise",
             "Gestion professionnelle des formalités administratives, juridiques et fiscales",
             "Accompagnement personnalisé par une équipe expérimentée",
             "Concentration totale sur le développement de l'activité sans souci des détails administratifs"
         ],
-        whyChoose: "EUREKA GLOBAL offre une expertise approfondie dans le domaine de la création d'entreprise en Afrique, combinée à un service personnalisé et à une approche pratique. Nous sommes déterminés à garantir le succès de nos clients en leur offrant les meilleurs outils et conseils pour démarrer leur entreprise avec confiance.",
-        contact: "Commencez votre parcours entrepreneurial en toute confiance avec EUREKA GLOBAL. Contactez-nous dès aujourd'hui pour découvrir comment notre Pack Création d’Entreprise peut vous aider à concrétiser vos projets et à atteindre vos objectifs."
+        "whyChoose": "EUREKA GLOBAL offre une expertise approfondie dans le domaine de la création d'entreprise en Afrique, combinée à un service personnalisé et à une approche pratique. Nous sommes déterminés à garantir le succès de nos clients en leur offrant les meilleurs outils et conseils pour démarrer leur entreprise avec confiance.",
+        "contact": "Commencez votre parcours entrepreneurial en toute confiance avec EUREKA GLOBAL. Contactez-nous dès aujourd'hui pour découvrir comment notre Pack Création d’Entreprise peut vous aider à concrétiser vos projets et à atteindre vos objectifs."
     },
     {
-        title: "Externalisation Juridique et Fiscale",
-        description: "Le Pack Externalisation Juridique et Fiscale offre à votre entreprise une solution complète pour gérer efficacement vos obligations juridiques et fiscales. Notre équipe prend en charge tous les aspects de la fiscalité, depuis le calcul des impôts jusqu'à la gestion des déclarations, ainsi que les aspects juridiques liés à votre activité.",
-        importance: "L'externalisation juridique et fiscale est essentielle pour assurer la conformité de votre entreprise avec les réglementations en vigueur. En confiant ces tâches à des experts, vous bénéficiez d'une tranquillité d'esprit et pouvez-vous concentrer pleinement sur le développement de votre activité, en sachant que vos obligations juridiques et fiscales sont entre de bonnes mains.",
-        approach: [{
-                title: "Évaluation initiale",
-                subtitle: "Nous commençons par évaluer les besoins spécifiques de votre entreprise en termes de fiscalité et de conformité juridique."
+        "title": "EXTERNALISATION JURIDIQUE ET FISCALE",
+        "description": "Le Pack Externalisation Juridique et Fiscale offre à votre entreprise une solution complète pour gérer efficacement vos obligations juridiques et fiscales. Notre équipe prend en charge tous les aspects de la fiscalité, depuis le calcul des impôts jusqu'à la gestion des déclarations, ainsi que les aspects juridiques liés à votre activité.",
+        "importance": "L'externalisation juridique et fiscale est essentielle pour assurer la conformité de votre entreprise avec les réglementations en vigueur. En confiant ces tâches à des experts, vous bénéficiez d'une tranquillité d'esprit et pouvez-vous concentrer pleinement sur le développement de votre activité, en sachant que vos obligations juridiques et fiscales sont entre de bonnes mains.",
+        "approach": [{
+                "title": "Évaluation initiale",
+                "subtitle": "Évaluer les besoins spécifiques de votre entreprise en termes de fiscalité et de conformité juridique."
             },
             {
-                title: "Personnalisation du service",
-                subtitle: "Nous élaborons ensuite une stratégie sur mesure pour répondre à vos besoins, en tenant compte de la taille et de la nature de votre entreprise."
+                "title": "Personnalisation du service",
+                "subtitle": "Élaborer une stratégie sur mesure pour répondre à vos besoins, en tenant compte de la taille et de la nature de votre entreprise."
             },
             {
-                title: "Gestion proactive",
-                subtitle: "Notre équipe prend en charge toutes les tâches liées à la fiscalité et à la conformité juridique de manière proactive, en veillant à ce que toutes les obligations soient remplies de manière précise et en temps voulu."
+                "title": "Gestion proactive",
+                "subtitle": "Prendre en charge toutes les tâches liées à la fiscalité et à la conformité juridique de manière proactive."
             },
             {
-                title: "Suivi continu",
-                subtitle: "Nous assurons un suivi continu pour garantir que votre entreprise reste conforme aux réglementations en vigueur et que toute nouvelle législation est prise en compte."
+                "title": "Suivi continu",
+                "subtitle": "Assurer un suivi continu pour garantir que votre entreprise reste conforme aux réglementations en vigueur."
             }
         ],
-        advantages: [
-            "Tranquillité d'esprit en ce qui concerne la conformité juridique et fiscale.",
-            "Économie de temps et de ressources en externalisant ces tâches à des experts.",
-            "Réduction des risques d'erreurs et de pénalités fiscales.",
-            "Accès à une expertise spécialisée dans le domaine juridique et fiscal."
+        "advantages": [{
+                "title": "Tranquillité d'esprit en ce qui concerne la conformité juridique et fiscale",
+                "subtitle": "Soyez assuré que votre entreprise respecte toutes les réglementations juridiques et fiscales pertinentes."
+            },
+            {
+                "title": "Économie de temps et de ressources",
+                "subtitle": "Libérez du temps et des ressources en externalisant ces tâches à des experts dédiés."
+            },
+            {
+                "title": "Réduction des risques d'erreurs et de pénalités fiscales",
+                "subtitle": "Minimisez les erreurs et les risques de sanctions en confiant vos obligations fiscales à des professionnels expérimentés."
+            },
+            {
+                "title": "Accès à une expertise spécialisée",
+                "subtitle": "Bénéficiez de conseils et d'orientations précises de la part d'une équipe spécialisée dans le domaine juridique et fiscal."
+            }
         ],
-        whyChoose: "EUREKA GLOBAL dispose d'une équipe d'experts juridiques et fiscaux ayant une expérience approfondie dans ce domaine. Nous vous offrons un service personnalisé et de haute qualité, garantissant que vos obligations juridiques et fiscales sont remplies de manière efficace et conforme.",
-        contact: "Prenez dès maintenant la décision de sécuriser l'avenir de votre entreprise en optant pour notre Pack Externalisation Juridique et Fiscale. Contactez-nous dès aujourd'hui pour découvrir comment nous pouvons vous aider à assurer une gestion juridique et fiscale optimale pour votre entreprise."
+        "whyChoose": "EUREKA GLOBAL dispose d'une équipe d'experts juridiques et fiscaux ayant une expérience approfondie dans ce domaine. Nous vous offrons un service personnalisé et de haute qualité, garantissant que vos obligations juridiques et fiscales sont remplies de manière efficace et conforme.",
+        "contact": "Prenez dès maintenant la décision de sécuriser l'avenir de votre entreprise en optant pour notre Pack Externalisation Juridique et Fiscale. Contactez-nous dès aujourd'hui pour découvrir comment nous pouvons vous aider à assurer une gestion juridique et fiscale optimale pour votre entreprise."
     },
     {
-        title: "Externalisation de ma Comptabilité",
-        description: "Notre solution Externalisation de ma Comptabilité offre aux entreprises africaines une gestion comptable fiable et adaptée. Grâce à notre logiciel comptable performant et à notre équipe d'experts comptables dévoués, vous bénéficiez d'une gestion financière simplifiée et efficace.",
-        importance: "Externaliser sa comptabilité permet votre entreprise de se concentrer sur son cœur de métier tout en bénéficiant d'une gestion financière professionnelle et conforme aux normes en vigueur. Notre application comptable vous garantit une meilleure maîtrise des coûts, une optimisation des processus et une réduction des risques liés aux erreurs comptables. Cela vous assure une tranquillité d'esprit et vous permet de prendre des décisions éclairées pour la croissance de votre entreprise.",
-        approach: [{
-                title: "Accès à notre Logiciel Comptable Performant",
-                subtitle: "Utilisez notre plateforme intuitive et efficace pour simplifier votre gestion comptable à distance."
+        "title": "EXTERNALISATION DE MA COMPTABILITÉ",
+        "description": "Notre solution Externalisation de ma Comptabilité offre aux entreprises africaines une gestion comptable fiable et adaptée. Grâce à notre logiciel comptable performant et à notre équipe d'experts comptables dévoués, vous bénéficiez d'une gestion financière simplifiée et efficace.",
+        "importance": "Externaliser sa comptabilité permet votre entreprise de se concentrer sur son cœur de métier tout en bénéficiant d'une gestion financière professionnelle et conforme aux normes en vigueur.",
+        "approach": [{
+                "title": "Accès à notre Logiciel Comptable Performant",
+                "subtitle": "Utiliser notre plateforme intuitive et efficace pour simplifier votre gestion comptable à distance."
             },
             {
-                title: "Soutien de notre Équipe d'Experts",
-                subtitle: "Nos experts vous accompagnent dans toutes les étapes, de la saisie des données à l'établissement des rapports financiers et comptables."
+                "title": "Soutien de notre Équipe d'Experts",
+                "subtitle": "Accompagnement dans toutes les étapes, de la saisie des données à l 'établissement des rapports financiers et comptables."
             },
             {
-                title: "Gestion Comptable Fiable et Adaptée",
-                subtitle: "Nous effectuons un suivi régulier de votre comptabilité et vous bénéficiez d'un soutien technique et professionnel continu tout au long de notre collaboration. Notre objectif est de répondre à vos besoins spécifiques et de favoriser la croissance de votre entreprise."
+                "title": "Gestion Comptable Fiable et Adaptée",
+                "subtitle": "Effectuer un suivi régulier de votre comptabilité et bénéficier d'un soutien technique et professionnel continu."
             }
         ],
-        advantages: [
-            "Simplification de la gestion comptable.",
-            "Accès à une expertise comptable de qualité.",
-            "Conformité aux normes financières et comptables.",
-            "Gestion financière efficace et sécurisée."
+        "advantages": [{
+                "title": "Simplification de la gestion comptable",
+                "subtitle": "Utilisez notre logiciel convivial pour gérer facilement vos finances et vos opérations comptables."
+            },
+            {
+                "title": "Accès à une expertise comptable de qualité",
+                "subtitle": "Bénéficiez de conseils d'experts pour optimiser votre comptabilité et améliorer vos performances financières."
+            },
+            {
+                "title": "Conformité aux normes financières et comptables",
+                "subtitle": "Assurez-vous que votre entreprise respecte toutes les réglementations financières et comptables en vigueur."
+            },
+            {
+                "title": "Gestion financière efficace et sécurisée",
+                "subtitle": "Gérez vos finances de manière efficace et sécurisée grâce à notre équipe d'experts dédiés."
+            }
         ],
-        whyChoose: "EUREKA GLOBAL est votre partenaire de confiance pour une gestion financière optimale. Avec notre expérience et notre engagement envers l'excellence, nous garantissons des solutions comptables adaptées à vos besoins spécifiques.",
-        contact: "Libérez le potentiel de votre entreprise en optant pour notre solution Externalisation de ma Comptabilité. Échappez aux contraintes comptables et externalisez dès maintenant votre comptabilité avec EUREKA GLOBAL. Contactez-nous maintenant pour bénéficier d'une gestion financière efficace et adaptée à votre entreprise."
+        "whyChoose": "EUREKA GLOBAL est votre partenaire de confiance pour une gestion financière optimale. Avec notre expérience et notre engagement envers l'excellence, nous garantissons des solutions comptables adaptées à vos besoins spécifiques.",
+        "contact": "Libérez le potentiel de votre entreprise en optant pour notre solution Externalisation de ma Comptabilité. Échappez aux contraintes comptables et externalisez dès maintenant votre comptabilité avec EUREKA GLOBAL. Contactez-nous maintenant pour bénéficier d'une gestion financière efficace et adaptée à votre entreprise."
+    },
+
+    {
+        "title": "STARTER SUCCESS PACKAGE",
+        "description": "Notre solution Réussir mon Démarrage est un package complet conçu pour les entreprises cherchant à démarrer sur des bases solides. Il comprend un diagnostic approfondi, un accès à des ressources innovantes, des ateliers d'innovation et un mentorat personnalisé pour les fondateurs.",
+        "importance": "Le démarrage d'une entreprise est une étape critique qui nécessite un soutien adéquat pour assurer le succès à long terme. Notre solution offre aux entrepreneurs les outils, les connaissances et le soutien nécessaires pour surmonter les défis initiaux et établir une base solide pour leur entreprise.",
+        "approach": [{
+                "title": "Diagnostic stratégique initial",
+                "subtitle": "Diagnostic approfondi pour identifier les forces, faiblesses, opportunités et menaces du projet."
+            },
+            {
+                "title": "Formation en innovation",
+                "subtitle": "Proposition de formations pratiques en innovation pour développer des solutions créatives et novatrices."
+            },
+            {
+                "title": "Accès à des ateliers d'innovation",
+                "subtitle": "Offre d'un accès à des ateliers animés par des experts pour partager des connaissances et des meilleures pratiques en matière d'innovation."
+            },
+            {
+                "title": "Mentorat personnalisé pour les fondateurs",
+                "subtitle": "Attribution d'un mentor expérimenté à chaque fondateur pour les guider tout au long de leur parcours entrepreneurial."
+            }
+        ],
+        "advantages": [{
+                "title": "Accès à un diagnostic stratégique approfondi",
+                "subtitle": "Identifiez clairement les opportunités et les défis de votre entreprise dès le départ."
+            },
+            {
+                "title": "Formation pratique en innovation",
+                "subtitle": "Développez des compétences clés en matière d'innovation pour stimuler la croissance de votre entreprise."
+            },
+            {
+                "title": "Accès à des ateliers d'innovation animés par des experts",
+                "subtitle": "Bénéficiez de l'expertise de professionnels pour favoriser le développement de solutions innovantes."
+            },
+            {
+                "title": "Mentorat personnalisé pour les fondateurs",
+                "subtitle": "Recevez des conseils précieux et un soutien personnalisé pour surmonter les obstacles initiaux."
+            },
+            {
+                "title": "Création d'un environnement propice à la croissance et au succès continu",
+                "subtitle": "Établissez une base solide pour votre entreprise et maximisez vos chances de réussite dès le départ."
+            }
+        ],
+        "whyChoose": "EUREKA GLOBAL dispose d'une expertise éprouvée dans l'accompagnement des entrepreneurs à chaque étape de leur parcours entrepreneurial. Nous offrons des solutions personnalisées, un soutien pratique et des ressources innovantes pour garantir le succès de votre entreprise dès le départ.",
+        "contact": "Prenez le premier pas vers le succès avec notre Starter Success Package. Contactez-nous dès aujourd'hui pour bénéficier d'une expertise sur mesure et commencer votre voyage vers le succès entrepreneurial."
     },
     {
-        title: "Starter Success Package",
-        description: "Notre solution Réussir mon Démarrage est un package complet conçu pour les entreprises cherchant à démarrer sur des bases solides. Il comprend un diagnostic approfondi, un accès à des ressources innovantes, des ateliers d'innovation et un mentorat personnalisé pour les fondateurs.",
-        importance: "Le démarrage d'une entreprise est une étape critique qui nécessite un soutien adéquat pour assurer le succès à long terme. Notre solution offre aux entrepreneurs les outils, les connaissances et le soutien nécessaires pour surmonter les défis initiaux et établir une base solide pour leur entreprise.",
-        approach: [{
-                title: "Diagnostic stratégique initial",
-                subtitle: "Nous effectuons un diagnostic approfondi pour identifier les forces, faiblesses, opportunités et menaces de votre projet."
+        "title": "OPTIMISATION OPERATIONNELLE",
+        "description": "L'Optimisation Opérationnelle basée sur la méthode KAIZEN vise à maximiser l'efficacité des entreprises en continuant d'améliorer constamment leurs processus. Nous travaillons en partenariat avec nos clients pour identifier les domaines d'amélioration et mettre en œuvre des solutions adaptées à leurs besoins spécifiques.",
+        "importance": "Cette solution est essentielle pour les entreprises cherchant à rester compétitives dans un environnement en constante évolution. En adoptant une approche KAIZEN, elles peuvent favoriser une culture d'amélioration continue, ce qui leur permet d'optimiser leurs opérations de manière progressive et durable.",
+        "approach": [{
+                "title": "Évaluation initiale des processus",
+                "subtitle": "Identifier les domaines d'amélioration potentiels et définir des objectifs spécifiques."
             },
             {
-                title: "Formation en innovation",
-                subtitle: "Nous proposons des formations pratiques en innovation pour aider les entrepreneurs à développer des solutions créatives et novatrices."
+                "title": "Développement et mise en œuvre de solutions sur mesure",
+                "subtitle": "Concevoir des solutions adaptées aux besoins spécifiques de l'entreprise, en suivant les principes KAIZEN."
             },
             {
-                title: "Accès à des ateliers d'innovation",
-                subtitle: "Nous offrons un accès à des ateliers animés par des experts pour partager des connaissances et des meilleures pratiques en matière d'innovation."
+                "title": "Accompagnement dans la mise en place d'une culture d'amélioration continue",
+                "subtitle": "Favoriser l'adoption de pratiques d'amélioration continue au sein de l'entreprise pour des résultats durables."
             },
             {
-                title: "Mentorat personnalisé pour les fondateurs",
-                subtitle: "Nous attribuons à chaque fondateur un mentor expérimenté qui les guide et les conseille tout au long de leur parcours entrepreneurial."
+                "title": "Mise en place d'outils de suivi de la performance",
+                "subtitle": "Utiliser des outils de suivi pour mesurer les progrès et ajuster les stratégies en fonction des résultats."
             }
         ],
-        advantages: [
-            "Accès à un diagnostic stratégique approfondi.",
-            "Formation pratique en innovation.",
-            "Accès à des ateliers d'innovation animés par des experts.",
-            "Mentorat personnalisé pour les fondateurs.",
-            "Création d'un environnement propice à la croissance et au succès continu."
+        "advantages": [{
+
+
+                "title": "Amélioration continue des processus et de la performance",
+                "subtitle": "Stimulez la croissance et la compétitivité de votre entreprise grâce à des processus optimisés."
+            },
+            {
+                "title": "Développement d'une culture d'amélioration continue",
+                "subtitle": "Créez un environnement propice à l'innovation et à la progression constante au sein de votre entreprise."
+            },
+            {
+                "title": "Augmentation de l'efficacité opérationnelle",
+                "subtitle": "Optimisez vos opérations pour réduire les coûts, améliorer la qualité et accroître la productivité."
+            },
+            {
+                "title": "Renforcement de la compétitivité sur le marché",
+                "subtitle": "Gagnez un avantage concurrentiel en adoptant une approche KAIZEN axée sur l'excellence opérationnelle."
+            }
         ],
-        whyChoose: "EUREKA GLOBAL dispose d'une expertise éprouvée dans l'accompagnement des entrepreneurs à chaque étape de leur parcours entrepreneurial. Nous offrons des solutions personnalisées, un soutien pratique et des ressources innovantes pour garantir le succès de votre entreprise dès le départ.",
-        contact: "Prenez le premier pas vers le succès avec notre Starter Success Package. Contactez-nous dès aujourd'hui pour bénéficier d'une expertise sur mesure et commencer votre voyage vers le succès entrepreneurial."
+        "whyChoose": "EUREKA GLOBAL offre une approche KAIZEN personnalisée et flexible, adaptée aux besoins uniques de chaque entreprise. Notre équipe d'experts apporte une expertise approfondie dans la mise en œuvre de principes KAIZEN et s'engage à accompagner nos clients dans leur parcours d'amélioration continue.",
+        "contact": "Avec EUREKA GLOBAL, libérez le plein potentiel de votre entreprise en adoptant notre approche KAIZEN. Contactez-nous dès aujourd'hui pour une consultation personnalisée et découvrez comment nous pouvons vous aider à atteindre vos objectifs d'efficacité opérationnelle et de croissance grâce à une culture d'amélioration continue."
     },
     {
-        title: "Optimisation Opérationnelle",
-        description: "L'Optimisation Opérationnelle basée sur la méthode KAIZEN vise à maximiser l'efficacité des entreprises en continuant d'améliorer constamment leurs processus. Nous travaillons en partenariat avec nos clients pour identifier les domaines d'amélioration et mettre en œuvre des solutions adaptées à leurs besoins spécifiques.",
-        importance: "Cette solution est essentielle pour les entreprises cherchant à rester compétitives dans un environnement en constante évolution. En adoptant une approche KAIZEN, elles peuvent favoriser une culture d'amélioration continue, ce qui leur permet d'optimiser leurs opérations de manière progressive et durable.",
-        approach: [{
-                title: "Évaluation initiale des processus et des besoins spécifiques de l'entreprise",
-                subtitle: "Nous effectuons une évaluation approfondie pour comprendre les processus existants et identifier les domaines à améliorer."
+        "title": "DUE DILIGENCE EXCELLENCE",
+        "description": "Notre solution Excellence en matière de diligence raisonnable offre une approche complète et rigoureuse de l'évaluation des opportunités d'investissement. Nous analysons minutieusement chaque aspect de l'entreprise cible, y compris ses états financiers, ses performances opérationnelles, ses risques potentiels et ses perspectives de croissance, afin de fournir des recommandations éclairées aux investisseurs.",
+        "importance": "Cette solution est essentielle pour les investisseurs exigeants qui cherchent à prendre des décisions d'investissement éclairées. En effectuant une due diligence approfondie, ils peuvent maximiser leur rendement tout en minimisant les risques, ce qui est crucial dans un environnement financier complexe et dynamique.",
+        "approach": [{
+                "title": "Évaluation approfondie des opportunités d'investissement",
+                "subtitle": "Analyse complète de l'entreprise cible pour identifier les forces, les faiblesses et les opportunités."
             },
             {
-                title: "Développement et mise en œuvre de solutions sur mesure",
-                subtitle: "Nous concevons des solutions adaptées aux besoins spécifiques de chaque entreprise et les mettons en œuvre en suivant les principes KAIZEN."
+                "title": "Analyse des risques et des retours",
+                "subtitle": "Évaluation rigoureuse des risques potentiels et des rendements attendus pour chaque investissement."
             },
             {
-                title: "Accompagnement dans la mise en place d'une culture d'amélioration continue",
-                subtitle: "Nous aidons les entreprises à créer une culture d'amélioration continue en fournissant un soutien pratique et en encourageant l'engagement des employés."
+                "title": "Stratégies pour maximiser le rendement",
+                "subtitle": "Recommandations personnalisées pour optimiser le rendement des investissements."
             },
             {
-                title: "Mise en place d'outils de suivi de la performance et de rapports réguliers",
-                subtitle: "Nous mettons en place des outils de suivi pour mesurer les progrès et fournir des rapports réguliers afin d'ajuster les stratégies si nécessaire."
+                "title": "Accompagnement continu",
+                "subtitle": "Suivi et assistance pendant et après le processus d'investissement pour assurer une gestion efficace des investissements."
             }
         ],
-        advantages: [
-            "Amélioration continue des processus et de la performance",
-            "Développement d'une culture d'amélioration continue au sein de l'entreprise",
-            "Augmentation de l'efficacité opérationnelle de manière progressive et durable",
-            "Renforcement de la compétitivité sur le marché grâce à une approche KAIZEN axée sur l'excellence opérationnelle"
+        "advantages": [{
+                "title": "Prise de décision éclairée",
+                "subtitle": "Les investisseurs bénéficient d'une analyse approfondie pour prendre des décisions d'investissement éclairées."
+            },
+            {
+                "title": "Minimisation des risques",
+                "subtitle": "Identification proactive des risques potentiels pour minimiser les pertes financières."
+            },
+            {
+                "title": "Maximisation du rendement",
+                "subtitle": "Recommandations personnalisées pour optimiser le rendement des investissements."
+            },
+            {
+                "title": "Accompagnement professionnel",
+                "subtitle": "Support continu pendant tout le processus d'investissement."
+            }
         ],
-        whyChoose: "EUREKA GLOBAL offre une approche KAIZEN personnalisée et flexible, adaptée aux besoins uniques de chaque entreprise. Notre équipe d'experts apporte une expertise approfondie dans la mise en œuvre de principes KAIZEN et s'engage à accompagner nos clients dans leur parcours d'amélioration continue.",
-        contact: "Avec EUREKA GLOBAL, libérez le plein potentiel de votre entreprise en adoptant notre approche KAIZEN. Contactez-nous dès aujourd'hui pour une consultation personnalisée et découvrez comment nous pouvons vous aider à atteindre vos objectifs d'efficacité opérationnelle et de croissance grâce à une culture d'amélioration continue."
+        "whyChoose": "EUREKA GLOBAL offre une expertise inégalée en matière de due diligence, avec une équipe d'experts chevronnés et une approche personnalisée pour chaque client. Nous nous engageons à fournir des recommandations fiables et à accompagner nos clients à chaque étape de leur processus d'investissement.",
+        "contact": "Maximisez votre rendement et minimisez les risques avec la solution Due Diligence Excellence d'EUREKA GLOBAL. Contactez-nous dès maintenant pour bénéficier de notre expertise et prendre des décisions d'investissement éclairées."
     },
     {
-        title: "DUE DILIGENCE EXCELLENCE EXCELLENCE EN MATIERE DE DILIGENCE RAISONNABLE ",
-        description: "Notre solution Excellence en matière de diligence raisonnable offre une approche complète et rigoureuse de l'évaluation des opportunités d'investissement. Nous analysons minutieusement chaque aspect de l'entreprise cible, y compris ses états financiers, ses performances opérationnelles, ses risques potentiels et ses perspectives de croissance, afin de fournir des recommandations éclairées aux investisseurs.",
-        importance: "Cette solution est essentielle pour les investisseurs exigeants qui cherchent à prendre des décisions d'investissement éclairées. En effectuant une due diligence approfondie, ils peuvent maximiser leur rendement tout en minimisant les risques, ce qui est crucial dans un environnement financier complexe et dynamique.",
-        approach: [{
-                title: "Évaluation approfondie des opportunités d'investissement",
-                subtitle: "Analyse complète de l'entreprise cible pour identifier les forces, les faiblesses et les opportunités."
+        "title": "PORTFOLIO ENHANCEMENT",
+        "description": "Notre solution Amélioration du Portefeuille vise à améliorer la performance des investissements existants et à identifier de nouvelles opportunités stratégiques pour les investisseurs et les entrepreneurs. Grâce à notre expertise approfondie et à une approche proactive, nous aidons nos clients à gérer leur portefeuille de manière efficiente et à optimiser leurs rendements.",
+        "importance": "Cette solution est essentielle pour les investisseurs et entrepreneurs qui cherchent à maximiser la rentabilité de leur portefeuille d'investissements. En identifiant les opportunités d'amélioration et en gérant activement les risques, nos clients peuvent accroître leurs rendements et renforcer leur position sur le marché.",
+        "approach": [{
+                "title": "Optimisation des performances des investissements existants",
+                "subtitle": "Analyse approfondie des investissements actuels pour identifier les domaines d'amélioration et mettre en œuvre des stratégies visant à maximiser les rendements."
             },
             {
-                title: "Analyse des risques et des retours",
-                subtitle: "Évaluation rigoureuse des risques potentiels et des rendements attendus pour chaque investissement."
+                "title": "Identification de nouvelles opportunités",
+                "subtitle": "Recherche active de nouvelles opportunités d'investissement alignées sur les objectifs et la stratégie de nos clients."
             },
             {
-                title: "Stratégies pour maximiser le rendement",
-                subtitle: "Recommandations personnalisées pour optimiser le rendement des investissements."
-            },
-            {
-                title: "Accompagnement continu",
-                subtitle: "Suivi et assistance pendant et après le processus d'investissement pour assurer une gestion efficace des investissements."
+                "title": "Gestion proactive des risques",
+                "subtitle": "Surveillance continue du marché et des tendances pour identifier et atténuer les risques potentiels."
             }
         ],
-        advantages: [
-            "Prise de décision éclairée",
-            "Minimisation des risques",
-            "Maximisation du rendement",
-            "Accompagnement professionnel"
+        "advantages": [{
+                "title": "Maximisation des rendements",
+                "subtitle": "Optimisation des performances des investissements existants et identification de nouvelles opportunités pour accroître les rendements."
+            },
+            {
+                "title": "Gestion proactive des risques",
+                "subtitle": "Réduction des risques grâce à une surveillance continue et à une gestion proactive."
+            },
+            {
+                "title": "Expertise approfondie",
+                "subtitle": "Accès à l'expertise et aux conseils d'une équipe expérimentée dans la gestion de portefeuille."
+            },
+            {
+                "title": "Approche personnalisée",
+                "subtitle": "Solutions adaptées aux besoins spécifiques de chaque client."
+            }
         ],
-        whyChoose: "EUREKA GLOBAL offre une expertise inégalée en matière de due diligence, avec une équipe d'experts chevronnés et une approche personnalisée pour chaque client. Nous nous engageons à fournir des recommandations fiables et à accompagner nos clients à chaque étape de leur processus d'investissement.",
-        contact: "Maximisez votre rendement et minimisez les risques avec la solution Due Diligence Excellence d'EUREKA GLOBAL. Contactez-nous dès maintenant pour bénéficier de notre expertise et prendre des décisions d'investissement éclairées."
+        "whyChoose": "EUREKA GLOBAL offre une combinaison unique d'expertise approfondie, d'approche proactive et de service personnalisé pour aider nos clients à atteindre leurs objectifs d'investissement. Nous sommes déterminés à fournir des solutions innovantes et efficaces pour maximiser la valeur de leur portefeuille.",
+        "contact": "Optimisez la performance de votre portefeuille et identifiez de nouvelles opportunités d'investissement avec la solution Portfolio Enhancement d'EUREKA GLOBAL. Contactez-nous dès maintenant pour discuter de la façon dont nous pouvons répondre spécifiquement à vos besoins et vous aider à atteindre vos objectifs d'investissement."
     },
     {
-        title: "PORTFOLIO ENHANCEMENT Amélioration du Portefeuille",
-        description: "Notre solution Amélioration du Portefeuille vise à améliorer la performance des investissements existants et à identifier de nouvelles opportunités stratégiques pour les investisseurs et les entrepreneurs. Grâce à notre expertise approfondie et à une approche proactive, nous aidons nos clients à gérer leur portefeuille de manière efficiente et à optimiser leurs rendements.",
-        importance: "Cette solution est essentielle pour les investisseurs et entrepreneurs qui cherchent à maximiser la rentabilité de leur portefeuille d'investissements. En identifiant les opportunités d'amélioration et en gérant activement les risques, nos clients peuvent accroître leurs rendements et renforcer leur position sur le marché.",
-        approach: [{
-                title: "Optimisation des performances des investissements existants",
-                subtitle: "Analyse approfondie des investissements actuels pour identifier les domaines d'amélioration et mettre en œuvre des stratégies visant à maximiser les rendements."
+        "title": "STARTER STARTUP SUCCESS PACKAGE",
+        "description": "Le Starter Startup Success Package ou Réussir le Démarrage de ma Startup est une solution complète conçue pour les startups en phase de démarrage. Elle comprend un diagnostic stratégique initial, une formation en innovation, des ateliers d'innovation et un mentorat personnalisé pour les fondateurs. Cette approche holistique vise à fournir aux startups les outils et les conseils nécessaires pour réussir leur lancement et leur croissance.",
+        "importance": "Pour les startups, un départ solide est essentiel pour assurer leur succès à long terme. Le Starter Startup Success Package offre une base solide en fournissant une orientation stratégique, un soutien en matière d'innovation et un accompagnement personnalisé, permettant aux entreprises de maximiser leurs chances de réussite dès le départ.",
+        "approach": [{
+                "title": "Diagnostic stratégique initial",
+                "subtitle": "Évaluation approfondie des besoins et des objectifs de l'entreprise pour élaborer une stratégie adaptée."
             },
             {
-                title: "Identification de nouvelles opportunités",
-                subtitle: "Recherche active de nouvelles opportunités d'investissement alignées sur les objectifs et la stratégie de nos clients."
+                "title": "Formation en innovation",
+                "subtitle": "Fourniture de connaissances et d'outils pour stimuler l'innovation et la créativité au sein de l'entreprise."
             },
             {
-                title: "Gestion proactive des risques",
-                subtitle: "Surveillance continue du marché et des tendances pour identifier et atténuer les risques potentiels."
+                "title": "Ateliers d'innovation",
+                "subtitle": "Sessions pratiques pour aider les fondateurs à développer des idées et des solutions innovantes."
+            },
+            {
+                "title": "Mentorat personnalisé",
+                "subtitle": "Accompagnement individuel pour guider les fondateurs à travers les défis spécifiques de leur parcours entrepreneurial."
             }
         ],
-        advantages: [
-            "Maximisation des rendements",
-            "Gestion proactive des risques",
-            "Expertise approfondie",
-            "Approche personnalisée"
+        "advantages": [{
+                "title": "Fondement solide",
+                "subtitle": "Un départ solide pour les startups, avec une stratégie claire et des compétences essentielles."
+            },
+            {
+                "title": "Catalyseur de croissance",
+                "subtitle": "Stimule l'innovation et la croissance dès le début de l'entreprise."
+            },
+            {
+                "title": "Succès continu",
+                "subtitle": "Un soutien continu pour aider les startups à surmonter les obstacles et à réussir sur le long terme."
+            }
         ],
-        whyChoose: "EUREKA GLOBAL offre une combinaison unique d'expertise approfondie, d'approche proactive et de service personnalisé pour aider nos clients à atteindre leurs objectifs d'investissement. Nous sommes déterminés à fournir des solutions innovantes et efficaces pour maximiser la valeur de leur portefeuille.",
-        contact: "Optimisez la performance de votre portefeuille et identifiez de nouvelles opportunités d'investissement avec la solution Portfolio Enhancement d'EUREKA GLOBAL. Contactez-nous dès maintenant pour discuter de la façon dont nous pouvons répondre spécifiquement à vos besoins et vous aider à atteindre vos objectifs d'investissement."
+        "whyChoose": "EUREKA GLOBAL offre une expertise sur mesure et un accompagnement personnalisé pour les startups. Notre approche holistique et notre engagement envers le succès de nos clients font de nous le choix idéal pour les entreprises en phase de démarrage.",
+        "contact": "Lancez votre startup sur la voie du succès avec l’offre Starter Success Package d'EUREKA GLOBAL. Contactez-nous dès maintenant pour découvrir comment nous pouvons vous aider à démarrer votre entreprise avec confiance et réussite."
     },
     {
-        title: "STARTER STARTUP SUCCESS PACKAGE Réussir le Démarrage de ma Startup",
-        description: "Le Starter Startup Success Package ou Réussir le Démarrage de ma Startup est une solution complète conçue pour les startups en phase de démarrage. Elle comprend un diagnostic stratégique initial, une formation en innovation, des ateliers d'innovation et un mentorat personnalisé pour les fondateurs. Cette approche holistique vise à fournir aux startups les outils et les conseils nécessaires pour réussir leur lancement et leur croissance.",
-        importance: "Pour les startups, un départ solide est essentiel pour assurer leur succès à long terme. Le Starter Startup Success Package offre une base solide en fournissant une orientation stratégique, un soutien en matière d'innovation et un accompagnement personnalisé, permettant aux entreprises de maximiser leurs chances de réussite dès le départ.",
-        approach: [{
-                title: "Diagnostic stratégique initial",
-                subtitle: "Évaluation approfondie des besoins et des objectifs de l'entreprise pour élaborer une stratégie adaptée."
+        "title": "ACCÉLERATEUR BOOST",
+        "description": "L'Accélerateur Boost ou Boost d'accélération est bien plus qu'un simple coup de pouce ; c'est une collaboration dynamique conçue pour accélérer votre trajectoire vers la réussite. Cette solution offre un ensemble de services stratégiques et opérationnels pour propulser votre entreprise vers de nouveaux sommets de succès, en mettant l'accent sur le développement de stratégies de croissance, le réseautage avec des investisseurs, l'accompagnement opérationnel et la communication digitale.",
+        "importance": "Pour les jeunes entreprises, le passage à une phase de croissance rapide peut être un défi. L'Accélerateur Boost offre un soutien stratégique et opérationnel essentiel pour surmonter ces défis et accélérer la trajectoire de succès de l'entreprise.",
+        "approach": [{
+                "title": "Développement de stratégies de croissance",
+                "subtitle": "Analyse approfondie des opportunités de croissance et conception de stratégies sur mesure pour maximiser le potentiel de l'entreprise."
             },
             {
-                title: "Formation en innovation",
-                subtitle: "Fourniture de connaissances et d'outils pour stimuler l'innovation et la créativité au sein de l'entreprise."
+                "title": "Mise en réseau avec des investisseurs",
+                "subtitle": "Identification et connexion avec des investisseurs potentiels pour soutenir la croissance de l'entreprise."
             },
             {
-                title: "Ateliers d'innovation",
-                subtitle: "Sessions pratiques pour aider les fondateurs à développer des idées et des solutions innovantes."
+                "title": "Accompagnement opérationnel",
+                "subtitle": "Assistance dans la gestion quotidienne des opérations pour assurer une exécution efficace des stratégies de croissance."
             },
             {
-                title: "Mentorat personnalisé",
-                subtitle: "Accompagnement individuel pour guider les fondateurs à travers les défis spécifiques de leur parcours entrepreneurial."
+                "title": "Communication digitale",
+                "subtitle": "Mise en place de stratégies de communication digitale pour accroître la visibilité de l'entreprise et atteindre de nouveaux clients."
             }
         ],
-        advantages: [
-            "Fondement solide",
-            "Catalyseur de croissance",
-            "Succès continu"
+        "advantages": [{
+                "title": "Accélération de la croissance",
+                "subtitle": "Une approche stratégique et opérationnelle pour stimuler la croissance de l'entreprise."
+            },
+            {
+                "title": "Réseautage stratégique",
+                "subtitle": "Accès à un réseau d'investisseurs et de partenaires potentiels pour soutenir le développement de l'entreprise."
+            },
+            {
+                "title": "Accompagnement personnalisé",
+                "subtitle": "Un soutien sur mesure pour répondre aux besoins spécifiques de votre entreprise."
+            },
+            {
+                "title": "Transformation digitale",
+                "subtitle": "Amélioration de la présence digitale pour rester compétitif sur le marché actuel."
+            }
         ],
-        whyChoose: "EUREKA GLOBAL offre une expertise sur mesure et un accompagnement personnalisé pour les startups. Notre approche holistique et notre engagement envers le succès de nos clients font de nous le choix idéal pour les entreprises en phase de démarrage.",
-        contact: "Lancez votre startup sur la voie du succès avec l’offre Starter Success Package d'EUREKA GLOBAL. Contactez-nous dès maintenant pour découvrir comment nous pouvons vous aider à démarrer votre entreprise avec confiance et réussite."
+        "whyChoose": "EUREKA GLOBAL offre une expertise sur mesure et un engagement envers le succès de ses clients. Notre approche collaborative et notre focus sur les résultats font de nous le partenaire idéal pour accélérer votre trajectoire vers le succès.",
+        "contact": "Accélérez votre entreprise vers de nouveaux sommets avec l'Accélérateur Boost d'EUREKA GLOBAL. Contactez-nous dès maintenant pour découvrir comment nous pouvons vous aider à propulser votre entreprise vers le succès."
     },
     {
-        title: "Boost d'Accélérateur",
-        description: "L'Accélérateur Boost ou Boost d'accélération est bien plus qu'un simple coup de pouce ; c'est une collaboration dynamique conçue pour accélérer votre trajectoire vers la réussite. Cette solution offre un ensemble de services stratégiques et opérationnels pour propulser votre entreprise vers de nouveaux sommets de succès, en mettant l'accent sur le développement de stratégies de croissance, le réseautage avec des investisseurs, l'accompagnement opérationnel et la communication digitale.",
-        importance: "Pour les jeunes entreprises, le passage à une phase de croissance rapide peut être un défi. L'Accélérateur Boost offre un soutien stratégique et opérationnel essentiel pour surmonter ces défis et accélérer la trajectoire de succès de l'entreprise.",
-        approach: [{
-                title: "Développement de stratégies de croissance",
-                subtitle: "Analyse approfondie des opportunités de croissance et conception de stratégies sur mesure pour maximiser le potentiel de l'entreprise."
+        "title": "ENTREPRISE EN PLEINE ASCENSION",
+        "description": "L'Entreprise en Pleine Ascension est une solution complète conçue pour catalyser la croissance et l'efficacité de votre entreprise. Nous procédons à une analyse approfondie de tous les aspects de votre entreprise et vous proposons des stratégies pratiques et personnalisées pour progresser sur votre marché.",
+        "importance": "Pour les entreprises cherchant à prospérer dans un environnement concurrentiel, l'Entreprise en Pleine Ascension offre des solutions sur mesure et des stratégies adaptées pour maximiser la croissance et la rentabilité.",
+        "approach": [{
+                "title": "Solutions opérationnelles sur mesure",
+                "subtitle": "Analyse approfondie des besoins de votre entreprise et développement de solutions pratiques et personnalisées pour améliorer son efficacité opérationnelle."
             },
             {
-                title: "Mise en réseau avec des investisseurs",
-                subtitle: "Identification et connexion avec des investisseurs potentiels pour soutenir la croissance de l'entreprise."
+                "title": "Stratégies personnalisées pour la rentabilité",
+                "subtitle": "Élaboration de stratégies spécifiques pour augmenter la rentabilité de votre entreprise en fonction de ses besoins et de son marché."
             },
             {
-                title: "Accompagnement opérationnel",
-                subtitle: "Assistance dans la gestion quotidienne des opérations pour assurer une exécution efficace des stratégies de croissance."
-            },
-            {
-                title: "Communication digitale",
-                subtitle: "Mise en place de stratégies de communication digitale pour accroître la visibilité de l'entreprise et atteindre de nouveaux clients."
+                "title": "Accès à nos formations en gestion d'entreprise",
+                "subtitle": "Offre d'une gamme de formations en gestion d'entreprise pour renforcer les compétences de votre équipe et optimiser les performances de votre entreprise."
             }
         ],
-        advantages: [
-            "Accélération de la croissance",
-            "Réseautage stratégique",
-            "Accompagnement personnalisé",
-            "Transformation digitale"
+        "advantages": [{
+                "title": "Croissance efficace",
+                "subtitle": "Des solutions et des stratégies adaptées pour catalyser la croissance de votre entreprise."
+            },
+            {
+                "title": "Rentabilité accrue",
+                "subtitle": "Stratégies personnalisées pour augmenter la rentabilité de votre entreprise."
+            },
+            {
+                "title": "Formation continue",
+                "subtitle": "Accès à des formations en gestion d'entreprise pour renforcer les compétences de votre équipe."
+            },
+            {
+                "title": "Adaptabilité",
+                "subtitle": "Solutions sur mesure adaptées aux besoins spécifiques de votre entreprise."
+            }
         ],
-        whyChoose: "EUREKA GLOBAL offre une expertise sur mesure et un engagement envers le succès de ses clients. Notre approche collaborative et notre focus sur les résultats font de nous le partenaire idéal pour accélérer votre trajectoire vers le succès.",
-        contact: "Accélérez votre entreprise vers de nouveaux sommets avec l'Accélérateur Boost d'EUREKA GLOBAL. Contactez-nous dès maintenant pour découvrir comment nous pouvons vous aider à propulser votre entreprise vers le succès."
+        "whyChoose": "EUREKA GLOBAL offre une expertise éprouvée et un engagement envers le succès de ses clients. Notre approche personnalisée et notre focus sur les résultats font de nous le partenaire idéal pour accompagner votre entreprise vers de nouveaux sommets de réussite.",
+        "contact": "Donnez à votre entreprise les outils nécessaires pour prospérer avec l'Entreprise en Pleine Ascension d'EUREKA GLOBAL. Contactez-nous dès maintenant pour discuter de la façon dont nous pouvons vous aider à atteindre vos objectifs et à propulser votre entreprise vers le succès."
+    },
+    {
+        "title": "CROISSANCE MAITRISEE",
+        "description": "La solution Croissance Maîtrisée est spécialement conçue pour répondre aux besoins des entreprises en quête d'une expansion équilibrée et durable. Nous offrons des solutions personnalisées, une gestion opérationnelle et organisationnelle efficace, ainsi qu'un conseil stratégique pour assurer une croissance maîtrisée.",
+        "importance": "La croissance d'une entreprise peut être un défi complexe, nécessitant une gestion rigoureuse et une vision stratégique. La solution Croissance Maîtrisée garantit une expansion contrôlée et durable, permettant à votre entreprise de prospérer tout en minimisant les risques.",
+        "approach": [{
+                "title": "Solutions personnalisées pour la compétitivité",
+                "subtitle": "Analyse approfondie de vos besoins et développement de solutions sur mesure pour renforcer votre compétitivité sur le marché."
+            },
+            {
+                "title": "Gestion opérationnelle et organisationnelle",
+                "subtitle": "Mise en place de processus efficaces et d'une structure organisationnelle optimale pour soutenir votre croissance."
+            },
+            {
+                "title": "Conseil stratégique pour une croissance durable",
+                "subtitle": "Fourniture de conseils stratégiques pour orienter votre entreprise vers une croissance pérenne et durable."
+            }
+        ],
+        "advantages": [{
+                "title": "Expansion contrôlée",
+                "subtitle": "Garantie d'une croissance équilibrée et maîtrisée, minimisant les risques associés à une expansion rapide."
+            },
+            {
+                "title": "Gestion efficace",
+                "subtitle": "Optimisation de vos opérations et de votre organisation pour une performance accrue."
+            },
+            {
+                "title": "Conseils stratégiques",
+                "subtitle": "Accès à un conseil stratégique pour orienter votre entreprise vers une croissance durable."
+            },
+            {
+                "title": "Solutions personnalisées",
+                "subtitle": "Adaptation des solutions à vos besoins spécifiques pour une efficacité maximale."
+            }
+        ],
+        "whyChoose": "EUREKA GLOBAL offre une expertise dédiée, une approche personnalisée et un engagement envers le succès de ses clients. Avec notre solution Croissance Maîtrisée, vous bénéficiez d'un partenariat solide pour propulser votre entreprise vers de nouveaux sommets de réussite.",
+        "contact": "Prêt à maîtriser votre croissance avec EUREKA GLOBAL ? Contactez-nous dès maintenant pour discuter de la façon dont notre solution peut répondre à vos besoins spécifiques et vous aider à atteindre vos objectifs de croissance."
+    },
+    {
+        "title": "OPTIMISATION 360",
+        "description": "L'Optimisation 360 est une solution complète conçue pour stimuler la croissance et l'efficacité des entreprises. En adoptant une approche holistique, nous examinons tous les aspects de votre entreprise, de la structure organisationnelle à la stratégie de marché, afin d'identifier les opportunités d'amélioration et de maximiser votre potentiel de croissance.",
+        "importance": "L'optimisation efficace de tous les aspects d'une entreprise est essentielle pour assurer sa compétitivité et sa réussite à long terme. En investissant dans l'Optimisation 360, les entreprises peuvent améliorer leur performance, accroître leur efficacité opérationnelle et se positionner avantageusement sur le marché.",
+        "approach": [{
+                "title": "Audit organisationnel 360°",
+                "subtitle": "Évaluation approfondie de la structure, des processus et des pratiques de votre entreprise pour identifier les domaines d'amélioration."
+            },
+            {
+                "title": "Planification stratégique personnalisée",
+                "subtitle": "Développement d'une stratégie sur mesure pour aligner vos objectifs commerciaux avec vos ressources et compétences."
+            },
+            {
+                "title": "Formations ciblées pour l'équipe",
+                "subtitle": "Fourniture de formations adaptées pour renforcer les compétences de votre équipe et favoriser l'adoption des nouvelles stratégies et pratiques."
+            },
+            {
+                "title": "Construction de votre réseau commercial",
+                "subtitle": "Assistance dans le développement de partenariats stratégiques et de réseaux professionnels pour favoriser la croissance de votre entreprise."
+            }
+        ],
+        "advantages": [{
+                "title": "Amélioration globale de la performance",
+                "subtitle": "Identification et résolution des inefficacités à tous les niveaux de l'entreprise."
+            },
+            {
+                "title": "Stratégie sur mesure",
+                "subtitle": "Développement d'une stratégie adaptée à vos besoins spécifiques pour maximiser votre succès."
+            },
+            {
+                "title": "Renforcement des compétences",
+                "subtitle": "Accès à des formations personnalisées pour renforcer les compétences de votre équipe."
+            },
+            {
+                "title": "Expansion du réseau",
+                "subtitle": "Opportunités d'établir des partenariats stratégiques et de développer votre réseau professionnel."
+            }
+        ],
+        "whyChoose": "EUREKA GLOBAL offre une expertise approfondie, une approche holistique et un engagement envers le succès de ses clients. Avec notre solution Optimisation 360, vous bénéficiez d'un partenariat solide pour optimiser votre entreprise et atteindre de nouveaux niveaux de réussite.",
+        "contact": "Prêt à optimiser votre entreprise avec l'Optimisation 360 d'EUREKA GLOBAL ? Contactez-nous dès maintenant pour discuter de la façon dont notre solution peut répondre à vos besoins spécifiques et vous aider à atteindre vos objectifs de croissance."
+    },
+    {
+        "title": "ACCELERATOR BUNDLE",
+        "description": "L'Accelerator Bundle ou Accélerateur des entreprises est une solution complète conçue pour propulser les entreprises vers une croissance exponentielle. Ce pack inclusif offre un plan de marketing digital et de communication sur mesure, une formation approfondie en gestion et développement commercial, ainsi qu'un accompagnement stratégique à la transformation numérique.",
+        "importance": "L'Accelerator Bundle est essentiel pour les entreprises qui cherchent à accélérer leur croissance et à saisir de nouvelles opportunités sur le marché concurrentiel d'aujourd'hui. En combinant des stratégies éprouvées avec un soutien personnalisé, cette solution offre les outils nécessaires pour atteindre rapidement de nouveaux sommets de réussite.",
+        "approach": [{
+                "title": "Audit organisationnel et recommandations",
+                "subtitle": "Évaluation approfondie de la structure et des processus de votre entreprise, suivie de recommandations pour optimiser votre performance."
+            },
+            {
+                "title": "Plan de marketing digital et communication",
+                "subtitle": "Développement d'une stratégie sur mesure pour accroître votre présence en ligne et maximiser l'impact de vos communications."
+            },
+            {
+                "title": "Gestion et expansion des activités commerciales",
+                "subtitle": "Formation et accompagnement pour améliorer vos opérations commerciales et développer de nouveaux marchés."
+            },
+            {
+                "title": "Accompagnement à la transformation digitale",
+                "subtitle": "Assistance dans l'adoption des technologies numériques pour moderniser vos processus et stimuler l'innovation."
+            }
+        ],
+        "advantages": [{
+                "title": "Croissance accélérée",
+                "subtitle": "Accès à des stratégies et des outils éprouvés pour accélérer la croissance de votre entreprise."
+            },
+            {
+                "title": "Personnalisation",
+                "subtitle": "Solutions adaptées à vos besoins spécifiques pour garantir une efficacité maximale."
+            },
+            {
+                "title": "Expertise holistique",
+                "subtitle": "Accompagnement complet, de la stratégie digitale à la transformation opérationnelle."
+            },
+            {
+                "title": "Opportunités d'affaires",
+                "subtitle": "Expansion de vos activités grâce à une approche proactive et stratégique."
+            }
+        ],
+        "whyChoose": "EUREKA GLOBAL offre une expertise approfondie, une approche holistique et un engagement envers le succès de ses clients. Avec notre solution Accelerator Bundle, vous bénéficiez d'un partenariat solide pour propulser votre entreprise vers une croissance exponentielle.",
+        "contact": "Prêt à accélérer la croissance de votre entreprise avec l'Accelerator Bundle d'EUREKA GLOBAL ? Contactez-nous dès maintenant pour discuter de la façon dont notre solution peut répondre à vos besoins spécifiques et vous aider à atteindre vos objectifs de croissance."
+    },
+    {
+        "title": "PERFORMANCE ESSENTIALS",
+        "description": "Performance Essentials ou Les Essentielles des Performances est une solution complète conçue pour aider les entreprises à optimiser leur efficacité et à atteindre des niveaux de performance supérieurs. Cette offre comprend le développement de stratégies de croissance, un accompagnement opérationnel sur le terrain et la mise en réseau avec des investisseurs pour stimuler votre croissance.",
+        "importance": "Les Essentielles des Performances sont cruciales pour les entreprises qui cherchent à rester compétitives et à prospérer dans un environnement commercial dynamique. En fournissant des stratégies pratiques et un soutien opérationnel, cette solution aide les entreprises à atteindre leurs objectifs de croissance et à maintenir leur avantage concurrentiel.",
+        "approach": [{
+                "title": "Développement de stratégies de croissance",
+                "subtitle": "Élaboration de plans personnalisés pour stimuler la croissance de votre entreprise et atteindre de nouveaux marchés."
+            },
+            {
+                "title": "Accompagnement opérationnel terrain",
+                "subtitle": "Soutien pratique sur le terrain pour mettre en œuvre efficacement les stratégies et optimiser les opérations quotidiennes."
+            },
+            {
+                "title": "Mise en réseau avec des investisseurs",
+                "subtitle": "Accès à un réseau d'investisseurs potentiels pour sécuriser le financement et soutenir la croissance de votre entreprise."
+            }
+        ],
+        "advantages": [{
+                "title": "Croissance accélérée",
+                "subtitle": "Stratégies éprouvées pour accélérer la croissance de votre entreprise."
+            },
+            {
+                "title": "Soutien opérationnel",
+                "subtitle": "Accompagnement pratique pour mettre en œuvre les stratégies et optimiser les performances."
+            },
+            {
+                "title": "Accès aux investisseurs",
+                "subtitle": "Possibilité de se connecter avec des investisseurs pour soutenir le développement de l'entreprise."
+            },
+            {
+                "title": "Personnalisation",
+                "subtitle": "Solutions adaptées aux besoins spécifiques de votre entreprise pour une efficacité maximale."
+            }
+        ],
+        "whyChoose": "EUREKA GLOBAL est votre partenaire de confiance dans la quête de l'excellence et de la croissance durable. Avec notre solution Performance Essentials, vous bénéficiez d'une expertise éprouvée, d'un soutien pratique et d'un réseau étendu pour propulser votre entreprise vers le succès.",
+        "contact": "Prêt à propulser votre entreprise vers de nouveaux sommets de réussite avec Performance Essentials d'EUREKA GLOBAL ? Contactez-nous dès maintenant pour discuter de la façon dont notre solution peut répondre à vos besoins spécifiques et vous aider à atteindre vos objectifs de croissance."
+    },
+    {
+        "title": "MARKET TOOLKIT EXPANSION",
+        "description": "La solution Market Toolkit Expansion ou Boîte à outils pour l'Expansion des Marchés est une boîte à outils complète conçue pour aider les entreprises à étendre leur présence sur de nouveaux marchés. Elle comprend une étude de marché approfondie, des stratégies de marketing de pénétration de marché, des campagnes de marketing ciblées et un soutien à l'exécution des stratégies.",
+        "importance": "L'Expansion des Marchés est essentielle pour les entreprises désireuses de croître et de prospérer. Cette solution offre une approche stratégique pour atteindre de nouveaux clients, accroître la visibilité de la marque et stimuler la croissance des ventes dans de nouveaux marchés.",
+        "approach": [{
+                "title": "Étude de marché approfondie",
+                "subtitle": "Analyse détaillée des tendances, des besoins des clients et de la concurrence pour identifier les opportunités sur les nouveaux marchés."
+            },
+            {
+                "title": "Stratégies marketing de pénétration de marché",
+                "subtitle": "Développement de plans stratégiques pour introduire efficacement les produits ou services sur les nouveaux marchés et conquérir des parts de marché."
+            },
+            {
+                "title": "Campagnes de marketing ciblées",
+                "subtitle": "Création et exécution de campagnes marketing personnalisées pour attirer l'attention des clients potentiels et stimuler l'engagement."
+            },
+            {
+                "title": "Soutien à l'exécution des stratégies",
+                "subtitle": "Accompagnement pratique pour mettre en œuvre les stratégies marketing et assurer leur succès sur le terrain."
+            }
+        ],
+        "advantages": [{
+                "title": "Expansion géographique",
+                "subtitle": "Possibilité d'explorer de nouveaux marchés et de toucher de nouveaux clients."
+            },
+            {
+                "title": "Croissance des revenus",
+                "subtitle": "Augmentation des ventes grâce à une meilleure visibilité et à une expansion de la clientèle."
+            },
+            {
+                "title": "Stratégies efficaces",
+                "subtitle": "Utilisation de stratégies marketing éprouvées pour maximiser l'impact et minimiser les risques."
+            },
+            {
+                "title": "Soutien pratique",
+                "subtitle": "Accompagnement personnalisé pour mettre en œuvre les stratégies avec succès."
+            }
+        ],
+        "whyChoose": "EUREKA GLOBAL est votre partenaire de confiance pour étendre votre entreprise sur de nouveaux marchés. Avec notre solution Market Toolkit Expansion, vous bénéficiez d'une expertise approfondie, de stratégies éprouvées et d'un soutien pratique pour atteindre vos objectifs d'expansion.",
+        "contact": "Prêt à explorer de nouveaux horizons avec Market Toolkit Expansion d'EUREKA GLOBAL ? Contactez-nous dès maintenant pour démarrer votre voyage vers une expansion réussie et une croissance commerciale durable."
     }
+]
 
 
+export const productItems = [{
+        "title": "CRÉATION",
+        "subtitle": "D'ENTREPRISE",
+        desc: "Concentrez-vous pleinement sur le développement de votre activité au démarrage grâce à notre pack complet dédié en Afrique. Nous prenons en charge l'intégralité du processus de création, des forma- lités administratives aux aspects juridiques et fiscaux.",
+        img: "/s1.png",
+        id: ""
+    },
+    {
+        "title": "EXTERNALISATION",
+        "subtitle": "JURIDIQUE & FISCALE",
+        desc: "Assurez la conformité et la tranquillité d'esprit en externalisant vos besoins juridiques et fiscaux à EUREKA GLOBAL, pour une gestion efficace et conforme.",
+        img: "/s2.png",
+        id: ""
+    },
+    {
+        "title": "EXTERNALISATION",
+        "subtitle": "DE MA COMPTABILITE",
+        desc: "Externalisez votre comptabilité en toute tranquilité avec l'assistance d'EUREKA GLOBAL. Choisissez notre logiciel de gestion comptable fiable et adapté à vos besoins pour garantir une gestion financière efficace à distance.",
+        img: "/s3.png",
+        id: ""
+    },
+    {
+        "title": "DUE DILIGENCE",
+        "subtitle": "EXCELLENCE",
+        desc: "Explorez notre offre dédiée aux investisseurs cherchant à maximiser leurs rendements tout en minimisant les risques.",
+        img: "/s4.png",
+        id: ""
+    },
+
+    {
+        "title": "PORTFOLIO",
+        "subtitle": "ENHANCEMENT",
+        desc: "Optimisez la performance de vos investissements existants et identifiez de nouvelles opportunités stratégiques grâce à notre expertise approfondie et notre gestion proactive de votre portefeuille.",
+        img: "/s5.png",
+        id: ""
+    },
+    {
+        "title": "STARTER",
+        "subtitle": "SUCCESS PACKAGE",
+        desc: "Rejoignez EUREKA GLOBAL pour bénéficier d'une expertise sur mesure pour démarrer votre projet d’entreprise et le faire décoller vers de nouveaux sommets. ",
+        img: "/s6.png",
+        id: ""
+    },
+    {
+        "title": "ACCELERATION",
+        "subtitle": "BOOST",
+        desc: "Rejoignez EUREKA GLOBAL et bénéficiez d'une expertise sur mesure pour transformer votre entreprise en une force opérationnelle sur le marché, propulsant votre présence digitale vers de nouveaux sommets. ",
+        img: "/s7.png",
+        id: ""
+    },
+    {
+        "title": "ENTREPRISE EN ",
+        "subtitle": "PLEINE ASCENSION",
+        desc: "Rejoignez EUREKA GLOBAL et donnez à votre entreprise les outils nécessaires pour prospérer dans un environnement concurrentiel.",
+        img: "/s8.png",
+        id: ""
+    },
+    {
+        "title": "CROISSANCE",
+        "subtitle": "MAÎTRISÉE",
+        desc: "Plongez au cœur de notre offre pour les entreprises et stimulez votre développement de manière équilibrée et durable, en vous fournissant un conseil stratégique pour une croissance pérenne.",
+        img: "/s9.png",
+        id: ""
+    },
+    {
+        "title": "OPTIMISATION",
+        "subtitle": "OPERATIONNELLE",
+        desc: "Optimisez constamment l'efficacité opérationnelle de votre entreprise en appliquant notre méthode KAIZEN, qui vise à améliorer continuellement vos processus.",
+        img: "/s10.png",
+        id: ""
+
+    },
+    {
+        "title": "OPTIMISATION",
+        "subtitle": "360",
+        desc: "Optez pour une solution holistique examinant tous les aspects de votre entreprise afin d'améliorer l'efficacité opérationnelle, de réduire les coûts et de maximiser la qualité des processus.",
+        img: " /s11.png",
+        id: ""
 
 
+    },
+    {
+        "title": "ACCELERATOR",
+        "subtitle": "BUNDLE",
+        desc: "Votre pack complet comprenant un plan de marketing digital et de communication sur mesure, une formation en gestion et développement commercial, ainsi qu'un accompagnement à la transformation numérique.",
+        img: "/s12.png",
+        id: ""
 
+    },
+    {
+        "title": "PERFORMANCE",
+        "subtitle": "ESSENTALS",
+        desc: "Découvrez comment Les Essentielles des Performances peuvent transformer votre entreprise et la propulser vers de nouveaux sommets.",
+        img: "/s13.png",
+        id: ""
 
+    },
+    {
+        "title": "Boîte à outils pour",
+        "subtitle": "l'Expansion des Marchés",
+        desc: "Découvrez comment notre solution Boîte à outils pour l'Expansion des Marchés peut concrétiser vos ambitions commerciales.",
+        img: "/s14.png",
+        id: ""
 
+    },
+    {
+        "title": "Programme de",
+        "subtitle": "refonte stratégique",
+        desc: "Notre Programme de transformation stratégique est conçue pour toute entreprise cherchant à atteindre de nouveaux sommets stratégiques et prospérer dans un monde en constante évolution",
+        img: "/s15.png",
+        id: ""
 
+    },
+    {
+        "title": "Intégration d'un",
+        "subtitle": "laboratoire interne d'innovation ",
+        desc: "Plongez dans l'avenir de l'innovation et libérez le potentiel créatif de votre entreprise avec votre laboratoire d'innovation interne sur mesure.",
+        img: "/s16.png",
+        id: ""
 
+    },
+    {
+        "title": "Évaluation de l'Impact",
+        "subtitle": "des Personnes Publiques",
+        desc: "Explorez dès maintenant comment notre solution peut transformer la manière dont les politiques sont conçues et mises en œuvre, pour un avenir plus éclairé et durable.",
+        img: "/s17.png",
+        id: ""
+
+    },
+    {
+        "title": "Conseil Stratégique",
+        "subtitle": "en Gouvernance",
+        desc: "Plongez dans notre solution où l'expertise pointue rencontre l'innovation pour élever la gouvernance politique vers de nouveaux sommets de performance et de durabilité.",
+        img: "/s18.png",
+        id: ""
+
+    },
 ]
