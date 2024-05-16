@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Button } from "../components/ui/button";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { preambule } from "../../data";
 import { images } from "../assets";
 function Details() {
@@ -72,7 +72,9 @@ function Details() {
                     </div>
                     <div className="w-full mt-10 flex justify-center">
                         <Button className="rounded-[45px]">
-                            Parcourir Nos Catalogues
+                            <Link to={"/prouits&service/"}>
+                                Parcourir Nos Catalogues
+                            </Link>
                         </Button>
                     </div>
                 </section>

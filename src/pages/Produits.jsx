@@ -7,9 +7,9 @@ function Produits() {
         <div>
             <section
                 style={{
-                    backgroundImage: `url(produit.png)`,
+                    backgroundImage: `url(/produit.png)`,
                 }}
-                className={`bg-[url(produit.png)] mt-20 bg-no-repeat md:bg-cover object-contain bg-cover bg-center md:h-[90vh]`}
+                className={`bg-[url(/produit.png)] mt-20 bg-no-repeat md:bg-cover object-contain bg-cover bg-center md:h-[90vh]`}
             >
                 <div className="h-full w-full flex items-center container bg-[#0022678F]">
                     <div className="md:w-[60%] flex flex-col gap-6 font-bold md:ml-20 text-white">
