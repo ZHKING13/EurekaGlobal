@@ -74,7 +74,7 @@ function Solution() {
                                     )}
                                 >
                                     <img
-                                        src="/icon.png"
+                                        src={a.img || "/icon.png"}
                                         alt="check"
                                         className="w-[55px] h-[55px]"
                                     />
