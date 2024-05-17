@@ -377,23 +377,27 @@ export const produits = [{
         "title": "PACK CRÉATION D’ENTREPRISE",
         id: "PCE2024",
         img: "/s1.png",
-        "description": "Notre Pack Création d’Entreprise est une solution complète conçue pour simplifier le processus d'entrepreneuriat en Afrique. EUREKA GLOBAL prend en charge toutes les étapes, depuis les formalités administratives jusqu'aux aspects juridiques et fiscaux, vous permettant ainsi de vous concentrer pleinement sur le développement de votre activité.",
-        "importance": "La création d'une entreprise est une étape cruciale qui nécessite une gestion précise et efficace pour assurer sa réussite à long terme. Notre solution offre un accompagnement professionnel et complet pour garantir une mise en place réussie de votre entreprise.",
+        "description": "Notre solution complète s'adresse aux investisseurs et entrepreneurs en quête d'un parcours entrepreneurial simplifié en Afrique. EUREKA GLOBAL prend en charge toutes les étapes, depuis les formalités administratives jusqu'aux aspects juridiques et fiscaux, vous permettant ainsi de vous concentrer pleinement sur le développe- ment de votre activité.",
+        "importance": "Notre solution  Création de v otre Entreprise vous offre un accompagnement professionnel et complet pour garantir une mise en place réussie de votre entreprise.La création d 'une entreprise est une étape cruciale qui nécessite une gestion précise et efficace pour assurer sa réussite à long terme.",
         "approach": [{
                 "title": "Évaluation des besoins",
-                "subtitle": "Comprendre les besoins spécifiques de chaque client."
+                "subtitle": "Nous commençons par comprendre les besoins spécifiques de chaque client.",
+                icon: "/icon1.png"
             },
             {
                 "title": "Assistance personnalisée",
-                "subtitle": "Accompagnement sur mesure adapté à chaque étape du processus de création d'entreprise."
+                "subtitle": "Nous offrons un accompagnement sur mesure, adapté à chaque étape du processus de création d 'entreprise.",
+                icon: "/icon.png"
             },
             {
                 "title": "Gestion proactive",
-                "subtitle": "Prise en charge proactive des formalités administratives, juridiques et fiscales."
+                "subtitle": "Notre équipe prend en charge toutes les formalités administratives, juridiques et fiscales de manière proactive.",
+                icon: "/icon1.png"
             },
             {
                 "title": "Suivi continu",
-                "subtitle": "Assurer un suivi continu pour garantir le bon déroulement du processus et répondre aux préoccupations éventuelles."
+                "subtitle": "Nous assurons un suivi continu pour garantir le bon déroulement du processus et répondre à toutes les questions ou préoccupations éventuelles ",
+                icon: "/icon.png"
             }
         ],
         "advantages": [
@@ -409,23 +413,27 @@ export const produits = [{
         "title": "EXTERNALISATION JURIDIQUE ET FISCALE",
         id: "EJF2024",
         img: "/s2.png",
-        "description": "Le Pack Externalisation Juridique et Fiscale offre à votre entreprise une solution complète pour gérer efficacement vos obligations juridiques et fiscales. Notre équipe prend en charge tous les aspects de la fiscalité, depuis le calcul des impôts jusqu'à la gestion des déclarations, ainsi que les aspects juridiques liés à votre activité.",
-        "importance": "L'externalisation juridique et fiscale est essentielle pour assurer la conformité de votre entreprise avec les réglementations en vigueur. En confiant ces tâches à des experts, vous bénéficiez d'une tranquillité d'esprit et pouvez-vous concentrer pleinement sur le développement de votre activité, en sachant que vos obligations juridiques et fiscales sont entre de bonnes mains.",
+        "description": "Notre Pack Externalisation Juridique et Fiscale offre à votre entreprise une solution complète pour gérer efficacement vos obligations juridiques et fiscales. Notre équipe prend en charge tous les aspects de la fiscalité, depuis le calcul des impôts jusqu'à la gestion des déclarations, ainsi que les aspects juridiques liés à votre activité.",
+        "importance": "Notre solution d'externalisation juridique et fiscale est cruciale pour garantir la conformité de votre entreprise avec les réglementations en vigueur. En confiant ces responsabilités à des experts, vous profitez d 'une tranquillité d'esprit et pouvez vous concentrer pleinement sur le développement de votre activité, sachant que vos obligations juridiques et fiscales sont gérées par des professionnels expérimentés.",
         approach: [{
                 "title": "Évaluation initiale",
-                "subtitle": "Évaluer les besoins spécifiques de votre entreprise en termes de fiscalité et de conformité juridique."
+                icon: "/icon1.png",
+                "subtitle": "Nous commençons par évaluer les besoins spécifiques de votre entreprise en termes de fiscalité et de conformité juridique."
             },
             {
                 "title": "Personnalisation du service",
-                "subtitle": "Élaborer une stratégie sur mesure pour répondre à vos besoins, en tenant compte de la taille et de la nature de votre entreprise."
+                icon: "/icon.png",
+                "subtitle": "Nous élaborons ensuite une stratégie sur mesure pour répondre à vos besoins, en tenant compte de la taille et de la nature de votre entreprise."
             },
             {
                 "title": "Gestion proactive",
-                "subtitle": "Prendre en charge toutes les tâches liées à la fiscalité et à la conformité juridique de manière proactive."
+                icon: "/icon1.png",
+                "subtitle": "Notre équipe prend en charge toutes les formalités administratives, juridiques et fiscales de manière proactive."
             },
             {
                 "title": "Suivi continu",
-                "subtitle": "Assurer un suivi continu pour garantir que votre entreprise reste conforme aux réglementations en vigueur."
+                icon: "/icon.png",
+                "subtitle": "Nous assurons un suivi continu pour garantir que votre entreprise reste conforme aux réglementations en vigueur et que toute nouvelle législation est prise en compte."
             }
         ],
         "advantages": [{
@@ -433,7 +441,7 @@ export const produits = [{
                 "subtitle": "Soyez assuré que votre entreprise respecte toutes les réglementations juridiques et fiscales pertinentes."
             },
             {
-                "title": "Économie de temps et de ressources",
+                "title": "Économie de temps et de ressources en externalisant ces tâches à des experts",
                 "subtitle": "Libérez du temps et des ressources en externalisant ces tâches à des experts dédiés."
             },
             {
@@ -441,7 +449,7 @@ export const produits = [{
                 "subtitle": "Minimisez les erreurs et les risques de sanctions en confiant vos obligations fiscales à des professionnels expérimentés."
             },
             {
-                "title": "Accès à une expertise spécialisée",
+                "title": "Accès à une expertise spécialisée dans le domaine juridique et fiscal.",
                 "subtitle": "Bénéficiez de conseils et d'orientations précises de la part d'une équipe spécialisée dans le domaine juridique et fiscal."
             }
         ],
@@ -452,18 +460,21 @@ export const produits = [{
         id: "EMC2024",
         img: "/s3.png",
         "description": "Notre solution Externalisation de ma Comptabilité offre aux entreprises africaines une gestion comptable fiable et adaptée. Grâce à notre logiciel comptable performant et à notre équipe d'experts comptables dévoués, vous bénéficiez d'une gestion financière simplifiée et efficace.",
-        "importance": "Externaliser sa comptabilité permet votre entreprise de se concentrer sur son cœur de métier tout en bénéficiant d'une gestion financière professionnelle et conforme aux normes en vigueur.",
+        "importance": "Externaliser sa comptabilité permet votre entreprise de se concentrer sur son cœur de métier tout en bénéficiant d'une gestion financière professionnelle et conforme aux normes en vigueur.Notre solution de l'externalisation de la comptabilité offre à votre entreprise la possibilité de se focaliser  sur son cœur de métier tout en profitant d'une gestion financière professionnelle et conforme aux normes en vigueur. Grâce à notre application comptable, vous bénéficiez d'une meilleure maîtrise des coûts, d'une optimisation des processus et d'une réduction des risques associés aux erreurs comptables. Cela vous assure une tranquillité d'esprit et vous permet de prendre des décisions éclairées pour favoriser la croissance de votre entreprise.",
         "approach": [{
                 "title": "Accès à notre Logiciel Comptable Performant",
-                "subtitle": "Utiliser notre plateforme intuitive et efficace pour simplifier votre gestion comptable à distance."
+                icon: "/icon1.png",
+                "subtitle": "Utilisez notre plateforme intuitive et efficace pour simplifier votre gestion comptable à distance."
             },
             {
                 "title": "Soutien de notre Équipe d'Experts",
-                "subtitle": "Accompagnement dans toutes les étapes, de la saisie des données à l 'établissement des rapports financiers et comptables."
+                icon: "/icon.png",
+                "subtitle": "Nos experts vous accompagnent dans toutes les étapes, de la saisie des données à l 'établissement des rapports financiers et comptables."
             },
             {
+                icon: "/icon1.png",
                 "title": "Gestion Comptable Fiable et Adaptée",
-                "subtitle": "Effectuer un suivi régulier de votre comptabilité et bénéficier d'un soutien technique et professionnel continu."
+                "subtitle": "Nous effectuons un suivi régulier de votre comptabilité et vous bénéficiez d'un soutien technique et professionnel continu tout au long de notre collaboration. Notre objectif est de répondre à vos besoins spécifiques et de favoriser la croissance de votre entreprise."
             }
         ],
         "advantages": [{
@@ -492,22 +503,30 @@ export const produits = [{
         id: "SSP2024",
         img: "/s6.png",
         "description": "Notre solution Réussir mon Démarrage est un package complet conçu pour les entreprises cherchant à démarrer sur des bases solides. Il comprend un diagnostic approfondi, un accès à des ressources innovantes, des ateliers d'innovation et un mentorat personnalisé pour les fondateurs.",
-        "importance": "Le démarrage d'une entreprise est une étape critique qui nécessite un soutien adéquat pour assurer le succès à long terme. Notre solution offre aux entrepreneurs les outils, les connaissances et le soutien nécessaires pour surmonter les défis initiaux et établir une base solide pour leur entreprise.",
+        "importance": "Notre solution Réussir Mon Démarrage comprend les outils, les connaissances et le soutien nécessaires pour aider  les entrepreneurs à surmonter les défis initiaux et à établir une base solide pour leur entreprise. Le démarrage d'une entreprise est une étape critique qui requiert un soutien adéquat pour garantir le succès à long terme.",
         "approach": [{
                 "title": "Diagnostic stratégique initial",
-                "subtitle": "Diagnostic approfondi pour identifier les forces, faiblesses, opportunités et menaces du projet."
+                icon: "/icon1.png",
+
+                "subtitle": "Nous effectuons un diagnostic approfondi pour identifier les forces, faiblesses, opportunités et menaces de votre projet."
             },
             {
                 "title": "Formation en innovation",
-                "subtitle": "Proposition de formations pratiques en innovation pour développer des solutions créatives et novatrices."
+                icon: "/icon.png",
+
+                "subtitle": "Nous proposons des formations pratiques en innovation pour aider les entrepreneurs à développer des solutions créatives et novatrices."
             },
             {
                 "title": "Accès à des ateliers d'innovation",
-                "subtitle": "Offre d'un accès à des ateliers animés par des experts pour partager des connaissances et des meilleures pratiques en matière d'innovation."
+                icon: "/icon1.png",
+
+                "subtitle": "Nous offrons un accès à des ateliers animés par des experts pour partager des connaissances et des meilleures pratiques en matière d'innovation."
             },
             {
                 "title": "Mentorat personnalisé pour les fondateurs",
-                "subtitle": "Attribution d'un mentor expérimenté à chaque fondateur pour les guider tout au long de leur parcours entrepreneurial."
+                icon: "/icon.png",
+
+                "subtitle": "Nous attribuons à chaque fondateur un mentor expérimenté qui les guide et les conseille tout au long de leur parcours entrepreneurial."
             }
         ],
         "advantages": [{
@@ -537,22 +556,30 @@ export const produits = [{
         "title": "OPTIMISATION OPERATIONNELLE",
         id: "OO2024",
         img: "/s10.png",
-        "description": "L'Optimisation Opérationnelle basée sur la méthode KAIZEN vise à maximiser l'efficacité des entreprises en continuant d'améliorer constamment leurs processus. Nous travaillons en partenariat avec nos clients pour identifier les domaines d'amélioration et mettre en œuvre des solutions adaptées à leurs besoins spécifiques.",
-        "importance": "Cette solution est essentielle pour les entreprises cherchant à rester compétitives dans un environnement en constante évolution. En adoptant une approche KAIZEN, elles peuvent favoriser une culture d'amélioration continue, ce qui leur permet d'optimiser leurs opérations de manière progressive et durable.",
+        "description": "Notre solution Optimisation Opérationnelle est basée sur la méthode KAIZEN. Elle vise à maximiser l'efficacité des entreprises en continuant d'améliorer constamment leurs processus. Nous travaillons en partenariat avec nos clients pour identifier les domaines d'amélioration et mettre en œuvre des solutions adaptées à leurs besoins spécifiques.",
+        "importance": "Notre solution Oprimisation Opérationnelle est essentielle pour les entreprises cherchant à rester compétitives dans un environnement en constante évolution. En adoptant notre approche KAIZEN, vous favorisez une culture d'amélioration continue, ce qui vous permet d'optimiser vos opérations de manière progressive et durable.",
         "approach": [{
                 "title": "Évaluation initiale des processus",
+                icon: "/icon1.png",
+
                 "subtitle": "Identifier les domaines d'amélioration potentiels et définir des objectifs spécifiques."
             },
             {
                 "title": "Développement et mise en œuvre de solutions sur mesure",
-                "subtitle": "Concevoir des solutions adaptées aux besoins spécifiques de l'entreprise, en suivant les principes KAIZEN."
+                icon: "/icon.png",
+
+                "subtitle": "Nous Concevons des solutions adaptées aux besoins spécifiques de l'entreprise, en suivant les principes KAIZEN."
             },
             {
                 "title": "Accompagnement dans la mise en place d'une culture d'amélioration continue",
+                icon: "/icon1.png",
+
                 "subtitle": "Favoriser l'adoption de pratiques d'amélioration continue au sein de l'entreprise pour des résultats durables."
             },
             {
                 "title": "Mise en place d'outils de suivi de la performance",
+                icon: "/icon.png",
+
                 "subtitle": "Utiliser des outils de suivi pour mesurer les progrès et ajuster les stratégies en fonction des résultats."
             }
         ],
@@ -563,15 +590,15 @@ export const produits = [{
                 "subtitle": "Stimulez la croissance et la compétitivité de votre entreprise grâce à des processus optimisés."
             },
             {
-                "title": "Développement d'une culture d'amélioration continue",
+                "title": "Développement d'une culture d'amélioration continue au sein de l'entreprise.",
                 "subtitle": "Créez un environnement propice à l'innovation et à la progression constante au sein de votre entreprise."
             },
             {
-                "title": "Augmentation de l'efficacité opérationnelle",
+                "title": "Augmentation de l'efficacité opérationnelle de manière progressive et durable.",
                 "subtitle": "Optimisez vos opérations pour réduire les coûts, améliorer la qualité et accroître la productivité."
             },
             {
-                "title": "Renforcement de la compétitivité sur le marché",
+                "title": "Renforcement de la compétitivité sur le marché grâce à une approche KAIZEN axée sur l'excellence opérationnelle.",
                 "subtitle": "Gagnez un avantage concurrentiel en adoptant une approche KAIZEN axée sur l'excellence opérationnelle."
             }
         ],
@@ -582,21 +609,29 @@ export const produits = [{
         id: "DDE2024",
         img: "/s4.png",
         "description": "Notre solution Excellence en matière de diligence raisonnable offre une approche complète et rigoureuse de l'évaluation des opportunités d'investissement. Nous analysons minutieusement chaque aspect de l'entreprise cible, y compris ses états financiers, ses performances opérationnelles, ses risques potentiels et ses perspectives de croissance, afin de fournir des recommandations éclairées aux investisseurs.",
-        "importance": "Cette solution est essentielle pour les investisseurs exigeants qui cherchent à prendre des décisions d'investissement éclairées. En effectuant une due diligence approfondie, ils peuvent maximiser leur rendement tout en minimisant les risques, ce qui est crucial dans un environnement financier complexe et dynamique.",
+        "importance": "Notre solution Due Dilligence Excellence est essentielle pour les investisseurs exigeants qui cherchent à prendre des décisions d'investissement éclairées. En effectuant une due diligence approfondie, ils peuvent maximiser leur rendement tout en  minimisant les risques, ce qui est crucial dans un environnement financier complexe et dynamique.",
         "approach": [{
                 "title": "Évaluation approfondie des opportunités d'investissement",
-                "subtitle": "Analyse complète de l'entreprise cible pour identifier les forces, les faiblesses et les opportunités."
+                icon: "/icon1.png",
+
+                "subtitle": "Analyse complète de l'entreprise cible pour identifier les forces, les faiblesses et les opportunités d'investissement."
             },
             {
                 "title": "Analyse des risques et des retours",
+                icon: "/icon.png",
+
                 "subtitle": "Évaluation rigoureuse des risques potentiels et des rendements attendus pour chaque investissement."
             },
             {
                 "title": "Stratégies pour maximiser le rendement",
+                icon: "/icon1.png",
+
                 "subtitle": "Recommandations personnalisées pour optimiser le rendement des investissements."
             },
             {
                 "title": "Accompagnement continu",
+                icon: "/icon.png",
+
                 "subtitle": "Suivi et assistance pendant et après le processus d'investissement pour assurer une gestion efficace des investissements."
             }
         ],
@@ -627,32 +662,34 @@ export const produits = [{
         "importance": "Cette solution est essentielle pour les investisseurs et entrepreneurs qui cherchent à maximiser la rentabilité de leur portefeuille d'investissements. En identifiant les opportunités d'amélioration et en gérant activement les risques, nos clients peuvent accroître leurs rendements et renforcer leur position sur le marché.",
         "approach": [{
                 "title": "Optimisation des performances des investissements existants",
+                icon: "/icon1.png",
+
                 "subtitle": "Analyse approfondie des investissements actuels pour identifier les domaines d'amélioration et mettre en œuvre des stratégies visant à maximiser les rendements."
             },
             {
                 "title": "Identification de nouvelles opportunités",
+                icon: "/icon.png",
+
                 "subtitle": "Recherche active de nouvelles opportunités d'investissement alignées sur les objectifs et la stratégie de nos clients."
             },
             {
                 "title": "Gestion proactive des risques",
+                icon: "/icon1.png",
+
                 "subtitle": "Surveillance continue du marché et des tendances pour identifier et atténuer les risques potentiels."
             }
         ],
         "advantages": [{
-                "title": "Maximisation des rendements",
-                "subtitle": "Optimisation des performances des investissements existants et identification de nouvelles opportunités pour accroître les rendements."
+                "subtitle": "Maximisation des rendements: Optimisation des performances des investissements existants et identification de nouvelles opportunités pour accroître les rendements."
             },
             {
-                "title": "Gestion proactive des risques",
-                "subtitle": "Réduction des risques grâce à une surveillance continue et à une gestion proactive."
+                "subtitle": "Gestion proactive des risques: Réduction des risques grâce à une surveillance continue et à une gestion proactive."
             },
             {
-                "title": "Expertise approfondie",
-                "subtitle": "Accès à l'expertise et aux conseils d'une équipe expérimentée dans la gestion de portefeuille."
+                "subtitle": "Expertise approfondie: Accès à l'expertise et aux conseils d'une équipe expérimentée dans la gestion de portefeuille."
             },
             {
-                "title": "Approche personnalisée",
-                "subtitle": "Solutions adaptées aux besoins spécifiques de chaque client."
+                "subtitle": "Approche personnalisée: Solutions adaptées aux besoins spécifiques de chaque client."
             }
         ],
         "whyChoose": "EUREKA GLOBAL offre une combinaison unique d'expertise approfondie, d'approche proactive et de service personnalisé pour aider nos clients à atteindre leurs objectifs d'investissement. Nous sommes déterminés à fournir des solutions innovantes et efficaces pour maximiser la valeur de leur portefeuille.",
@@ -664,39 +701,43 @@ export const produits = [{
         id: "AC2024",
         img: "/s7.png",
         "description": "L'Accélerateur Boost ou Boost d'accélération est bien plus qu'un simple coup de pouce ; c'est une collaboration dynamique conçue pour accélérer votre trajectoire vers la réussite. Cette solution offre un ensemble de services stratégiques et opérationnels pour propulser votre entreprise vers de nouveaux sommets de succès, en mettant l'accent sur le développement de stratégies de croissance, le réseautage avec des investisseurs, l'accompagnement opérationnel et la communication digitale.",
-        "importance": "Pour les jeunes entreprises, le passage à une phase de croissance rapide peut être un défi. L'Accélerateur Boost offre un soutien stratégique et opérationnel essentiel pour surmonter ces défis et accélérer la trajectoire de succès de l'entreprise.",
+        "importance": "Notre solution Acceleration Boost est essentielle pour les entreprises pour lesquelles, le passage à une phase de croissance rapide peut être un défi. Elle vous offre un soutien stratégique et opérationnel primordial pour surmonter vos challenges et accélérer la trajectoire de succès de votre entreprise.",
         "approach": [{
                 "title": "Développement de stratégies de croissance",
+                icon: "/icon1.png",
+
                 "subtitle": "Analyse approfondie des opportunités de croissance et conception de stratégies sur mesure pour maximiser le potentiel de l'entreprise."
             },
             {
                 "title": "Mise en réseau avec des investisseurs",
+                icon: "/icon.png",
+
                 "subtitle": "Identification et connexion avec des investisseurs potentiels pour soutenir la croissance de l'entreprise."
             },
             {
                 "title": "Accompagnement opérationnel",
+                icon: "/icon1.png",
+
                 "subtitle": "Assistance dans la gestion quotidienne des opérations pour assurer une exécution efficace des stratégies de croissance."
             },
             {
                 "title": "Communication digitale",
+                icon: "/icon.png",
+
                 "subtitle": "Mise en place de stratégies de communication digitale pour accroître la visibilité de l'entreprise et atteindre de nouveaux clients."
             }
         ],
         "advantages": [{
-                "title": "Accélération de la croissance",
-                "subtitle": "Une approche stratégique et opérationnelle pour stimuler la croissance de l'entreprise."
+                "subtitle": "Accélération de la croissance: Une approche stratégique et opérationnelle pour stimuler la croissance de l'entreprise."
             },
             {
-                "title": "Réseautage stratégique",
-                "subtitle": "Accès à un réseau d'investisseurs et de partenaires potentiels pour soutenir le développement de l'entreprise."
+                "subtitle": "Réseautage stratégique: Accès à un réseau d'investisseurs et de partenaires potentiels pour soutenir le développement de l'entreprise."
             },
             {
-                "title": "Accompagnement personnalisé",
-                "subtitle": "Un soutien sur mesure pour répondre aux besoins spécifiques de votre entreprise."
+                "subtitle": "Accompagnement personnalisé: Un soutien sur mesure pour répondre aux besoins spécifiques de votre entreprise."
             },
             {
-                "title": "Transformation digitale",
-                "subtitle": "Amélioration de la présence digitale pour rester compétitif sur le marché actuel."
+                "subtitle": "Transformation digitale: Amélioration de la présence digitale pour rester compétitif sur le marché actuel."
             }
         ],
         "whyChoose": "EUREKA GLOBAL offre une expertise sur mesure et un engagement envers le succès de ses clients. Notre approche collaborative et notre focus sur les résultats font de nous le partenaire idéal pour accélérer votre trajectoire vers le succès.",
@@ -705,36 +746,38 @@ export const produits = [{
         "title": "ENTREPRISE EN PLEINE ASCENSION",
         id: "EEPA2024",
         img: "/s8.png",
-        "description": "L'Entreprise en Pleine Ascension est une solution complète conçue pour catalyser la croissance et l'efficacité de votre entreprise. Nous procédons à une analyse approfondie de tous les aspects de votre entreprise et vous proposons des stratégies pratiques et personnalisées pour progresser sur votre marché.",
-        "importance": "Pour les entreprises cherchant à prospérer dans un environnement concurrentiel, l'Entreprise en Pleine Ascension offre des solutions sur mesure et des stratégies adaptées pour maximiser la croissance et la rentabilité.",
+        "description": "Notre solution Entreprise en Pleine Ascension offre une approche complète conçue pour stimuler la croissance et accroître l'efficacité de votre entreprise. Nous effectuons une analyse détaillée de tous les aspects de votre entreprise et élaborons des stratégies pratiques et personnalisées pour vous aider à progresser sur votre marché.",
+        "importance": "Notre solution Entreprise en Pleine Ascension s'adresse aux entreprises cherchant à prospérer dans un environnement concurrentiel.Elle propose des solutions sur mesure et des stratégies adaptées pour maximiser la croissance et la rentabilité de votre entreprise.",
         "approach": [{
                 "title": "Solutions opérationnelles sur mesure",
+                icon: "/icon1.png",
+
                 "subtitle": "Analyse approfondie des besoins de votre entreprise et développement de solutions pratiques et personnalisées pour améliorer son efficacité opérationnelle."
             },
             {
                 "title": "Stratégies personnalisées pour la rentabilité",
+                icon: "/icon.png",
+
                 "subtitle": "Élaboration de stratégies spécifiques pour augmenter la rentabilité de votre entreprise en fonction de ses besoins et de son marché."
             },
             {
                 "title": "Accès à nos formations en gestion d'entreprise",
+                icon: "/icon1.png",
+
                 "subtitle": "Offre d'une gamme de formations en gestion d'entreprise pour renforcer les compétences de votre équipe et optimiser les performances de votre entreprise."
             }
         ],
         "advantages": [{
-                "title": "Croissance efficace",
-                "subtitle": "Des solutions et des stratégies adaptées pour catalyser la croissance de votre entreprise."
+                "subtitle": "Croissance efficace: Des solutions et des stratégies adaptées pour catalyser la croissance de votre entreprise."
             },
             {
-                "title": "Rentabilité accrue",
-                "subtitle": "Stratégies personnalisées pour augmenter la rentabilité de votre entreprise."
+                "subtitle": "Rentabilité accrue: Stratégies personnalisées pour augmenter la rentabilité de votre entreprise."
             },
             {
-                "title": "Formation continue",
-                "subtitle": "Accès à des formations en gestion d'entreprise pour renforcer les compétences de votre équipe."
+                "subtitle": "Formation continue: Accès à des formations en gestion d'entreprise pour renforcer les compétences de votre équipe."
             },
             {
-                "title": "Adaptabilité",
-                "subtitle": "Solutions sur mesure adaptées aux besoins spécifiques de votre entreprise."
+                "subtitle": "Adaptabilité Solutions sur mesure adaptées aux besoins spécifiques de votre entreprise."
             }
         ],
         "whyChoose": "EUREKA GLOBAL offre une expertise éprouvée et un engagement envers le succès de ses clients. Notre approche personnalisée et notre focus sur les résultats font de nous le partenaire idéal pour accompagner votre entreprise vers de nouveaux sommets de réussite.",
@@ -743,36 +786,38 @@ export const produits = [{
         "title": "CROISSANCE MAITRISEE",
         img: "/s9.png",
         id: "CM2024",
-        "description": "La solution Croissance Maîtrisée est spécialement conçue pour répondre aux besoins des entreprises en quête d'une expansion équilibrée et durable. Nous offrons des solutions personnalisées, une gestion opérationnelle et organisationnelle efficace, ainsi qu'un conseil stratégique pour assurer une croissance maîtrisée.",
-        "importance": "La croissance d'une entreprise peut être un défi complexe, nécessitant une gestion rigoureuse et une vision stratégique. La solution Croissance Maîtrisée garantit une expansion contrôlée et durable, permettant à votre entreprise de prospérer tout en minimisant les risques.",
+        "description": "Notre solution Amélioration du Portefeuille vise à améliorer la performance des investissements existants et à identifier de nouvelles opportunités stratégiques pour les investisseurs etles entrepreneurs.Grâce à notre expertise approfondie et à une approche proactive, nous aidons nos clients à gérer leur portefeuille de manière efficiente et à optimiser leurs rendements.",
+        "importance": "Notre solution Croissance Maîtrisée est spécialement élaborée pour répondre aux besoins des entreprises recherchant une expansion équilibrée et durable.Nous proposons des solutions personnalisées, une gestion opérationnelle et organisationnelle efficace, ainsi qu 'un conseil stratégique pour vous garantir une croissance maîtrisée.",
         "approach": [{
                 "title": "Solutions personnalisées pour la compétitivité",
+                icon: "/icon1.png",
+
                 "subtitle": "Analyse approfondie de vos besoins et développement de solutions sur mesure pour renforcer votre compétitivité sur le marché."
             },
             {
                 "title": "Gestion opérationnelle et organisationnelle",
+                icon: "/icon1.png",
+
                 "subtitle": "Mise en place de processus efficaces et d'une structure organisationnelle optimale pour soutenir votre croissance."
             },
             {
                 "title": "Conseil stratégique pour une croissance durable",
+                icon: "/icon.png",
+
                 "subtitle": "Fourniture de conseils stratégiques pour orienter votre entreprise vers une croissance pérenne et durable."
             }
         ],
         "advantages": [{
-                "title": "Expansion contrôlée",
-                "subtitle": "Garantie d'une croissance équilibrée et maîtrisée, minimisant les risques associés à une expansion rapide."
+                "subtitle": "Expansion contrôlée: Garantie d'une croissance équilibrée et maîtrisée, minimisant les risques associés à une expansion rapide."
             },
             {
-                "title": "Gestion efficace",
-                "subtitle": "Optimisation de vos opérations et de votre organisation pour une performance accrue."
+                "subtitle": "Gestion efficace: Optimisation de vos opérations et de votre organisation pour une performance accrue."
             },
             {
-                "title": "Conseils stratégiques",
-                "subtitle": "Accès à un conseil stratégique pour orienter votre entreprise vers une croissance durable."
+                "subtitle": "Conseils stratégiques: Accès à un conseil stratégique pour orienter votre entreprise vers une croissance durable."
             },
             {
-                "title": "Solutions personnalisées",
-                "subtitle": "Adaptation des solutions à vos besoins spécifiques pour une efficacité maximale."
+                "subtitle": "Solutions personnalisées: Adaptation des solutions à vos besoins spécifiques pour une efficacité maximale."
             }
         ],
         "whyChoose": "EUREKA GLOBAL offre une expertise dédiée, une approche personnalisée et un engagement envers le succès de ses clients. Avec notre solution Croissance Maîtrisée, vous bénéficiez d'un partenariat solide pour propulser votre entreprise vers de nouveaux sommets de réussite.",
