@@ -8,13 +8,13 @@ function Preambule() {
   return (
       <div className="">
           <div className="pt-20 md:pl-20 md:pr-20 flex flex-col items-start justify-center gap-11 md:h-[70vh] pb-5 container bg-primary text-white">
-              <h1 className=" md:text-3xl font-bold mont text-xl">
+              <h1 className="  font-bold mont text-xl">
                   PREAMBULE A{" "}
                   <span className="text-bold text-secondary">
                       NOS SOLUTIONS SUR MESURES
                   </span>
               </h1>
-              <p className="md:text-xl text-start text-lg">
+              <p className=" text-start text-base">
                   <span className="font-bold text-secondary">EUREKA</span>{" "}
                   <span className="font-bold">GLOBAL</span> vous propose une
                   gamme complète de solutions sur mesure conçues pour répondre
@@ -34,14 +34,14 @@ function Preambule() {
                       data-aos-duration="200"
                       className="flex mb-3 flex-col md:flex-row gap-10 w-full"
                   >
-                      <div className="flex flex-col md:w-[45%] w-full gap-6">
-                          <h2 className="md:text-2xl text-xl font-bold">
+                      <div className="flex flex-col justify-around md:w-[45%] w-full ">
+                          <h2 className=" text-xl text-primary font-bold">
                               Pour{" "}
                               <span className="text-secondary">
                                   les Investisseurs
                               </span>{" "}
                           </h2>
-                          <p className="text-lg">
+                          <p className="text-base">
                               {logo} est votre partenaire stratégique, prêt à
                               vous accompagner vers l'excellence. Notre
                               catalogue de services est une invitation à
@@ -82,12 +82,12 @@ function Preambule() {
                               alt="service 1"
                           />
                       </div>
-                      <div className="flex flex-col  md:w-[45%] w-full gap-6">
-                          <h2 className="md:text-2xl text-xl font-bold">
+                      <div className="flex flex-col justify-around  md:w-[45%] w-full ">
+                          <h2 className=" text-xl text-primary font-bold">
                               Pour les{" "}
                               <span className="text-secondary">Startups</span>{" "}
                           </h2>
-                          <p className="text-lg">
+                          <p className="text-base">
                               Chez {logo}, nous comprenons que chaque entreprise
                               est unique. Nos solutions sont adaptées pour
                               répondre spécifi-quement aux besoins de chaque
@@ -112,14 +112,14 @@ function Preambule() {
                       data-aos-duration="200"
                       className="flex flex-col md:flex-row gap-10 w-full"
                   >
-                      <div className="flex flex-col md:w-[45%] w-full gap-6 ml-2">
-                          <h2 className="md:text-2xl text-xl font-bold">
+                      <div className="flex flex-col justify-around md:w-[45%] w-full  ml-2">
+                          <h2 className=" text-xl text-primary font-bold">
                               Pour les{" "}
                               <span className="text-secondary font-bold">
                                   Très Petites Entreprises (TPEs)
                               </span>{" "}
                           </h2>
-                          <p className="text-lg mt-2">
+                          <p className="text-base mt-2">
                               À chaque entreprise son histoire, et à chaque
                               histoire une solution sur mesure. {logo} vous
                               accompagne avec des solutions adaptées à votre
@@ -158,14 +158,14 @@ function Preambule() {
                               alt="service 1"
                           />
                       </div>
-                      <div className="flex flex-col  md:w-[45%] w-full gap-6">
-                          <h2 className="md:text-2xl text-xl font-bold">
+                      <div className="flex flex-col justify-around md:w-[45%] w-full ">
+                          <h2 className=" text-xl text-primary font-bold">
                               Pour les{" "}
                               <span className="text-secondary">
                                   Petites & Moyennes Entreprises (PMEs)
                               </span>{" "}
                           </h2>
-                          <p className="text-lg">
+                          <p className="text-base">
                               {logo}, le partenaire des entreprises ambitieuses.
                               Nos solutions sur mesure visent à renforcer votre
                               compétitivité, à stimuler votre croissance et à
@@ -189,14 +189,14 @@ function Preambule() {
                       data-aos-duration="200"
                       className="flex flex-col md:flex-row gap-10 w-full"
                   >
-                      <div className="flex flex-col md:w-[45%] w-full gap-6 ml-2">
-                          <h2 className="md:text-2xl text-xl font-bold">
+                      <div className="flex flex-col justify-around md:w-[45%] w-full  ml-2">
+                          <h2 className=" text-xl text-primary font-bold">
                               Pour les{" "}
-                              <span className="text-secondary md:text-2xl text-xl font-bold">
+                              <span className="text-secondary font-bold">
                                   Grandes Entreprises
                               </span>{" "}
                           </h2>
-                          <p className="text-lg mt-2">
+                          <p className="text-base mt-2">
                               Chez {logo}, nous comprenons que vous avez des
                               défis uniques et des opportunités sans précédent.
                               Notre programme de Restructuration Stratégique est
@@ -238,14 +238,14 @@ function Preambule() {
                               alt="personnalite public"
                           />
                       </div>
-                      <div className="flex flex-col   md:w-[45%] w-full gap-6">
-                          <h2 className="md:text-2xl text-xl font-bold">
+                      <div className="flex flex-col justify-around  md:w-[45%] w-full ">
+                          <h2 className="text-primary text-xl font-bold">
                               Pour les{" "}
                               <span className="text-secondary">
                                   Personnalités Publiques
                               </span>{" "}
                           </h2>
-                          <p className="text-lg">
+                          <p className="text-base">
                               Chez {logo}, nous comprenons l'importance de votre
                               rôle et les défis complexes auxquels vous êtes
                               confrontés. Notre équipe dédiée aux leaders
@@ -275,12 +275,12 @@ function Preambule() {
                   data-aos-duration="200"
                   className="flex flex-col md:flex-row gap-10 w-full"
               >
-                  <div className="flex flex-col md:w-[45%] w-full gap-6 ml-2">
+                  <div className="flex flex-col md:w-[45%] w-full  ml-2">
                       <div>
-                          <h2 className="md:text-2xl text-primary text-xl font-bold">
+                          <h2 className=" text-primary text-xl font-bold">
                               POURQUOI NOUS CHOISIR ?
                           </h2>
-                          <p className="text-lg mt-2">
+                          <p className="text-base mt-2">
                               Nos consultants disposent d'experiences pratiques,
                               renforcées par l'expertise approfondie et
                               l'approche personnalisée d'{logo}. Nous nous enga-
@@ -293,10 +293,10 @@ function Preambule() {
                           </p>
                       </div>
                       <div>
-                          <h2 className="md:text-3xl text-primary text-xl font-bold">
+                          <h2 className=" text-primary text-xl font-bold">
                               CONTACTEZ-NOUS DES AUJOURD'HUI
                           </h2>
-                          <p className="text-lg mt-2">
+                          <p className="text-base mt-2">
                               Si vous recherchez un partenaire de confiance pour
                               vous guider vers le succès, vous êtes au bon
                               endroit chez {logo}. Contactez-nous dès
@@ -307,9 +307,9 @@ function Preambule() {
                       </div>
                       <div className="md:w-40 w-full">
                           <Button
-                              size="lg"
-                              variant="secondary"
-                              className="font-bold rounded-[45px] w-full"
+                              
+                              
+                              className=" rounded-[45px] bg-secondary hover:bg-primary w-full"
                           >
                               Prendre rendez-vous
                           </Button>
