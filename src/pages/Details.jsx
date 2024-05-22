@@ -29,14 +29,14 @@ function Details() {
                     className={`bg-[url(${item.bgImg})] mt-20 bg-no-repeat md:bg-cover object-contain bg-cover bg-center md:h-[90vh]`}
                 >
                     <div className="h-full w-full flex items-center container bg-[#0022678F]">
-                        <div className="md:w-[60%] flex flex-col gap-6 font-bold md:ml-20 text-white">
+                        <div className="md:w-[65%] flex flex-col gap-6 font-bold md:ml-20 text-white">
                             <h1 className=" md:text-3xl text-2xl font-bold ">
                                 Solutions pour les{" "}
                                 <span className="text-secondary">
                                     {item.title}{" "}
                                 </span>{" "}
                             </h1>
-                            <p className="text-xl"> {item.desc} </p>
+                            <p className="text-lg font-normal"> {item.desc} </p>
                         </div>
                     </div>
                 </section>

@@ -233,91 +233,109 @@ export const productServiceItems = [{
         title: "Pack Création d'Entreprise",
         description: "Tout ce dont vous avez besoin pour démarrer votre entreprise.",
         icon: Square3Stack3DIcon,
+        link: "PCE2024"
     },
     {
         title: "Externalisation Juridique & Fiscale",
         description: "Gérez vos obligations légales et fiscales en toute simplicité.",
         icon: Square3Stack3DIcon,
+        link: "EJF2024"
     },
     {
         title: "Externalisation de la Comptabilité",
         description: "Confiez votre comptabilité à des experts pour plus d'efficacité.",
         icon: Square3Stack3DIcon,
+        link: "EC2024"
     },
     {
         title: "Excellence en Diligence Raisonnable",
         description: "Processus rigoureux pour assurer la qualité et la conformité.",
         icon: Square3Stack3DIcon,
+        link: "DDE2024"
     },
     {
         title: "Amélioration du Portefeuille",
         description: "Optimisez la performance de votre portefeuille d'investissement.",
         icon: Square3Stack3DIcon,
+        link: "PE2024"
     },
     {
         title: "Starter Success Package",
         description: "Accompagnement complet pour garantir le succès de votre démarrage.",
         icon: Square3Stack3DIcon,
+        link: "SSP2024"
     },
     {
         title: "Boost d'Accélération",
         description: "Accélérez la croissance de votre entreprise avec notre expertise.",
         icon: Square3Stack3DIcon,
+        link: "AB2024"
     },
     {
         title: "Entreprise en Pleine Ascension",
         description: "Soutien personnalisé pour les entreprises en croissance.",
         icon: Square3Stack3DIcon,
+        link: "EEPA2024"
     },
     {
         title: "Accélérateur des Entreprises",
         description: "Programmes conçus pour stimuler la croissance des entreprises.",
         icon: Square3Stack3DIcon,
+        link: "AC2024"
     },
     {
         title: "Performance Essentials",
         description: "Solutions essentielles pour optimiser les performances de l'entreprise.",
         icon: Square3Stack3DIcon,
+        link: "PEF2024"
     },
     {
         title: "Boîte à Outils pour l'Expansion des Marchés",
         description: "Outils stratégiques pour conquérir de nouveaux marchés.",
         icon: Square3Stack3DIcon,
+        link: "MTE2024"
     },
     {
         title: "Croissance Maîtrisée",
         description: "Stratégies pour une croissance contrôlée et durable.",
         icon: Square3Stack3DIcon,
+        link: "CM2024"
     },
     {
         title: "Optimisation Opérationnelle",
         description: "Amélioration des processus pour une efficacité accrue.",
         icon: Square3Stack3DIcon,
+        link: "OO2024"
     },
     {
         title: "Optimisation 360",
         description: "Optimisation complète de tous les aspects de votre entreprise.",
         icon: Square3Stack3DIcon,
+        link: "O3602024"
     },
     {
         title: "Programme de Refonte Stratégique",
         description: "Revitalisez votre entreprise avec une refonte stratégique.",
         icon: Square3Stack3DIcon,
+        link: "SOP2024"
     },
     {
         title: "Intégration d'un Laboratoire Interne d'Innovation",
         description: "Cultivez l'innovation au sein de votre organisation.",
         icon: Square3Stack3DIcon,
+        link: "ILI2024"
     },
     {
         title: "Évaluation de l'Impact des Personnalités Publiques",
         description: "Analyse de l'influence et de l'impact des personnalités publiques.",
         icon: Square3Stack3DIcon,
+        link: "PIA2024"
     },
     {
         title: "Conseil Stratégique en Gouvernance",
         description: "Guidance pour une gouvernance d'entreprise efficace.",
         icon: Square3Stack3DIcon,
+        link: "SAG2024"
     },
 ];
 export const trainingModuleItems = [{

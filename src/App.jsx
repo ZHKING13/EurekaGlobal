@@ -68,7 +68,7 @@ export default function App() {
                                 {" "}
                                 EUREKA
                             </span>{" "}
-                            <span className="font-bold text-primary">
+                            <span className="font-bold text-lg text-primary">
                                 {" "}
                                 GLOBAL
                             </span>{" "}

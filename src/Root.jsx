@@ -9,6 +9,7 @@ import Preambule from "./pages/Preambule.jsx";
 import React from 'react'
 import { NavBareMenu } from "./components/NavBare.jsx";
 import Footer from "./components/Footer.jsx";
+import ScrollToTop from "./components/ScrollToTop.jsx";
 
 function Root() {
   return (
@@ -18,6 +19,7 @@ function Root() {
                   <NavBareMenu />
               </div>
           </div>
+           <ScrollToTop /> 
           <Outlet />
           <div>
               <Footer />
