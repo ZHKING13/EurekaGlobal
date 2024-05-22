@@ -1,29 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
-function replaceEurekaGlobal(text) {
-    // Utiliser une expression régulière pour remplacer toutes les occurrences de "EUREKA GLOBAL"
-    // en utilisant la structure HTML fournie
-    return  text.replace(/EUREKA GLOBAL/g, "<span className='font-bold text-secondary'>EUREKA</span> <span className='font-bold text-primary'>GLOBAL</span>");
-}
+import { replaceTextWithLogo } from "../pages/Solution";
 const ProductCard = ({ item }) => {
-     const newText = replaceEurekaGlobal(item.desc);
     return (
         <div className="max-w-[300px] bg-white border border-gray-200 rounded-lg p-3 shadow dark:bg-gray-800 dark:border-gray-700">
             <div className="p-5">
                 <div className="flex flex-wrap gap-1">
                     <h5 className="mb-2 text-lg font-bold uppercase tracking-tight text-primary ">
                         {item?.title}{" "}
-                        <span className=" text-secondary dark:text-white">
+                        <span className=" text-secondary ">
                             {item?.subtitle}
                         </span>
                     </h5>
                 </div>
                 <p className="mb-3 text-sm font-normal text-gray-700 dark:text-gray-400">
-                    <div
-                        dangerouslySetInnerHTML={{
-                            __html: newText,
-                        }}
-                    />
+                   {replaceTextWithLogo(item.desc)}
                 </p>
                 <div className="w-full flex items-end justify-end">
                     <Link
