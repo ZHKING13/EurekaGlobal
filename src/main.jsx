@@ -14,6 +14,7 @@ import Root from './Root.jsx';
 import Details from './pages/Details.jsx';
 import Solution from './pages/Solution.jsx';
 import Produits from './pages/Produits.jsx';
+import Formation from './pages/Formation.jsx';
 Aos.init({
    delay: 700, // values from 0 to 3000, with step 50ms
   duration: 400, // values from 0 to 3000, with step 50ms
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
             {
                 path: "prouits&service",
                 element: <Produits />,
+            },
+            {
+                path: "formations",
+                element: <Formation />,
             },
         ],
     },

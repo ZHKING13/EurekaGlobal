@@ -1,24 +1,44 @@
 import React, { useEffect, useState } from "react";
 import { Button } from "../components/ui/button";
-import { produits } from "../../data";
+import { productItems, produits } from "../../data";
 import { Link, useParams } from "react-router-dom";
 import { cn } from "../lib/utils";
 import { logo } from "./Preambule";
+import useStore from "../store/store";
 
-export const replaceTextWithLogo = (text)=> {
+export const replaceTextWithLogo = (text) => {
     if (!text) return null;
-  const parts = text.split("EUREKA GLOBAL");
-  return parts.map((part, index) => (
-    <span key={index}>
-      {part}
-      {index < parts.length - 1 && logo}
-    </span>
-  ));
-}
+    const parts = text.split("EUREKA GLOBAL");
+    return parts.map((part, index) => (
+        <span key={index}>
+            {part}
+            {index < parts.length - 1 && logo}
+        </span>
+    ));
+};
 function Solution() {
     const [item, setItem] = useState({});
+    const [product, setProduct] = useState({});
+    const {
+        products,
+        formations,
+        addProduct,
+        removeProduct,
+        addFormation,
+        removeFormation,
+        showDrawer,
+        toggleDrawer,
+    } = useStore();
     let { id } = useParams();
     console.log("valeur id::" + id);
+    const getProductByid = (id) => {
+        productItems.forEach((element) => {
+            if (element.id === id) {
+                setProduct(element);
+                console.log(element);
+            }
+        });
+    };
     const getElementById = (id) => {
         produits.forEach((element) => {
             if (element.id === id) {
@@ -27,8 +47,16 @@ function Solution() {
             }
         });
     };
+    const handleAddProduct = () => {
+        if (item) {
+            addProduct(product);
+            console.log("produis", products);
+            toggleDrawer()
+        }
+    };
     useEffect(() => {
         getElementById(id);
+        getProductByid(id);
     }, [id]);
     return (
         <div className="container">
@@ -61,7 +89,7 @@ function Solution() {
                     <h2 className="pb-3 text-lg font-bold text-primary uppercase ">
                         L'IMPORTANCE de notre solution
                     </h2>
-					<p className=" md:w-[75%] text-base ">						
+                    <p className=" md:w-[75%] text-base ">
                         {replaceTextWithLogo(item?.importance)}
                     </p>
                 </div>
@@ -81,8 +109,16 @@ function Solution() {
                                             " md:border-l-2 md:border-r-2":
                                                 index == 1,
                                         },
-                                        { " md:border-r-2": item?.approach.length >3 && index==2 },
-                                        { " md:border-r-2": item?.approach.length >4 && index==3 }
+                                        {
+                                            " md:border-r-2":
+                                                item?.approach.length > 3 &&
+                                                index == 2,
+                                        },
+                                        {
+                                            " md:border-r-2":
+                                                item?.approach.length > 4 &&
+                                                index == 3,
+                                        }
                                     )}
                                 >
                                     <img
@@ -118,7 +154,7 @@ function Solution() {
                                             " md:border-l-2 md:border-r-2":
                                                 index == 1,
                                         },
-                                        { " md:border-r-2": index == 2  }
+                                        { " md:border-r-2": index == 2 }
                                     )}
                                 >
                                     <img
@@ -153,10 +189,12 @@ function Solution() {
                     </p>
                 </div>
                 <div className="w-full mt-6 mb-5 flex justify-center">
-                    <Button className="rounded-[45px]">
+                    <Button
+                        onClick={handleAddProduct}
+                        className="rounded-[45px]"
+                    >
                         Ajouter à ma selection
                     </Button>
-
                 </div>
             </section>
         </div>

@@ -9,6 +9,10 @@ body {
     transition: filter 300ms;
 }
 
+.ant-drawer-body {
+    padding: 8px !important;
+}
+
 .architects-daughter-regular {
     font-family: "Architects Daughter", cursive;
     font-weight: 500;

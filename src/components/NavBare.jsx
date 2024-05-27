@@ -117,7 +117,7 @@ function NavListMenu() {
                           selected={isMenuOpen || isMobileMenuOpen}
                           onClick={() => setIsMobileMenuOpen((cur) => !cur)}
                       >
-                          Produits & Services
+                          
                           <ChevronDownIcon
                               strokeWidth={2.5}
                               className={`hidden h-3 w-3 transition-transform lg:block ${
@@ -273,7 +273,7 @@ function Formation() {
                           selected={isMenuOpen || isMobileMenuOpen}
                           onClick={() => setIsMobileMenuOpen((cur) => !cur)}
                       >
-                          Nos formations
+                          
                           <ChevronDownIcon
                               strokeWidth={2.5}
                               className={`hidden h-3 w-3 transition-transform lg:block ${
@@ -332,7 +332,34 @@ function NavList() {
               </Link>
               <Cible />
           </Typography>
-          <NavListMenu />
+          <Typography
+              as="a"
+              href="#"
+              variant="small"
+              color="blue-gray"
+              className="font-medium flex items-center"
+          >
+              <Link className="flex" to="/prouits&service">
+                  <ListItem className="flex items-center  gap-2 md:py-2 md:pr-2">
+                      Produits & Services
+                  </ListItem>
+              </Link>
+              <NavListMenu />
+          </Typography>
+          <Typography
+              as="a"
+              href="#"
+              variant="small"
+              color="blue-gray"
+              className="font-medium flex items-center"
+          >
+              <Link className="flex" to="/formations">
+                  <ListItem className="flex items-center  gap-2 md:py-2 md:pr-2">
+                      Nos formations
+                  </ListItem>
+              </Link>
+              <Formation />
+          </Typography>
 
           {/* <Typography
               as="a"
@@ -347,20 +374,7 @@ function NavList() {
                   </ListItem>
               </Link>
           </Typography> */}
-          <Typography
-              as="a"
-              href="#"
-              variant="small"
-              color="blue-gray"
-        className="font-medium"
-        
-          >
-              <Link to="/">
-                 
-                      <Formation />
-                 
-              </Link>
-          </Typography>
+
           <Typography
               as="a"
               href="#"
