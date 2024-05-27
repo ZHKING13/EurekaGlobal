@@ -389,7 +389,53 @@ export const trainingModuleItems = [{
         icon: AcademicCapIcon,
     },
 ];
+export const formation = [{
+        name: "Innovation",
+        desc: "Transformez les idées en actions avec notre module dédié à l'innovation. Nous fournissons les compétences et les outils nécessaires pour stimuler l'innovation au sein de votre entreprise, favorisant une culture qui embrasse le changement et la créativité.",
+        img: "/f1.png"
+    },
+    {
+        name: "Boîte à Outils du Manager",
+        desc: "Retrouvez des conseils pratiques et pistes d’actions pour vous épauler dans vos défis de management. De la gestion d'équipe à la résolution de conflits, notre module vous accompagne dans chaque aspect de votre rôle de manager. Transformez les défis en opportunités de croissance et menez votre équipe vers le succès.",
+        img: "/f2.png"
+    },
+    {
+        name: "Leadership Stratégique",
+        desc: "Formez des leaders inspirants capables de prendre des décisions éclairées, d'inspirer leurs équipes, et de créer une culture d'entreprise alignée sur la vision stratégique pour guider votre organisation vers ses objectifs à long terme.",
+        img: "/f3.png"
+    },
+    {
+        name: "Plan de Communication 360",
+        desc: "Maîtrisez votre stratégie de communication avec une approche complète et intégrée, assurant une communication efficace en interne et externe sur tous les canaux, digitaux et classiques.",
+        img: "/f4.png"
+    },
+    {
+        name: "Stratégie Marketing et Commerciale",
+        desc: "Augmentez votre présence sur le marché grâce à des stratégies marketing et commerciales sur mesure, renforçant la notoriété de la marque et stimulant les ventes.",
+        img: "/f5.png"
+    },
+    {
+        name: "Stratégie Go-to-Market",
+        desc: "Maximisez l'impact de vos produits ou services sur le marché avec une stratégie go-to-market efficace, assurant une pénétration de marché optimale et renforçant votre position concurrentielle.",
+        img: "/f6.png"
+    },
+    {
+        name: "Transformation des Organisations",
+        desc: "Préparez votre entreprise pour l'avenir avec notre accompagnement à travers des changements organisationnels significatifs, de la planification à la mise en œuvre, assurant une transition réussie et durable.",
+        img: "/f7.png"
+    },
+    {
+        name: "Excellence Opérationnelle",
+        desc: "Optimisez vos opérations avec des méthodologies avancées de Kaïzen pour améliorer l'efficacité opérationnelle, réduire les coûts, et maximiser la qualité et la productivité.",
+        img: "/f8.png"
+    },
+    {
+        name: "Pack Bureautique Expert",
+        desc: "Maîtrisez les outils bureautiques essentiels tels que Word, Excel, PowerPoint, Google Form et Canva, boostant la productivité de vos collaborateurs et améliorant la collaboration au sein de votre équipe.",
+        img: "/f9.png"
+    },
 
+]
 
 export const produits = [{
         "title": "PACK CRÉATION D’ENTREPRISE",

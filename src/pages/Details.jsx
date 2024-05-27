@@ -3,8 +3,10 @@ import { Button } from "../components/ui/button";
 import { Link, useParams } from "react-router-dom";
 import { preambule } from "../../data";
 import { images } from "../assets";
+import useStore from "../store/store";
 function Details() {
     const [item, setItem] = useState({});
+    
     const bg = "../public/tpeBg.png";
     let { id } = useParams();
     console.log("valeur id::" + id);
