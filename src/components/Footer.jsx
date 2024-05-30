@@ -9,6 +9,7 @@ import {
     FaWhatsappSquare,
 
 } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 import { CiMail, CiGlobe } from "react-icons/ci";
 import { Button } from './ui/button';
 function Footer() {
@@ -98,13 +99,56 @@ function Footer() {
                       </div>
                   </div>
                   <div className="w-full md:w-[20%]">
-                      <div className="px-2 py-4 flex justify-between text-sm flex-col ">
-                          <h1 className="mt-[2px] text-justify text-lg font-bold sm:text-left ">
-                              Nos contacts
-                          </h1>
+                      <div className="px-2 py-1 flex justify-start text-sm flex-col ">
+                           <div className=" flex items-start  justify-start gap-3">
+                              <a
+                                  href="https://twitter.com/EurekaGlobal_"
+                                  className="duration-200 hover:scale-105 flex items-center justify-center gap-1"
+                              >
+                                  <FaTwitter color="#fff" className="text-2xl" />{" "}
+                              </a>
 
-                          <div className="mt-4 flex items-start flex-col justify-center gap-3">
-                              <a className="duration-200 hover:scale-105 flex items-center justify-center gap-1">
+                              <a
+                                  href="https://www.facebook.com/GroupEurekaGlobal"
+                                  className="duration-200 hover:scale-105 flex items-center justify-center gap-1"
+                              >
+                                  <FaFacebook
+                                      color="#fff"
+                                      className="text-2xl"
+                                  />{" "}
+                              </a>
+                              <a
+                                  href="https://www.linkedin.com/in/groupeurekaglobal/"
+                                  className="duration-200 hover:scale-105 flex items-center justify-center gap-1"
+                              >
+                                  <FaLinkedin
+                                      color="#fff"
+                                      className="text-2xl"
+                                  />{" "}
+                              </a>
+                              <a
+                                  href="https://whatsapp.com/channel/0029VaOkaQA42Dcodh6x3v0p"
+                                  className="duration-200 hover:scale-105 flex items-center justify-center gap-1"
+                              >
+                                  <FaWhatsappSquare
+                                      color="#fff"
+                                      className="text-2xl"
+                                  />{" "}
+                              </a>
+                              <a
+                                  href="mailto:info@EurekaGlobal.co"
+                                  className="duration-200 hover:scale-105 flex items-center justify-center gap-1"
+                              >
+                                  <MdEmail
+                                      color="#fff"
+                                      className="text-2xl"
+                                  />{" "}
+                              </a>
+                      
+                          </div>
+
+                          <div className="mb-4 pt-10 flex items-start flex-col justify-start pb-8 gap-3">
+                              <a className="duration-200 hover:scale-105 flex items-center justify-center gap-2">
                                   <FaWhatsapp
                                       color="#1DD75BFF"
                                       className="text-lg"
@@ -139,42 +183,7 @@ function Footer() {
                                   www.EurekaGlobal.Co
                               </a>
                           </div>
-                          <div className="pt-[55px] flex items-start  justify-center gap-3">
-                              <a
-                                  href="https://twitter.com/EurekaGlobal_"
-                                  className="duration-200 hover:scale-105 flex items-center justify-center gap-1"
-                              >
-                                  <FaTwitter color="#fff" className="text-xl" />{" "}
-                              </a>
-
-                              <a
-                                  href="https://www.facebook.com/GroupEurekaGlobal"
-                                  className="duration-200 hover:scale-105 flex items-center justify-center gap-1"
-                              >
-                                  <FaFacebook
-                                      color="#fff"
-                                      className="text-xl"
-                                  />{" "}
-                              </a>
-                              <a
-                                  href="https://www.linkedin.com/in/groupeurekaglobal/"
-                                  className="duration-200 hover:scale-105 flex items-center justify-center gap-1"
-                              >
-                                  <FaLinkedin
-                                      color="#fff"
-                                      className="text-xl"
-                                  />{" "}
-                              </a>
-                              <a
-                                  href="https://whatsapp.com/channel/0029VaOkaQA42Dcodh6x3v0p"
-                                  className="duration-200 hover:scale-105 flex items-center justify-center gap-1"
-                              >
-                                  <FaWhatsappSquare
-                                      color="#fff"
-                                      className="text-xl"
-                                  />{" "}
-                              </a>
-                          </div>
+                         
                       </div>
                   </div>
               </div>
