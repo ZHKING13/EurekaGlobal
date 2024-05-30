@@ -101,14 +101,14 @@ function Footer() {
                   <div className="w-full md:w-[20%]">
                       <div className="px-2 py-1 flex justify-start text-sm flex-col ">
                            <div className=" flex items-start  justify-start gap-3">
-                              <a
+                              <a target="_blank"
                                   href="https://twitter.com/EurekaGlobal_"
                                   className="duration-200 hover:scale-105 flex items-center justify-center gap-1"
                               >
                                   <FaTwitter color="#fff" className="text-2xl" />{" "}
                               </a>
 
-                              <a
+                              <a target="_blank"
                                   href="https://www.facebook.com/GroupEurekaGlobal"
                                   className="duration-200 hover:scale-105 flex items-center justify-center gap-1"
                               >
@@ -117,7 +117,7 @@ function Footer() {
                                       className="text-2xl"
                                   />{" "}
                               </a>
-                              <a
+                              <a target="_blank"
                                   href="https://www.linkedin.com/in/groupeurekaglobal/"
                                   className="duration-200 hover:scale-105 flex items-center justify-center gap-1"
                               >
@@ -126,7 +126,7 @@ function Footer() {
                                       className="text-2xl"
                                   />{" "}
                               </a>
-                              <a
+                              <a target="_blank"
                                   href="https://whatsapp.com/channel/0029VaOkaQA42Dcodh6x3v0p"
                                   className="duration-200 hover:scale-105 flex items-center justify-center gap-1"
                               >
