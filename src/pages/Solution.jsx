@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Button } from "../components/ui/button";
 import { productItems, produits } from "../../data";
-import { Link, useParams } from "react-router-dom";
+import { Link, Navigate, useParams } from "react-router-dom";
 import { cn } from "../lib/utils";
 import { logo } from "./Preambule";
 import useStore from "../store/store";
@@ -18,6 +18,7 @@ export const replaceTextWithLogo = (text) => {
 };
 function Solution() {
     const [item, setItem] = useState({});
+    const [currentProductIndex, setCurrentProductIndex] = useState(0);
     const [product, setProduct] = useState({});
     const {
         products,
@@ -36,6 +37,8 @@ function Solution() {
             if (element.id === id) {
                 setProduct(element);
                 console.log(element);
+                        setCurrentProductIndex(productItems.indexOf(element));
+
             }
         });
     };
@@ -51,7 +54,6 @@ function Solution() {
         if (item) {
             addProduct(product);
             console.log("produis", products);
-            toggleDrawer()
         }
     };
     useEffect(() => {
@@ -59,7 +61,9 @@ function Solution() {
         getProductByid(id);
     }, [id]);
     return (
-        <div className="container">
+        
+            currentProductIndex && item ? (
+            <div className="container">
             <section className=" mt-20 flex md:flex-row flex-col ">
                 <div className="flex justify-between w-full md:flex-row flex-col items-center gap-10">
                     <div className="md:w-[50%] md:container md:mt-10 pt-8 flex items-start flex-col gap-5 w-full">
@@ -188,16 +192,37 @@ function Solution() {
                         {replaceTextWithLogo(item?.contact)}
                     </p>
                 </div>
-                <div className="w-full mt-6 mb-5 flex justify-center">
+                <div className="w-full mt-6 mb-5 flex justify-center gap-8">
+                     <Link to={`/prouits&service/${productItems[currentProductIndex - 1].id}`}>
+                                   <Button
+                       
+                        className={cn("rounded-[45px] px-6 bg-secondary",)}
+                    >
+                        precedent
+                    </Button>
+                                </Link>
                     <Button
                         onClick={handleAddProduct}
-                        className="rounded-[45px]"
+                        disabled={products.includes(product)}
+                            className={cn("rounded-[45px]", )}
+                            
                     >
                         Ajouter à ma selection
                     </Button>
+                    <Link to={`/prouits&service/${productItems[currentProductIndex + 1].id}`}>
+                                   <Button
+                       
+                        className={cn("rounded-[45px] px-6 bg-secondary",)}
+                    >
+                        suivant
+                    </Button>
+                                </Link>
+                    
                 </div>
             </section>
         </div>
+            ):null
+        
     );
 }
 
