@@ -86,19 +86,19 @@ function Root() {
             </Drawer>
            
             <div className="fixed  flex gap-2  text-white z-50 transform rotate-90  top-[24%] cursor-pointer  right-[-69px]">
-                <a href="https://twitter.com/EurekaGlobal_" className="p-1 bg-blue-600   rounded-sm">
+                <a target="_blank" href="https://twitter.com/EurekaGlobal_" className="p-1 bg-blue-600   rounded-sm">
                     <FaTwitter  className="text-2xl transform -rotate-90 text-white  " />
                 </a>
-                <a href="https://www.facebook.com/GroupEurekaGlobal" className="p-1 bg-blue-900   rounded-sm">
+                <a target="_blank" href="https://www.facebook.com/GroupEurekaGlobal" className="p-1 bg-blue-900   rounded-sm">
                     <FaFacebook  className="text-2xl transform -rotate-90 text-white  " />
                 </a>
-                <a href="https://www.linkedin.com/in/groupeurekaglobal/" className="p-1 bg-blue-700   rounded-sm">
+                <a target="_blank"  href="https://www.linkedin.com/in/groupeurekaglobal/" className="p-1 bg-blue-700   rounded-sm">
                     <FaLinkedin  className="text-2xl transform -rotate-90 text-white  " />
                 </a>
-                <a href="https://whatsapp.com/channel/0029VaOkaQA42Dcodh6x3v0p" className="p-1 bg-green-600   rounded-sm">
+                <a target="_blank" href="https://whatsapp.com/channel/0029VaOkaQA42Dcodh6x3v0p" className="p-1 bg-green-600   rounded-sm">
                     <FaWhatsapp  className="text-2xl transform -rotate-90 text-white  " />
                 </a>
-                <a href="mailto:info@EurekaGlobal.co" className="p-1 bg-primary  rounded-sm">
+                <a target="_blank" href="mailto:info@EurekaGlobal.co" className="p-1 bg-primary  rounded-sm">
                     <CiMail  className="text-2xl transform -rotate-90 text-white  " />
                 </a>
             </div>
