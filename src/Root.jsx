@@ -38,7 +38,11 @@ function Root() {
     };
     return (
         <div className=" ">
-            <NavBareMenu />
+            <div className="fixed z-50 container  top-2 left-0 right-0">
+              <div className="md:container">
+                  <NavBareMenu />
+              </div>
+          </div>
             <Modal
                 destroyOnClose
                 title="Demander un devis"
