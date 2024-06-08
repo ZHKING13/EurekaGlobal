@@ -200,7 +200,7 @@ function Solution() {
                        
                         className={cn("rounded-[45px] px-6 bg-secondary",)}
                     >
-                        suivant
+                        precedent
                     </Button>
                         </Link>
                   }
