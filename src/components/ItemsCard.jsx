@@ -1,13 +1,22 @@
 import React from "react";
 import useStore from "../store/store";
 
-function ItemsCard({ item }) {
+function ItemsCard({ item,type }) {
      const {
         
          removeProduct,
+         removeFormation
         
-     } = useStore();
-    const titleAndSubtitle = `${item.title} ${item.subtitle}`;
+    } = useStore();
+    const handleRemove = (id) => {
+        if (type === "formation") {
+            removeFormation(id);
+        } else {
+            removeProduct(id);
+        
+        }
+    }
+    const titleAndSubtitle = `${item.title} ${item.subtitle || ""}`;
     const truncateText = (text, maxLength) => {
         if (text.length > maxLength) {
             return text.substring(0, maxLength) + "...";
@@ -31,7 +40,7 @@ function ItemsCard({ item }) {
             </div>
             <div
                 onClick={() => {
-                    removeProduct(item.id);
+                    handleRemove(item.id);
                 }}
                 className="absolute -top-1 right-1 cursor-pointer"
             >

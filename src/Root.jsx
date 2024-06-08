@@ -25,7 +25,8 @@ function Root() {
           removeProduct,
           addFormation,
           removeFormation,
-      } = useStore();
+    } = useStore();
+    const selectItem = [...products, ...formations]
     const [isModalOpen, setIsModalOpen] = useState(false);
     const showModal = () => {
         setIsModalOpen(true);
@@ -64,6 +65,10 @@ function Root() {
                     {products.length > 0 &&
                         products.map((produit) => {
                             return <ItemsCard item={produit} />;
+                        })}
+                    {formations.length > 0 &&
+                        formations.map((produit) => {
+                            return <ItemsCard type="formation" item={produit} />;
                         })}
                 </div>
                  <div onClick={toggleDrawer} className={cn("fixed py-2 px-5 flex  text-white z-50 transform -rotate-90  bg-green-600 bottom-[40%] cursor-pointer   right-[347px]",!showDrawer && "hidden")}>
