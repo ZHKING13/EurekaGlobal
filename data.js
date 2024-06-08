@@ -342,101 +342,322 @@ export const trainingModuleItems = [{
         title: "Module Innovation",
         description: "Stimulez l'innovation dans votre entreprise.",
         icon: AcademicCapIcon,
+        id: "MI24"
     },
     {
         title: "Module Managerial Toolkit",
         description: "Gérez efficacement une équipe et atteignez vos objectifs.",
         icon: AcademicCapIcon,
+        id: "MTK24"
     },
     {
         title: "Module Leadership Stratégique",
         description: "Développez vos compétences en leadership.",
         icon: AcademicCapIcon,
+        id: "MLS24"
     },
     {
         title: "Module Communication 360",
         description: "Maîtrisez les stratégies de communication intégrées.",
         icon: AcademicCapIcon,
+        id: "MC36024"
     },
     {
         title: "Module Marketing et Vente",
         description: "Boostez votre croissance grâce au marketing et à la vente.",
         icon: AcademicCapIcon,
+        id: "MMV24"
     },
     {
         title: "Module Stratégie Go-To-Market",
         description: "Lancez vos produits ou services avec succès sur le marché.",
         icon: AcademicCapIcon,
+        id: "MSGTM24"
     },
     {
         title: "Module Transformation Organisationnelle",
         description: "Conduisez le changement dans votre organisation.",
         icon: AcademicCapIcon,
+        id: "MTO24"
     },
     {
         title: "Module Excellence Opérationnelle",
         description: "Optimisez l'efficacité de vos opérations.",
         icon: AcademicCapIcon,
+        id: "MEO24"
     },
     {
         title: "Module Bureautique Expert",
         description: "Maîtrisez les outils bureautiques avancés.",
         icon: AcademicCapIcon,
+        id: "MBE24"
     },
     {
         title: "Module Gestion et Sécurité des Données",
         description: "Gérez et sécurisez vos données sensibles.",
         icon: AcademicCapIcon,
+        id: "MGSD24"
     },
 ];
 export const formation = [{
         name: "Innovation",
         desc: "Transformez les idées en actions avec notre module dédié à l'innovation. Nous fournissons les compétences et les outils nécessaires pour stimuler l'innovation au sein de votre entreprise, favorisant une culture qui embrasse le changement et la créativité.",
-        img: "/f1.png"
+        img: "/f1.png",
+        id: "MI24"
     },
     {
         name: "Boîte à Outils du Manager",
         desc: "Retrouvez des conseils pratiques et pistes d’actions pour vous épauler dans vos défis de management. De la gestion d'équipe à la résolution de conflits, notre module vous accompagne dans chaque aspect de votre rôle de manager. Transformez les défis en opportunités de croissance et menez votre équipe vers le succès.",
-        img: "/f2.png"
+        img: "/f2.png",
+        id: "MTK24"
     },
     {
         name: "Leadership Stratégique",
         desc: "Formez des leaders inspirants capables de prendre des décisions éclairées, d'inspirer leurs équipes, et de créer une culture d'entreprise alignée sur la vision stratégique pour guider votre organisation vers ses objectifs à long terme.",
-        img: "/f3.png"
+        img: "/f3.png",
+        id: "MLS24"
     },
     {
         name: "Plan de Communication 360",
         desc: "Maîtrisez votre stratégie de communication avec une approche complète et intégrée, assurant une communication efficace en interne et externe sur tous les canaux, digitaux et classiques.",
-        img: "/f4.png"
+        img: "/f4.png",
+        id: "MC36024"
     },
     {
         name: "Stratégie Marketing et Commerciale",
         desc: "Augmentez votre présence sur le marché grâce à des stratégies marketing et commerciales sur mesure, renforçant la notoriété de la marque et stimulant les ventes.",
-        img: "/f5.png"
+        img: "/f5.png",
+        id: "MMV24"
     },
     {
         name: "Stratégie Go-to-Market",
         desc: "Maximisez l'impact de vos produits ou services sur le marché avec une stratégie go-to-market efficace, assurant une pénétration de marché optimale et renforçant votre position concurrentielle.",
-        img: "/f6.png"
+        img: "/f6.png",
+        id: "MSGTM24"
     },
     {
         name: "Transformation des Organisations",
         desc: "Préparez votre entreprise pour l'avenir avec notre accompagnement à travers des changements organisationnels significatifs, de la planification à la mise en œuvre, assurant une transition réussie et durable.",
-        img: "/f7.png"
+        img: "/f7.png",
+        id: "MTO24"
     },
     {
         name: "Excellence Opérationnelle",
         desc: "Optimisez vos opérations avec des méthodologies avancées de Kaïzen pour améliorer l'efficacité opérationnelle, réduire les coûts, et maximiser la qualité et la productivité.",
-        img: "/f8.png"
+        img: "/f8.png",
+        id: "MEO24"
     },
     {
         name: "Pack Bureautique Expert",
         desc: "Maîtrisez les outils bureautiques essentiels tels que Word, Excel, PowerPoint, Google Form et Canva, boostant la productivité de vos collaborateurs et améliorant la collaboration au sein de votre équipe.",
-        img: "/f9.png"
+        img: "/f9.png",
+        id: "MBE24"
     },
 
 ]
+export const Formations = [{
+        title: " Module Innovation ",
+        "id": "MI24",
+        "img1": "/inov.png",
+        "img2": "/inov1.png",
+        detail: "Illuminez votre entreprise avec notre module Innovation. Transformez les idées en action.",
+        "description": "Notre module Innovation vous offre l'opportunité d'explorer des méthodes modernes et des outils novateurs afin de stimuler la créativité et l'innovation au sein de votre entreprise.",
+        avantage: [
+            "Développez une  culture d'innovation",
+            "identifiez de nouvelles opportunités",
+            "restez compétitif sur vos marchés",
+        ],
+        benefice: [
+            "Créez en  continue",
+            "différenciez vous  de la concurrence",
+            "adaptez-vous aux évolutions du marché",
+        ],
+        soulagement1: "Libérez le potentiel créatif de vos équipes et favorisez une approche proactive des défis.",
+        soulagement2: "Contactez-nous dès maintenant pour découvrir comment notre module Innovation peut illuminer votre entreprise et transformer vos idées en action !",
+    },
+    {
+        title: " Boîte à Outils du Manager ",
+        "id": "MTK24",
+        "img1": "/mtk1.png",
+        "img2": "/mtk.png",
+        detail: "Investissez judicieusement avec notre Boîte à Outils du Manager. Des compétences solides pour des investissements intelligents.",
+        "description": "Notre module Boîte à Outils du manager propose une occasion sans pareille d'armer les managers des compétences indispensables pour mener leurs équipes vers le succès avec assurance.",
+        avantage: [
+            "Améliorez votre productivité",
+            "gérez efficacement vos ressources (équipes)",
+            "renforcez votre leadership",
+        ],
+        benefice: [
+            "Collaborez de manière optimal",
+            "motivez vos équipes",
+            "atteignez vos objectifs stratégiques",
+        ],
+        soulagement1: "Simplifiez votre gestion quotidienne, réduisez les frictions, et renforcez la cohésion d'équipe.",
+        soulagement2: " Contactez-nous dès aujourd'hui pour découvrir comment notre module Boîte à Outils du manager peut vous aider à développer les compétences nécessaires pour mener votre équipe vers le succès.",
+    },
+    {
+        title: " Leadership Stratégique ",
+        "id": "MLS24",
+        "img1": "/lop.png",
+        "img2": "/lop1.png",
+        detail: "Dirigez votre entreprise vers de nouveaux sommets avec notre module Leadership Stratégique.",
+        "description": "Notre module Leadership Stratégique vous permet de vous concentrer sur le développement de vos compétences en leadership essentielles pour diriger votre organisation vers la réalisation de ses objectifs stratégiques.",
+        avantage: [
+            "Renforcez vos capacités en leadership",
+            "mobilisez vos équipes",
+            "alignez-vous sur la vision stratégique",
+        ],
+        benefice: [
+            "Optez pour un Leadership inspirant",
+            "prenez la décision bonne stratégique",
+            "créez d'une culture d'entreprise alignée",
+        ],
+        soulagement1: "Naviguez avec succès dans des environnements complexes, offrez-vous des outils pratiques pour prendre des décisions éclairées et inspirez les autres.",
+        soulagement2: "Contactez-nous dès maintenant pour commencer votre voyage vers le sommet avec notre module Leadership Stratégique.",
+    },
+    {
+        title: " Plan de Communication 360 ",
+        "id": "MC36024",
+        "img1": "/com.png",
+        "img2": "/coms1.png",
+        detail: "Maîtrisez votre communication avec des stratégies complètes  et efficace sur tous les canaux, digitaux, internes et externes",
+        "description": "Avec notre module Plan de Communication 360, nous proposons une approche intégrée pour planifier et exécuter des stratégies de communication multicanal.",
+        avantage: [
+            "Gérez un plan de communication 360 claire",
+            "communiquez de façon cohérence",
+            "renforcez l'engagement client ainsi qu'une réputation proactive",
+        ],
+        benefice: [
+            "Définissez vos objectifs de communication (notoriété, image de marque solide, recrutement ou fidélisation client) dans un plan de communication claire ",
+            "bâtissez des stratégies efficaces sans perdre l'essentiel",
+        ],
+        soulagement1: "Simplifiez la complexité de la communication multicanale et offrez-vous une visibilité optimale ",
+        soulagement2: "Contactez-nous dès maintenant pour maîtriser votre communication avec des stratégies complètes et efficaces sur tous les canaux, digitaux, internes et externes.",
+    },
+    {
+        title: "Stratégie Marketing et Commerciale ",
+        "id": "MMV24",
+        "img1": "/mc.png",
+        "img2": "/mc1.png",
+        detail: "Boostez votre présence sur vos marchés grâce à des stratégies personnalisées qui renforcent la notoriété de votre marque et augmenter vos ventes.",
+        "description": "Avec notre module Stratégie Marketing et Commerciale, nous développons des stratégies visant à renforcer votre présence sur vos marchés, afin de maximiser vos opportunités de vente.",
+        avantage: [
+            "Élargissez votre base clients",
+            "augmentez vos revenus",
+            "différenciez votre marque",
+        ],
+        benefice: [
+            "Obtenez un positionnement solide",
+            "une notoriété accrue",
+            "une croissance durable"
+        ],
+        soulagement1: "Offrez-vous des plans d'action concrets pour améliorer votre performance commerciale.",
+        soulagement2: "Contactez-nous dès maintenant pour découvrir comment nos stratégies personnalisées peuvent booster votre présence sur vos marchés, renforcer la notoriété de votre marque et augmenter vos ventes.",
+    },
+    {
+        title: "Stratégie Go-To-Market (GTM)",
+        "id": "MSGTM24",
+        "img1": "/gtm.png",
+        "img2": "/gtm1.png",
+        detail: "Définissez et mettez en œuvre des stratégies commerciales efficaces pour maximiser le succès de vos produits et services sur vos marchés.",
+        "description": "Notre module Stratégie Go-To-Market est une approche éprouvée basée sur 10 leviers qui détaille la manière d'introduire, de commercialiser et de vendre efficacement vos produits et services sur vos marchés.",
+        avantage: [
+            "Avec notre GTM, optimisez votre visibilité l'accessibilité et l'attraction de vos clients.",
+            "Avec notre GTM, améliorezi votre position concurrentielle et votre croissance.",
 
+        ],
+        benefice: [
+            "Accélérez l'adoption de vos produits",
+            "gagnez des parts de marché",
+            "atteignez des objectifs de chiffre d'affaires grâce à une stratégie GTM solide qui a fait ses preuves"
+        ],
+        soulagement1: "Réduisez les incertitudes à l'aide d'une approche structurée et méthodique  et maximisez vos chances de succès lors du lancement de vos produits et services sur vos marché.",
+        soulagement2: " Contactez-nous dès aujourd'hui pour transformer vos ambitions commerciales en succès concret grâce à des stratégies sur mesure et efficaces.",
+    },
+    {
+        title: "Transformation des Organisations ",
+        "id": "MTO24",
+        "img1": "/tdo.png",
+        "img2": "/tdo1.png",
+        detail: "Réinventez votre entreprise  avec notre module dédié à la Transformation des Organisations,  un puzzle de réussite.",
+        "description": "Notre module Transformation des Organisations vous offre la possibilité de conduire efficacement une transformation organisationnelle, en englobant chaque phase, depuis l'évaluation initiale jusqu'à la réalisation concrète des changements requis.",
+        avantage: [
+            "Diminuez votre résistance au changement en favorisant une adaptabilité renforcée un alignement stratégique ",
+            "rEDUISEZ des oppositions internes et humaines",
+
+        ],
+        benefice: [
+            "Anticipez vos défis futurs en développant une agilité organisationnelle",
+            "Expérimentez une remarquable efficacité opérationnelle.",
+        ],
+        soulagement1: "Facilitez vous le passage d'une vision à une réalité concrète, en minimisant les perturbations.",
+        soulagement2: "Contactez-nous dès maintenant pour découvrir comment notre module dédié à la Transformation des Organisations peut être la clé pour transformer votre entreprise et assembler le puzzle de la réussite.",
+    },
+    {
+        title: "Excellence Opérationnelle ",
+        "id": "MEO24",
+        "img1": "/eop.png",
+        "img2": "/eop1.png",
+        detail: "Optimisez vos opérations avec notre module Excellence Opérationnelle. Une machine  bien réglée pour la réussite.",
+        "description": "Avec notre module Excellence Opérationnelle, optimisez vos processus opérationnels pour une efficacité maximale et une gestion sans faille. Découvrez comment nous pouvons transformer vos méthodes de travail pour atteindre de nouveaux sommets de performance.",
+        avantage: [
+            "Réduisez vos coûts",
+            "améliorez la qualité de vos produits/services ",
+            "accroissez votre productivité."
+
+        ],
+        benefice: [
+            "Améliorez votre efficacité opérationnelle",
+            "renforcez votre compétitivité ",
+            "optimisez vos ressources"
+        ],
+        soulagement1: "Identifiez et éliminez    les inefficacités, instaurez une culture d'amélioration continue et assurez   une gestion plus fluide.",
+        soulagement2: "Contactez-nous dès aujourd'hui pour mettre en place notre module Excellence Opérationnelle et propulser vos opérations vers le succès.",
+    },
+    {
+        title: "Pack Bureautique Expert ",
+        "id": "MBE24",
+        "img1": "/be.png",
+        "img2": "/be1.png",
+        detail: "Optez pour notre formation Bureautique Expert et rendez votre mode de travail plus productif et créatif.",
+        "description": "Notre Pack vous offre une formation complète pour optimiser l'utilisation de Word, Excel, PowerPoint, Canva et Google Form au sein des équipes de votre entreprise.",
+        avantage: [
+            "Maîtrisez toutes vos tâches A L'aide des outils ",
+            "Utilisez Canva pour eLABORER VOS designs professionnels et percutants",
+            "Utilisez Google Form pour EFECTUER vos enquêtes et VOS formulaires interactifs"
+
+        ],
+        benefice: [
+            "Augmentez l'efficacité de vos tâches quotidiennes ",
+            "créez des documents professionnels et impactants",
+            "facilitez la collaboration entre vos équipes",
+            "optimisez vos processus internes"
+        ],
+        soulagement1: "Éliminez les obstacles liés à la maîtrise des logiciels bureautiques, réduisez les erreurs, et assurez une transition fluide vers des pratiques de travail plus performantes. ",
+        soulagement2: "Contactez-nous dès aujourd'hui pour intégrer notre formation Bureautique Expert et transformez la façon de travailler de vos équipes en un processus plus productif et créatif.",
+    },
+    {
+        title: "Gestion et Sécurité des Données ",
+        "id": "MGSD24",
+        "img1": "/sec.png",
+        "img2": "/sec1.png",
+        detail: "Renforcez votre sécurité de votre organisation avec cette approche complète qui garantit la confidentialité et l'intégrité de vos informations.",
+        "description": "Notre module vous invite à explorer les divers aspects de la gestion et de la sécurité des données, couvrant les domaines juridiques, organisationnels, physiques et numériques.Développez les compétences indispensables pour organiser, archiver et gérer efficacement les données au sein de votre entreprise.",
+        avantage: [
+            "Approfondissez votre compréhension des aspects juridiques et organisationnels",
+            "renforcez la sécurité physique et numérique de vos données ",
+            "développez vos compétences en conception et gestion optimale des données."
+
+        ],
+        benefice: [
+            "Augmentez votre conformité juridique dans le traitement des données ",
+            "renforcez votre résilience face aux menaces numériques ",
+            "optimisez votre gestion des données pour des prises de décision plus éclairées.",
+        ],
+        soulagement1: "Adoptez une approche complète et pratique de la gestion des données, assurant sécurité et conformité tout en améliorant votre efficacité opérationnelle.",
+        soulagement2: " Contactez-nous dès aujourd'hui pour sécuriser votre organisation avec notre approche complète assurant la confidentialité et l'intégrité de vos informations !",
+    },
+]
 export const produits = [{
         "title": "PACK CRÉATION D’ENTREPRISE",
         id: "PCE2024",

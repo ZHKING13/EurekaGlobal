@@ -68,7 +68,7 @@ function Solution() {
                 <div className="flex justify-between w-full md:flex-row flex-col items-center gap-10">
                     <div className="md:w-[50%] md:container md:mt-10 pt-8 flex items-start flex-col gap-5 w-full">
                         <div>
-                            <h2 className=" text-lg font-bold text-primary">
+                            <h2 className=" title text-primary">
                                 {item?.title}
                             </h2>
                             <img
@@ -77,7 +77,7 @@ function Solution() {
                                 alt=""
                             />
                         </div>
-                        <p className="text-base">{item?.description}</p>
+                        <p className="textNormal">{item?.description}</p>
                     </div>
                     <div className=" flex items-center md:w-[40%] max-h-[400px] justify-center">
                         <img
@@ -90,15 +90,15 @@ function Solution() {
             </section>
             <section className=" dark:bg-gray-100 flex flex-col items-center gap-4">
                 <div className="  mx-auto flex flex-col items-center my-6 space-y-1 md:text-center">
-                    <h2 className="pb-3 text-lg font-bold text-primary uppercase ">
+                    <h2 className="pb-3 heading text-primary uppercase ">
                         L'IMPORTANCE de notre solution
                     </h2>
-                    <p className=" md:w-[75%] text-base ">
+                    <p className=" md:w-[75%] textNormal ">
                         {replaceTextWithLogo(item?.importance)}
                     </p>
                 </div>
                 <div className="  mx-auto  space-y-1 md:text-center">
-                    <h2 className="pb-3 text-lg font-bold text-primary uppercase ">
+                    <h2 className="pb-3 heading text-primary uppercase ">
                         Les avantages de NOTRE solution CREATION D'ENTREPRISE
                     </h2>
                 </div>
@@ -177,7 +177,7 @@ function Solution() {
                         })}
                 </div>
                 <div className="md:container flex flex-col items-center md:p-4 mx-auto  space-y-1 md:text-center">
-                    <h2 className="pb-3 text-lg font-bold text-primary uppercase ">
+                    <h2 className="pb-3 heading text-primary uppercase ">
                         Pourquoi nous choisir
                     </h2>
                     <p className="md:text-center md:w-[75%] text-base ">
@@ -185,7 +185,7 @@ function Solution() {
                     </p>
                 </div>
                 <div className="  flex flex-col items-center mx-auto  space-y-1 md:text-center">
-                    <h2 className="pb-3 text-lg font-bold text-primary uppercase">
+                    <h2 className="pb-3 heading text-primary uppercase">
                         Contactez-nous dès maintenant
                     </h2>
                     <p className="md:text-center md:w-[75%] text-normal text-base ">

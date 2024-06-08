@@ -227,8 +227,8 @@ function Formation() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
   const renderItems = trainingModuleItems.map(
-    ({ icon, title, description }, key) => (
-      <a href="#" key={key}>
+    ({ icon, title, description,id }, key) => (
+      <Link to={`/formations/${id}`} key={key}>
         <MenuItem className="flex items-center gap-3 rounded-lg">
           <div className="flex items-center justify-center rounded-lg bg-gray-300 p-2 ">
             {" "}
@@ -253,7 +253,7 @@ function Formation() {
             </Typography>
           </div>
         </MenuItem>
-      </a>
+      </Link>
     ),
   );
  
