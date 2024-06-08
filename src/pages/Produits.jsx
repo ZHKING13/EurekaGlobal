@@ -14,14 +14,14 @@ function Produits() {
                 <div className="h-full w-full flex items-center container bg-primary">
                     <div className="md:w-[60%] flex flex-col gap-6 font-bold md:ml-20 text-white">
                         <div className="flex gap-4">
-                            <h1 className=" md:text-3xl text-2xl font-bold ">
-                                Nos Produits{" "}
-                            </h1>
-                            <h1 className="text-[#00B0F0FF] md:text-3xl text-2xl">
+                            <h1 className=" title font-bold ">
+                                Nos Produits  <span className="text-[#00B0F0FF] md:text-3xl text-2xl">
                                 & Services{" "}
-                            </h1>{" "}
+                            </span>{" "}
+                            </h1>
+                           
                         </div>
-                        <p className="text-lg font-normal leading-tight">
+                        <p className="textNormal">
                             {" "}
                             EUREKA GLOBAL vous propose une gamme diversifiée de
                             produits et services conçus pour répondre aux
