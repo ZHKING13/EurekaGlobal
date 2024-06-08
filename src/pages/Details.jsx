@@ -32,7 +32,7 @@ function Details() {
                 >
                     <div className="h-full w-full flex items-center container bg-[#0022678F]">
                         <div className="md:w-[65%] flex flex-col gap-6 font-bold md:ml-20 text-white">
-                            <h1 className=" heading text-white font-bold ">
+                            <h1 className=" title text-white font-bold ">
                                 Solutions pour les{" "}
                                 <span className="text-secondary">
                                     {item.title}{" "}
