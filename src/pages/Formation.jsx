@@ -15,20 +15,21 @@ function Formation() {
                 <div className="h-full w-full flex items-center container bg-primary">
                     <div className="md:w-[60%] flex flex-col gap-6 font-bold md:ml-20 text-white">
                         <div className="flex gap-4">
-                            <h1 className=" md:text-3xl text-2xl font-bold ">
-                                Nos{" "}
+                            <h1 className=" title ">
+                                Nos <span className="text-[#00B0F0FF] md:text-3xl text-2xl">
+                                Formations à la carte
+                            </span>
                             </h1>
-                            <h1 className="text-[#00B0F0FF] md:text-3xl text-2xl">
-                                Formations à la carte{" "}
-                            </h1>{" "}
+                            {" "}
                         </div>
-                        <p className="text-lg font-normal leading-tight md:w-[90%]">
+                        <p className="textNormal  md:w-[90%]">
                             EUREKA GLOBAL vous propose une gamme diversifiée de
                             modules conçue pour améliorer les compétences de
                             votre équipe nécesssaire pour garantir une
                             croissance pérenne et une performance
                             exceptionnelle.
-                            <p className="text-lg font-normal leading-tight mt-1">
+                            <p></p>
+                            <p className="textNormal mt-2">
                                 Votre succès commence par la formation.
                                 Parcourez nos modules et prenez le contrôle de
                                 l'avenir professionnel de vos collaborateurs dès
