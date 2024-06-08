@@ -37,7 +37,7 @@ export default function App() {
                             </span>{" "}
                             <span className="font-bold"> GLOBAL</span>
                         </h1>
-                        <p className="md:text-2xl text-base architect">
+                        <p className="md:text-2xl textNormal architect">
                             votre cabinet conseil dédié à propulser votre
                             entreprise vers l'excellence.
                         </p>
@@ -60,28 +60,28 @@ export default function App() {
                         data-aos-duration="200"
                         className="flex flex-col gap-3 md:w-[55%] w-full"
                     >
-                        <h1 className="md:text-2xl text-xl text-primary font-bold text-center mb-4">
+                        <h1 className="md:text-2xl heading text-primary font-bold text-center mb-4">
                             A-propos
                         </h1>
-                        <p className="text-start  text-base">
+                        <p className="text-start  textNormal">
                             <span className="text-secondary font-bold">
                                 {" "}
                                 EUREKA
                             </span>{" "}
-                            <span className="font-bold text-base text-primary">
+                            <span className="font-bold textNormal text-primary">
                                 {" "}
                                 GLOBAL
                             </span>{" "}
                             se distingue par son engagement envers l'excellence,
                             l'innovation et la transformation.
                         </p>
-                        <p className="text-start  text-base">
+                        <p className="text-start  textNormal">
                             Laurence Noubissi, notre Gérante Associée, vous
                             invite à explorer notre gamme étendue de produit &
                             services et de formations, conçus pour répondre aux
                             besoins spécifiques de chaque Entreprise cliente.
                         </p>
-                        <p className="text-start  text-base">
+                        <p className="text-start  textNormal">
                             Depuis plus d'une décennie, nous façonnons les
                             parcours de succès de nos partenaires avec passion
                             et précision.
@@ -103,7 +103,7 @@ export default function App() {
             </section>
             <section className="container">
                 <div className="flex flex-col items-center gap-10 pt-12 pb-6">
-                    <h1 className=" text-xl font-bold text-primary text-center mb-4">
+                    <h1 className=" heading font-bold text-primary text-center mb-4">
                         CE QUE NOUS VOUS OFFRONS
                     </h1>
                     {/* lister les service de sorte a mettre le titre et la description a gauche l'image a droite avec un call to action apres la description */}
@@ -114,10 +114,10 @@ export default function App() {
                         className="flex mb-3 flex-col md:flex-row gap-6 w-full"
                     >
                         <div className="flex flex-col md:w-[45%] w-full gap-4">
-                            <h2 className=" text-xl font-bold text-primary">
+                            <h2 className=" heading font-bold text-primary">
                                 Des solutions sur mesures{" "}
                             </h2>
-                            <p className="text-base">
+                            <p className="textNormal">
                                 <span className="text-secondary font-bold">
                                     EUREKA{" "}
                                 </span>
@@ -165,11 +165,11 @@ export default function App() {
                             />
                         </div>
                         <div className="flex flex-col  md:w-[45%] w-full gap-4">
-                            <h2 className=" text-xl font-bold text-primary">
+                            <h2 className=" heading font-bold text-primary">
                                 Solutions Personnalisées pour une Performance
                                 Optimale{" "}
                             </h2>
-                            <p className="text-base">
+                            <p className="textNormal">
                                 Que vous soyez une startup dynamique ou une
                                 grande entreprise établie, nos services sont
                                 conçus pour catalyser votre croissance. De la
@@ -198,10 +198,10 @@ export default function App() {
                         className="flex flex-col md:flex-row gap-6 w-full"
                     >
                         <div className="flex flex-col md:w-[45%] w-full gap-4 ml-2">
-                            <h2 className=" text-xl text-primary font-bold">
+                            <h2 className=" heading text-primary font-bold">
                                 Élever les Compétences, Transformer les Équipes{" "}
                             </h2>
-                            <p className="text-base mt-2">
+                            <p className="textNormal mt-2">
                                 Nos formations à la carte sont une véritable
                                 lumière guidant vos équipes vers l'innovation et
                                 l'excellence opérationnelle. Avec des modules
@@ -234,7 +234,7 @@ export default function App() {
             <section className="container">
                 {/* testimonial section */}
                 <div className="mt-8">
-                    <h1 className="md:text-2xl text-primary text-xl font-bold text-center mb-4">
+                    <h1 className="md:text-2xl text-primary heading font-bold text-center mb-4">
                         Ce qu'ils disent de nous
                     </h1>
                     <Testimanials />
@@ -248,11 +248,11 @@ export default function App() {
                         alt="dashboard image"
                     />
                     <div class="mt-4 md:mt-0">
-                        <h2 class="mb-4 text-xl tracking-tight font-extrabold text-primary ">
+                        <h2 class="mb-4 heading tracking-tight font-extrabold text-primary ">
                             Let's create more tools and ideas that brings us
                             together.
                         </h2>
-                        <p class="mb-6 font-light md:text-base ">
+                        <p class="mb-6 font-light md:textNormal ">
                             Flowbite helps you connect with friends and
                             communities of people who share your interests.
                             Connecting with your friends and family as well as

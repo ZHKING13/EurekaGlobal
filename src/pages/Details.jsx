@@ -32,19 +32,19 @@ function Details() {
                 >
                     <div className="h-full w-full flex items-center container bg-[#0022678F]">
                         <div className="md:w-[65%] flex flex-col gap-6 font-bold md:ml-20 text-white">
-                            <h1 className=" md:text-xl text-lg font-bold ">
+                            <h1 className=" heading text-white font-bold ">
                                 Solutions pour les{" "}
                                 <span className="text-secondary">
                                     {item.title}{" "}
                                 </span>{" "}
                             </h1>
-                            <p className="text-base font-normal"> {item.desc} </p>
+                            <p className="textNormal"> {item.desc} </p>
                         </div>
                     </div>
                 </section>
                 <section className="m-4 md:m-8 ">
                     <div className="container mx-auto p-4 my-6 space-y-2 text-center">
-                        <h2 className=" text-lg font-bold text-primary">
+                        <h2 className=" heading text-primary">
                             AVANTAGES DE NOS SOLUTIONS
                         </h2>
                     </div>

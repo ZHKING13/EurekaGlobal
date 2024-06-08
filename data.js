@@ -1444,7 +1444,7 @@ export const produits = [{
 
 
 export const productItems = [{
-        "title": "CRÉATION",
+        "title": "Pack CRÉATION",
         "subtitle": "D'ENTREPRISE",
         id: "PCE2024",
         desc: "Concentrez-vous pleinement sur le développement de votre activité au démarrage grâce à notre pack complet dédié en Afrique. Nous prenons en charge l'intégralité du processus de création, des forma- lités administratives aux aspects juridiques et fiscaux.",
