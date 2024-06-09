@@ -53,7 +53,7 @@ function DetailFormation() {
       formation ? (<div className='container flex flex-col gap-9'>
           <section className=" mt-20 flex md:flex-row flex-col ">
                 <div className="flex justify-between w-full md:flex-row flex-col items-center gap-10">
-                    <div className="md:w-[45%] md:container md:mt-10 pt-8 flex items-start flex-col gap-5 w-full">
+                    <div className="md:w-[45%] md:container md:mt-1 pt-8 flex items-start flex-col gap-5 w-full">
                         <div>
                             <h2 className=" title md:w-[85%]  text-primary">
                               Module <span className='text-secondary'>{ formation?.title}</span>
@@ -66,9 +66,9 @@ function DetailFormation() {
                         </div>
                       <p className="textNormal ">{ formation?.detail}        </p>
                     </div>
-                    <div className=" flex items-start md:w-[55%] max-h-[400px] justify-center">
+                    <div className=" flex items-start md:w-[55%] md:-mt-12 max-h-[400px] justify-center">
                         <img
-                            className="w-[90%] h-full  object-cover "
+                            className="w-[80%] h-full  object-cover "
                             src={ formation?.img1}
                             alt=""
                         />
@@ -98,7 +98,7 @@ function DetailFormation() {
                             formation?.avantage &&  formation?.avantage.map((item, index) => {
                                   return (
                                       <div key={item} className='flex gap-4 items-center justify-center' >
-                          <img className='w-[52px] h-[49px]' src="/check.png" alt="" />
+                          <img className='w-[45px] h-[40px]' src="/check.png" alt="" />
                                           <p className='textNormal capitalize  text-secondary'>{ item}</p>
                       </div>
                                   )
@@ -112,7 +112,7 @@ function DetailFormation() {
           <section className=" mt-5 flex md:flex-row flex-col gap-6 ">
                 <div className="flex justify-between w-full md:flex-row flex-col items-start gap-10">
                     <div className="md:w-[50%] md:container   w-full">
-                        <img className='md:max-h-[550px]' src={ formation?.img2} alt="" />
+                        <img className='md:max-h-[500px]' src={ formation?.img2} alt="" />
                     </div>
                     <div className="md:w-[50%] md:pt-9  flex justify-start items-start flex-col gap-5 w-full">
                         <div className=''>
@@ -126,7 +126,7 @@ function DetailFormation() {
                             formation?.benefice &&  formation?.benefice.map((item, index) => {
                                   return (
                                       <div key={item} className='flex  gap-4 items-center justify-center' >
-                          <img className='w-[48px] h-[49px]' src="/plus.png" alt="" />
+                          <img className='w-[41px] h-[40px]' src="/plus.png" alt="" />
                                  <p className='textNormal capitalize text-secondary'>{ item}</p>
                       </div>
                                   )
@@ -151,7 +151,7 @@ function DetailFormation() {
                     </div>
                 </div>
           </section>
-          <div className="w-full mt-6 mb-5 flex justify-center gap-8">
+          <div className="w-full -mt-2 mb-8 flex justify-center gap-8">
                 {
                     currentProductIndex > 0 && <Link to={`/formations/${Formations[currentProductIndex - 1]?.id}`}>
                         <Button
