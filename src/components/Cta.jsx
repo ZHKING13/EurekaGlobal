@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from './ui/button';
 
 const CtaSection = ({produit}) => {
     const formationTile = "Prêt à booster vos compétences ?";
@@ -14,12 +15,12 @@ const CtaSection = ({produit}) => {
                     <div className="lg:w-[80%]">
                         <h1 className="md:title text-3xl font-bold text-white mb-4">{produit ? productTile:formationTile} </h1>
                         <p className="textNormal mb-8">{produit ? productDesc:formationDesc} </p>
-                        <button href="#" className="bg-white hidden lg:block text-gray-900 py-3 px-6 rounded-lg shadow-lg hover:shadow-xl transition duration-200">
+                        <Button className="text-primary bg-white hover: hidden lg:block ">
                             {produit ? productLink:formationLink}
-                        </button>
-                        <button href="#" className="bg-white block lg:hidden text-gray-900 py-3 px-6 rounded-lg shadow-lg hover:shadow-xl transition duration-200">
+                        </Button>
+                        <Button className="bg-white block lg:hidden ">
                             Nous contacter
-                        </button>
+                        </Button>
                     </div>
                     <div className="lg:w-1/2 lg:ml-12 relative">
                         <img src="/cta1.png" alt="Tailwind CSS" className="rounded-lg shadow-lg hover:shadow-xl transition duration-200" />
