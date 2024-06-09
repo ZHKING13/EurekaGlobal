@@ -1,6 +1,7 @@
 import React from "react";
 import ProductCard from "../components/ProductCard";
 import { productItems } from "../../data";
+import CtaSection from "../components/Cta";
 
 function Produits() {
     return (
@@ -32,12 +33,13 @@ function Produits() {
                     </div>
                 </div>
             </section>
-            <section className="flex container gap-7 flex-wrap  items-start justify-center my-8">
+            <section className="flex container gap-8 flex-wrap  items-start justify-center my-8">
                 {
                     productItems.map((item) => {
                         return <ProductCard item={item} key={item.subtitle} />
                     })
                 }
+                <CtaSection produit />
             </section>
         </div>
     );

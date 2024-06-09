@@ -12,6 +12,7 @@ import {
 import { MdEmail } from "react-icons/md";
 import { CiMail, CiGlobe } from "react-icons/ci";
 import { Button } from './ui/button';
+import { Link } from 'react-router-dom';
 function Footer() {
   return (
       <div className=" text-white bg-primary ">
@@ -39,35 +40,35 @@ function Footer() {
                   <div className="md:w-[60%]">
                       <div className="flex md:w-[100%] justify-center flex-col md:flex-row gap-8   ">
                           <div className="md:ml-5 flex items-center justify-center md:w-1/2 border-l  ">
-                              <div className="px-4 py-4 ">
+                              <div className="px-4 md:ml-[60px] py-4 ">
                                   <h1 className="mb-3 text-justify text-lg font-bold sm:text-left sm:text-lg">
                                       Nos solutions
                                   </h1>
                                   <ul className={`flex flex-col text-sm gap-0`}>
-                                      <li className="cursor-pointer flex items-center gap-2  transition-all duration-300 hover:translate-x-[2px]">
+                                      <Link to="/preambule/investisseur" className="cursor-pointer flex items-center gap-2  transition-all duration-300 hover:translate-x-[2px]">
                                           <FaCaretRight className="text-secondary text-2xl" />{" "}
                                           Investissseurs
-                                      </li>
-                                      <li className="cursor-pointer flex items-center gap-2  transition-all duration-300 hover:translate-x-[2px]">
+                                      </Link>
+                                      <Link to="/preambule/startups" className="cursor-pointer flex items-center gap-2  transition-all duration-300 hover:translate-x-[2px]">
                                           <FaCaretRight className="text-secondary text-2xl" />{" "}
                                           Startups
-                                      </li>
-                                      <li className="cursor-pointer flex items-center gap-2  transition-all duration-300 hover:translate-x-[2px]">
+                                      </Link>
+                                      <Link to="/preambule/tres-petite-entreprise" className="cursor-pointer flex items-center gap-2  transition-all duration-300 hover:translate-x-[2px]">
                                           <FaCaretRight className="text-secondary text-2xl" />{" "}
                                           TPEs
-                                      </li>
-                                      <li className="cursor-pointer flex items-center gap-2  transition-all duration-300 hover:translate-x-[2px]">
+                                      </Link>
+                                      <Link to="/preambule/petite-moyenne-entreprise" className="cursor-pointer flex items-center gap-2  transition-all duration-300 hover:translate-x-[2px]">
                                           <FaCaretRight className="text-secondary text-2xl" />{" "}
                                           PMEs
-                                      </li>
-                                      <li className="cursor-pointer flex items-center gap-2  transition-all duration-300 hover:translate-x-[2px]">
+                                      </Link>
+                                      <Link to="/preambule/grande-entreprise" className="cursor-pointer flex items-center gap-2  transition-all duration-300 hover:translate-x-[2px]">
                                           <FaCaretRight className="text-secondary text-2xl" />{" "}
                                           Grandes Entreprises
-                                      </li>
-                                      <li className="cursor-pointer flex items-center gap-2  transition-all duration-300 hover:translate-x-[2px]">
+                                      </Link>
+                                      <Link to="/preambule/personnalite-publique" className="cursor-pointer flex items-center gap-2  transition-all duration-300 hover:translate-x-[2px]">
                                           <FaCaretRight className="text-secondary text-2xl" />{" "}
                                           Personnalités Publiques
-                                      </li>
+                                      </Link>
                                   </ul>
                               </div>
                           </div>
@@ -75,23 +76,23 @@ function Footer() {
                           <div className="flex items-start justify-center border-r md:w-1/2 md:mr-12 pr-2   ">
                               <div className="px-4 py-4 text-sm ">
                                   <h1 className="mb-2 text-left text-lg font-bold sm:text-left sm:text-lg">
-                                      Nos Catalogue
+                                      Nos Catalogues
                                   </h1>
                                   <ul className="flex flex-col text-sm gap-0">
-                                      <li className="cursor-pointer flex items-cente gap-2 r transition-all duration-300 hover:translate-x-[2px]">
+                                      <Link to={"/prouits&service"} className="cursor-pointer flex items-cente gap-2 r transition-all duration-300 hover:translate-x-[2px]">
                                           <FaCaretRight className="text-secondary text-xl" />{" "}
                                           Produits et Services
-                                      </li>
-                                      <li className="cursor-pointer flex gap-2 items-center transition-all duration-300 hover:translate-x-[2px]">
+                                      </Link>
+                                      <Link to="/formations" className="cursor-pointer flex gap-2 items-center transition-all duration-300 hover:translate-x-[2px]">
                                           <FaCaretRight className="text-secondary text-xl" />{" "}
                                           Formations à la Carte
-                                      </li>
+                                      </Link>
                                   </ul>
                               </div>
                           </div>
                       </div>
                       <div className="w-[100%]">
-                          <div className="border-t py-3 md:ml-5 md:mr-12 md:border-r md:border-l w-[100% - 20px] border-gray-100  text-center">
+                          <div className="border-t text-sm py-3 md:ml-5 md:mr-12 md:border-r md:border-l w-[100% - 20px] border-gray-100  text-center">
                               © 2024{" "}
                               <span className="text-secondary">Eureka</span>{" "}
                               Global Tous droits réservés

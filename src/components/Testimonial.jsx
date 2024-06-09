@@ -7,7 +7,6 @@ function Testimanials() {
   return (
       <div className="flex text-primary flex-wrap items-center" >
           <InfiniteMovingCards direction="right" items={testimonials} />
-          <InfiniteMovingCards direction="left" items={testimonials} />
    </div>
   );
 }

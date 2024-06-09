@@ -77,7 +77,7 @@ function Preambule() {
                   >
                       <div className="md:w-[45%] rounded-2xl  h-[287px] w-full">
                           <img
-                              className="h-full w-full object-cover"
+                              className="h-full w-full object-cover rounded-2xl"
                               src="./invest.png"
                               alt="service 1"
                           />
@@ -139,7 +139,7 @@ function Preambule() {
                       </div>
                       <div className="md:w-[45%] rounded-2xl w-full">
                           <img
-                              className="h-full w-full object-cover"
+                              className="h-full w-full object-cover rounded-2xl"
                               src="./tpe.png"
                               alt="service 1"
                           />
@@ -153,7 +153,7 @@ function Preambule() {
                   >
                       <div className="md:w-[45%] rounded-2xl  h-[287px] w-full">
                           <img
-                              className="h-full w-full object-cover"
+                              className="h-full rounded-2xl w-full object-cover"
                               src="./pme.png"
                               alt="service 1"
                           />
@@ -217,9 +217,9 @@ function Preambule() {
                               </Link>{" "}
                           </div>
                       </div>
-                      <div className="md:w-[45%] rounded-2xl w-full">
+                      <div className="md:w-[45%]  w-full">
                           <img
-                              className="h-full w-full object-cover"
+                              className="h-full w-full object-cover rounded-2xl"
                               src="./ppublic.png"
                               alt="service 1"
                           />
@@ -231,21 +231,21 @@ function Preambule() {
                       data-aos-duration="300"
                       className="flex flex-col-reverse md:flex-row gap-10 w-full"
                   >
-                      <div className="md:w-[45%] rounded-2xl  h-[287px] w-full">
+                      <div className="md:w-[45%]   h-[287px] w-full">
                           <img
-                              className="h-full w-full object-cover"
+                              className="h-full rounded-2xl w-full object-cover"
                               src="./entreprise.png"
                               alt="personnalite public"
                           />
                       </div>
-                      <div className="flex flex-col justify-around  md:w-[45%] w-full ">
+                      <div className="flex flex-col justify-around gap-3 md:w-[45%] w-full ">
                           <h2 className="text-primary heading font-bold">
                               Pour les{" "}
                               <span className="text-secondary">
                                   Personnalités Publiques
                               </span>{" "}
                           </h2>
-                          <p className="textNormal">
+                          <p className="textNormal mt-2">
                               Chez {logo}, nous comprenons l'importance de votre
                               rôle et les défis complexes auxquels vous êtes
                               confrontés. Notre équipe dédiée aux leaders
@@ -292,8 +292,8 @@ function Preambule() {
                               stratégiques.
                           </p>
                       </div>
-                      <div>
-                          <h2 className=" text-primary text-xl font-bold">
+                      <div className='my-5'>
+                          <h2 className=" text-primary heading my-2 font-bold">
                               CONTACTEZ-NOUS DES AUJOURD'HUI
                           </h2>
                           <p className="textNormal mt-2">
@@ -317,7 +317,7 @@ function Preambule() {
                   </div>
                   <div className="md:w-[45%]  w-full">
                       <img
-                          className="h-full w-full object-cover"
+                          className="h-full w-full object-cover rounded-2xl"
                           src="./ct.png"
                           alt="call to action"
                       />
