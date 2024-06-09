@@ -7,24 +7,30 @@ export const logo = <>
 function Preambule() {
   return (
       <div className="">
-          <div className="pt-20 md:pt-3  md:pl-[100px] md:pr-20 flex flex-col items-start justify-center gap-11 md:h-[70vh] pb-5 container bg-primary text-white">
-              <h1 className="  font-bold mont title">
-                  PREAMBULE A{" "}
-                  <span className="text-bold text-secondary">
-                      NOS SOLUTIONS SUR MESURES
-                  </span>
-              </h1>
-              <p className=" text-start textNormal">
-                  <span className="font-bold text-secondary">EUREKA</span>{" "}
-                  <span className="font-bold">GLOBAL</span> vous propose une
-                  gamme complète de solutions sur mesure conçues pour répondre
-                  aux besoins spécifiques de chaque type de clientèle, de
-                  l'investisseur individuel aux grandes entreprises, en passant
-                  par les startups dynamiques et les personnalités publiques
-                  influentes. Découvrez ci-dessous nos offres personnalisées
-                  pour chaque catégorie de clients
-              </p>
-          </div>
+           <section
+                style={{
+                    backgroundImage: `url(/produit.png)`,
+                }}
+                className={`bg-[url(/produit.png)] mt-15  md:mt-15 bg-no-repeat  md:bg-cover object-contain bg-cover bg-center `}
+            >
+                <div className="h-full w-full flex pt-[16px]  items-center md:h-[60vh] container bg-primary">
+                    <div className="md:w-[90%] flex flex-col pt-20 md:pt-0 gap-6 font-bold md:ml-20 text-white">
+                        <div className="flex gap-4">
+                            <h1 className=" title ">
+                                 PREAMBULE A <span className="text-[#00B0F0FF] ">
+                                NOS SOLUTIONS SUR MESURES
+                            </span>
+                            </h1>
+                            {" "}
+                        </div>
+                        <p className="textNormal  ">
+                             <span className="font-bold text-secondary">EUREKA</span>{" "}
+                  <span className="font-bold">GLOBAL</span> vvous propose une gamme complète de solutions sur mesure conçues pour répondre aux besoins spécifiques de chaque type de clientèle, de l'investisseur individuel aux grandes entreprises, en passant par les startups dynamiques et les personnalités publiques influentes. Découvrez ci-dessous nos offres personnalisées pour chaque catégorie de clients
+                            
+                        </p>
+                    </div>
+                </div>
+            </section>
           <section className="container">
               <div className="flex flex-col items-center gap-10 pt-12 pb-6">
                   {/* lister les service de sorte a mettre le titre et la description a gauche l'image a droite avec un call to action apres la description */}
@@ -90,7 +96,7 @@ function Preambule() {
                           <p className="textNormal">
                               Chez {logo}, nous comprenons que chaque entreprise
                               est unique. Nos solutions sont adaptées pour
-                              répondre spécifi-quement aux besoins de chaque
+                              répondre spécifiquement aux besoins de chaque
                               entreprise naissante pour vous soutenir
                               efficacement dans votre parcours vers la réussite.
                           </p>
@@ -283,8 +289,7 @@ function Preambule() {
                           <p className="textNormal mt-2">
                               Nos consultants disposent d'experiences pratiques,
                               renforcées par l'expertise approfondie et
-                              l'approche personnalisée d'{logo}. Nous nous enga-
-                              geons à fournir des solutions sur mesure et des
+                              l'approche personnalisée d'{logo}. Nous nous engageons à fournir des solutions sur mesure et des
                               résultats tangibles à nos clients, établissant des
                               partenariats à long terme. Optez pour notre
                               cabinet et bénéficiez d'un partenaire fiable pour

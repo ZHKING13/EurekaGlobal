@@ -17,8 +17,8 @@ function Formation() {
                     <div className="md:w-[90%] flex flex-col pt-20 md:pt-0 gap-6 font-bold md:ml-20 text-white">
                         <div className="flex gap-4">
                             <h1 className=" title ">
-                                Nos <span className="text-[#00B0F0FF] ">
-                                Formations à la carte
+                                Nos Formations <span className="text-[#00B0F0FF] ">
+                                 à la carte
                             </span>
                             </h1>
                             {" "}
