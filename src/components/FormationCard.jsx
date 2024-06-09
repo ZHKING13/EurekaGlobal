@@ -31,7 +31,7 @@ const FormationCard = ({ item, index }) => {
                 <div className="w-full flex items-end justify-center">
                     <Link
                         to={`/formations/${item.id}`}
-                        className="inline-flex text-right items-center px-3 py-2 text-sm font-medium  text-primary/90 rounded-lg bg-primary text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                        className="inline-flex text-right items-center hover:bg-secondary duration-300 px-3 py-2 text-sm font-medium  text-primary/90 rounded-lg bg-primary text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                     >
                         Découvrir
                         <svg

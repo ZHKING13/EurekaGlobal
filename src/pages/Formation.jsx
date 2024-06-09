@@ -14,17 +14,18 @@ function Formation() {
                 className={`bg-[url(/produit.png)] mt-20 bg-no-repeat  md:bg-cover object-contain bg-cover bg-center md:h-[70vh]`}
             >
                 <div className="h-full w-full flex items-center container bg-primary">
-                    <div className="md:w-[60%] flex flex-col gap-6 font-bold md:ml-20 text-white">
+                    <div className="md:w-[90%] flex flex-col gap-6 font-bold md:ml-20 text-white">
                         <div className="flex gap-4">
                             <h1 className=" title ">
-                                Nos <span className="text-[#00B0F0FF] md:text-3xl text-2xl">
+                                Nos <span className="text-[#00B0F0FF] ">
                                 Formations à la carte
                             </span>
                             </h1>
                             {" "}
                         </div>
-                        <p className="textNormal  md:w-[90%]">
-                            EUREKA GLOBAL vous propose une gamme diversifiée de
+                        <p className="textNormal  ">
+                             <span className="font-bold text-secondary">EUREKA</span>{" "}
+                  <span className="font-bold">GLOBAL</span> vous propose une gamme diversifiée de
                             modules conçue pour améliorer les compétences de
                             votre équipe nécesssaire pour garantir une
                             croissance pérenne et une performance
@@ -69,7 +70,7 @@ function Formation() {
                         <div className="w-full flex items-end justify-center">
                             <Link
                                 to={`/formations/MGSD24`}
-                                className="inline-flex text-right items-center px-3 py-2 text-sm font-medium  text-primary/90 rounded-lg bg-primary text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                                className="inline-flex text-right hover:bg-secondary items-center px-3 py-2 text-sm font-medium  text-primary/90 rounded-lg bg-primary text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                             >
                                 Découvrir
                                 <svg
