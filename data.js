@@ -456,7 +456,7 @@ export const formation = [{
 
 ]
 export const Formations = [{
-        title: " Module Innovation ",
+        title: "Innovation ",
         "id": "MI24",
         "img1": "/inov.png",
         "img2": "/inov1.png",

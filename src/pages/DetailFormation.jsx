@@ -145,7 +145,7 @@ function DetailFormation() {
                         </div>
                           <p className=" w-[97%]">
                               <span className="textNormal ">{formation?.soulagement1}</span> {" "}
-                              <span className='textNormal text-bold'>{formation?.soulagement1} </span>
+                              <span className='textNormal font-bold'>{formation?.soulagement2} </span>
                      </p>
                     </div>
                     </div>
