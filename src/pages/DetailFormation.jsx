@@ -99,7 +99,7 @@ function DetailFormation() {
                                   return (
                                       <div key={item} className='flex gap-4 items-center justify-center' >
                           <img className='w-[52px] h-[49px]' src="/check.png" alt="" />
-                                          <p className='textNormal  text-secondary'>{ item}</p>
+                                          <p className='textNormal capitalize  text-secondary'>{ item}</p>
                       </div>
                                   )
                               })
@@ -127,7 +127,7 @@ function DetailFormation() {
                                   return (
                                       <div key={item} className='flex  gap-4 items-center justify-center' >
                           <img className='w-[48px] h-[49px]' src="/plus.png" alt="" />
-                                 <p className='textNormal  text-secondary'>{ item}</p>
+                                 <p className='textNormal capitalize text-secondary'>{ item}</p>
                       </div>
                                   )
                               })

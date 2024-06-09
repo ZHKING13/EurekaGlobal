@@ -19,7 +19,7 @@ const ProductCard = ({ item }) => {
                 <div className="w-full flex items-end justify-end">
                     <Link
                         to={`/prouits&service/${item.id}`}
-                        className="inline-flex text-right items-center  hover:text-white duration-300 px-3 py-2 text-sm font-medium  text-primary/90 rounded-lg hover:bg-primary  focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                        className="inline-flex text-right items-center  hover:text-white duration-300 px-3 py-2 text-sm font-medium bg-primary  text-white rounded-lg hover:bg-secondary  focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                     >
                         Découvrir
                         <svg

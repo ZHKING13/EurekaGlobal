@@ -7,7 +7,7 @@ export const logo = <>
 function Preambule() {
   return (
       <div className="">
-          <div className="pt-20 md:pl-20 md:pr-20 flex flex-col items-start justify-center gap-11 md:h-[70vh] pb-5 container bg-primary text-white">
+          <div className="pt-20 md:pt-3  md:pl-[100px] md:pr-20 flex flex-col items-start justify-center gap-11 md:h-[70vh] pb-5 container bg-primary text-white">
               <h1 className="  font-bold mont title">
                   PREAMBULE A{" "}
                   <span className="text-bold text-secondary">
@@ -306,13 +306,9 @@ function Preambule() {
                           </p>
                       </div>
                       <div className="md:w-40 w-full">
-                          <Button
-                              
-                              
-                              className=" rounded-[45px] bg-secondary hover:bg-primary w-full"
-                          >
-                              Prendre rendez-vous
-                          </Button>
+                         <Button className="rounded-[45px] " size="lg">
+                      Prendre rendez-vous
+                  </Button>
                       </div>
                   </div>
                   <div className="md:w-[45%]  w-full">
