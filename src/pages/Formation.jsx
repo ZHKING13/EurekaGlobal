@@ -2,6 +2,7 @@ import React from "react";
 import { formation } from "../../data";
 import FormationCard from "../components/FormationCard";
 import { Link } from "react-router-dom";
+import CtaSection from "../components/Cta";
 
 function Formation() {
     return (
@@ -40,11 +41,11 @@ function Formation() {
                 </div>
             </section>
             <div className="my-5 h-5"></div>
-            <section className="flex container gap-8 flex-wrap mx-auto items-start justify-center   my-10">
+            <section className="flex container gap-9 flex-wrap mx-auto items-start justify-center   my-10">
                 {formation.map((item,index) => {
                     return <FormationCard index={index+1} item={item} key={item.img} />;
                 })}
-                <div className="max-w-[300px] hover:shadow-custom bg-white border border-[#002267FF] rounded-lg p-3  dark:bg-gray-800 dark:border-gray-700">
+                <div className="max-w-[310px] hover:shadow-custom bg-white border border-[#002267FF] rounded-lg p-3  dark:bg-gray-800 dark:border-gray-700">
                     <a className="flex items-center justify-center">
                         <img className="rounded-t-lg" src="/f10.png" alt="" />
                     </a>
@@ -90,7 +91,9 @@ function Formation() {
                         </div>
                     </div>
                 </div>
+            <CtaSection />
             </section>
+
         </div>
     );
 }
