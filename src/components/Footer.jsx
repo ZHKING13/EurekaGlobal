@@ -17,7 +17,7 @@ function Footer() {
   return (
       <div className=" text-white bg-primary ">
           <section className="mx-auto w-full max-w-[1350px] dark:text-white">
-              <div className=" flex w-full sm:items-center flex-col md:flex-row">
+              <div className=" flex w-full sm:items-center justify-start flex-col md:flex-row">
                   <div className="w-full md:w-[20%] justify-center flex flex-col items-center gap-2  px-1 py-1 ">
                       <img src="/log.png" alt="" />
                       <div className=" flex flex-col items-between text-center ">
@@ -33,7 +33,7 @@ function Footer() {
                       </div>
 
                       <div className=" text-[12px] flex items-center gap-3">
-                          <p>Le Conseil au service de votre performance.</p>
+                          <p>Le Conseil au service de votre performance</p>
                       </div>
                       {/* Social Handle mdeia */}
                   </div>

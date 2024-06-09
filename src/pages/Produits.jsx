@@ -10,10 +10,10 @@ function Produits() {
                 style={{
                     backgroundImage: `url(/produit.png)`,
                 }}
-                className={`bg-[url(/produit.png)] mt-20 bg-no-repeat md:bg-cover object-contain bg-cover bg-center md:h-[70vh]`}
+                className={`bg-[url(/produit.png)] mt-15 bg-no-repeat md:bg-cover object-contain bg-cover bg-center md:h-[60vh]`}
             >
-                <div className="h-full w-full flex items-center container bg-primary">
-                    <div className="md:w-[90%] flex flex-col gap-6 font-bold md:ml-20 text-white">
+                <div className="h-full w-full flex pt-20 md:pt-0 items-center container bg-primary">
+                    <div className="md:w-[90%]  flex flex-col gap-6 font-bold md:ml-20 text-white">
                         <div className="flex gap-4">
                             <h1 className=" title  ">
                                 Nos Produits  <span className="text-[#00B0F0FF] ">
@@ -25,11 +25,7 @@ function Produits() {
                         <p className="textNormal">
                             {" "}
                            <span className="font-bold text-secondary">EUREKA</span>{" "}
-                  <span className="font-bold">GLOBAL</span> vous propose une gamme diversifiée de
-                            produits et services conçus pour répondre aux
-                            besoins spécifiques de ses clients dans divers
-                            secteurs. Découvrez ci-dessous notre sélection de
-                            solutions personnalisées{" "}
+                  <span className="font-bold">GLOBAL</span> vous offre une gamme diversifiée de produits et services, conçus pour répondre aux attentes spécifiques des entreprises au sein de l'écosystème africain. Découvrez ci-dessous notre sélection de solutions personnalisées, qui garantissent performance, efficacité, croissance et succès.
                         </p>
                     </div>
                 </div>
