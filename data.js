@@ -155,7 +155,38 @@ export const preambule = [{
         id: "investisseur"
     },
 ]
-
+export const Valeurs = [{
+        title: "L'EXCELLENCE",
+        desc: "Nous visons l'excellence dans tout ce efforcons continuellement d'atteindre les plus hauts standards de qualite, d'innovation et de performance. Notre objectif est de fournir des solutions ",
+        img: "value1.jpg"
+    },
+    {
+        title: "LA COOPERATION",
+        desc: "La collaboration est au cœur de notre approche. Nous croyons en la force de la diversité des idées et en la puissance. Nous collaborons étroitement avec nos clients, en tant que partenaires, pour résoudre les défis complexes auxquels ils sont confrontés.",
+        img: "value2.jpg"
+    },
+    {
+        title: "L'AGILITE",
+        desc: "La collaboration est au cœur de notre approche. Nous croyons en la force de la diversité des idées et en la puissance. Nous collaborons étroitement avec nos clients, en tant que partenaires, pour résoudre les défis complexes auxquels ils sont confrontés.",
+        img: "value3.jpg"
+    }
+]
+export const About = [{
+        title: "NOTRE MISSION",
+        desc: "Notre mission est d'aider nos clients a  atteindre leurs objectifs, ameliorer leur ",
+        img: "about1.jpg"
+    },
+    {
+        title: "NOTRE RAISON D'ETRE",
+        desc: "La raison d'etre d'Eureka Global est d'accompagner chaque organisation a exploiter son plein potentiel",
+        img: "about2.jpg"
+    },
+    {
+        title: "NOTRE AMBITION",
+        desc: "Etre le cabinet de reference en Afrique dans I 'accompagnement sur les problematiques organisationnelles et strategiques ",
+        img: "about3.jpg"
+    }
+]
 export const navListMenuItems = [{
         title: "Produits & Services",
         description: "Pour votre Réussite strategique",

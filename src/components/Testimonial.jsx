@@ -14,15 +14,15 @@ function Testimanials() {
 const testimonials = [
   {
     quote:
-      "Grâce à Eureka Global, notre entreprise a navigué avec confiance à travers les défis. Leurs conseils stratégiques ont été inestimables.",
-    name: "Sophie Martin",
-    title: "CEO, Martin & Co.",
+      "Grâce au Module Innovation des formations à la carte proposées par Eureka Global, nos 06 collaborateurs et moi-même avons pu structurer nos activités et affiner notre vision stratégique avec des concepts innovants et des outils pratiques pour innover. Je recommande vivement leurs services pour stimuler l'innovation et maximiser la croissance de toute entreprise.",
+    name: "Jean Yves Morio",
+    title: "Président de AVI Center",
   },
   {
     quote:
-      "Travailler avec Eureka Global a été une expérience transformative pour notre équipe. Leur approche personnalisée a vraiment fait la différence.",
-    name: "Alexandre Dupont",
-    title: "Directeur des Opérations, Dupont Enterprises",
+      "Eureka Global a formé 160 acteurs de la société civile ivoirienne en communication digitale 360°, outils bureautiques et collecte de données terrain. Les résultats ont largement dépassé nos attentes. Je recommande vivement leurs services.",
+    name: "Christophe Courtin",
+    title: " Chef de Projet LIANE 2",
   },
   {
     quote:
