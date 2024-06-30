@@ -214,7 +214,7 @@ function Solution() {
                     </Button>
                     
                          {
-                    currentProductIndex < productItems.length - 1 &&  <Link to={`/prouits&service/${productItems[currentProductIndex + 1].id}`}>
+                    currentProductIndex < productItems.length - 1 &&  <Link to={`/produits&service/${productItems[currentProductIndex + 1].id}`}>
                                    <Button
                        
                         className={cn("rounded-[45px] px-6 bg-secondary",)}

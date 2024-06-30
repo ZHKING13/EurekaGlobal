@@ -72,7 +72,7 @@ function NavListMenu() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
   const renderItems = productServiceItems.map(
     ({ icon, title, description,link }, key) => (
-      <Link to={`prouits&service/${link}`} key={key}>
+      <Link to={`produits&service/${link}`} key={key}>
         <MenuItem className="flex items-center gap-3 rounded-lg">
           <div className="flex items-center justify-center rounded-lg !bg-gray-300 p-2 ">
             {" "}
@@ -339,7 +339,7 @@ function NavList() {
               color="blue-gray"
               className="font-medium flex items-center"
           >
-              <Link className="flex" to="/prouits&service">
+              <Link className="flex" to="/produits&service">
                   <ListItem className="flex items-center  gap-2 md:py-2 md:pr-2">
                       Produits & Services
                   </ListItem>
@@ -382,7 +382,7 @@ function NavList() {
               color="blue-gray"
               className="font-medium"
           >
-              <Link to="/">
+              <Link to="/about">
                   <ListItem className="flex items-center gap-2 py-2 pr-4">
                       Qui sommes-nous
                   </ListItem>

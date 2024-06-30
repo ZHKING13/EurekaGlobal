@@ -16,6 +16,7 @@ import Solution from './pages/Solution.jsx';
 import Produits from './pages/Produits.jsx';
 import Formation from './pages/Formation.jsx';
 import DetailFormation from './pages/DetailFormation.jsx';
+import Apropos from './pages/Apropos.jsx';
 Aos.init({
    delay: 700, // values from 0 to 3000, with step 50ms
   duration: 400, // values from 0 to 3000, with step 50ms
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
                 element: <Preambule />,
             },
             {
+                path: "about",
+                element: <Apropos />,
+            },
+            {
                 path: "preambule/:id",
                 element: <Details />,
             },
@@ -45,7 +50,7 @@ const router = createBrowserRouter([
                 element: <Solution />,
             },
             {
-                path: "prouits&service",
+                path: "produits&service",
                 element: <Produits />,
             },
             {
