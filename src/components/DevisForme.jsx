@@ -1,7 +1,7 @@
 import React from "react";
 import { Checkbox, Form, Input, Select } from "antd";
 import { Button } from "./ui/button";
-export default function DevisForme() {
+export default function DevisForme({handleCancel}) {
     const categories = [
         { id: 1, name: "Investisseur" },
         { id: 2, name: "Startup" },
@@ -102,7 +102,8 @@ export default function DevisForme() {
         <div className="bottom-0 left-0 flex justify-center w-full pb-4 space-x-4 md:px-4 ">
         
           <button
-            type="button"
+                type="button"
+                onClick={handleCancel}
             data-drawer-dismiss="drawer-create-product-default"
             aria-controls="drawer-create-product-default"
             className="inline-flex w-full justify-center text-primary items-center bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-primary-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600"

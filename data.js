@@ -156,35 +156,35 @@ export const preambule = [{
     },
 ]
 export const Valeurs = [{
-        title: "L'EXCELLENCE",
-        desc: "Nous visons l'excellence dans tout ce efforcons continuellement d'atteindre les plus hauts standards de qualite, d'innovation et de performance. Notre objectif est de fournir des solutions ",
+        title: "ENGAGEMENT ET CLARTE",
+        desc: "La communication claire et l'engagement envers les clients et partenaires démontrent la transparence et la fiabilité du Cabinet EUREKA GLOBAL, ce qui est essentiel pour établir et maintenir  des relations solides.",
         img: "value1.jpg"
     },
     {
-        title: "LA COOPERATION",
-        desc: "La collaboration est au cœur de notre approche. Nous croyons en la force de la diversité des idées et en la puissance. Nous collaborons étroitement avec nos clients, en tant que partenaires, pour résoudre les défis complexes auxquels ils sont confrontés.",
+        title: "DETERMINATION ET VOLONTE",
+        desc: "Cette valeur montre l'engagement du Cabinet EUREKA GLOBAL à atteindre les objectifs fixés pour ses clients et à surmonter les obstacles avec détermination.",
         img: "value2.jpg"
     },
     {
-        title: "L'AGILITE",
-        desc: "La collaboration est au cœur de notre approche. Nous croyons en la force de la diversité des idées et en la puissance. Nous collaborons étroitement avec nos clients, en tant que partenaires, pour résoudre les défis complexes auxquels ils sont confrontés.",
+        title: "COLLABORATION",
+        desc: "Au cœur de notre culture, nous considérons la collaboration comme un puissant catalyseur. Nous croyons fermement en la synergie des partenariats avec nos clients, consultatnts experts et consultants, afin d'atteindre des résultats  exceptionnels.",
         img: "value3.jpg"
     }
 ]
 export const About = [{
         title: "NOTRE MISSION",
-        desc: "Notre mission est d'aider nos clients a  atteindre leurs objectifs, ameliorer leur ",
-        img: "about1.jpg"
+        desc: "Guider les dirigeants et entreprises africaines vers l'excellence dans leurs domaines stratégiques. Nous nous engageons à vous offrir  des solutions personnalisées, encourager l'innovation et cultiver la performance organisationnelle ",
+        img: "about1.png"
     },
     {
         title: "NOTRE RAISON D'ETRE",
-        desc: "La raison d'etre d'Eureka Global est d'accompagner chaque organisation a exploiter son plein potentiel",
-        img: "about2.jpg"
+        desc: "Accompagner chaque organisation à exploiter son plein potentiel, en guidant les dirigeants en Afrique vers l'excellence stratégique.",
+        img: "about2.png"
     },
     {
         title: "NOTRE AMBITION",
-        desc: "Etre le cabinet de reference en Afrique dans I 'accompagnement sur les problematiques organisationnelles et strategiques ",
-        img: "about3.jpg"
+        desc: "Etre le cabinet de reference en Afrique dans I'accompagnement sur les problematiques organisationnelles et strategiques",
+        img: "about3.png"
     }
 ]
 export const navListMenuItems = [{
@@ -716,6 +716,9 @@ export const produits = [{
                 icon: "/icon.png"
             }
         ],
+        aprocheTitle: "NOTRE approche pratique pour CREER VOTRE ENTREPRISE ",
+        importanceTitle: "Les avantages de NOTRE solution CREATION D'ENTREPRISE : ",
+
         "advantages": [
             "Simplification du processus de création d'entreprise",
             "Gestion professionnelle des formalités administratives, juridiques et fiscales",
@@ -727,6 +730,8 @@ export const produits = [{
     },
     {
         "title": "EXTERNALISATION JURIDIQUE ET FISCALE",
+        aprocheTitle: "NOTRE approche pratique pour vOTRE externalisation juridique et fiscale :",
+        importanceTitle: "Les avantages de NOTRE solution externalisation juridique et fiscale :",
         id: "EJF2024",
         img: "/s2.png",
         "description": "Notre Pack Externalisation Juridique et Fiscale offre à votre entreprise une solution complète pour gérer efficacement vos obligations juridiques et fiscales. Notre équipe prend en charge tous les aspects de la fiscalité, depuis le calcul des impôts jusqu'à la gestion des déclarations, ainsi que les aspects juridiques liés à votre activité.",
@@ -771,8 +776,11 @@ export const produits = [{
         ],
         "whyChoose": "EUREKA GLOBAL dispose d'une équipe d'experts juridiques et fiscaux ayant une expérience approfondie dans ce domaine. Nous vous offrons un service personnalisé et de haute qualité, garantissant que vos obligations juridiques et fiscales sont remplies de manière efficace et conforme.",
         "contact": "Prenez dès maintenant la décision de sécuriser l'avenir de votre entreprise en optant pour notre Pack Externalisation Juridique et Fiscale. Contactez-nous dès aujourd'hui pour découvrir comment nous pouvons vous aider à assurer une gestion juridique et fiscale optimale pour votre entreprise."
-    }, {
+    },
+    {
         "title": "EXTERNALISATION DE MA COMPTABILITÉ",
+        importanceTitle: "Les avantages de NOTRE solution externalisation juridique et fiscale :",
+        aprocheTitle: "NOTRE approche pratique poUR externalisER VOTRE COMPTABILITE :",
         id: "EMC2024",
         img: "/s3.png",
         "description": "Notre solution Externalisation de ma Comptabilité offre aux entreprises africaines une gestion comptable fiable et adaptée. Grâce à notre logiciel comptable performant et à notre équipe d'experts comptables dévoués, vous bénéficiez d'une gestion financière simplifiée et efficace.",
@@ -816,6 +824,8 @@ export const produits = [{
 
     {
         "title": "STARTER SUCCESS PACKAGE",
+        aprocheTitle: "NOTRE approche pratique pour BIEN REUSSIR VOTRE DEMARRAGE :",
+        importanceTitle: "Les avantages de NOTRE solution REUSSIR MON DEMARRAGE :",
         id: "SSP2024",
         img: "/s6.png",
         "description": "Notre solution Réussir mon Démarrage est un package complet conçu pour les entreprises cherchant à démarrer sur des bases solides. Il comprend un diagnostic approfondi, un accès à des ressources innovantes, des ateliers d'innovation et un mentorat personnalisé pour les fondateurs.",
@@ -870,6 +880,8 @@ export const produits = [{
         "contact": "Prenez le premier pas vers le succès avec notre Starter Success Package. Contactez-nous dès aujourd'hui pour bénéficier d'une expertise sur mesure et commencer votre voyage vers le succès entrepreneurial."
     }, {
         "title": "OPTIMISATION OPERATIONNELLE",
+        aprocheTitle: "NOTRE approche pratique pour VOTRE OPTIMISATION OPERATIONNELLE :",
+        importanceTitle: "Les avantages de la solution OPTIMISATION OPERATIONNELLE :",
         id: "OO2024",
         img: "/s10.png",
         "description": "Notre solution Optimisation Opérationnelle est basée sur la méthode KAIZEN. Elle vise à maximiser l'efficacité des entreprises en continuant d'améliorer constamment leurs processus. Nous travaillons en partenariat avec nos clients pour identifier les domaines d'amélioration et mettre en œuvre des solutions adaptées à leurs besoins spécifiques.",
@@ -920,8 +932,11 @@ export const produits = [{
         ],
         "whyChoose": "EUREKA GLOBAL offre une approche KAIZEN personnalisée et flexible, adaptée aux besoins uniques de chaque entreprise. Notre équipe d'experts apporte une expertise approfondie dans la mise en œuvre de principes KAIZEN et s'engage à accompagner nos clients dans leur parcours d'amélioration continue.",
         "contact": "Avec EUREKA GLOBAL, libérez le plein potentiel de votre entreprise en adoptant notre approche KAIZEN. Contactez-nous dès aujourd'hui pour une consultation personnalisée et découvrez comment nous pouvons vous aider à atteindre vos objectifs d'efficacité opérationnelle et de croissance grâce à une culture d'amélioration continue."
-    }, {
+    },
+    {
         "title": "DUE DILIGENCE EXCELLENCE",
+        aprocheTitle: "NOTRE approche pratique pour EXCELLENCER EN MATIERE DE DILIGENCE RAISONNABLE: ",
+        importanceTitle: "Les avantages de NOTRE solution DUE DILIGENCE EXCELLENCE :",
         id: "DDE2024",
         img: "/s4.png",
         "description": "Notre solution Excellence en matière de diligence raisonnable offre une approche complète et rigoureuse de l'évaluation des opportunités d'investissement. Nous analysons minutieusement chaque aspect de l'entreprise cible, y compris ses états financiers, ses performances opérationnelles, ses risques potentiels et ses perspectives de croissance, afin de fournir des recommandations éclairées aux investisseurs.",
@@ -970,8 +985,11 @@ export const produits = [{
         ],
         "whyChoose": "EUREKA GLOBAL offre une expertise inégalée en matière de due diligence, avec une équipe d'experts chevronnés et une approche personnalisée pour chaque client. Nous nous engageons à fournir des recommandations fiables et à accompagner nos clients à chaque étape de leur processus d'investissement.",
         "contact": "Maximisez votre rendement et minimisez les risques avec la solution Due Diligence Excellence d'EUREKA GLOBAL. Contactez-nous dès maintenant pour bénéficier de notre expertise et prendre des décisions d'investissement éclairées."
-    }, {
+    },
+    {
         "title": "PORTFOLIO ENHANCEMENT",
+        aprocheTitle: "NOTRE approche pratique pour AMELIORER VOTRE PORTEFEUILLE :",
+        importanceTitle: "Les avantages de NOTRE solution AMELIORATION DE VOTRE PORTEFEUILLE :",
         id: "PE2024",
         img: "/pe.png",
         "description": "Notre solution Amélioration du Portefeuille vise à améliorer la performance des investissements existants et à identifier de nouvelles opportunités stratégiques pour les investisseurs et les entrepreneurs. Grâce à notre expertise approfondie et à une approche proactive, nous aidons nos clients à gérer leur portefeuille de manière efficiente et à optimiser leurs rendements.",
@@ -1014,6 +1032,8 @@ export const produits = [{
 
     {
         "title": "ACCÉLERATEUR BOOST",
+        aprocheTitle: "NOTRE approche pratique pour BOOSTER VOTRE ACCELERATION :",
+        importanceTitle: "Les avantages de NOTRE solution BOOST ACCELERATION :",
         id: "AC2024",
         img: "/s7.png",
         "description": "L'Accélerateur Boost ou Boost d'accélération est bien plus qu'un simple coup de pouce ; c'est une collaboration dynamique conçue pour accélérer votre trajectoire vers la réussite. Cette solution offre un ensemble de services stratégiques et opérationnels pour propulser votre entreprise vers de nouveaux sommets de succès, en mettant l'accent sur le développement de stratégies de croissance, le réseautage avec des investisseurs, l'accompagnement opérationnel et la communication digitale.",
@@ -1058,8 +1078,11 @@ export const produits = [{
         ],
         "whyChoose": "EUREKA GLOBAL offre une expertise sur mesure et un engagement envers le succès de ses clients. Notre approche collaborative et notre focus sur les résultats font de nous le partenaire idéal pour accélérer votre trajectoire vers le succès.",
         "contact": "Accélérez votre entreprise vers de nouveaux sommets avec l'Accélérateur Boost d'EUREKA GLOBAL. Contactez-nous dès maintenant pour découvrir comment nous pouvons vous aider à propulser votre entreprise vers le succès."
-    }, {
+    },
+    {
         "title": "ENTREPRISE EN PLEINE ASCENSION",
+        aprocheTitle: "NOTRE approche pratique pour L'ASCENSION de VOTRE ENTREPRISE :",
+        importanceTitle: "Les avantages de NOTRE solution ENTREPRISE EN PLEINE ASCENSION :",
         id: "EEPA2024",
         img: "/s8.png",
         "description": "Notre solution Entreprise en Pleine Ascension offre une approche complète conçue pour stimuler la croissance et accroître l'efficacité de votre entreprise. Nous effectuons une analyse détaillée de tous les aspects de votre entreprise et élaborons des stratégies pratiques et personnalisées pour vous aider à progresser sur votre marché.",
@@ -1098,8 +1121,11 @@ export const produits = [{
         ],
         "whyChoose": "EUREKA GLOBAL offre une expertise éprouvée et un engagement envers le succès de ses clients. Notre approche personnalisée et notre focus sur les résultats font de nous le partenaire idéal pour accompagner votre entreprise vers de nouveaux sommets de réussite.",
         "contact": "Donnez à votre entreprise les outils nécessaires pour prospérer avec l'Entreprise en Pleine Ascension d'EUREKA GLOBAL. Contactez-nous dès maintenant pour discuter de la façon dont nous pouvons vous aider à atteindre vos objectifs et à propulser votre entreprise vers le succès."
-    }, {
+    },
+    {
         "title": "CROISSANCE MAITRISEE",
+        aprocheTitle: "NOTRE approche pratique pour MAITRISER VOTRE CROISSANCE :",
+        importanceTitle: "Les avantages de NOTRE solution CROISSANCE MAITRISEE :",
         img: "/s9.png",
         id: "CM2024",
         "description": "Notre solution Amélioration du Portefeuille vise à améliorer la performance des investissements existants et à identifier de nouvelles opportunités stratégiques pour les investisseurs etles entrepreneurs.Grâce à notre expertise approfondie et à une approche proactive, nous aidons nos clients à gérer leur portefeuille de manière efficiente et à optimiser leurs rendements.",
@@ -1138,8 +1164,11 @@ export const produits = [{
         ],
         "whyChoose": "EUREKA GLOBAL offre une expertise dédiée, une approche personnalisée et un engagement envers le succès de ses clients. Avec notre solution Croissance Maîtrisée, vous bénéficiez d'un partenariat solide pour propulser votre entreprise vers de nouveaux sommets de réussite.",
         "contact": "Prêt à maîtriser votre croissance avec EUREKA GLOBAL ? Contactez-nous dès maintenant pour discuter de la façon dont notre solution peut répondre à vos besoins spécifiques et vous aider à atteindre vos objectifs de croissance."
-    }, {
+    },
+    {
         "title": "OPTIMISATION 360",
+        aprocheTitle: "NOTRE approche pratique L'OPTIMISATION 360° :",
+        importanceTitle: "Les avantages de NOTRE solution OPTIMISATION 360°",
         img: "/s11.png",
         id: "O3602024",
         "description": "L'Optimisation 360 est une solution complète conçue pour stimuler la croissance et l'efficacité des entreprises. En adoptant une approche holistique, nous examinons tous les aspects de votre entreprise, de la structure organisationnelle à la stratégie de marché, afin d'identifier les opportunités d'amélioration et de maximiser votre potentiel de croissance.",
@@ -1180,8 +1209,11 @@ export const produits = [{
         ],
         "whyChoose": "EUREKA GLOBAL offre une expertise approfondie, une approche holistique et un engagement envers le succès de ses clients. Avec notre solution Optimisation 360, vous bénéficiez d'un partenariat solide pour optimiser votre entreprise et atteindre de nouveaux niveaux de réussite.",
         "contact": "Prêt à optimiser votre entreprise avec l'Optimisation 360 d'EUREKA GLOBAL ? Contactez-nous dès maintenant pour discuter de la façon dont notre solution peut répondre à vos besoins spécifiques et vous aider à atteindre vos objectifs de croissance."
-    }, {
+    },
+    {
         "title": "ACCELERATOR BUNDLE",
+        aprocheTitle: "NOTRE approche pratique pour ACCELERER VOTRE CROISSANCE :",
+        importanceTitle: "Les avantages de NOTRE solution acceleraTION de votre croissance :",
         img: "/s12.png",
         id: "AB2024",
         "description": "L'Accelerator Bundle ou Accélerateur des entreprises est une solution complète conçue pour propulser les entreprises vers une croissance exponentielle. Ce pack inclusif offre un plan de marketing digital et de communication sur mesure, une formation approfondie en gestion et développement commercial, ainsi qu'un accompagnement stratégique à la transformation numérique.",
@@ -1222,8 +1254,11 @@ export const produits = [{
         ],
         "whyChoose": "EUREKA GLOBAL offre une expertise approfondie, une approche holistique et un engagement envers le succès de ses clients. Avec notre solution Accelerator Bundle, vous bénéficiez d'un partenariat solide pour propulser votre entreprise vers une croissance exponentielle.",
         "contact": "Prêt à accélérer la croissance de votre entreprise avec l'Accelerator Bundle d'EUREKA GLOBAL ? Contactez-nous dès maintenant pour discuter de la façon dont notre solution peut répondre à vos besoins spécifiques et vous aider à atteindre vos objectifs de croissance."
-    }, {
+    },
+    {
         "title": "PERFORMANCE ESSENTIALS",
+        aprocheTitle: "NOTRE approche pratique ESSENTIELlES DES PERFORMANCEs :",
+        importanceTitle: "Les avantages de NOTRE SOLUTION ESSENTIELlES DES PERFORMANCEs :",
         img: "/s13.png",
         id: "PEF2024",
         "description": "Performance Essentials ou Les Essentielles des Performances est une solution complète conçue pour aider les entreprises à optimiser leur efficacité et à atteindre des niveaux de performance supérieurs. Cette offre comprend le développement de stratégies de croissance, un accompagnement opérationnel sur le terrain et la mise en réseau avec des investisseurs pour stimuler votre croissance.",
@@ -1260,8 +1295,11 @@ export const produits = [{
         ],
         "whyChoose": "EUREKA GLOBAL est votre partenaire de confiance dans la quête de l'excellence et de la croissance durable. Avec notre solution Performance Essentials, vous bénéficiez d'une expertise éprouvée, d'un soutien pratique et d'un réseau étendu pour propulser votre entreprise vers le succès.",
         "contact": "Prêt à propulser votre entreprise vers de nouveaux sommets de réussite avec Performance Essentials d'EUREKA GLOBAL ? Contactez-nous dès maintenant pour discuter de la façon dont notre solution peut répondre à vos besoins spécifiques et vous aider à atteindre vos objectifs de croissance."
-    }, {
+    },
+    {
         "title": "MARKET TOOLKIT EXPANSION",
+        aprocheTitle: "NOTRE approche pratique boite à aoutils pour votre expansion des marches :",
+        importanceTitle: "Les avantages de NOTRE boite à outils pour l'expansion des marches :",
         id: "MTE2024",
         img: "/s14.png",
         "description": "La solution Market Toolkit Expansion ou Boîte à outils pour l'Expansion des Marchés est une boîte à outils complète conçue pour aider les entreprises à étendre leur présence sur de nouveaux marchés. Elle comprend une étude de marché approfondie, des stratégies de marketing de pénétration de marché, des campagnes de marketing ciblées et un soutien à l'exécution des stratégies.",
@@ -1302,8 +1340,11 @@ export const produits = [{
         ],
         "whyChoose": "EUREKA GLOBAL est votre partenaire de confiance pour étendre votre entreprise sur de nouveaux marchés. Avec notre solution Market Toolkit Expansion, vous bénéficiez d'une expertise approfondie, de stratégies éprouvées et d'un soutien pratique pour atteindre vos objectifs d'expansion.",
         "contact": "Prêt à explorer de nouveaux horizons avec Market Toolkit Expansion d'EUREKA GLOBAL ? Contactez-nous dès maintenant pour démarrer votre voyage vers une expansion réussie et une croissance commerciale durable."
-    }, {
+    },
+    {
         "title": "STRATEGIC OVERHAUL PROGRAM",
+        aprocheTitle: "NOTRE approche pratique DE TRANSFORMATION STRATEGIQUE :",
+        importanceTitle: "Les avantages de NOTRE SOLUTION TRANSFoRMATION STRATEGIQUE :",
         id: "SOP2024",
         img: "/s15.png",
         "description": "La solution Strategic Overhaul Program ou Programme de Refonte Stratégique est un plan complet conçu pour les entreprises cherchant une transformation stratégique approfondie. Il comprend un audit complet de l'organisation, un plan de transformation personnalisé, la mise en œuvre et le suivi de la stratégie, ainsi que la formation en leadership et gestion d'équipe, et le coaching et soutien continu.",
@@ -1348,8 +1389,11 @@ export const produits = [{
         ],
         "whyChoose": "EUREKA GLOBAL est votre partenaire de confiance pour une transformation stratégique réussie. Avec notre approche éprouvée et notre engagement envers votre succès, nous vous aidons à transformer votre entreprise pour un avenir prospère.",
         "contact": "Prêt à transformer votre entreprise avec confiance ? Contactez EUREKA GLOBAL dès aujourd'hui pour commencer votre Programme de Refonte Stratégique et libérer le plein potentiel de votre entreprise."
-    }, {
+    },
+    {
         "title": "INNOVATION LAB INTEGRATION",
+        aprocheTitle: "NOTRE approche pratique POUR INTEGRER VOTRE LABO inTERNE D'innovation :",
+        importanceTitle: "Les avantages de NOTRE SOLUTION votre Laboratoire interne d'innovation :",
         id: "ILI2024",
         img: "/s16.png",
         "description": "Notre solution Innovation Lab Integration ou Intégration d'un laboratoire interne d'innovation vise à aider les entreprises à créer un environnement propice à l'innovation continue. Nous collaborons avec vous pour établir un laboratoire d'innovation interne sur mesure, fournissant les outils, la formation et le soutien nécessaires pour stimuler la créativité et encourager le développement de nouvelles idées au sein de votre organisation.",
@@ -1394,8 +1438,11 @@ export const produits = [{
         ],
         "whyChoose": "Chez EUREKA GLOBAL, nous mettons à votre disposition notre expertise et notre expérience pour vous aider à créer un laboratoire d'innovation interne efficace et adapté à votre entreprise. Notre approche personnalisée, notre engagement envers la réussite de nos clients et notre passion pour l'innovation font de nous le partenaire idéal pour votre voyage vers une culture d'innovation exceptionnelle.",
         "contact": "Libérez le potentiel d'innovation de votre entreprise dès aujourd'hui avec notre solution \"Intégration d'un laboratoire interne d'innovation\". Contactez-nous pour une consultation personnalisée et découvrez comment nous pouvons vous aider à propulser votre organisation vers de nouveaux sommets d'innovation et de succès."
-    }, {
+    },
+    {
         "title": "POLICY IMPACT ASSESSMENT",
+        aprocheTitle: "NOTRE approche pratique POUR evaluer votre impact politique :",
+        importanceTitle: "Les avantages de NOTRE SOLUTION d'ÉVALUATION DE  votre IMPACT politique :",
         id: "PIA2024",
         "description": "La solution Policy Impact Assessment ou Évaluation de l'Impact des Personnes Publiques offre une analyse approfondie des politiques existantes, visant à évaluer leur efficacité et leur impact sur la société et l'économie. Avec EUREKA GLOBAL, nous approfondissons l'analyse des politiques pour fournir des recommandations pour leur amélioration et organiser des ateliers de renforcement des compétences pour les parties prenantes concernées.",
         "importance": "Cette solution revêt une importance cruciale pour les Personnalités Publiques, car elle leur permet d'évaluer l'impact de leurs initiatives politiques sur la société et l'économie. En comprenant mieux l'efficacité de leurs politiques existantes, les Personnalités Publiques peuvent prendre des décisions plus informées pour améliorer les résultats et maximiser leur impact positif.",
@@ -1434,6 +1481,8 @@ export const produits = [{
         "contact": "Optimisez l'impact de vos initiatives politiques avec notre solution \"Évaluation de l'Impact des Personnes Publiques\". Contactez-nous dès maintenant pour une consultation personnalisée et découvrez comment nous pouvons vous aider à maximiser votre influence et votre efficacité en tant que Personnalité Publique."
     }, {
         "title": "STRATEGIC ADVISORY GOVERNANCE",
+        aprocheTitle: "NOTRE approche pratique POUR evaluer votre impact politique :",
+        importanceTitle: "Les avantages de NOTRE SOLUTION d'ÉVALUATION DE  votre IMPACT politique :",
         id: "SAG2024",
         "description": "La solution \"Conseil Stratégique en Gouvernance\" offre une expertise spécialisée aux personnalités politiques pour améliorer la gouvernance et l'efficacité organisationnelle. Chez EUREKA GLOBAL, nous fournissons des conseils personnalisés pour renforcer les pratiques de gouvernance, accompagner la mise en œuvre de réformes et concevoir des stratégies de croissance économique adaptées aux besoins spécifiques de nos clients.",
         "importance": "Cette solution revêt une importance cruciale pour les personnalités politiques, car une gouvernance efficace est essentielle pour assurer le bon fonctionnement des structures gouvernementales et maximiser l'impact positif sur la société. En améliorant la gouvernance, les personnalités politiques peuvent prendre des décisions plus éclairées et promouvoir une croissance économique durable.",

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { replaceTextWithLogo } from "../pages/Solution";
 const ProductCard = ({ item }) => {
     return (
-        <div className="max-w-[310px] bg-white border border-gray-200 rounded-lg p-3 shadow dark:bg-gray-800 dark:border-gray-700">
+        <div className="max-w-[310px] bg-white border hover:shadow-custom  border-gray-200 rounded-lg  p-3  dark:bg-gray-800 dark:border-gray-700">
             <div className="p-5">
                 <div className="flex flex-wrap gap-1">
                     <h5 className="mb-2 text-lg font-bold uppercase tracking-tight text-primary ">

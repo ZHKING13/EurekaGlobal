@@ -52,12 +52,12 @@ function Root() {
                 onCancel={handleCancel}
                 footer=""
             >
-                <DevisForme />
+                <DevisForme handleCancel={handleCancel} />
             </Modal>
-            <a href="https://wa.me/+2250788899937" target="_blank" className="w-[55px] h-[55px] cursor-pointer rounded-full flex items-center justify-center bg-green-600 fixed bottom-6 right-7">
+            <a href="https://wa.me/+2250788899937" target="_blank" className="w-[55px] z-50 h-[55px] cursor-pointer rounded-full flex items-center justify-center bg-green-600 fixed bottom-6 right-7">
                     <FaWhatsapp  className="text-5xl transform -rotate-90 text-white  " />
             </a>
-            <div className=" absolute bottom-2 -right-12">
+            <div className=" absolute z-40 bottom-2 -right-12">
  <svg
   viewBox="0 0 100 100"
   xmlns="http://www.w3.org/2000/svg"

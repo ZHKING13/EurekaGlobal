@@ -100,7 +100,8 @@ function Solution() {
                 </div>
                 <div className="  mx-auto  space-y-1 md:text-center">
                     <h2 className="pb-3 heading text-primary uppercase ">
-                        Les avantages de NOTRE solution CREATION D'ENTREPRISE
+                       {item?.aprocheTitle}
+                       
                     </h2>
                 </div>
                 <div className=" flex flex-col justify-center md:w-[85%]  md:flex-row  gap-4 ">
@@ -145,7 +146,7 @@ function Solution() {
                 </div>
                 <div className="md:container md:p-4 mx-auto space-y-1 md:text-center">
                     <h2 className="pb-3  heading text-primary  uppercase ">
-                        NOTRE APPROCHE PRATIQUE POUR CREER VOTRE ENTREPRISE
+                        {item?.importanceTitle}
                     </h2>
                 </div>
                 <div className="md:container flex flex-col justify-center md:w-[85%] md:flex-row  gap-2 ">
@@ -195,7 +196,7 @@ function Solution() {
                 </div>
                 <div className="w-full mt-6 mb-5 flex justify-center gap-8">
                        {
-                    currentProductIndex > 0 &&  <Link to={`/prouits&service/${productItems[currentProductIndex - 1].id}`}>
+                    currentProductIndex > 0 &&  <Link to={`/produits&service/${productItems[currentProductIndex - 1].id}`}>
                                    <Button
                        
                         className={cn("rounded-[45px] px-6 bg-secondary",)}

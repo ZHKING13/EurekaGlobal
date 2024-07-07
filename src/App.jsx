@@ -241,7 +241,7 @@ export default function App() {
                     <Testimanials />
                 </div>
             </section>
-            <section class="my-5">
+            <section class="md:container mb-4">
                 
             <CtaSection/>
             </section>

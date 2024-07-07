@@ -6,7 +6,7 @@ const FormationCard = ({ item, index }) => {
     return (
         <div
             className={cn(
-                "max-w-[300px] hover:shadow-custom bg-white border border-[#002267FF] rounded-lg p-3  ",
+                "max-w-[300px]  bg-white border border-gray-200 hover:shadow-custom rounded-lg p-3  ",
                 { "-mt-8 mb-10": index == 2 },
                 { "-mt-8 mb-10": index == 5 },
                 { "-mt-8 mb-10": index == 8 },

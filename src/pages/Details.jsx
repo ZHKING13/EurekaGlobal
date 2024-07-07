@@ -58,7 +58,7 @@ function Details() {
                                         className="flex flex-col justify-start items-center p-4"
                                     >
                                         <img
-                                            className="w-40 h-40 object-contain object-center "
+                                            className="w-30 h-30 object-contain object-center "
                                             src={avantage.icon}
                                             alt=""
                                         />
@@ -74,7 +74,7 @@ function Details() {
                     </div>
                     <div className="w-full mt-10 flex justify-center">
                         <Button className="rounded-[45px]">
-                            <Link to={"/prouits&service/"}>
+                            <Link to={"/produits&service/"}>
                                 Parcourir Nos Catalogues
                             </Link>
                         </Button>

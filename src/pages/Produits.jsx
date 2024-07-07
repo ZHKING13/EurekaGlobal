@@ -37,8 +37,11 @@ function Produits() {
                         return <ProductCard item={item} key={item.subtitle} />
                     })
                 }
-                <CtaSection produit />
             </section>
+            <div className="md:container mb-4">
+
+                <CtaSection produit />
+            </div>
         </div>
     );
 }
