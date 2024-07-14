@@ -42,7 +42,8 @@ export default function App() {
                             votre cabinet conseil dédié à propulser votre
                             entreprise vers l'excellence.
                         </p>
-                        <Button
+                        <Link to="/contact">
+                             <Button
                             data-aos="fade-up"
                             size="lg"
                             variant="CTA"
@@ -50,6 +51,7 @@ export default function App() {
                         >
                             Exprimez vos bésoins
                         </Button>
+                        </Link>
                     </div>
                 </div>
             </section>
@@ -181,7 +183,7 @@ export default function App() {
                                 levier de votre réussite.
                             </p>
                             <div className="md:w-40 w-full">
-                                <Link to={"/prouits&service"}>
+                                <Link to={"/produits&service"}>
                                     <Button
                                         size="lg"
                                         className="rounded-[45px] w-full"
@@ -243,7 +245,7 @@ export default function App() {
             </section>
             <section class="md:container mb-4">
                 
-            <CtaSection/>
+            <CtaSection produit/>
             </section>
         </div>
     );

@@ -171,7 +171,7 @@ Nous les étudierons attentivement et vous fournirons une réponse rapide.</p>
   )
 }
 
-const entreprises = [
+export const entreprises = [
   "Investisseur",
   "Startup",
   "Très Petite Entreprise (TPE)",
@@ -179,7 +179,7 @@ const entreprises = [
   "Grande Entreprise",
   "Personnalité Publique"
 ];
-const employeeCategories = [
+export const employeeCategories = [
   "1 – 9 employés",
   "10 – 49 employés",
   "50 – 249 employés",

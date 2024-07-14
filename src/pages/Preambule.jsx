@@ -311,9 +311,11 @@ function Preambule() {
                           </p>
                       </div>
                       <div className="md:w-40 w-full">
-                         <Button className="rounded-[45px] " size="lg">
+                          <Link to={"/contact"}>
+                              <Button className="rounded-[45px] " size="lg">
                       Prendre rendez-vous
-                  </Button>
+                              </Button>
+                          </Link>
                       </div>
                   </div>
                   <div className="md:w-[45%]  w-full">

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Navbar,
   Collapse,
@@ -67,12 +67,12 @@ const navListMenuItems = [
   
 ];
  
-function NavListMenu() {
+function NavListMenu({ handleLocationChange }) {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
   const renderItems = productServiceItems.map(
     ({ icon, title, description,link }, key) => (
-      <Link to={`produits&service/${link}`} key={key}>
+      <Link onClick={()=>handleLocationChange()} to={`produits&service/${link}`} key={key}>
         <MenuItem className="flex items-center gap-3 rounded-lg">
           <div className="flex items-center justify-center rounded-lg !bg-gray-300 p-2 ">
             {" "}
@@ -145,12 +145,12 @@ function NavListMenu() {
       </React.Fragment>
   );
 }
-function Cible() {
+function Cible({handleLocationChange }) {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
   const renderItems = targetAudienceItems.map(
     ({ icon, title, description,link }, key) => (
-      <Link to={`preambule/${link}`} key={key}>
+      <Link onClick={()=>handleLocationChange()} to={`preambule/${link}`} key={key}>
         <MenuItem className="flex items-center gap-3  rounded-lg">
           <div className="flex items-center justify-center rounded-lg bg-gray-300 p-2 ">
             {" "}
@@ -223,12 +223,12 @@ function Cible() {
       </React.Fragment>
   );
 }
-function Formation() {
+function Formation({ handleLocationChange }) {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
   const renderItems = trainingModuleItems.map(
     ({ icon, title, description,id }, key) => (
-      <Link to={`/formations/${id}`} key={key}>
+      <Link onClick={()=>handleLocationChange()} to={`/formations/${id}`} key={key}>
         <MenuItem className="flex items-center gap-3 rounded-lg">
           <div className="flex items-center justify-center rounded-lg bg-gray-300 p-2 ">
             {" "}
@@ -290,7 +290,7 @@ function Formation() {
                   </Typography>
               </MenuHandler>
               <MenuList className="hidden max-w-screen-xl rounded-xl lg:block">
-                  <ul className="grid grid-cols-3 gap-y-2 outline-none outline-0">
+                  <ul  className="grid grid-cols-3 gap-y-2 outline-none outline-0">
                       {renderItems}
                   </ul>
               </MenuList>
@@ -302,7 +302,7 @@ function Formation() {
   );
 }
  
-function NavList() {
+function NavList({ selectedItem, setSelectedItem,handleLocationChange }) {
   return (
       <List className="mt-4 mb-6 p-0 lg:mt-0 lg:mb-0 lg:flex-row ">
           <Typography
@@ -312,8 +312,8 @@ function NavList() {
               color="blue-gray"
               className="font-medium"
           >
-              <Link to="/">
-                  <ListItem className="flex items-center gap-2 py-2 pr-4">
+        <Link onClick={() => setSelectedItem("/")} to="/">
+                  <ListItem className={`flex items-center gap-2 py-2 pr-4 ${selectedItem === "/" ? "text-secondary" : ""}`}>
                       Acceuil
                   </ListItem>
               </Link>
@@ -325,12 +325,12 @@ function NavList() {
               color="blue-gray"
               className="font-medium flex items-center"
           >
-              <Link className="flex" to="/preambule">
-                  <ListItem className="flex items-center  gap-2 md:py-2 md:pr-2">
+              <Link onClick={() => setSelectedItem("/preambule")} className="flex" to="/preambule">
+                  <ListItem className={`flex items-center gap-2 md:py-2 md:pr-2 ${selectedItem === "/preambule" ? "text-secondary" : ""}`}>
                       Nos cibles
                   </ListItem>
               </Link>
-              <Cible />
+              <Cible handleLocationChange={handleLocationChange} />
           </Typography>
           <Typography
               as="a"
@@ -339,12 +339,12 @@ function NavList() {
               color="blue-gray"
               className="font-medium flex items-center"
           >
-              <Link className="flex" to="/produits&service">
-                  <ListItem className="flex items-center  gap-2 md:py-2 md:pr-2">
+              <Link onClick={() => setSelectedItem("/produits&service")} className="flex" to="/produits&service">
+                  <ListItem className={`flex items-center gap-2 md:py-2 md:pr-2 ${selectedItem === "/produits&service" ? "text-secondary" : ""}`}>
                       Produits & Services
                   </ListItem>
               </Link>
-              <NavListMenu />
+              <NavListMenu handleLocationChange={handleLocationChange} />
           </Typography>
           <Typography
               as="a"
@@ -353,12 +353,12 @@ function NavList() {
               color="blue-gray"
               className="font-medium flex items-center"
           >
-              <Link className="flex" to="/formations">
-                  <ListItem className="flex items-center  gap-2 md:py-2 md:pr-2">
+              <Link onClick={() => setSelectedItem("/formations")} className="flex" to="/formations">
+                  <ListItem className={`flex items-center gap-2 md:py-2 md:pr-2 ${selectedItem === "/formations" ? "text-secondary" : ""}`}>
                       Nos formations
                   </ListItem>
               </Link>
-              <Formation />
+              <Formation handleLocationChange={handleLocationChange} />
           </Typography>
 
           {/* <Typography
@@ -380,10 +380,11 @@ function NavList() {
               href="#"
               variant="small"
               color="blue-gray"
-              className="font-medium"
+        className="font-medium"
+        
           >
-              <Link to="/about">
-                  <ListItem className="flex items-center gap-2 py-2 pr-4">
+              <Link onClick={() => setSelectedItem("/about")} to="/about">
+                  <ListItem className={`flex items-center gap-2 md:py-2 md:pr-2 ${selectedItem === "/about" ? "text-secondary" : ""}`}>
                       Qui sommes-nous
                   </ListItem>
               </Link>
@@ -394,13 +395,34 @@ function NavList() {
  
 export function NavBareMenu() {
   const [openNav, setOpenNav] = React.useState(false);
- 
+  const [selectedItem, setSelectedItem] = useState("/");
+  const [path, setPath] = useState("/")
+  const paths = window.location.pathname
+  const splitLocation = paths.split("/")
+  const location = splitLocation[1]
+  const setCurentLocation = (location) => {
+    console.log("location: " + location)
+    setSelectedItem("/"+location)
+  }
+  const handleLocationChange = () => {
+     const paths = window.location.pathname
+  const splitLocation = paths.split("/")
+  const location = splitLocation[1]
+    console.log("location: " + location)
+    setSelectedItem(location)
+  }
   React.useEffect(() => {
     window.addEventListener(
       "resize",
       () => window.innerWidth >= 960 && setOpenNav(false),
     );
+      
   }, []);
+  React.useEffect(() => {
+   setCurentLocation(location)
+
+      
+  }, [selectedItem]);
  
   return (
       <Navbar className="mx-auto text-primary  container  px-5 py-1 rounded-[45px]">
@@ -409,13 +431,13 @@ export function NavBareMenu() {
                   <Logo />
               </div>
               <div className="hidden md:order-1 lg:block">
-                  <NavList />
+                  <NavList handleLocationChange={handleLocationChange} selectedItem={selectedItem} setSelectedItem={setSelectedItem} />
               </div>
-              <div className="hidden order -mr-2 gap-2 lg:flex">
+              <Link onClick={() => setSelectedItem("/contacte")} to={"/contact"} className="hidden order -mr-2 gap-2 lg:flex">
                   <Button className="rounded-[45px] " size="lg">
                       Prendre rendez-vous
                   </Button>
-              </div>
+              </Link>
               <IconButton
                   variant="text"
                   color="blue-gray"
@@ -430,12 +452,12 @@ export function NavBareMenu() {
               </IconButton>
           </div>
           <Collapse open={openNav}>
-              <NavList />
-              <div className="flex w-full flex-nowrap items-center gap-2 lg:hidden">
+              <NavList selectedItem={selectedItem} setSelectedItem={setSelectedItem} />
+              <Link to={"/contact"} className="flex w-full flex-nowrap items-center gap-2 lg:hidden">
                   <Button className="rounded-[45px] mb-3" size="lg" fullWidth>
                       Exprimez vos besoins
                   </Button>
-              </div>
+              </Link>
           </Collapse>
       </Navbar>
   );
