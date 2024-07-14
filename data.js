@@ -776,8 +776,7 @@ export const produits = [{
         ],
         "whyChoose": "EUREKA GLOBAL dispose d'une équipe d'experts juridiques et fiscaux ayant une expérience approfondie dans ce domaine. Nous vous offrons un service personnalisé et de haute qualité, garantissant que vos obligations juridiques et fiscales sont remplies de manière efficace et conforme.",
         "contact": "Prenez dès maintenant la décision de sécuriser l'avenir de votre entreprise en optant pour notre Pack Externalisation Juridique et Fiscale. Contactez-nous dès aujourd'hui pour découvrir comment nous pouvons vous aider à assurer une gestion juridique et fiscale optimale pour votre entreprise."
-    },
-    {
+    }, {
         "title": "EXTERNALISATION DE MA COMPTABILITÉ",
         importanceTitle: "Les avantages de NOTRE solution externalisation juridique et fiscale :",
         aprocheTitle: "NOTRE approche pratique poUR externalisER VOTRE COMPTABILITE :",
@@ -932,8 +931,7 @@ export const produits = [{
         ],
         "whyChoose": "EUREKA GLOBAL offre une approche KAIZEN personnalisée et flexible, adaptée aux besoins uniques de chaque entreprise. Notre équipe d'experts apporte une expertise approfondie dans la mise en œuvre de principes KAIZEN et s'engage à accompagner nos clients dans leur parcours d'amélioration continue.",
         "contact": "Avec EUREKA GLOBAL, libérez le plein potentiel de votre entreprise en adoptant notre approche KAIZEN. Contactez-nous dès aujourd'hui pour une consultation personnalisée et découvrez comment nous pouvons vous aider à atteindre vos objectifs d'efficacité opérationnelle et de croissance grâce à une culture d'amélioration continue."
-    },
-    {
+    }, {
         "title": "DUE DILIGENCE EXCELLENCE",
         aprocheTitle: "NOTRE approche pratique pour EXCELLENCER EN MATIERE DE DILIGENCE RAISONNABLE: ",
         importanceTitle: "Les avantages de NOTRE solution DUE DILIGENCE EXCELLENCE :",
@@ -985,8 +983,7 @@ export const produits = [{
         ],
         "whyChoose": "EUREKA GLOBAL offre une expertise inégalée en matière de due diligence, avec une équipe d'experts chevronnés et une approche personnalisée pour chaque client. Nous nous engageons à fournir des recommandations fiables et à accompagner nos clients à chaque étape de leur processus d'investissement.",
         "contact": "Maximisez votre rendement et minimisez les risques avec la solution Due Diligence Excellence d'EUREKA GLOBAL. Contactez-nous dès maintenant pour bénéficier de notre expertise et prendre des décisions d'investissement éclairées."
-    },
-    {
+    }, {
         "title": "PORTFOLIO ENHANCEMENT",
         aprocheTitle: "NOTRE approche pratique pour AMELIORER VOTRE PORTEFEUILLE :",
         importanceTitle: "Les avantages de NOTRE solution AMELIORATION DE VOTRE PORTEFEUILLE :",
@@ -1078,8 +1075,7 @@ export const produits = [{
         ],
         "whyChoose": "EUREKA GLOBAL offre une expertise sur mesure et un engagement envers le succès de ses clients. Notre approche collaborative et notre focus sur les résultats font de nous le partenaire idéal pour accélérer votre trajectoire vers le succès.",
         "contact": "Accélérez votre entreprise vers de nouveaux sommets avec l'Accélérateur Boost d'EUREKA GLOBAL. Contactez-nous dès maintenant pour découvrir comment nous pouvons vous aider à propulser votre entreprise vers le succès."
-    },
-    {
+    }, {
         "title": "ENTREPRISE EN PLEINE ASCENSION",
         aprocheTitle: "NOTRE approche pratique pour L'ASCENSION de VOTRE ENTREPRISE :",
         importanceTitle: "Les avantages de NOTRE solution ENTREPRISE EN PLEINE ASCENSION :",
@@ -1121,8 +1117,7 @@ export const produits = [{
         ],
         "whyChoose": "EUREKA GLOBAL offre une expertise éprouvée et un engagement envers le succès de ses clients. Notre approche personnalisée et notre focus sur les résultats font de nous le partenaire idéal pour accompagner votre entreprise vers de nouveaux sommets de réussite.",
         "contact": "Donnez à votre entreprise les outils nécessaires pour prospérer avec l'Entreprise en Pleine Ascension d'EUREKA GLOBAL. Contactez-nous dès maintenant pour discuter de la façon dont nous pouvons vous aider à atteindre vos objectifs et à propulser votre entreprise vers le succès."
-    },
-    {
+    }, {
         "title": "CROISSANCE MAITRISEE",
         aprocheTitle: "NOTRE approche pratique pour MAITRISER VOTRE CROISSANCE :",
         importanceTitle: "Les avantages de NOTRE solution CROISSANCE MAITRISEE :",
@@ -1164,8 +1159,7 @@ export const produits = [{
         ],
         "whyChoose": "EUREKA GLOBAL offre une expertise dédiée, une approche personnalisée et un engagement envers le succès de ses clients. Avec notre solution Croissance Maîtrisée, vous bénéficiez d'un partenariat solide pour propulser votre entreprise vers de nouveaux sommets de réussite.",
         "contact": "Prêt à maîtriser votre croissance avec EUREKA GLOBAL ? Contactez-nous dès maintenant pour discuter de la façon dont notre solution peut répondre à vos besoins spécifiques et vous aider à atteindre vos objectifs de croissance."
-    },
-    {
+    }, {
         "title": "OPTIMISATION 360",
         aprocheTitle: "NOTRE approche pratique L'OPTIMISATION 360° :",
         importanceTitle: "Les avantages de NOTRE solution OPTIMISATION 360°",
@@ -1209,8 +1203,7 @@ export const produits = [{
         ],
         "whyChoose": "EUREKA GLOBAL offre une expertise approfondie, une approche holistique et un engagement envers le succès de ses clients. Avec notre solution Optimisation 360, vous bénéficiez d'un partenariat solide pour optimiser votre entreprise et atteindre de nouveaux niveaux de réussite.",
         "contact": "Prêt à optimiser votre entreprise avec l'Optimisation 360 d'EUREKA GLOBAL ? Contactez-nous dès maintenant pour discuter de la façon dont notre solution peut répondre à vos besoins spécifiques et vous aider à atteindre vos objectifs de croissance."
-    },
-    {
+    }, {
         "title": "ACCELERATOR BUNDLE",
         aprocheTitle: "NOTRE approche pratique pour ACCELERER VOTRE CROISSANCE :",
         importanceTitle: "Les avantages de NOTRE solution acceleraTION de votre croissance :",
@@ -1254,8 +1247,7 @@ export const produits = [{
         ],
         "whyChoose": "EUREKA GLOBAL offre une expertise approfondie, une approche holistique et un engagement envers le succès de ses clients. Avec notre solution Accelerator Bundle, vous bénéficiez d'un partenariat solide pour propulser votre entreprise vers une croissance exponentielle.",
         "contact": "Prêt à accélérer la croissance de votre entreprise avec l'Accelerator Bundle d'EUREKA GLOBAL ? Contactez-nous dès maintenant pour discuter de la façon dont notre solution peut répondre à vos besoins spécifiques et vous aider à atteindre vos objectifs de croissance."
-    },
-    {
+    }, {
         "title": "PERFORMANCE ESSENTIALS",
         aprocheTitle: "NOTRE approche pratique ESSENTIELlES DES PERFORMANCEs :",
         importanceTitle: "Les avantages de NOTRE SOLUTION ESSENTIELlES DES PERFORMANCEs :",
@@ -1295,8 +1287,7 @@ export const produits = [{
         ],
         "whyChoose": "EUREKA GLOBAL est votre partenaire de confiance dans la quête de l'excellence et de la croissance durable. Avec notre solution Performance Essentials, vous bénéficiez d'une expertise éprouvée, d'un soutien pratique et d'un réseau étendu pour propulser votre entreprise vers le succès.",
         "contact": "Prêt à propulser votre entreprise vers de nouveaux sommets de réussite avec Performance Essentials d'EUREKA GLOBAL ? Contactez-nous dès maintenant pour discuter de la façon dont notre solution peut répondre à vos besoins spécifiques et vous aider à atteindre vos objectifs de croissance."
-    },
-    {
+    }, {
         "title": "MARKET TOOLKIT EXPANSION",
         aprocheTitle: "NOTRE approche pratique boite à aoutils pour votre expansion des marches :",
         importanceTitle: "Les avantages de NOTRE boite à outils pour l'expansion des marches :",

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Button } from "../components/ui/button";
 import { productItems, produits } from "../../data";
 import { Link, Navigate, useParams } from "react-router-dom";
