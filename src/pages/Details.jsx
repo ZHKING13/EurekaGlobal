@@ -58,7 +58,7 @@ function Details() {
                                         className="flex flex-col justify-start items-center p-4"
                                     >
                                         <img
-                                            className="w-30 h-30 object-contain object-center "
+                                            className="w-[150px] h-[150px] object-contain object-center "
                                             src={avantage.icon}
                                             alt=""
                                         />

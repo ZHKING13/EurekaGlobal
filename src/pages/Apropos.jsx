@@ -57,7 +57,7 @@ function Apropos() {
       
     >
       <div className="relative mx-auto max-w-5xl text-center">
-              <h1 className="pb-4 text-primary title">QUI SOMME-NOUS</h1>
+              <h1 className="pb-4 text-white title">QUI SOMME-NOUS</h1>
 
         <h2 className="block w-full  bg-clip-text  text-black  heading">
           A PROPOS D'{logo}
@@ -150,10 +150,10 @@ const DetailCard = ({ item,id }) => {
   return (
       <div key={id} className="border hover:shadow-custom  border-gray-200 rounded-lg p-8 text-center ">
           <div
-            className="button-text mx-auto flex h-20 w-20"
+            className="button-text mx-auto flex  "
            
           >
-          <img className='h-full w-full' src={item.img} alt="" />
+          <img className='w-[150px] h-[150px] mx-auto' src={item.img} alt="" />
           </div>
           <h3 className="mt-6 heading">{item?.title} </h3>
                 <span className="my-4 mb-0  ">
