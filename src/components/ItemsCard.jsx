@@ -1,6 +1,7 @@
 import React from "react";
 import useStore from "../store/store";
-
+import { IoContractSharp } from "react-icons/io5";
+import { FaTrashCan } from "react-icons/fa6";
 function ItemsCard({ item,type }) {
      const {
         
@@ -42,9 +43,9 @@ function ItemsCard({ item,type }) {
                 onClick={() => {
                     handleRemove(item.id);
                 }}
-                className="absolute -top-1 right-1 cursor-pointer"
+                className="absolute top-1/2 right-1 transform -translate-y-1/2 cursor-pointer"
             >
-                X
+                <FaTrashCan color="red" />
             </div>
         </div>
     );

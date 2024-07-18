@@ -7,7 +7,7 @@ import { NavBareMenu } from "./components/NavBare.jsx";
 import { FileTextOutlined } from "@ant-design/icons";
 import Footer from "./components/Footer.jsx";
 import ScrollToTop from "./components/ScrollToTop.jsx";
-import { Drawer, Modal, FloatButton } from "antd";
+import { Drawer, Modal, FloatButton, Popover } from "antd";
 import useStore from "./store/store.js";
 import ItemsCard from "./components/ItemsCard.jsx";
 import { Button } from "./components/ui/button.jsx";
@@ -95,7 +95,8 @@ function Root() {
                             return <ItemsCard type="formation" item={produit} />;
                         })}
                 </div>
-                 <div onClick={toggleDrawer} className={cn("fixed py-2 px-5 flex  text-white z-50 transform -rotate-90  bg-green-600 bottom-[40%] cursor-pointer   right-[347px]",!showDrawer && "hidden")}>
+                <Popover content="cliquez pour voir votre panier">
+                     <div onClick={toggleDrawer} className={cn("fixed py-2 px-5 flex  text-white z-50 transform -rotate-90  bg-green-600 bottom-[40%] cursor-pointer   right-[347px]",!showDrawer && "hidden")}>
                 <FileTextOutlined className="mr-3 text-2xl transform rotate-90  " />
                     <p>Mes selections</p>
                     {/* custome badge */}
@@ -105,6 +106,7 @@ function Root() {
                     </div>) : (<div className="hidden"></div>)
                    }
             </div>
+                </Popover>
                 {
                     (products.length + formations.length) > 0 ? (
                         <div className="absolute bottom-5  w-full flex items-center justify-center">

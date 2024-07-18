@@ -74,7 +74,7 @@ function Details() {
                     </div>
                     <div className="w-full mt-10 flex justify-center">
                         <Button className="rounded-[45px]">
-                            <Link to={"/produits&service/"}>
+                            <Link to={"/produits&services/"}>
                                 Parcourir Nos Catalogues
                             </Link>
                         </Button>

@@ -437,7 +437,7 @@ export const formation = [{
         id: "MI24"
     },
     {
-        name: "Boîte à Outils du Manager",
+        name: "Boîte à Outils du Leader",
         desc: "Retrouvez des conseils pratiques et pistes d’actions pour vous épauler dans vos défis de management. De la gestion d'équipe à la résolution de conflits, notre module vous accompagne dans chaque aspect de votre rôle de manager. Transformez les défis en opportunités de croissance et menez votre équipe vers le succès.",
         img: "/f2.png",
         id: "MTK24"
@@ -507,24 +507,24 @@ export const Formations = [{
         soulagement2: "Contactez-nous dès maintenant pour découvrir comment notre module Innovation peut illuminer votre entreprise et transformer vos idées en action !",
     },
     {
-        title: " Boîte à Outils du Manager ",
+        title: " Boîte à Outils du Leader ",
         "id": "MTK24",
         "img1": "/mtk1.png",
         "img2": "/mtk.png",
-        detail: "Investissez judicieusement avec notre Boîte à Outils du Manager. Des compétences solides pour des investissements intelligents.",
-        "description": "Notre module Boîte à Outils du manager propose une occasion sans pareille d'armer les managers des compétences indispensables pour mener leurs équipes vers le succès avec assurance.",
+        detail: "Investissez judicieusement avec notre Boîte à Outils du Leader. Des compétences solides pour des investissements intelligents.",
+        "description": "Notre module Boîte à Outils du Leader propose une occasion sans pareille d'armer les managers des compétences indispensables pour mener leurs équipes vers le succès avec assurance.",
         avantage: [
             "Améliorez votre productivité",
             "gérez efficacement vos ressources (équipes)",
             "renforcez votre leadership",
         ],
         benefice: [
-            "Collaborez de manière optimal",
+            "Collaborez de manière optimale",
             "motivez vos équipes",
             "atteignez vos objectifs stratégiques",
         ],
         soulagement1: "Simplifiez votre gestion quotidienne, réduisez les frictions, et renforcez la cohésion d'équipe.",
-        soulagement2: " Contactez-nous dès aujourd'hui pour découvrir comment notre module Boîte à Outils du manager peut vous aider à développer les compétences nécessaires pour mener votre équipe vers le succès.",
+        soulagement2: " Contactez-nous dès aujourd'hui pour découvrir comment notre module Boîte à Outils du Leader peut vous aider à développer les compétences nécessaires pour mener votre équipe vers le succès.",
     },
     {
         title: " Leadership Stratégique ",
@@ -693,8 +693,8 @@ export const produits = [{
         "title": "PACK CRÉATION D’ENTREPRISE",
         id: "PCE2024",
         img: "/s1.png",
-        "description": "Notre solution complète s'adresse aux investisseurs et entrepreneurs en quête d'un parcours entrepreneurial simplifié en Afrique. EUREKA GLOBAL prend en charge toutes les étapes, depuis les formalités administratives jusqu'aux aspects juridiques et fiscaux, vous permettant ainsi de vous concentrer pleinement sur le développe- ment de votre activité.",
-        "importance": "Notre solution  Création de v otre Entreprise vous offre un accompagnement professionnel et complet pour garantir une mise en place réussie de votre entreprise.La création d 'une entreprise est une étape cruciale qui nécessite une gestion précise et efficace pour assurer sa réussite à long terme.",
+        "description": "Notre solution complète s'adresse aux investisseurs et entrepreneurs en quête d'un parcours entrepreneurial simplifié en Afrique. EUREKA GLOBAL prend en charge toutes les étapes, depuis les formalités administratives jusqu'aux aspects juridiques et fiscaux, vous permettant ainsi de vous concentrer pleinement sur le développement de votre activité.",
+        "importance": "Notre solution  Création de votre Entreprise vous offre un accompagnement professionnel et complet pour garantir une mise en place réussie de votre entreprise. La création d'une entreprise est une étape cruciale qui nécessite une gestion précise et efficace pour assurer sa réussite à long terme.",
         "approach": [{
                 "title": "Évaluation des besoins",
                 "subtitle": "Nous commençons par comprendre les besoins spécifiques de chaque client.",
@@ -783,7 +783,7 @@ export const produits = [{
         id: "EMC2024",
         img: "/s3.png",
         "description": "Notre solution Externalisation de ma Comptabilité offre aux entreprises africaines une gestion comptable fiable et adaptée. Grâce à notre logiciel comptable performant et à notre équipe d'experts comptables dévoués, vous bénéficiez d'une gestion financière simplifiée et efficace.",
-        "importance": "Externaliser sa comptabilité permet votre entreprise de se concentrer sur son cœur de métier tout en bénéficiant d'une gestion financière professionnelle et conforme aux normes en vigueur.Notre solution de l'externalisation de la comptabilité offre à votre entreprise la possibilité de se focaliser  sur son cœur de métier tout en profitant d'une gestion financière professionnelle et conforme aux normes en vigueur. Grâce à notre application comptable, vous bénéficiez d'une meilleure maîtrise des coûts, d'une optimisation des processus et d'une réduction des risques associés aux erreurs comptables. Cela vous assure une tranquillité d'esprit et vous permet de prendre des décisions éclairées pour favoriser la croissance de votre entreprise.",
+        "importance": "Externaliser sa comptabilité permet votre entreprise de se concentrer sur son cœur de métier tout en bénéficiant d'une gestion financière professionnelle et conforme aux normes en vigueur. Notre solution de l'externalisation de la comptabilité offre à votre entreprise la possibilité de se focaliser  sur son cœur de métier tout en profitant d'une gestion financière professionnelle et conforme aux normes en vigueur. Grâce à notre application comptable, vous bénéficiez d'une meilleure maîtrise des coûts, d'une optimisation des processus et d'une réduction des risques associés aux erreurs comptables. Cela vous assure une tranquillité d'esprit et vous permet de prendre des décisions éclairées pour favoriser la croissance de votre entreprise.",
         "approach": [{
                 "title": "Accès à notre Logiciel Comptable Performant",
                 icon: "/icon1.png",
@@ -1123,8 +1123,8 @@ export const produits = [{
         importanceTitle: "Les avantages de NOTRE solution CROISSANCE MAITRISEE :",
         img: "/s9.png",
         id: "CM2024",
-        "description": "Notre solution Amélioration du Portefeuille vise à améliorer la performance des investissements existants et à identifier de nouvelles opportunités stratégiques pour les investisseurs etles entrepreneurs.Grâce à notre expertise approfondie et à une approche proactive, nous aidons nos clients à gérer leur portefeuille de manière efficiente et à optimiser leurs rendements.",
-        "importance": "Notre solution Croissance Maîtrisée est spécialement élaborée pour répondre aux besoins des entreprises recherchant une expansion équilibrée et durable.Nous proposons des solutions personnalisées, une gestion opérationnelle et organisationnelle efficace, ainsi qu 'un conseil stratégique pour vous garantir une croissance maîtrisée.",
+        "description": "Notre solution Amélioration du Portefeuille vise à améliorer la performance des investissements existants et à identifier de nouvelles opportunités stratégiques pour les investisseurs etles entrepreneurs. Grâce à notre expertise approfondie et à une approche proactive, nous aidons nos clients à gérer leur portefeuille de manière efficiente et à optimiser leurs rendements.",
+        "importance": "Notre solution Croissance Maîtrisée est spécialement élaborée pour répondre aux besoins des entreprises recherchant une expansion équilibrée et durable. Nous proposons des solutions personnalisées, une gestion opérationnelle et organisationnelle efficace, ainsi qu 'un conseil stratégique pour vous garantir une croissance maîtrisée.",
         "approach": [{
                 "title": "Solutions personnalisées pour la compétitivité",
                 icon: "/icon1.png",
@@ -1428,7 +1428,7 @@ export const produits = [{
             }
         ],
         "whyChoose": "Chez EUREKA GLOBAL, nous mettons à votre disposition notre expertise et notre expérience pour vous aider à créer un laboratoire d'innovation interne efficace et adapté à votre entreprise. Notre approche personnalisée, notre engagement envers la réussite de nos clients et notre passion pour l'innovation font de nous le partenaire idéal pour votre voyage vers une culture d'innovation exceptionnelle.",
-        "contact": "Libérez le potentiel d'innovation de votre entreprise dès aujourd'hui avec notre solution \"Intégration d'un laboratoire interne d'innovation\". Contactez-nous pour une consultation personnalisée et découvrez comment nous pouvons vous aider à propulser votre organisation vers de nouveaux sommets d'innovation et de succès."
+        "contact": "Libérez le potentiel d'innovation de votre entreprise dès aujourd'hui avec notre solution Intégration d'un laboratoire interne d'innovation. Contactez-nous pour une consultation personnalisée et découvrez comment nous pouvons vous aider à propulser votre organisation vers de nouveaux sommets d'innovation et de succès."
     },
     {
         "title": "POLICY IMPACT ASSESSMENT",
@@ -1469,13 +1469,13 @@ export const produits = [{
         ],
         img: "/s17.png",
         "whyChoose": "EUREKA GLOBAL offre une expertise éprouvée dans l'analyse des politiques et une approche personnalisée pour répondre aux besoins spécifiques des Personnalités Publiques. En choisissant EUREKA GLOBAL, vous bénéficiez d'une évaluation rigoureuse de l'impact de vos politiques et de recommandations stratégiques pour améliorer leur efficacité.",
-        "contact": "Optimisez l'impact de vos initiatives politiques avec notre solution \"Évaluation de l'Impact des Personnes Publiques\". Contactez-nous dès maintenant pour une consultation personnalisée et découvrez comment nous pouvons vous aider à maximiser votre influence et votre efficacité en tant que Personnalité Publique."
+        "contact": "Optimisez l'impact de vos initiatives politiques avec notre solution Évaluation de l'Impact des Personnes Publiques. Contactez-nous dès maintenant pour une consultation personnalisée et découvrez comment nous pouvons vous aider à maximiser votre influence et votre efficacité en tant que Personnalité Publique."
     }, {
         "title": "STRATEGIC ADVISORY GOVERNANCE",
         aprocheTitle: "NOTRE approche pratique POUR evaluer votre impact politique :",
         importanceTitle: "Les avantages de NOTRE SOLUTION d'ÉVALUATION DE  votre IMPACT politique :",
         id: "SAG2024",
-        "description": "La solution \"Conseil Stratégique en Gouvernance\" offre une expertise spécialisée aux personnalités politiques pour améliorer la gouvernance et l'efficacité organisationnelle. Chez EUREKA GLOBAL, nous fournissons des conseils personnalisés pour renforcer les pratiques de gouvernance, accompagner la mise en œuvre de réformes et concevoir des stratégies de croissance économique adaptées aux besoins spécifiques de nos clients.",
+        "description": "La solution Conseil Stratégique en Gouvernance offre une expertise spécialisée aux personnalités politiques pour améliorer la gouvernance et l'efficacité organisationnelle. Chez EUREKA GLOBAL, nous fournissons des conseils personnalisés pour renforcer les pratiques de gouvernance, accompagner la mise en œuvre de réformes et concevoir des stratégies de croissance économique adaptées aux besoins spécifiques de nos clients.",
         "importance": "Cette solution revêt une importance cruciale pour les personnalités politiques, car une gouvernance efficace est essentielle pour assurer le bon fonctionnement des structures gouvernementales et maximiser l'impact positif sur la société. En améliorant la gouvernance, les personnalités politiques peuvent prendre des décisions plus éclairées et promouvoir une croissance économique durable.",
         "approach": [{
                 "title": "Conseils pour une gouvernance efficace",
@@ -1509,7 +1509,7 @@ export const produits = [{
         ],
         img: "/s18.png",
         "whyChoose": "EUREKA GLOBAL offre une expertise approfondie dans le domaine de la gouvernance politique et une approche personnalisée pour répondre aux besoins uniques de chaque client. En choisissant EUREKA GLOBAL, vous bénéficiez d'un partenariat solide pour renforcer votre gouvernance et optimiser votre performance organisationnelle.",
-        "contact": "Optimisez votre gouvernance politique avec notre solution \"Conseil Stratégique en Gouvernance\". Contactez-nous dès maintenant pour une consultation personnalisée et découvrez comment nous pouvons vous aider à maximiser l'efficacité de votre gouvernance et à promouvoir une croissance économique durable."
+        "contact": "Optimisez votre gouvernance politique avec notre solution Conseil Stratégique en Gouvernance. Contactez-nous dès maintenant pour une consultation personnalisée et découvrez comment nous pouvons vous aider à maximiser l'efficacité de votre gouvernance et à promouvoir une croissance économique durable."
     }
 ]
 

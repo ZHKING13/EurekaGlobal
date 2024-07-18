@@ -92,7 +92,6 @@ function Formation() {
                         </div>
                     </div>
                 </div>
-            <CtaSection />
             </section>
 
         </div>

@@ -79,7 +79,7 @@ function Footer() {
                                       Nos Catalogues
                                   </h1>
                                   <ul className="flex flex-col text-sm gap-0">
-                                      <Link to={"/produits&service"} className="cursor-pointer flex items-cente gap-2 r transition-all duration-300 hover:translate-x-[2px]">
+                                      <Link to={"/produits&services"} className="cursor-pointer flex items-cente gap-2 r transition-all duration-300 hover:translate-x-[2px]">
                                           <FaCaretRight className="text-secondary text-xl" />{" "}
                                           Produits et Services
                                       </Link>

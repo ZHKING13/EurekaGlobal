@@ -78,7 +78,8 @@ function Solution() {
                                 alt=""
                             />
                         </div>
-                        <p className="textNormal">{item?.description}</p>
+                        <p className="textNormal">                        {replaceTextWithLogo(item?.description)}
+</p>
                     </div>
                     <div className=" flex items-center md:w-[40%] max-h-[400px] justify-center">
                         <img
@@ -196,12 +197,12 @@ function Solution() {
                 </div>
                 <div className="w-full mt-6 mb-5 flex justify-center gap-8">
                        {
-                    currentProductIndex > 0 &&  <Link to={`/produits&service/${productItems[currentProductIndex - 1].id}`}>
+                    currentProductIndex > 0 &&  <Link to={`/produits&services/${productItems[currentProductIndex - 1].id}`}>
                                    <Button
                        
                         className={cn("rounded-[45px] px-6 bg-secondary",)}
                     >
-                        precedent
+                        Précedent
                     </Button>
                         </Link>
                   }
@@ -215,14 +216,18 @@ function Solution() {
                     </Button>
                     
                          {
-                    currentProductIndex < productItems.length - 1 &&  <Link to={`/produits&service/${productItems[currentProductIndex + 1].id}`}>
+                    currentProductIndex < productItems.length - 1 ? ( <Link to={`/produits&services/${productItems[currentProductIndex + 1].id}`}>
                                    <Button
                        
                         className={cn("rounded-[45px] px-6 bg-secondary",)}
                     >
                         suivant
                     </Button>
-                        </Link>
+                        </Link>) :(<Link to="/formations" >
+                                 <Button className={cn("rounded-[45px] px-6 bg-secondary",)}>
+                            Ajouter des formations
+                        </Button>
+                            </Link>)
                   }
                     
                 </div>

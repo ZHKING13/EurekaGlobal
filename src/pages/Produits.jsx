@@ -39,10 +39,7 @@ function Produits() {
                 }
                
             </section>
-            <div className="md:container mb-4">
-
-                <CtaSection produit />
-            </div>
+           
         </div>
     );
 }

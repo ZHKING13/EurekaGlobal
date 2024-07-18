@@ -158,7 +158,7 @@ function DetailFormation() {
                        
                         className={cn("rounded-[45px] px-6 bg-secondary",)}
                     >
-                        Precedent
+                        Précedent
                     </Button>
                     </Link>
                     }
@@ -171,13 +171,17 @@ function DetailFormation() {
                         Ajouter à ma selection
                     </Button>
                 {
-                    currentProductIndex < Formations.length - 1 && <Link to={`/formations/${Formations[currentProductIndex + 1]?.id}`}>
+                    currentProductIndex < Formations.length - 1 ? (<Link to={`/formations/${Formations[currentProductIndex + 1]?.id}`}>
                         <Button
                             className={cn("rounded-[45px] px-6 bg-secondary",)}
                         >
                             Suivant
                         </Button>
-                    </Link>
+                    </Link>) : ( <Link to="/produits&services" >
+                                <Button className={cn("rounded-[45px] px-6 bg-secondary",)}>
+                            Ajouter produits & services
+                            </Button>
+                            </Link>)
                   }
                     
                 </div>

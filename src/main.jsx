@@ -52,11 +52,11 @@ const router = createBrowserRouter([
                 element: <Details />,
             },
             {
-                path: "produits&service/:id",
+                path: "produits&services/:id",
                 element: <Solution />,
             },
             {
-                path: "produits&service",
+                path: "produits&services",
                 element: <Produits />,
             },
             {

@@ -425,7 +425,7 @@ export function NavBareMenu() {
   }, [selectedItem]);
  
   return (
-      <Navbar className="mx-auto text-primary  container  px-5 py-1 rounded-[45px]">
+      <Navbar className="mx-auto text-primary  container  px-2 py-1 rounded-[45px]">
           <div className="flex items-center justify-between md:flex-row-reverse ">
               <div className="md:order-2">
                   <Logo />
@@ -433,9 +433,9 @@ export function NavBareMenu() {
               <div className="hidden md:order-1 lg:block">
                   <NavList handleLocationChange={handleLocationChange} selectedItem={selectedItem} setSelectedItem={setSelectedItem} />
               </div>
-              <Link onClick={() => setSelectedItem("/contacte")} to={"/contact"} className="hidden order -mr-2 gap-2 lg:flex">
+              <Link onClick={() => setSelectedItem("/contacte")} to={"/contact"} className="hidden order mr-1 gap-2 lg:flex">
                   <Button className="rounded-[45px] " size="lg">
-                      Prendre rendez-vous
+                     Contactez-nous maintenant
                   </Button>
               </Link>
               <IconButton
@@ -455,7 +455,7 @@ export function NavBareMenu() {
               <NavList selectedItem={selectedItem} setSelectedItem={setSelectedItem} />
               <Link to={"/contact"} className="flex w-full flex-nowrap items-center gap-2 lg:hidden">
                   <Button className="rounded-[45px] mb-3" size="lg" fullWidth>
-                      Exprimez vos besoins
+                      Contactez-nous maintenant
                   </Button>
               </Link>
           </Collapse>

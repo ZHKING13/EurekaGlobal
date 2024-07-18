@@ -245,7 +245,7 @@ export default function App() {
             </section>
             <section class="md:container mb-4">
                 
-            <CtaSection produit/>
+            <CtaSection home/>
             </section>
         </div>
     );

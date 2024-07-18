@@ -5,7 +5,7 @@ export default function Contacte() {
   return (
       <div className="container mt-20 mb-2">
           <div className=''>
-              <h1 className="title text-primary font-bold ">Contactez-nous</h1>
+              <h1 className="title text-primary font-bold ">Contactez-nous maintenant</h1>
           <p>Exprimez vos besoins en remplissant le formulaire ci-dessous. 
 Nous les étudierons attentivement et vous fournirons une réponse rapide.</p>
           </div>
