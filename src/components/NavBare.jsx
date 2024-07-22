@@ -72,7 +72,7 @@ function NavListMenu({ handleLocationChange }) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
   const renderItems = productServiceItems.map(
     ({ icon, title, description,link }, key) => (
-      <Link onClick={()=>handleLocationChange()} to={`produits&service/${link}`} key={key}>
+      <Link onClick={()=>handleLocationChange()} to={`produits&services/${link}`} key={key}>
         <MenuItem className="flex items-center gap-3 rounded-lg">
           <div className="flex items-center justify-center rounded-lg !bg-gray-300 p-2 ">
             {" "}
@@ -339,8 +339,8 @@ function NavList({ selectedItem, setSelectedItem,handleLocationChange }) {
               color="blue-gray"
               className="font-medium flex items-center"
           >
-              <Link onClick={() => setSelectedItem("/produits&service")} className="flex" to="/produits&service">
-                  <ListItem className={`flex items-center gap-2 md:py-2 md:pr-2 ${selectedItem === "/produits&service" ? "text-secondary" : ""}`}>
+              <Link onClick={() => setSelectedItem("/produits&services")} className="flex" to="/produits&services">
+                  <ListItem className={`flex items-center gap-2 md:py-2 md:pr-2 ${selectedItem === "/produits&services" ? "text-secondary" : ""}`}>
                       Produits & Services
                   </ListItem>
               </Link>

@@ -18,8 +18,8 @@ function Footer() {
       <div className=" text-white bg-primary ">
           <section className="mx-auto w-full max-w-[1350px] dark:text-white">
               <div className=" flex w-full sm:items-center justify-start flex-col md:flex-row">
-                  <div className="w-full md:w-[20%] justify-center flex flex-col items-center gap-2  px-1 py-1 ">
-                      <img src="/log.png" alt="" />
+                  <div className="w-full md:w-[25%] justify-center flex flex-col items-center gap-2  px-1 py-1 ">
+                      <img className='w-20 h-20' src="/log.svg" alt="" />
                       <div className=" flex flex-col items-between text-center ">
                           <p className="text-secondary font-bold md:text-lg ">
                               EUREKA <span className="text-white">GLOBAL</span>
@@ -37,7 +37,7 @@ function Footer() {
                       </div>
                       {/* Social Handle mdeia */}
                   </div>
-                  <div className="md:w-[60%]">
+                  <div className="md:w-[55%]">
                       <div className="flex md:w-[100%] justify-center flex-col md:flex-row gap-8   ">
                           <div className="md:ml-5 flex items-center justify-center md:w-1/2 border-l  ">
                               <div className="px-4 md:ml-[60px] py-4 ">
@@ -92,7 +92,7 @@ function Footer() {
                           </div>
                       </div>
                       <div className="w-[100%]">
-                          <div className="border-t text-sm py-3 md:ml-5 md:mr-12 md:border-r md:border-l w-[100% - 20px] border-gray-100  text-center">
+                          <div className="border-t text-[12px] py-3 md:ml-5 md:mr-12 md:border-r md:border-l w-[100% - 20px] border-gray-100  text-center">
                               © 2024{" "}
                               <span className="text-secondary">Eureka</span>{" "}
                               Global Tous droits réservés

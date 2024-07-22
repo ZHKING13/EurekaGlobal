@@ -13,7 +13,7 @@ function Formation() {
                 }}
                 className={`bg-[url(/produit.png)] mt-15  md:mt-15 bg-no-repeat  md:bg-cover object-contain bg-cover bg-center `}
             >
-                <div className="h-full w-full flex pt-[60px]  items-center md:h-[60vh] container bg-primary">
+                <div className="h-full w-full flex pt-[85px]  items-star md:h-[50vh] container bg-primary">
                     <div className="md:w-[90%] flex flex-col pt-20 md:pt-0 gap-6 font-bold md:ml-20 text-white">
                         <div className="flex gap-4">
                             <h1 className=" title ">
@@ -29,14 +29,12 @@ function Formation() {
                             modules conçue pour améliorer les compétences de
                             votre équipe nécesssaire pour garantir une
                             croissance pérenne et une performance
-                            exceptionnelle.
-                            <p></p>
-                            <p className="textNormal mt-2">
-                                Votre succès commence par la formation.
+                            exceptionnelle. Votre succès commence par la formation.
                                 Parcourez nos modules et prenez le contrôle de
                                 l'avenir professionnel de vos collaborateurs dès
                                 maintenant !
-                            </p>
+                            <p></p>
+                           
                         </p>
                     </div>
                 </div>

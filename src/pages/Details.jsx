@@ -4,6 +4,20 @@ import { Link, useParams } from "react-router-dom";
 import { preambule } from "../../data";
 import { images } from "../assets";
 import useStore from "../store/store";
+import { replaceTextWithLogo } from "./Solution";
+
+const logo = <>
+<span className='font-bold text-secondary'>EUREKA</span> <span className='font-bold text-white'>GLOBAL</span></>
+const replaceWithLogo = (text) => {
+    if (!text) return null;
+    const parts = text.split("EUREKA GLOBAL");
+    return parts.map((part, index) => (
+        <span key={index}>
+            {part} 
+            {index < parts.length - 1 && logo}
+        </span>
+    ));
+}
 function Details() {
     const [item, setItem] = useState({});
     
@@ -31,14 +45,14 @@ function Details() {
                     className={`bg-[url(${item.bgImg})] mt-20 bg-no-repeat md:bg-cover object-contain bg-cover bg-center md:h-[90vh]`}
                 >
                     <div className="h-full w-full flex items-center container bg-[#0022678F]">
-                        <div className="md:w-[65%] flex flex-col gap-6 font-bold md:ml-20 text-white">
+                        <div className="md:w-[85%] flex flex-col gap-6 font-bold md:ml-20 text-white">
                             <h1 className=" title text-white font-bold ">
                                 Solutions pour les{" "}
                                 <span className="text-secondary">
                                     {item.title}{" "}
                                 </span>{" "}
                             </h1>
-                            <p className="textNormal"> {item.desc} </p>
+                            <p className="textNormal"> {replaceWithLogo(item.desc)} </p>
                         </div>
                     </div>
                 </section>

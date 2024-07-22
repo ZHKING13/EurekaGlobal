@@ -21,12 +21,12 @@ export default function App() {
                 <div className="flex flex-col md:flex-row gap-8 w-full h-full">
                     <div
                         data-aos="zoom-in-up"
-                        className="md:w-[45%] h-full w-full"
+                        className="md:w-[45%]  flex items-center h-full w-full"
                     >
                         <img
-                            src="./hero.png"
-                            alt="react logo"
-                            className="w-full object-contain h-full"
+                            src="./home.jpg"
+                            alt="Hero image"
+                            className="w-[90%] md:ml-8 h-[90%] object-center object-contain bg-cover rounded-3xl"
                         />
                     </div>
                     <div className="flex flex-col gap-4 justify-center items-start md:w-[37%] md:ml-12">
@@ -47,7 +47,7 @@ export default function App() {
                             data-aos="fade-up"
                             size="lg"
                             variant="CTA"
-                            className="mt-4 rounded-[45px]"
+                            className="mt-4 px-7 rounded-[45px]"
                         >
                             Exprimez vos bésoins
                         </Button>
