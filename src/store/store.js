@@ -35,7 +35,8 @@ const useStore = create((set) => ({
     // Fonction pour supprimer une formation par son ID
     removeFormation: (id) => set((state) => ({
         formations: state.formations.filter(formation => formation.id !== id)
-    }))
+    })),
+    resetAll: () => set({ products: [], formations: [] }),
 }));
 
 

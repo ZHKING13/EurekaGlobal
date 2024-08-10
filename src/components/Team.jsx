@@ -2,26 +2,26 @@ import React from 'react';
 
 const teamMembers = [
     {
-        role: "Consultant en Transformation d'Entreprise",
+        role: "Consultant(e) en Transformation d'Entreprise",
         description: 'Transformez votre réussite avec notre expertise',
         image: 'https://readymadeui.com/team-1.webp',
         
     },
     {
-        role: "Consultant SI en Innovation et Technologie",
+        role: "Consultant(e) SI en Innovation et Technologie",
         description: 'Innovons votre futur numérique ensemble',
         image: 'https://readymadeui.com/team-2.webp',
        
     },
     {
-        role: "Consultant en Fiscalité et Juridique",
+        role: "Consultant(e) en Fiscalité et Juridique",
         description: 'Guidance fiscale, expertise juridique',
         image: 'https://readymadeui.com/team-4.webp',
        
     },
     
     {
-        role: "Consultant en Comptabilité",
+        role: "Consultant(e) en Comptabilité",
         description: 'Simplifiez votre gestion comptable avec notre support à distance',
         image: 'https://readymadeui.com/team-4.webp',
        
@@ -29,40 +29,40 @@ const teamMembers = [
 ];
 const expert =  [
     {
-        role: "Consultant en Optimisation Opérationnelle",
+        role: "Consultant(e) en Optimisation Opérationnelle",
         description: 'Optimisez votre succès avec nos conseils opérationnels',
         image: 'https://readymadeui.com/team-1.webp',
         
     },
     
      {
-        role: "Consultant en Formation et Formateur",
+        role: "Consultant(e) en Formation et Formateur",
         description: 'Formation optimale, compétences renforcées',
         image: 'https://readymadeui.com/team-4.webp',
        
     },
     {
-        role: "Consultant Expert        en Go to Market",
+        role: "Consultant(e) Expert        en Go to Market",
         description: 'Décuplez votre impact commercial ',
         image: 'https://readymadeui.com/team-3.webp',
        
     },
     
     {
-        role: "Consultant en Développement Commercial et Marketing",
+        role: "Consultant(e) en Développement Commercial et Marketing",
         description: 'Boostez votre succès et propulsez votre croissance',
         image: 'https://readymadeui.com/team-2.webp',
        
     },
    
     {
-        role: "Consultant en Stratégie",
+        role: "Consultant(e) en Stratégie",
         description: 'Guidance stratégique, succès assuré',
         image: 'https://readymadeui.com/team-3.webp',
        
     },
     {
-        role: "Consultant en Montage de Projet et Recherche de Financement",
+        role: "Consultant(e) en Montage de Projets et Recherche de Financement",
         description: 'Projets fiables montés, financements trouvés',
         image: 'https://readymadeui.com/team-4.webp',
        
@@ -80,7 +80,7 @@ const Team = () => {
                             <div className="bg-white border hover:shadow-custom  border-gray-200 rounded-lg flex flex-col items-center overflow-hidden">
                                 <div className='w-full bg-[#F2F2F1FF] p-3 flex items-center '>
                                      <img
-                                    src={item.image}
+                                    src="./empty.png"
                                     alt={item.role}
                                     className="w-20 h-20 m-auto object-cover rounded-full object-center"
                                 />

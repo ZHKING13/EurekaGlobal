@@ -87,6 +87,10 @@ function Footer() {
                                           <FaCaretRight className="text-secondary text-xl" />{" "}
                                           Formations à la Carte
                                       </Link>
+                                      <Link to="/produits&services/MPRF2024" className="cursor-pointer flex gap-2 items-center transition-all duration-300 hover:translate-x-[2px]">
+                                          <FaCaretRight className="text-secondary text-xl" />{" "}
+                                          Financement de projets
+                                      </Link>
                                   </ul>
                               </div>
                           </div>

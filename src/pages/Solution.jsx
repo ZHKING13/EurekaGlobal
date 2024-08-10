@@ -91,7 +91,7 @@ function Solution() {
                 </div>
             </section>
             <section className=" dark:bg-gray-100 flex flex-col items-center mt-3 gap-4">
-                <div className="  mx-auto flex flex-col items-center my-6 space-y-1 md:text-center">
+                <div className="  mx-auto flex flex-col items-center  my-6 space-y-1 md:text-center">
                     <h2 className="pb-3 heading text-primary uppercase ">
                         L'IMPORTANCE de notre solution
                     </h2>
@@ -105,7 +105,7 @@ function Solution() {
                        
                     </h2>
                 </div>
-                <div className=" flex flex-col justify-center md:w-[85%]  md:flex-row  gap-4 ">
+                <div className=" flex flex-col  justify-center md:w-[85%]  md:flex-row  gap-4 ">
                     {item.approach &&
                         item?.approach.map((a, index) => {
                             return (
@@ -150,7 +150,7 @@ function Solution() {
                         {item?.importanceTitle}
                     </h2>
                 </div>
-                <div className="md:container flex flex-col justify-center md:w-[85%] md:flex-row  gap-2 ">
+                <div className="md:container  flex flex-col justify-center md:w-[85%] md:flex-row  gap-2 ">
                     {item.advantages &&
                         item.advantages.map((b, index) => {
                             return (
@@ -179,7 +179,7 @@ function Solution() {
                             );
                         })}
                 </div>
-                <div className="md:container flex flex-col items-center md:p-4 mx-auto  space-y-1 md:text-center">
+                <div className="md:container  flex flex-col items-center md:p-4 mx-auto  space-y-1 md:text-center">
                     <h2 className="pb-3 heading text-primary uppercase ">
                         Pourquoi nous choisir
                     </h2>
@@ -195,6 +195,9 @@ function Solution() {
                         {replaceTextWithLogo(item?.contact)}
                     </p>
                 </div>
+                    <p className="md:text-center md:w-[75%] text-normal font-bold mt-4 textNormal ">
+                        {replaceTextWithLogo(item?.cta)}
+                    </p>
                 <div className="w-full mt-6 mb-5 flex justify-center gap-8">
                        {
                     currentProductIndex > 0 &&  <Link to={`/produits&services/${productItems[currentProductIndex - 1].id}`}>
@@ -221,7 +224,7 @@ function Solution() {
                        
                         className={cn("rounded-[45px] px-6 bg-secondary",)}
                     >
-                        suivant
+                        Suivant
                     </Button>
                         </Link>) :(<Link to="/formations" >
                                  <Button className={cn("rounded-[45px] px-6 bg-secondary",)}>

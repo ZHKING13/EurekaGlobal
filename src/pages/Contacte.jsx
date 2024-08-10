@@ -1,9 +1,45 @@
-import React from 'react'
+import React, { useState } from "react";
 import { Form, Input, Select } from 'antd';
 import { Button } from '../components/ui/button';
+import { notification, Space } from 'antd';
+import { supabase } from "../config/db";
+
 export default function Contacte() {
+const [form] = Form.useForm();
+  const [api, contextHolder] = notification.useNotification();
+  const [loading, setLoading] = useState(false);
+
+  const openNotificationWithIcon = (type,message) => {
+    api[type]({
+      message: "",
+      description: message,
+      placement:"top"
+    });
+  };
+
+  const onFinish = async (values) => {
+    setLoading(true);
+    try {
+      const { data, error } = await supabase
+        .from('contacte')
+        .insert([values]);
+
+      if (error) {
+        throw error;
+      }
+
+      openNotificationWithIcon('success', 'Formulaire soumis avec succès !');
+      form.resetFields();
+    } catch (error) {
+      console.error('Erreur lors de la soumission du formulaire : ', error);
+      openNotificationWithIcon('error', "Une erreur s'est produite lors de la soumission du formulaire.");
+    } finally {
+      setLoading(false);
+    }
+  }
   return (
-      <div className="container mt-20 mb-2">
+    <div className="container mt-20 mb-2">
+      {contextHolder}
           <div className=''>
               <h1 className="title text-primary font-bold ">Contactez-nous maintenant</h1>
           <p>Exprimez vos besoins en remplissant le formulaire ci-dessous. 
@@ -11,9 +47,11 @@ Nous les étudierons attentivement et vous fournirons une réponse rapide.</p>
           </div>
           <div className='flex flex-col md:flex-row gap-3 w-full'>
               
-              <div className='md:w-1/2 w-[90%] mb-2'>
+              <div className='md:w-[65%] w-[90%] mb-2'>
                    <Form
-                      layout="vertical"
+                        form={form}
+            layout="vertical"
+            onFinish={onFinish}
                       
                   >
                       <div className='mt-8 grid sm:grid-cols-2 gap-3'>
@@ -43,7 +81,7 @@ Nous les étudierons attentivement et vous fournirons une réponse rapide.</p>
              </Form.Item>
                        <Form.Item
               label="Telephone"
-              name="number"
+              name="phone"
               rules={[
                 {
                   required: true,
@@ -67,7 +105,7 @@ Nous les étudierons attentivement et vous fournirons une réponse rapide.</p>
             </Form.Item>
              <Form.Item
               label="Nom de votre société"
-              name="societeName"
+              name="societe"
               rules={[
                 {
                   required: false,
@@ -100,7 +138,7 @@ Nous les étudierons attentivement et vous fournirons une réponse rapide.</p>
             </Form.Item>
              <Form.Item
               label="Type d'entreprise"
-              name="typeEntreprise"
+              name="typeSociete"
               rules={[
                 {
                   required: true,
@@ -121,7 +159,7 @@ Nous les étudierons attentivement et vous fournirons une réponse rapide.</p>
             </Form.Item>
              <Form.Item
               label="Quel sujet répond le mieux à vos besoins ?"
-              name="service"
+              name="interest"
               rules={[
                 {
                   required: true,
@@ -155,14 +193,14 @@ Nous les étudierons attentivement et vous fournirons une réponse rapide.</p>
               <Input.TextArea rows={5} placeholder="Merci de nous communiquer ce sur quoi vous avez besoin d'aide." />
             </Form.Item>
                       <div className='mt-3'>
-                          <Button  className="rounded-[45px] w-40 " size="lg">
-                     Envoyer
-                  </Button>
+                                       <Button htmlType="submit" className="rounded-[45px] w-40" size="lg" loading={loading.toString()}>
+                Envoyer
+              </Button>
               </div>
                   
                   </Form>
          </div>
-              <div className='md:w-[40%] md:pt-12'>
+              <div className='md:w-[35%] md:pt-12'>
                   <img className='h-[420px] w-full object-contain bg-cover' src="/contact.png" alt="" />
               </div>
           </div>
@@ -189,6 +227,7 @@ const serviceChoice = [
   "Produits & Services",
     "Formations à la carte",
   "Consultation surmesure",
+  "Montage de projets et Recherche de Financements",
   "Autre(s) besoin(s)"
 ];
 

@@ -41,8 +41,11 @@ function DetailFormation() {
     };
     const handleAddProduct = () => {
         if (item) {
-            addFormation(formation);
-            console.log("formation", formations);
+            const data = {
+                title: item?.title,
+                id:item?.id,
+            }
+            addFormation(item);
         }
     };
     useEffect(() => {

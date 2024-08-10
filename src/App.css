@@ -61,13 +61,40 @@ h1 {
     filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-@keyframes logo-spin {
+@keyframes appear {
     from {
-        transform: rotate(0deg);
+        opacity: 0;
+        /* clip-path: inset(100% 100% 0 0); */
+        transform: translateX(-100px);
     }
     to {
-        transform: rotate(360deg);
+        opacity: 1;
+        /* clip-path: inset(0 0 0 0); */
+        transform: translateX(0);
     }
+}
+
+@keyframes reveal {
+    from {
+        opacity: 0;
+        clip-path: inset(100% 100% 0 0);
+    }
+    to {
+        opacity: 1;
+        clip-path: inset(0 0 0 0);
+    }
+}
+
+.blocks {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.reveal {
+    animation: reveal linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
 }
 
 @media (prefers-reduced-motion: no-preference) {

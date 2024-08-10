@@ -56,12 +56,12 @@ export default function App() {
                 </div>
             </section>
             <section className="container pt-12 pb-6  md:h-[100vh] bg-[#F2F2F2FF]">
-                <div className="flex mb-3 flex-col md:flex-row items-center justify-center h-full w-full gap-6">
+                <div className="flex mb-3 flex-col blocks md:flex-row items-center justify-center h-full w-full gap-6">
                     <div
-                        data-aos="fade-down"
-                        data-aos-easing="ease-in-back"
-                        data-aos-duration="200"
-                        className="flex flex-col gap-3 md:w-[55%] w-full"
+                        // data-aos="fade-down"
+                        // data-aos-easing="ease-in-back"
+                        // data-aos-duration="200"
+                        className="flex flex-col gap-3  md:w-[55%] w-full"
                     >
                         <h1 className="md:text-2xl heading text-primary font-bold text-center mb-4">
                             A-propos
@@ -91,9 +91,7 @@ export default function App() {
                         </p>
                     </div>
                     <div
-                        data-aos="fade-down"
-                        data-aos-easing="ease-in-back"
-                        data-aos-duration="100"
+                        
                         className="md:w-[45%] h-full w-full p-5"
                     >
                         <img
@@ -111,10 +109,10 @@ export default function App() {
                     </h1>
                     {/* lister les service de sorte a mettre le titre et la description a gauche l'image a droite avec un call to action apres la description */}
                     <div
-                        data-aos="fade-up"
-                        data-aos-easing="linear"
-                        data-aos-duration="200"
-                        className="flex mb-3 flex-col md:flex-row gap-6 w-full"
+                        // data-aos="fade-up"
+                        // data-aos-easing="linear"
+                        // data-aos-duration="200"
+                        className="flex mb-3 flex-col blocks md:flex-row gap-6 w-full"
                     >
                         <div className="flex flex-col md:w-[45%] w-full gap-4">
                             <h2 className=" heading font-bold text-primary">
@@ -155,10 +153,10 @@ export default function App() {
                         </div>
                     </div>
                     <div
-                        data-aos="fade-down"
-                        data-aos-easing="linear"
-                        data-aos-duration="300"
-                        className="flex flex-col-reverse md:flex-row gap-6 w-full"
+                        // data-aos="fade-down"
+                        // data-aos-easing="linear"
+                        // data-aos-duration="300"
+                        className="flex flex-col-reverse blocks md:flex-row gap-6 w-full"
                     >
                         <div className="md:w-[45%]   h-[287px] w-full">
                             <img
@@ -195,10 +193,10 @@ export default function App() {
                         </div>
                     </div>
                     <div
-                        data-aos="fade-up"
-                        data-aos-easing="linear"
-                        data-aos-duration="200"
-                        className="flex flex-col md:flex-row gap-6 w-full"
+                        // data-aos="fade-up"
+                        // data-aos-easing="linear"
+                        // data-aos-duration="200"
+                        className="flex flex-col blocks md:flex-row gap-6 w-full"
                     >
                         <div className="flex flex-col md:w-[45%] w-full gap-4 ml-2">
                             <h2 className=" heading text-primary font-bold">

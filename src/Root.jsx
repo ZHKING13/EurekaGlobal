@@ -59,27 +59,7 @@ function Root() {
                         <FaWhatsapp  className="text-5xl transform -rotate-90 text-white  " />
                 </a>
             </Popover>
-            <div className=" absolute z-40 bottom-2 -right-12">
- <svg
-  viewBox="0 0 100 100"
-  xmlns="http://www.w3.org/2000/svg"
->
-  <path
-    id="circlePath"
-    d="
-      M 10, 50
-      a 40,40 0 1,1 80,0
-      40,40 0 1,1 -80,0
-    "
-  />
-  <text>
-    <textPath href="#circlePath">
-      Your text here!
-    </textPath>
-  </text>
-</svg>
-
-</div> 
+         
             <Drawer
                 onClose={toggleDrawer}
                 open={showDrawer}
