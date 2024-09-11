@@ -33,9 +33,11 @@ const CtaSection = ({produit,home}) => {
                        </div>
                         }
                         
-                        <Button className="bg-white block lg:hidden ">
-                            Nous contacter
-                        </Button>
+                        <Link to="/contact">
+                            <Button className="bg-white text-primary block lg:hidden ">
+                                Nous contacter
+                            </Button>
+                        </Link>
                     </div>
                     <div className="lg:w-1/2 lg:ml-12 relative">
                         <img src="/cta1.png" alt="Tailwind CSS" className="rounded-lg shadow-lg hover:shadow-xl transition duration-200" />

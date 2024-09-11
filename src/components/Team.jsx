@@ -54,19 +54,19 @@ const expert =  [
         image: 'https://readymadeui.com/team-2.webp',
        
     },
-   
+    {
+        role: "Consultant(e) en Montage de Projets et Recherche de Financement",
+        description: 'Projets fiables montés, financements trouvés',
+        image: 'https://readymadeui.com/team-4.webp',
+       
+    },
     {
         role: "Consultant(e) en Stratégie",
         description: 'Guidance stratégique, succès assuré',
         image: 'https://readymadeui.com/team-3.webp',
        
     },
-    {
-        role: "Consultant(e) en Montage de Projets et Recherche de Financement",
-        description: 'Projets fiables montés, financements trouvés',
-        image: 'https://readymadeui.com/team-4.webp',
-       
-    }
+   
 ];
 
 const Team = () => {
@@ -80,7 +80,7 @@ const Team = () => {
                             <div className="bg-white border hover:shadow-custom  border-gray-200 rounded-lg flex flex-col items-center overflow-hidden">
                                 <div className='w-full bg-[#F2F2F1FF] p-3 flex items-center '>
                                      <img
-                                    src="./empty.png"
+                                    src="./anonyme.png"
                                     alt={item.role}
                                     className="w-20 h-20 m-auto object-cover rounded-full object-center"
                                 />
@@ -121,7 +121,7 @@ const ExpertCard = ({ item }) => {
                             <div className="bg-white border hover:shadow-custom  border-gray-200 rounded-lg flex flex-col items-center overflow-hidden">
                                 <div className='w-full bg-[#F2F2F1FF] p-4 flex items-center '>
                                      <img
-                                    src={item.image}
+                                    src="./anonyme.png"
                                     alt={item.role}
                                     className="w-20 h-20 m-auto object-cover rounded-full object-center"
                                 />
