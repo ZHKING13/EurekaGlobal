@@ -4,26 +4,26 @@ const teamMembers = [
     {
         role: "Consultant(e) en Transformation d'Entreprise",
         description: 'Transformez votre réussite avec notre expertise',
-        image: 'https://readymadeui.com/team-1.webp',
+        image: "./anonyme.png",
         
     },
     {
         role: "Consultant(e) SI en Innovation et Technologie",
         description: 'Innovons votre futur numérique ensemble',
-        image: 'https://readymadeui.com/team-2.webp',
+        image: "./anonymeF.png",
        
     },
     {
         role: "Consultant(e) en Fiscalité et Juridique",
         description: 'Guidance fiscale, expertise juridique',
-        image: 'https://readymadeui.com/team-4.webp',
+        image: "./anonyme.png",
        
     },
     
     {
         role: "Consultant(e) en Comptabilité",
         description: 'Simplifiez votre gestion comptable avec notre support à distance',
-        image: 'https://readymadeui.com/team-4.webp',
+        image: "./anonymeF.png",
        
     }
 ];
@@ -31,39 +31,39 @@ const expert =  [
     {
         role: "Consultant(e) en Optimisation Opérationnelle",
         description: 'Optimisez votre succès avec nos conseils opérationnels',
-        image: 'https://readymadeui.com/team-1.webp',
+        image: "./anonyme.png",
         
     },
     
      {
         role: "Consultant(e) en Formation et Formateur",
         description: 'Formation optimale, compétences renforcées',
-        image: 'https://readymadeui.com/team-4.webp',
+        image: "./anonymeF.png",
        
     },
     {
         role: "Consultant(e) Expert        en Go to Market",
         description: 'Décuplez votre impact commercial ',
-        image: 'https://readymadeui.com/team-3.webp',
+        image: "./anonyme.png",
        
     },
     
     {
         role: "Consultant(e) en Développement Commercial et Marketing",
         description: 'Boostez votre succès et propulsez votre croissance',
-        image: 'https://readymadeui.com/team-2.webp',
+        image: "./anonymeF.png",
        
     },
     {
         role: "Consultant(e) en Montage de Projets et Recherche de Financement",
         description: 'Projets fiables montés, financements trouvés',
-        image: 'https://readymadeui.com/team-4.webp',
+        image: "./anonyme.png",
        
     },
     {
         role: "Consultant(e) en Stratégie",
         description: 'Guidance stratégique, succès assuré',
-        image: 'https://readymadeui.com/team-3.webp',
+        image: "./anonymeF.png",
        
     },
    
@@ -80,7 +80,7 @@ const Team = () => {
                             <div className="bg-white border hover:shadow-custom  border-gray-200 rounded-lg flex flex-col items-center overflow-hidden">
                                 <div className='w-full bg-[#F2F2F1FF] p-3 flex items-center '>
                                      <img
-                                    src="./anonyme.png"
+                                    src={item.image}
                                     alt={item.role}
                                     className="w-20 h-20 m-auto object-cover rounded-full object-center"
                                 />
@@ -121,7 +121,7 @@ const ExpertCard = ({ item }) => {
                             <div className="bg-white border hover:shadow-custom  border-gray-200 rounded-lg flex flex-col items-center overflow-hidden">
                                 <div className='w-full bg-[#F2F2F1FF] p-4 flex items-center '>
                                      <img
-                                    src="./anonyme.png"
+                                    src={item.image}
                                     alt={item.role}
                                     className="w-20 h-20 m-auto object-cover rounded-full object-center"
                                 />
