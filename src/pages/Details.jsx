@@ -5,22 +5,27 @@ import { preambule } from "../../data";
 import { images } from "../assets";
 import useStore from "../store/store";
 import { replaceTextWithLogo } from "./Solution";
+import SEO from "../components/SEO";
 
-const logo = <>
-<span className='font-bold text-secondary'>EUREKA</span> <span className='font-bold text-white'>GLOBAL</span></>
+const logo = (
+    <>
+        <span className="font-bold text-secondary">EUREKA</span>{" "}
+        <span className="font-bold text-white">GLOBAL</span>
+    </>
+);
 const replaceWithLogo = (text) => {
     if (!text) return null;
     const parts = text.split("EUREKA GLOBAL");
     return parts.map((part, index) => (
         <span key={index}>
-            {part} 
+            {part}
             {index < parts.length - 1 && logo}
         </span>
     ));
-}
+};
 function Details() {
     const [item, setItem] = useState({});
-    
+
     const bg = "../public/tpeBg.png";
     let { id } = useParams();
     console.log("valeur id::" + id);
@@ -38,6 +43,7 @@ function Details() {
     return (
         item && (
             <div>
+                <SEO description={item.meta} />
                 <section
                     style={{
                         backgroundImage: `url(${item.bgImg})`,
@@ -52,7 +58,10 @@ function Details() {
                                     {item.title}{" "}
                                 </span>{" "}
                             </h1>
-                            <p className="textNormal"> {replaceWithLogo(item.desc)} </p>
+                            <p className="textNormal">
+                                {" "}
+                                {replaceWithLogo(item.desc)}{" "}
+                            </p>
                         </div>
                     </div>
                 </section>
@@ -88,7 +97,7 @@ function Details() {
                     </div>
                     <div className="w-full mt-10 flex justify-center">
                         <Button className="rounded-[45px]">
-                            <Link to={"/produits&services/"}>
+                            <Link to={"/produits-services/"}>
                                 Parcourir Nos Catalogues
                             </Link>
                         </Button>

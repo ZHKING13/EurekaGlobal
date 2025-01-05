@@ -5,6 +5,7 @@ import { Link, Navigate, useParams } from "react-router-dom";
 import { cn } from "../lib/utils";
 import { logo } from "./Preambule";
 import useStore from "../store/store";
+import SEO from "../components/SEO";
 
 export const replaceTextWithLogo = (text) => {
     if (!text) return null;
@@ -36,8 +37,7 @@ function Solution() {
         productItems.forEach((element) => {
             if (element.id === id) {
                 setProduct(element);
-                console.log("prjrriiii",element);
-
+                console.log("prjrriiii", element);
             }
         });
     };
@@ -45,7 +45,7 @@ function Solution() {
         produits.forEach((element) => {
             if (element.id == id) {
                 setItem(element);
-                 setCurrentProductIndex(produits.indexOf(element));
+                setCurrentProductIndex(produits.indexOf(element));
 
                 console.log(element);
             }
@@ -61,16 +61,19 @@ function Solution() {
         getElementById(id);
         getProductByid(id);
     }, [id]);
-    return (
-        
-            item ? (
-            <div className="container">
+    return item ? (
+        <div className="container">
+            <SEO description={item.meta} />
+
             <section className=" mt-20 flex md:flex-row flex-col ">
                 <div className="flex justify-between w-full md:flex-row flex-col items-center gap-10">
                     <div className="md:w-[50%] md:container md:mt-10 pt-8 flex items-start flex-col gap-5 w-full">
                         <div>
                             <h2 className=" title text-primary">
-                                {product?.title} <span className="text-secondary ">{product?.subtitle} </span>
+                                {product?.title}{" "}
+                                <span className="text-secondary ">
+                                    {product?.subtitle}{" "}
+                                </span>
                             </h2>
                             <img
                                 className="mt-4 object-cover"
@@ -78,8 +81,10 @@ function Solution() {
                                 alt=""
                             />
                         </div>
-                        <p className="textNormal">                        {replaceTextWithLogo(item?.description)}
-</p>
+                        <p className="textNormal">
+                            {" "}
+                            {replaceTextWithLogo(item?.description)}
+                        </p>
                     </div>
                     <div className=" flex items-center md:w-[40%] max-h-[400px] justify-center">
                         <img
@@ -101,8 +106,7 @@ function Solution() {
                 </div>
                 <div className="  mx-auto  space-y-1 md:text-center">
                     <h2 className="pb-3 heading text-primary uppercase ">
-                       {item?.aprocheTitle}
-                       
+                        {item?.aprocheTitle}
                     </h2>
                 </div>
                 <div className=" flex flex-col  justify-center md:w-[85%]  md:flex-row  gap-4 ">
@@ -195,50 +199,62 @@ function Solution() {
                         {replaceTextWithLogo(item?.contact)}
                     </p>
                 </div>
-                    <p className="md:text-center md:w-[75%] text-normal font-bold mt-4 textNormal ">
-                        {replaceTextWithLogo(item?.cta)}
-                    </p>
+                <p className="md:text-center md:w-[75%] text-normal font-bold mt-4 textNormal ">
+                    {replaceTextWithLogo(item?.cta)}
+                </p>
                 <div className="w-full mt-6 mb-5 flex justify-center gap-8">
-                       {
-                    currentProductIndex > 0 &&  <Link to={`/produits&services/${productItems[currentProductIndex - 1].id}`}>
-                                   <Button
-                       
-                        className={cn("rounded-[45px] px-6 bg-secondary",)}
-                    >
-                        Précedent
-                    </Button>
+                    {currentProductIndex > 0 && (
+                        <Link
+                            to={`/produits-services/${
+                                productItems[currentProductIndex - 1].id
+                            }`}
+                        >
+                            <Button
+                                className={cn(
+                                    "rounded-[45px] px-6 bg-secondary"
+                                )}
+                            >
+                                Précedent
+                            </Button>
                         </Link>
-                  }
+                    )}
                     <Button
                         onClick={handleAddProduct}
                         disabled={products.includes(product)}
-                            className={cn("rounded-[45px]", )}
-                            
+                        className={cn("rounded-[45px]")}
                     >
                         Ajouter à ma selection
                     </Button>
-                    
-                         {
-                    currentProductIndex < productItems.length - 1 ? ( <Link to={`/produits&services/${productItems[currentProductIndex + 1].id}`}>
-                                   <Button
-                       
-                        className={cn("rounded-[45px] px-6 bg-secondary",)}
-                    >
-                        Suivant
-                    </Button>
-                        </Link>) :(<Link to="/formations" >
-                                 <Button className={cn("rounded-[45px] px-6 bg-secondary",)}>
-                            Ajouter des formations
-                        </Button>
-                            </Link>)
-                  }
-                    
+
+                    {currentProductIndex < productItems.length - 1 ? (
+                        <Link
+                            to={`/produits-services/${
+                                productItems[currentProductIndex + 1].id
+                            }`}
+                        >
+                            <Button
+                                className={cn(
+                                    "rounded-[45px] px-6 bg-secondary"
+                                )}
+                            >
+                                Suivant
+                            </Button>
+                        </Link>
+                    ) : (
+                        <Link to="/formations">
+                            <Button
+                                className={cn(
+                                    "rounded-[45px] px-6 bg-secondary"
+                                )}
+                            >
+                                Ajouter des formations
+                            </Button>
+                        </Link>
+                    )}
                 </div>
             </section>
         </div>
-            ):null
-        
-    );
+    ) : null;
 }
 
 export default Solution;

@@ -28,7 +28,8 @@ export const preambule = [{
             },
 
         ],
-        id: "startups"
+    id: "Startups",
+    meta:"Découvrez les solutions sur mesure pour S qu'Eureka Global vous propose. Accélérez la croissance, stimulez l'innovation et bénéficiez de nos services de conseil pour renforcer la compétitivité de votre projet dans un environnement en évolution rapide."
     }, {
         title: 'Très Petites Entreprises',
         desc: "EUREKA GLOBAL vous propose une gamme diversifiée de produits et services conçus pour répondre aux besoins spécifiques de ses clients dans divers secteurs. Découvrez ci-dessous notre sélection de solutions personnalisées",
@@ -50,7 +51,8 @@ export const preambule = [{
             },
 
         ],
-        id: "tres-petite-entreprise"
+    id: "Tres-Petites-Entreprises",
+    meta:"Explorez les solutions adaptées aux Très Petites Entreprises (TPE). Optimisez vos opérations, renforcez votre résilience et bénéficiez de notre accompagnement stratégique pour réussir dans un marché dynamique."
     },
     {
         title: 'Petites et Moyenne Entreprises ',
@@ -73,7 +75,8 @@ export const preambule = [{
             },
 
         ],
-        id: "petite-moyenne-entreprise"
+        id: "Petites-Moyennes-Entreprises",
+        meta:"Découvrez les solutions sur mesure pour PMEs qu'Eureka Global propose. Améliorez votre performance, boostez votre croissance, et assurez une réussite durable grâce à notre expertise en transformation organisationnelle et innovation."
     },
     {
         title: 'Grandes Entreprises',
@@ -96,7 +99,8 @@ export const preambule = [{
             },
 
         ],
-        id: "grande-entreprise"
+        id: "Grande-Entreprises",
+        meta:"Explorez les consultations sur mesure pour grandes entreprises. Améliorez votre performance, encouragez l'innovation et transformez vos processus pour garantir la pérennité de votre succès. Profitez de notre expertise en stratégie organisationnelle."
     },
     {
         title: 'Personnalités Publiques ',
@@ -129,7 +133,8 @@ export const preambule = [{
             },
 
         ],
-        id: "personnalite-publique"
+        id: "Personnalites-Publiques",
+        meta:"Découvrez notre expertise spécifique pour les personnalités publiques. Formulez des politiques impactantes, développez des stratégies d'innovation et optimisez votre influence dans un contexte en constante évolution."
     },
     {
         title: 'Investisseurs ',
@@ -152,7 +157,8 @@ export const preambule = [{
             },
 
         ],
-        id: "investisseur"
+        id: "Investisseurs",
+        meta:"Explorez les solutions personnalisées pour investisseurs qu'Eureka Global propose. Notre expertise stratégique vous accompagne dans la formulation de politiques impactantes et l'optimisation des investissements pour façonner des projets de développement durable."
     },
 ]
 export const Valeurs = [{
@@ -227,274 +233,274 @@ export const targetAudienceItems = [{
         title: "Investisseurs",
         description: "Opportunités d'investissement et rendement financier.",
         icon: CursorArrowRippleIcon,
-        link: "investisseur"
+        link: "Investisseurs"
     },
     {
         title: "Startups",
         description: "Entreprises innovantes en phase de démarrage.",
         icon: CursorArrowRippleIcon,
-        link: "startups"
+        link: "Startups"
     },
     {
         title: "Très Petites Entreprises (TPEs)",
         description: "Entreprises de petite taille cherchant à améliorer leur efficacité.",
         icon: CursorArrowRippleIcon,
-        link: "tres-petite-entreprise"
+        link: "Tres-Petites-Entreprises"
     },
     {
         title: "Petites & Moyennes Entreprises (PMEs)",
         description: "Entreprises en croissance avec des besoins spécifiques.",
         icon: CursorArrowRippleIcon,
-        link: "petite-moyenne-entreprise"
+        link: "Petites-Moyennes-Entreprises"
     },
     {
         title: "Grandes Entreprises",
         description: "Solutions avancées pour rester compétitif.",
         icon: CursorArrowRippleIcon,
-        link: "grande-entreprise"
+        link: "Grande-Entreprises"
     },
     {
         title: "Personnalités Publiques",
         description: "Gestion de l'image et impact en ligne.",
         icon: CursorArrowRippleIcon,
-        link: "personnalite-publique"
+        link: "Personnalites-Publiques"
     },
 ];
 export const productServiceItems = [{
         title: "Pack Création d'Entreprise",
         description: "L'essenciel pour bien démarrer votre entreprise.",
         icon: Square3Stack3DIcon,
-        link: "PCE2024"
+        link: "Pack-Creation-Entreprise"
     },
     {
         title: "Montage de Projets et Recherche de Financements",
         description: "Structurez vos projets et obtenez les financements nécessaires.",
         icon: Square3Stack3DIcon,
-        link: "MPRF2024"
+        link: "Montage-Projets-Financements"
     },
     {
         title: "Externalisation Juridique & Fiscale",
         description: "Gérez vos obligations légales et fiscales en toute simplicité.",
         icon: Square3Stack3DIcon,
-        link: "EJF2024"
+        link: "Externalisation-Juridique-Fiscale"
     },
     {
         title: "Externalisation de la Comptabilité",
         description: "Confiez votre comptabilité à des experts pour plus d'efficacité.",
         icon: Square3Stack3DIcon,
-        link: "EC2024"
+        link: "Externalisation-Comptabilite"
     },
     {
         title: "Excellence en Diligence Raisonnable",
         description: "Processus rigoureux pour assurer la qualité et la conformité.",
         icon: Square3Stack3DIcon,
-        link: "DDE2024"
+        link: "Excellence-Diligence-Raisonnable"
     },
     {
         title: "Amélioration du Portefeuille",
         description: "Optimisez la performance de votre portefeuille d'investissement.",
         icon: Square3Stack3DIcon,
-        link: "PE2024"
+        link: "Amelioration-Portefeuille"
     },
     {
         title: "Starter Success Package",
         description: "Support complet pour garantir le succès de votre démarrage.",
         icon: Square3Stack3DIcon,
-        link: "SSP2024"
+        link: "starter-success"
     },
     {
         title: "Boost d'Accélération",
         description: "Accélérez la croissance de votre entreprise avec notre expertise.",
         icon: Square3Stack3DIcon,
-        link: "AB2024"
+        link: "Accelerateur-Entreprises"
     },
     {
         title: "Entreprise en Pleine Ascension",
         description: "Soutien personnalisé pour les entreprises en croissance.",
         icon: Square3Stack3DIcon,
-        link: "EEPA2024"
+        link: "Entreprise-Ascension"
     },
     {
         title: "Accélérateur des Entreprises",
         description: "Programme conçu pour stimuler la croissance des entreprises.",
         icon: Square3Stack3DIcon,
-        link: "AC2024"
+        link: "Boost-Acceleration"
     },
     {
         title: "Performance Essentials",
         description: "Solutions essentielles pour optimiser les performances de l'entreprise.",
         icon: Square3Stack3DIcon,
-        link: "PEF2024"
+        link: "Performances-Essentielles"
     },
     {
         title: "Boîte à Outils pour l'Expansion des Marchés",
         description: "Outils stratégiques pour conquérir de nouveaux marchés.",
         icon: Square3Stack3DIcon,
-        link: "MTE2024"
+        link: "Expansion-Marches"
     },
     {
         title: "Croissance Maîtrisée",
         description: "Stratégies pour une croissance contrôlée et durable.",
         icon: Square3Stack3DIcon,
-        link: "CM2024"
+        link: "Croissance-Maitrisee"
     },
     {
         title: "Optimisation Opérationnelle",
         description: "Améliorez vos processus pour une efficacité accrue.",
         icon: Square3Stack3DIcon,
-        link: "OO2024"
+        link: "Optimisation-Operationnelle"
     },
     {
         title: "Optimisation 360",
         description: "Optimisez  tous les aspects de votre entreprise.",
         icon: Square3Stack3DIcon,
-        link: "O3602024"
+        link: "Optimisation-360"
     },
     {
         title: "Programme de Refonte Stratégique",
         description: "Revitalisez votre entreprise avec une refonte stratégique.",
         icon: Square3Stack3DIcon,
-        link: "SOP2024"
+        link: "Refonte-Stratégique"
     },
     {
         title: "Intégration d'un Laboratoire Interne d'Innovation",
         description: "Cultivez l'innovation au sein de votre organisation.",
         icon: Square3Stack3DIcon,
-        link: "ILI2024"
+        link: "Laboratoire-Innovation"
     },
     {
         title: "Évaluation de l'Impact des Personnalités Publiques",
         description: "Analyse de l'influence et de l'impact des personnalités publiques.",
         icon: Square3Stack3DIcon,
-        link: "PIA2024"
+        link: "Evaluation-Impact-Personnes-Publiques"
     },
     {
         title: "Conseil Stratégique en Gouvernance",
         description: "Guidance pour une gouvernance d'entreprise efficace.",
         icon: Square3Stack3DIcon,
-        link: "SAG2024"
+        link: "conseil-gouvernance"
     },
 ];
 export const trainingModuleItems = [{
         title: "Module Innovation",
         description: "Stimulez l'innovation dans votre entreprise.",
         icon: AcademicCapIcon,
-        id: "MI24"
+    id: "module-innovation"
     },
     {
         title: "Module Managerial Toolkit",
         description: "Gérez efficacement une équipe et atteignez vos objectifs.",
         icon: AcademicCapIcon,
-        id: "MTK24"
+        id: "module-boite-outils-leader"
     },
     {
         title: "Module Leadership Stratégique",
         description: "Développez vos compétences en leadership.",
         icon: AcademicCapIcon,
-        id: "MLS24"
+        id: "module-leadership-strategique"
     },
     {
         title: "Module Communication 360",
         description: "Maîtrisez les stratégies de communication intégrées.",
         icon: AcademicCapIcon,
-        id: "MC36024"
+        id: "module-plan-communication-360"
     },
     {
         title: "Module Marketing et Vente",
         description: "Boostez votre croissance.",
         icon: AcademicCapIcon,
-        id: "MMV24"
+        id: "module-strategie-marketing-commerciale"
     },
     {
         title: "Module Stratégie Go-To-Market",
         description: "Lancez vos produits avec succès sur le marché.",
         icon: AcademicCapIcon,
-        id: "MSGTM24"
+        id: "module-strategie-go-to-market"
     },
     {
         title: "Module Transformation Organisationnelle",
         description: "Conduisez le changement dans votre organisation.",
         icon: AcademicCapIcon,
-        id: "MTO24"
+        id: "module-transformation-organisations"
     },
     {
         title: "Module Excellence Opérationnelle",
         description: "Optimisez l'efficacité de vos opérations.",
         icon: AcademicCapIcon,
-        id: "MEO24"
+        id: "module-excellence-operationnelle"
     },
     {
         title: "Module Bureautique Expert",
         description: "Outils avancés pour maximiser votre productivité",
         icon: AcademicCapIcon,
-        id: "MBE24"
+        id: "module-pack-bureautique-expert"
     },
     {
         title: "Module Gestion et Sécurité des Données",
         description: "Gérez et sécurisez vos données sensibles.",
         icon: AcademicCapIcon,
-        id: "MGSD24"
+        id: "module-gestion-securite-donnees"
     },
 ];
 export const formation = [{
         name: "Innovation",
         desc: "Transformez les idées en actions avec notre module dédié à l'innovation. Nous fournissons les compétences et les outils nécessaires pour stimuler l'innovation au sein de votre entreprise, favorisant une culture qui embrasse le changement et la créativité.",
         img: "/f1.png",
-        id: "MI24"
+    id: "module-innovation"
     },
     {
         name: "Boîte à Outils du Leader",
         desc: "Retrouvez des conseils pratiques et pistes d’actions pour vous épauler dans vos défis de management. De la gestion d'équipe à la résolution de conflits, notre module vous accompagne dans chaque aspect de votre rôle de manager. Transformez les défis en opportunités de croissance et menez votre équipe vers le succès.",
         img: "/f2.png",
-        id: "MTK24"
+        id: "module-boite-outils-leader"
     },
     {
         name: "Leadership Stratégique",
         desc: "Formez des leaders inspirants capables de prendre des décisions éclairées, d'inspirer leurs équipes, et de créer une culture d'entreprise alignée sur la vision stratégique pour guider votre organisation vers ses objectifs à long terme.",
         img: "/f3.png",
-        id: "MLS24"
+        id: "module-leadership-strategique"
     },
     {
         name: "Plan de Communication 360",
         desc: "Maîtrisez votre stratégie de communication avec une approche complète et intégrée, assurant une communication efficace en interne et externe sur tous les canaux, digitaux et classiques.",
         img: "/f4.png",
-        id: "MC36024"
+        id: "module-plan-communication-360"
     },
     {
         name: "Stratégie Marketing et Commerciale",
         desc: "Augmentez votre présence sur le marché grâce à des stratégies marketing et commerciales sur mesure, renforçant la notoriété de la marque et stimulant les ventes.",
         img: "/f5.png",
-        id: "MMV24"
+        id: "module-strategie-marketing-commerciale"
     },
     {
         name: "Stratégie Go-to-Market",
         desc: "Maximisez l'impact de vos produits ou services sur le marché avec une stratégie go-to-market efficace, assurant une pénétration de marché optimale et renforçant votre position concurrentielle.",
         img: "/f6.png",
-        id: "MSGTM24"
+        id: "module-strategie-go-to-market"
     },
     {
         name: "Transformation des Organisations",
         desc: "Préparez votre entreprise pour l'avenir avec notre accompagnement à travers des changements organisationnels significatifs, de la planification à la mise en œuvre, assurant une transition réussie et durable.",
         img: "/f7.png",
-        id: "MTO24"
+        id: "module-transformation-organisations"
     },
     {
         name: "Excellence Opérationnelle",
         desc: "Optimisez vos opérations avec des méthodologies avancées de Kaïzen pour améliorer l'efficacité opérationnelle, réduire les coûts, et maximiser la qualité et la productivité.",
         img: "/f8.png",
-        id: "MEO24"
+        id: "module-excellence-operationnelle"
     },
     {
         name: "Pack Bureautique Expert",
         desc: "Maîtrisez les outils bureautiques essentiels tels que Word, Excel, PowerPoint, Google Form et Canva, boostant la productivité de vos collaborateurs et améliorant la collaboration au sein de votre équipe.",
         img: "/f9.png",
-        id: "MBE24"
+        id: "module-pack-bureautique-expert"
     },
 
 ]
 export const Formations = [{
         title: "Innovation ",
-        "id": "MI24",
+    "id": "module-innovation",
         "img1": "/inov.png",
         "img2": "/inov1.png",
         detail: "Illuminez votre entreprise avec notre module Innovation. Transformez les idées en action.",
@@ -511,10 +517,11 @@ export const Formations = [{
         ],
         soulagement1: "Libérez le potentiel créatif de vos équipes et favorisez une approche proactive des défis.",
         soulagement2: "Contactez-nous dès maintenant pour découvrir comment notre module Innovation peut illuminer votre entreprise et transformer vos idées en action !",
+    meta:"Transformez vos idées en actions avec le module Innovation. Apprenez à stimuler la créativité et à intégrer des processus innovants pour faire évoluer votre entreprise en Afrique et au-delà."
     },
     {
         title: " Boîte à Outils du Leader ",
-        "id": "MTK24",
+        "id": "module-boite-outils-leader",
         "img1": "/mtk1.png",
         "img2": "/mtk.png",
         detail: "Investissez judicieusement avec notre Boîte à Outils du Leader. Des compétences solides pour des investissements intelligents.",
@@ -531,10 +538,11 @@ export const Formations = [{
         ],
         soulagement1: "Simplifiez votre gestion quotidienne, réduisez les frictions, et renforcez la cohésion d'équipe.",
         soulagement2: " Contactez-nous dès aujourd'hui pour découvrir comment notre module Boîte à Outils du Leader peut vous aider à développer les compétences nécessaires pour mener votre équipe vers le succès.",
+        meta:"Découvrez les outils pratiques et stratégies pour relever vos défis de management. Boostez vos compétences en leadership et guidez vos équipes vers le succès grâce à ce module essentiel."
     },
     {
         title: " Leadership Stratégique ",
-        "id": "MLS24",
+        "id": "module-leadership-strategique",
         "img1": "/lop.png",
         "img2": "/lop1.png",
         detail: "Dirigez votre entreprise vers de nouveaux sommets avec notre module Leadership Stratégique.",
@@ -551,10 +559,11 @@ export const Formations = [{
         ],
         soulagement1: "Naviguez avec succès dans des environnements complexes, offrez-vous des outils pratiques pour prendre des décisions éclairées et inspirez les autres.",
         soulagement2: "Contactez-nous dès maintenant pour commencer votre voyage vers le sommet avec notre module Leadership Stratégique.",
+        meta:"Développez vos compétences en leadership stratégique pour inspirer, motiver et orienter vos équipes vers une réussite durable. Ce module vous aide à aligner votre vision avec des objectifs clairs et ambitieux."
     },
     {
         title: " Plan de Communication 360 ",
-        "id": "MC36024",
+        "id": "module-plan-communication-360",
         "img1": "/com.png",
         "img2": "/coms1.png",
         detail: "Maîtrisez votre communication avec des stratégies complètes  et efficace sur tous les canaux, digitaux, internes et externes",
@@ -570,6 +579,7 @@ export const Formations = [{
         ],
         soulagement1: "Simplifiez la complexité de la communication multicanale et offrez-vous une visibilité optimale ",
         soulagement2: "Contactez-nous dès maintenant pour maîtriser votre communication avec des stratégies complètes et efficaces sur tous les canaux, digitaux, internes et externes.",
+        meta:"Maîtrisez une stratégie de communication 360° avec des outils adaptés pour atteindre efficacement vos cibles internes et externes à travers des canaux digitaux et traditionnels."
     },
     {
         title: "Stratégie Marketing et Commerciale ",
@@ -590,10 +600,11 @@ export const Formations = [{
         ],
         soulagement1: "Offrez-vous des plans d'action concrets pour améliorer votre performance commerciale.",
         soulagement2: "Contactez-nous dès maintenant pour découvrir comment nos stratégies personnalisées peuvent booster votre présence sur vos marchés, renforcer la notoriété de votre marque et augmenter vos ventes.",
+        meta:"Boostez votre visibilité et vos ventes avec des stratégies marketing et commerciales sur mesure. Augmentez votre notoriété et renforcez votre position sur le marché africain."
     },
     {
         title: "Stratégie Go-To-Market (GTM)",
-        "id": "MSGTM24",
+        "id": "module-strategie-marketing-commerciale",
         "img1": "/gtm.png",
         "img2": "/gtm1.png",
         detail: "Définissez et mettez en œuvre des stratégies commerciales efficaces pour maximiser le succès de vos produits et services sur vos marchés.",
@@ -610,10 +621,11 @@ export const Formations = [{
         ],
         soulagement1: "Réduisez les incertitudes à l'aide d'une approche structurée et méthodique  et maximisez vos chances de succès lors du lancement de vos produits et services sur vos marché.",
         soulagement2: " Contactez-nous dès aujourd'hui pour transformer vos ambitions commerciales en succès concret grâce à des stratégies sur mesure et efficaces.",
+        meta:"Lancez vos produits ou services avec succès grâce à une stratégie go-to-market efficace, garantissant une pénétration optimale et un positionnement compétitif."
     },
     {
         title: "Transformation des Organisations ",
-        "id": "MTO24",
+        "id": "module-transformation-organisations",
         "img1": "/tdo.png",
         "img2": "/tdo1.png",
         detail: "Réinventez votre entreprise  avec notre module dédié à la Transformation des Organisations,  un puzzle de réussite.",
@@ -629,10 +641,11 @@ export const Formations = [{
         ],
         soulagement1: "Facilitez vous le passage d'une vision à une réalité concrète, en minimisant les perturbations.",
         soulagement2: "Contactez-nous dès maintenant pour découvrir comment notre module dédié à la Transformation des Organisations peut être la clé pour transformer votre entreprise et assembler le puzzle de la réussite.",
+        meta:"Préparez votre entreprise à relever les défis de demain avec un module dédié à la transformation organisationnelle. Planifiez et implémentez des changements durables pour maximiser vos performances."
     },
     {
         title: "Excellence Opérationnelle ",
-        "id": "MEO24",
+        "id": "module-excellence-operationnelle",
         "img1": "/eop.png",
         "img2": "/eop1.png",
         detail: "Optimisez vos opérations avec notre module Excellence Opérationnelle. Une machine  bien réglée pour la réussite.",
@@ -650,10 +663,11 @@ export const Formations = [{
         ],
         soulagement1: "Identifiez et éliminez    les inefficacités, instaurez une culture d'amélioration continue et assurez   une gestion plus fluide.",
         soulagement2: "Contactez-nous dès aujourd'hui pour mettre en place notre module Excellence Opérationnelle et propulser vos opérations vers le succès.",
+        meta:"Améliorez votre efficacité avec des méthodologies avancées pour réduire les coûts et maximiser la productivité. Ce module est conçu pour les entreprises cherchant à exceller dans leur domaine."
     },
     {
         title: "Pack Bureautique Expert ",
-        "id": "MBE24",
+        "id": "module-pack-bureautique-expert",
         "img1": "/be.png",
         "img2": "/be1.png",
         detail: "Optez pour notre formation Bureautique Expert et rendez votre mode de travail plus productif et créatif.",
@@ -671,10 +685,12 @@ export const Formations = [{
         ],
         soulagement1: "Éliminez les obstacles liés à la maîtrise des logiciels bureautiques, réduisez les erreurs, et assurez une transition fluide vers des pratiques de travail plus performantes. ",
         soulagement2: "Contactez-nous dès aujourd'hui pour intégrer notre formation Bureautique Expert et transformez la façon de travailler de vos équipes en un processus plus productif et créatif.",
+        meta: " Maîtrisez Word, Excel, PowerPoint et plus pour booster la productivité et faciliter la collaboration au sein de votre entreprise grâce à ce module complet."
     },
     {
         title: "Gestion et Sécurité des Données ",
-        "id": "MGSD24",
+        "id": "module-gestion-securite-donnees",
+        meta: "Assurez la protection et la gestion optimale de vos données grâce à ce module. Renforcez la sécurité de vos informations et garantissez leur confidentialité pour protéger votre entreprise et ses actifs stratégiques.",
         "img1": "/sec.png",
         "img2": "/sec1.png",
         detail: "Renforcez votre sécurité de votre organisation avec cette approche complète qui garantit la confidentialité et l'intégrité de vos informations.",
@@ -696,7 +712,7 @@ export const Formations = [{
 ]
 export const produits = [{
         "title": "PACK CRÉATION D’ENTREPRISE",
-        id: "PCE2024",
+        id: "Pack-Creation-Entreprise",
         "cta": "Avec EUREKA GLOBAL, chaque étape est un pas vers votre concrétisation entrepreneuriale et votre succès.",
         img: "/s1.png",
         "description": "Notre solution complète s'adresse aux investisseurs et entrepreneurs en quête d'un parcours entrepreneurial simplifié en Afrique. EUREKA GLOBAL prend en charge toutes les étapes, depuis les formalités administratives jusqu'aux aspects juridiques et fiscaux, vous permettant ainsi de vous concentrer pleinement sur le développement de votre activité.",
@@ -732,14 +748,16 @@ export const produits = [{
             "Concentration totale sur le développement de l'activité sans souci des détails administratifs"
         ],
 
-        "whyChoose": "EUREKA GLOBAL offre une expertise approfondie dans le domaine de la création d'entreprise en Afrique, combinée à un service personnalisé et à une approche pratique. Nous sommes déterminés à garantir le succès de nos clients en leur offrant les meilleurs outils et conseils pour démarrer leur entreprise avec confiance.",
-        "contact": "Commencez votre parcours entrepreneurial en toute confiance avec EUREKA GLOBAL. Contactez-nous dès aujourd'hui pour découvrir comment notre Pack Création d’Entreprise peut vous aider à concrétiser vos projets et à atteindre vos objectifs."
+    "whyChoose": "EUREKA GLOBAL offre une expertise approfondie dans le domaine de la création d'entreprise en Afrique, combinée à un service personnalisé et à une approche pratique. Nous sommes déterminés à garantir le succès de nos clients en leur offrant les meilleurs outils et conseils pour démarrer leur entreprise avec confiance.",
+        
+    "contact": "Commencez votre parcours entrepreneurial en toute confiance avec EUREKA GLOBAL. Contactez-nous dès aujourd'hui pour découvrir comment notre Pack Création d’Entreprise peut vous aider à concrétiser vos projets et à atteindre vos objectifs.",
+    meta:"Simplifiez la création de votre entreprise en Afrique avec Eureka Global. Profitez d’un accompagnement complet pour gérer formalités, aspects juridiques et fiscaux, et concentrez-vous sur la croissance de votre activité."
     },
     {
         "title": "Montage de Projets et Recherche de Financements",
         "aprocheTitle": "Notre approche pour le montage de projets et la recherche de financements :",
         "importanceTitle": "L'importance de notre solution :",
-        "id": "MPRF2024",
+        "id": "Montage-Projets-Financements",
         "img": "/s22.jpeg",
         "description": "Notre solution Montage de Projets et Recherche de Financements est conçue pour accompagner les personnalités publiques et les institutions dans le développement de projets à fort impact. Nous vous aidons à structurer vos initiatives en projets viables, en définissant des objectifs clairs, des plans d’action détaillés et des indicateurs de performance mesurables. En parallèle, nous identifions et accédons aux sources de financement les plus appropriées, qu'il s'agisse de financements privés ou de partenariats internationaux.",
         "importance": "Dans un contexte où les ressources sont souvent limitées, un montage de projet solide et une stratégie de financement efficace sont essentiels pour concrétiser vos ambitions politiques et économiques. Notre solution vous permet de transformer vos idées en projets prêts à être financés, tout en optimisant les chances de succès grâce à une recherche de financements ciblée et stratégique.",
@@ -773,14 +791,14 @@ export const produits = [{
         "whyChoose": "EUREKA GLOBAL vous offre une combinaison unique d'expertise en montage de projets et en recherche de financements. Avec une approche personnalisée et un réseau étendu de partenaires financiers, nous vous aidons à transformer vos idées en projets concrets et financés, assurant ainsi leur mise en œuvre et leur impact positif sur la société.",
         "contact": "Prenez contact avec nous pour une consultation personnalisée et découvrez comment notre solution Montage de Projets et Recherche de Financements peut vous aider à concrétiser vos ambitions politiques et économiques.",
         "cta": "Avec EUREKA GLOBAL, donnez vie à vos projets grâce à un montage structuré et un financement assuré.",
-
+        meta:"Boostez vos projets grâce à notre service de montage et financement. Eureka Global transforme vos idées en projets viables et vous aide à accéder aux financements adaptés à vos ambitions."
     },
 
     {
         "title": "EXTERNALISATION JURIDIQUE ET FISCALE",
         aprocheTitle: "NOTRE approche pratique pour vOTRE externalisation juridique et fiscale :",
         importanceTitle: "Les avantages de NOTRE solution externalisation juridique et fiscale :",
-        id: "EJF2024",
+        id: "Externalisation-Juridique-Fiscale",
         img: "/s2.png",
         "cta": "Avec EUREKA GLOBAL, chaque décision est un pas vers votre sécurité juridique et fiscale et votre succès.",
 
@@ -825,12 +843,13 @@ export const produits = [{
             }
         ],
         "whyChoose": "EUREKA GLOBAL dispose d'une équipe d'experts juridiques et fiscaux ayant une expérience approfondie dans ce domaine. Nous vous offrons un service personnalisé et de haute qualité, garantissant que vos obligations juridiques et fiscales sont remplies de manière efficace et conforme.",
-        "contact": "Prenez dès maintenant la décision de sécuriser l'avenir de votre entreprise en optant pour notre Pack Externalisation Juridique et Fiscale. Contactez-nous dès aujourd'hui pour découvrir comment nous pouvons vous aider à assurer une gestion juridique et fiscale optimale pour votre entreprise."
+        "contact": "Prenez dès maintenant la décision de sécuriser l'avenir de votre entreprise en optant pour notre Pack Externalisation Juridique et Fiscale. Contactez-nous dès aujourd'hui pour découvrir comment nous pouvons vous aider à assurer une gestion juridique et fiscale optimale pour votre entreprise.",
+        meta:"Confiez vos obligations fiscales et juridiques à Eureka Global. Une solution experte pour garantir conformité et efficacité, tout en optimisant votre gestion d’entreprise."
     }, {
         "title": "EXTERNALISATION DE MA COMPTABILITÉ",
         importanceTitle: "Les avantages de NOTRE solution externalisation juridique et fiscale :",
         aprocheTitle: "NOTRE approche pratique poUR externalisER VOTRE COMPTABILITE :",
-        id: "EMC2024",
+        id: "Externalisation-Comptabilite",
         img: "/s3.png",
         "cta": "Avec EUREKA GLOBAL, chaque action est un pas vers votre optimisation financière et votre succès.",
 
@@ -871,14 +890,15 @@ export const produits = [{
         ],
 
         "whyChoose": "EUREKA GLOBAL est votre partenaire de confiance pour une gestion financière optimale. Avec notre expérience et notre engagement envers l'excellence, nous garantissons des solutions comptables adaptées à vos besoins spécifiques.",
-        "contact": "Libérez le potentiel de votre entreprise en optant pour notre solution Externalisation de ma Comptabilité. Échappez aux contraintes comptables et externalisez dès maintenant votre comptabilité avec EUREKA GLOBAL. Contactez-nous maintenant pour bénéficier d'une gestion financière efficace et adaptée à votre entreprise."
+        "contact": "Libérez le potentiel de votre entreprise en optant pour notre solution Externalisation de ma Comptabilité. Échappez aux contraintes comptables et externalisez dès maintenant votre comptabilité avec EUREKA GLOBAL. Contactez-nous maintenant pour bénéficier d'une gestion financière efficace et adaptée à votre entreprise.",
+        meta:"Simplifiez la gestion financière de votre entreprise avec notre service d'externalisation comptable. Optimisez vos coûts et gagnez en sérénité avec des experts dédiés."
     },
 
     {
         "title": "STARTER SUCCESS PACKAGE",
         aprocheTitle: "NOTRE approche pratique pour BIEN REUSSIR VOTRE DEMARRAGE :",
         importanceTitle: "Les avantages de NOTRE solution REUSSIR MON DEMARRAGE :",
-        id: "SSP2024",
+        id: "starter-success",
         img: "/s6.png",
         "cta": "Avec EUREKA GLOBAL, chaque initiative est un pas vers votre succès entrepreneurial.",
 
@@ -931,12 +951,13 @@ export const produits = [{
             }
         ],
         "whyChoose": "EUREKA GLOBAL dispose d'une expertise éprouvée dans l'accompagnement des entrepreneurs à chaque étape de leur parcours entrepreneurial. Nous offrons des solutions personnalisées, un soutien pratique et des ressources innovantes pour garantir le succès de votre entreprise dès le départ.",
-        "contact": "Prenez le premier pas vers le succès avec notre Starter Success Package. Contactez-nous dès aujourd'hui pour bénéficier d'une expertise sur mesure et commencer votre voyage vers le succès entrepreneurial."
+        "contact": "Prenez le premier pas vers le succès avec notre Starter Success Package. Contactez-nous dès aujourd'hui pour bénéficier d'une expertise sur mesure et commencer votre voyage vers le succès entrepreneurial.",
+        meta: "Bénéficiez d'un package complet pour réussir le démarrage de votre entreprise avec des ressources, des ateliers et un mentorat personnalisé adaptés à vos besoins.",
     }, {
         "title": "OPTIMISATION OPERATIONNELLE",
         aprocheTitle: "NOTRE approche pratique pour VOTRE OPTIMISATION OPERATIONNELLE :",
         importanceTitle: "Les avantages de la solution OPTIMISATION OPERATIONNELLE :",
-        id: "OO2024",
+        id: "Optimisation-Operationnelle",
         img: "/s10.png",
         "cta": "Avec EUREKA GLOBAL, chaque amélioration est un pas vers votre efficacité opérationnelle et votre succès.",
 
@@ -987,12 +1008,13 @@ export const produits = [{
             }
         ],
         "whyChoose": "EUREKA GLOBAL offre une approche KAIZEN personnalisée et flexible, adaptée aux besoins uniques de chaque entreprise. Notre équipe d'experts apporte une expertise approfondie dans la mise en œuvre de principes KAIZEN et s'engage à accompagner nos clients dans leur parcours d'amélioration continue.",
-        "contact": "Avec EUREKA GLOBAL, libérez le plein potentiel de votre entreprise en adoptant notre approche KAIZEN. Contactez-nous dès aujourd'hui pour une consultation personnalisée et découvrez comment nous pouvons vous aider à atteindre vos objectifs d'efficacité opérationnelle et de croissance grâce à une culture d'amélioration continue."
+        "contact": "Avec EUREKA GLOBAL, libérez le plein potentiel de votre entreprise en adoptant notre approche KAIZEN. Contactez-nous dès aujourd'hui pour une consultation personnalisée et découvrez comment nous pouvons vous aider à atteindre vos objectifs d'efficacité opérationnelle et de croissance grâce à une culture d'amélioration continue.",
+        meta:"Maximisez l’efficacité de vos opérations avec notre approche KAIZEN. Une amélioration continue pour une entreprise toujours plus performante et compétitive."
     }, {
         "title": "DUE DILIGENCE EXCELLENCE",
         aprocheTitle: "NOTRE approche pratique pour EXCELLENCER EN MATIERE DE DILIGENCE RAISONNABLE: ",
         importanceTitle: "Les avantages de NOTRE solution DUE DILIGENCE EXCELLENCE :",
-        id: "DDE2024",
+        id: "Excellence-Diligence-Raisonnable",
         "cta": "Avec EUREKA GLOBAL, chaque étude est un pas vers votre diligence raisonnable et votre succès financier.",
 
         img: "/s4.png",
@@ -1041,12 +1063,13 @@ export const produits = [{
             }
         ],
         "whyChoose": "EUREKA GLOBAL offre une expertise inégalée en matière de due diligence, avec une équipe d'experts chevronnés et une approche personnalisée pour chaque client. Nous nous engageons à fournir des recommandations fiables et à accompagner nos clients à chaque étape de leur processus d'investissement.",
-        "contact": "Maximisez votre rendement et minimisez les risques avec la solution Due Diligence Excellence d'EUREKA GLOBAL. Contactez-nous dès maintenant pour bénéficier de notre expertise et prendre des décisions d'investissement éclairées."
+        "contact": "Maximisez votre rendement et minimisez les risques avec la solution Due Diligence Excellence d'EUREKA GLOBAL. Contactez-nous dès maintenant pour bénéficier de notre expertise et prendre des décisions d'investissement éclairées.",
+        meta:"Prenez des décisions d’investissement éclairées avec notre service de diligence raisonnable. Analyse complète pour maximiser vos rendements et minimiser les risques."
     }, {
         "title": "PORTFOLIO ENHANCEMENT",
         aprocheTitle: "NOTRE approche pratique pour AMELIORER VOTRE PORTEFEUILLE :",
         importanceTitle: "Les avantages de NOTRE solution AMELIORATION DE VOTRE PORTEFEUILLE :",
-        id: "PE2024",
+        id: "Amelioration-Portefeuille",
         img: "/pe.png",
         "cta": "Avec EUREKA GLOBAL, chaque optimisation est un pas vers l'amélioration de votre portefeuille et votre succès financier.",
 
@@ -1085,14 +1108,15 @@ export const produits = [{
             }
         ],
         "whyChoose": "EUREKA GLOBAL offre une combinaison unique d'expertise approfondie, d'approche proactive et de service personnalisé pour aider nos clients à atteindre leurs objectifs d'investissement. Nous sommes déterminés à fournir des solutions innovantes et efficaces pour maximiser la valeur de leur portefeuille.",
-        "contact": "Optimisez la performance de votre portefeuille et identifiez de nouvelles opportunités d'investissement avec la solution Portfolio Enhancement d'EUREKA GLOBAL. Contactez-nous dès maintenant pour discuter de la façon dont nous pouvons répondre spécifiquement à vos besoins et vous aider à atteindre vos objectifs d'investissement."
+        "contact": "Optimisez la performance de votre portefeuille et identifiez de nouvelles opportunités d'investissement avec la solution Portfolio Enhancement d'EUREKA GLOBAL. Contactez-nous dès maintenant pour discuter de la façon dont nous pouvons répondre spécifiquement à vos besoins et vous aider à atteindre vos objectifs d'investissement.",
+        meta:"Optimisez vos investissements et identifiez de nouvelles opportunités avec notre service d'amélioration de portefeuille. Gestion stratégique pour des rendements accrus."
     },
 
     {
         "title": "ACCÉLERATEUR BOOST",
         aprocheTitle: "NOTRE approche pratique pour BOOSTER VOTRE ACCELERATION :",
         importanceTitle: "Les avantages de NOTRE solution BOOST ACCELERATION :",
-        id: "AC2024",
+        id: "Boost-Acceleration",
         img: "/s7.png",
         "cta": "Avec EUREKA GLOBAL, chaque accélération est un pas de géant vers votre succès.",
 
@@ -1137,12 +1161,13 @@ export const produits = [{
             }
         ],
         "whyChoose": "EUREKA GLOBAL offre une expertise sur mesure et un engagement envers le succès de ses clients. Notre approche collaborative et notre focus sur les résultats font de nous le partenaire idéal pour accélérer votre trajectoire vers le succès.",
-        "contact": "Accélérez votre entreprise vers de nouveaux sommets avec l'Accélérateur Boost d'EUREKA GLOBAL. Contactez-nous dès maintenant pour découvrir comment nous pouvons vous aider à propulser votre entreprise vers le succès."
+        "contact": "Accélérez votre entreprise vers de nouveaux sommets avec l'Accélérateur Boost d'EUREKA GLOBAL. Contactez-nous dès maintenant pour découvrir comment nous pouvons vous aider à propulser votre entreprise vers le succès.",
+        meta:"Simplifiez la création de votre entreprise en Afrique avec Eureka Global. Profitez d’un accompagnement complet pour gérer formalités, aspects juridiques et fiscaux, et concentrez-vous sur la croissance de votre activité."
     }, {
         "title": "ENTREPRISE EN PLEINE ASCENSION",
         aprocheTitle: "NOTRE approche pratique pour L'ASCENSION de VOTRE ENTREPRISE :",
         importanceTitle: "Les avantages de NOTRE solution ENTREPRISE EN PLEINE ASCENSION :",
-        id: "EEPA2024",
+        id: "Entreprise-Ascension",
         img: "/s8.png",
         "cta": "Avec EUREKA GLOBAL, chaque progression est un pas vers votre succès.",
 
@@ -1181,13 +1206,14 @@ export const produits = [{
             }
         ],
         "whyChoose": "EUREKA GLOBAL offre une expertise éprouvée et un engagement envers le succès de ses clients. Notre approche personnalisée et notre focus sur les résultats font de nous le partenaire idéal pour accompagner votre entreprise vers de nouveaux sommets de réussite.",
-        "contact": "Donnez à votre entreprise les outils nécessaires pour prospérer avec l'Entreprise en Pleine Ascension d'EUREKA GLOBAL. Contactez-nous dès maintenant pour discuter de la façon dont nous pouvons vous aider à atteindre vos objectifs et à propulser votre entreprise vers le succès."
+        "contact": "Donnez à votre entreprise les outils nécessaires pour prospérer avec l'Entreprise en Pleine Ascension d'EUREKA GLOBAL. Contactez-nous dès maintenant pour discuter de la façon dont nous pouvons vous aider à atteindre vos objectifs et à propulser votre entreprise vers le succès.",
+        meta:"Atteignez des performances supérieures avec EUREKA GLOBAL. Stratégies de croissance, accompagnement opérationnel et mise en réseau pour booster votre succès."
     }, {
         "title": "CROISSANCE MAITRISEE",
         aprocheTitle: "NOTRE approche pratique pour MAITRISER VOTRE CROISSANCE :",
         importanceTitle: "Les avantages de NOTRE solution CROISSANCE MAITRISEE :",
         img: "/s9.png",
-        id: "CM2024",
+        id: "Croissance-Maitrisee",
         "cta": "Avec EUREKA GLOBAL, chaque étape est un pas vers votre croissance maîtrisée et votre succès.",
 
         "description": "Notre solution Amélioration du Portefeuille vise à améliorer la performance des investissements existants et à identifier de nouvelles opportunités stratégiques pour les investisseurs etles entrepreneurs. Grâce à notre expertise approfondie et à une approche proactive, nous aidons nos clients à gérer leur portefeuille de manière efficiente et à optimiser leurs rendements.",
@@ -1225,13 +1251,14 @@ export const produits = [{
             }
         ],
         "whyChoose": "EUREKA GLOBAL offre une expertise dédiée, une approche personnalisée et un engagement envers le succès de ses clients. Avec notre solution Croissance Maîtrisée, vous bénéficiez d'un partenariat solide pour propulser votre entreprise vers de nouveaux sommets de réussite.",
-        "contact": "Prêt à maîtriser votre croissance avec EUREKA GLOBAL ? Contactez-nous dès maintenant pour discuter de la façon dont notre solution peut répondre à vos besoins spécifiques et vous aider à atteindre vos objectifs de croissance."
+        "contact": "Prêt à maîtriser votre croissance avec EUREKA GLOBAL ? Contactez-nous dès maintenant pour discuter de la façon dont notre solution peut répondre à vos besoins spécifiques et vous aider à atteindre vos objectifs de croissance.",
+        meta:"Assurez une expansion équilibrée et durable de votre entreprise grâce à nos solutions stratégiques adaptées à vos besoins."
     }, {
         "title": "OPTIMISATION 360",
         aprocheTitle: "NOTRE approche pratique L'OPTIMISATION 360° :",
         importanceTitle: "Les avantages de NOTRE solution OPTIMISATION 360°",
         img: "/s11.png",
-        id: "O3602024",
+        id: "Optimisation-360",
         "cta": "Avec EUREKA GLOBAL, chaque démarche vers l'optimisation est un investissement direct dans le succès durable et la croissance de votre entreprise.",
 
         "description": "L'Optimisation 360 est une solution complète conçue pour stimuler la croissance et l'efficacité des entreprises. En adoptant une approche holistique, nous examinons tous les aspects de votre entreprise, de la structure organisationnelle à la stratégie de marché, afin d'identifier les opportunités d'amélioration et de maximiser votre potentiel de croissance.",
@@ -1271,13 +1298,14 @@ export const produits = [{
             }
         ],
         "whyChoose": "EUREKA GLOBAL offre une expertise approfondie, une approche holistique et un engagement envers le succès de ses clients. Avec notre solution Optimisation 360, vous bénéficiez d'un partenariat solide pour optimiser votre entreprise et atteindre de nouveaux niveaux de réussite.",
-        "contact": "Prêt à optimiser votre entreprise avec l'Optimisation 360 d'EUREKA GLOBAL ? Contactez-nous dès maintenant pour discuter de la façon dont notre solution peut répondre à vos besoins spécifiques et vous aider à atteindre vos objectifs de croissance."
+        "contact": "Prêt à optimiser votre entreprise avec l'Optimisation 360 d'EUREKA GLOBAL ? Contactez-nous dès maintenant pour discuter de la façon dont notre solution peut répondre à vos besoins spécifiques et vous aider à atteindre vos objectifs de croissance.",
+        meta:"Boostez la performance de votre entreprise avec une approche holistique. Identifiez et exploitez toutes les opportunités d’amélioration pour une croissance optimale."
     }, {
         "title": "ACCELERATOR BUNDLE",
         aprocheTitle: "NOTRE approche pratique pour ACCELERER VOTRE CROISSANCE :",
         importanceTitle: "Les avantages de NOTRE solution acceleraTION de votre croissance :",
         img: "/s12.png",
-        id: "AB2024",
+        id: "Accelerateur-Entreprises",
         "cta": "Avec EUREKA GLOBAL, chaque accélération est un pas de gréant vers le succès de vos entreprises.",
 
         "description": "L'Accelerator Bundle ou Accélerateur des entreprises est une solution complète conçue pour propulser les entreprises vers une croissance exponentielle. Ce pack inclusif offre un plan de marketing digital et de communication sur mesure, une formation approfondie en gestion et développement commercial, ainsi qu'un accompagnement stratégique à la transformation numérique.",
@@ -1317,13 +1345,14 @@ export const produits = [{
             }
         ],
         "whyChoose": "EUREKA GLOBAL offre une expertise approfondie, une approche holistique et un engagement envers le succès de ses clients. Avec notre solution Accelerator Bundle, vous bénéficiez d'un partenariat solide pour propulser votre entreprise vers une croissance exponentielle.",
-        "contact": "Prêt à accélérer la croissance de votre entreprise avec l'Accelerator Bundle d'EUREKA GLOBAL ? Contactez-nous dès maintenant pour discuter de la façon dont notre solution peut répondre à vos besoins spécifiques et vous aider à atteindre vos objectifs de croissance."
+        "contact": "Prêt à accélérer la croissance de votre entreprise avec l'Accelerator Bundle d'EUREKA GLOBAL ? Contactez-nous dès maintenant pour discuter de la façon dont notre solution peut répondre à vos besoins spécifiques et vous aider à atteindre vos objectifs de croissance.",
+        meta:"Accélérez votre croissance avec notre Accelerator Bundle : stratégies digitales, accompagnement stratégique et solutions sur mesure pour votre succès."
     }, {
         "title": "PERFORMANCE ESSENTIALS",
         aprocheTitle: "NOTRE approche pratique ESSENTIELlES DES PERFORMANCEs :",
         importanceTitle: "Les avantages de NOTRE SOLUTION ESSENTIELlES DES PERFORMANCEs :",
         img: "/s13.png",
-        id: "PEF2024",
+        id: "Performances-Essentielles",
         "cta": "Avec EUREKA GLOBAL, bénéficiez d'une expertise éprouvée et d'une approche sur mesure pour propulser votre entreprise vers de nouveaux sommets de réussite grâce à Performance Essentials.        ",
 
         "description": "Performance Essentials ou Les Essentielles des Performances est une solution complète conçue pour aider les entreprises à optimiser leur efficacité et à atteindre des niveaux de performance supérieurs. Cette offre comprend le développement de stratégies de croissance, un accompagnement opérationnel sur le terrain et la mise en réseau avec des investisseurs pour stimuler votre croissance.",
@@ -1359,12 +1388,13 @@ export const produits = [{
             }
         ],
         "whyChoose": "EUREKA GLOBAL est votre partenaire de confiance dans la quête de l'excellence et de la croissance durable. Avec notre solution Performance Essentials, vous bénéficiez d'une expertise éprouvée, d'un soutien pratique et d'un réseau étendu pour propulser votre entreprise vers le succès.",
-        "contact": "Prêt à propulser votre entreprise vers de nouveaux sommets de réussite avec Performance Essentials d'EUREKA GLOBAL ? Contactez-nous dès maintenant pour discuter de la façon dont notre solution peut répondre à vos besoins spécifiques et vous aider à atteindre vos objectifs de croissance."
+        "contact": "Prêt à propulser votre entreprise vers de nouveaux sommets de réussite avec Performance Essentials d'EUREKA GLOBAL ? Contactez-nous dès maintenant pour discuter de la façon dont notre solution peut répondre à vos besoins spécifiques et vous aider à atteindre vos objectifs de croissance.",
+        meta:"Boostez l’efficacité de votre entreprise avec les Essentielles des Performances. Stratégies de croissance et soutien opérationnel pour atteindre vos objectifs."
     }, {
         "title": "MARKET TOOLKIT EXPANSION",
         aprocheTitle: "NOTRE approche pratique boite à aoutils pour votre expansion des marches :",
         importanceTitle: "Les avantages de NOTRE boite à outils pour l'expansion des marches :",
-        id: "MTE2024",
+        id: "Expansion-Marches",
         img: "/s14.png",
         "cta": "Avec EUREKA GLOBAL, profitez d'une expertise internationale pour garantir le succès de votre expansion.  ",
 
@@ -1405,13 +1435,14 @@ export const produits = [{
             }
         ],
         "whyChoose": "EUREKA GLOBAL est votre partenaire de confiance pour étendre votre entreprise sur de nouveaux marchés. Avec notre solution Market Toolkit Expansion, vous bénéficiez d'une expertise approfondie, de stratégies éprouvées et d'un soutien pratique pour atteindre vos objectifs d'expansion.",
-        "contact": "Prêt à explorer de nouveaux horizons avec Market Toolkit Expansion d'EUREKA GLOBAL ? Contactez-nous dès maintenant pour démarrer votre voyage vers une expansion réussie et une croissance commerciale durable."
+        "contact": "Prêt à explorer de nouveaux horizons avec Market Toolkit Expansion d'EUREKA GLOBAL ? Contactez-nous dès maintenant pour démarrer votre voyage vers une expansion réussie et une croissance commerciale durable.",
+        meta:"Étendez votre présence sur de nouveaux marchés avec notre boîte à outils stratégique. Études, marketing ciblé et soutien pour des résultats concrets."
     },
     {
         "title": "STRATEGIC OVERHAUL PROGRAM",
         aprocheTitle: "NOTRE approche pratique DE TRANSFORMATION STRATEGIQUE :",
         importanceTitle: "Les avantages de NOTRE SOLUTION TRANSFoRMATION STRATEGIQUE :",
-        id: "SOP2024",
+        id: "Refonte-Stratégique",
         img: "/s15.png",
         "cta": "Avec EUREKA GLOBAL, catalysez la transformation stratégique de votre entreprise et atteignez de nouveaux sommets. ",
 
@@ -1456,13 +1487,14 @@ export const produits = [{
             }
         ],
         "whyChoose": "EUREKA GLOBAL est votre partenaire de confiance pour une transformation stratégique réussie. Avec notre approche éprouvée et notre engagement envers votre succès, nous vous aidons à transformer votre entreprise pour un avenir prospère.",
-        "contact": "Prêt à transformer votre entreprise avec confiance ? Contactez EUREKA GLOBAL dès aujourd'hui pour commencer votre Programme de Refonte Stratégique et libérer le plein potentiel de votre entreprise."
+        "contact": "Prêt à transformer votre entreprise avec confiance ? Contactez EUREKA GLOBAL dès aujourd'hui pour commencer votre Programme de Refonte Stratégique et libérer le plein potentiel de votre entreprise.",
+        meta:"Transformez votre entreprise avec notre programme de refonte stratégique. Un plan complet pour relever vos défis et aligner vos ressources efficacement."
     },
     {
         "title": "INNOVATION LAB INTEGRATION",
         aprocheTitle: "NOTRE approche pratique POUR INTEGRER VOTRE LABO inTERNE D'innovation :",
         importanceTitle: "Les avantages de NOTRE SOLUTION votre Laboratoire interne d'innovation :",
-        id: "ILI2024",
+        id: "Laboratoire-Innovation",
         img: "/s16.png",
         "cta": "Avec EUREKA GLOBAL, ouvrez les portes à l'innovation interne au sein de votre entreprise.",
 
@@ -1507,13 +1539,14 @@ export const produits = [{
             }
         ],
         "whyChoose": "Chez EUREKA GLOBAL, nous mettons à votre disposition notre expertise et notre expérience pour vous aider à créer un laboratoire d'innovation interne efficace et adapté à votre entreprise. Notre approche personnalisée, notre engagement envers la réussite de nos clients et notre passion pour l'innovation font de nous le partenaire idéal pour votre voyage vers une culture d'innovation exceptionnelle.",
-        "contact": "Libérez le potentiel d'innovation de votre entreprise dès aujourd'hui avec notre solution Intégration d'un laboratoire interne d'innovation. Contactez-nous pour une consultation personnalisée et découvrez comment nous pouvons vous aider à propulser votre organisation vers de nouveaux sommets d'innovation et de succès."
+        "contact": "Libérez le potentiel d'innovation de votre entreprise dès aujourd'hui avec notre solution Intégration d'un laboratoire interne d'innovation. Contactez-nous pour une consultation personnalisée et découvrez comment nous pouvons vous aider à propulser votre organisation vers de nouveaux sommets d'innovation et de succès.",
+        meta:"Stimulez l’innovation avec notre solution d’intégration d’un laboratoire interne. Favorisez la créativité et anticipez les tendances pour rester compétitif."
     },
     {
         "title": "POLICY IMPACT ASSESSMENT",
         aprocheTitle: "NOTRE approche pratique POUR evaluer votre impact politique :",
         importanceTitle: "Les avantages de NOTRE SOLUTION d'ÉVALUATION DE  votre IMPACT politique :",
-        id: "PIA2024",
+        id: "Evaluation-Impact-Personnes-Publiques",
         "cta": "Avec EUREKA GLOBAL, accélérez la réussite de vos projets politiques .",
 
         "description": "La solution Policy Impact Assessment ou Évaluation de l'Impact des Personnes Publiques offre une analyse approfondie des politiques existantes, visant à évaluer leur efficacité et leur impact sur la société et l'économie. Avec EUREKA GLOBAL, nous approfondissons l'analyse des politiques pour fournir des recommandations pour leur amélioration et organiser des ateliers de renforcement des compétences pour les parties prenantes concernées.",
@@ -1550,12 +1583,13 @@ export const produits = [{
         ],
         img: "/s17.png",
         "whyChoose": "EUREKA GLOBAL offre une expertise éprouvée dans l'analyse des politiques et une approche personnalisée pour répondre aux besoins spécifiques des Personnalités Publiques. En choisissant EUREKA GLOBAL, vous bénéficiez d'une évaluation rigoureuse de l'impact de vos politiques et de recommandations stratégiques pour améliorer leur efficacité.",
-        "contact": "Optimisez l'impact de vos initiatives politiques avec notre solution Évaluation de l'Impact des Personnes Publiques. Contactez-nous dès maintenant pour une consultation personnalisée et découvrez comment nous pouvons vous aider à maximiser votre influence et votre efficacité en tant que Personnalité Publique."
+        "contact": "Optimisez l'impact de vos initiatives politiques avec notre solution Évaluation de l'Impact des Personnes Publiques. Contactez-nous dès maintenant pour une consultation personnalisée et découvrez comment nous pouvons vous aider à maximiser votre influence et votre efficacité en tant que Personnalité Publique.",
+        meta:"Évaluez l'impact des initiatives politiques avec notre analyse approfondie et nos recommandations stratégiques pour maximiser les résultats positifs sur la société."
     }, {
         "title": "STRATEGIC ADVISORY GOVERNANCE",
         aprocheTitle: "NOTRE approche pratique POUR evaluer votre impact politique :",
         importanceTitle: "Les avantages de NOTRE SOLUTION d'ÉVALUATION DE  votre IMPACT politique :",
-        id: "SAG2024",
+        id: "conseil-gouvernance",
         "cta": "Avec EUREKA GLOBAL, accélérez le succès de vos projets politiques avec notre expertise.",
 
         "description": "La solution Conseil Stratégique en Gouvernance offre une expertise spécialisée aux personnalités politiques pour améliorer la gouvernance et l'efficacité organisationnelle. Chez EUREKA GLOBAL, nous fournissons des conseils personnalisés pour renforcer les pratiques de gouvernance, accompagner la mise en œuvre de réformes et concevoir des stratégies de croissance économique adaptées aux besoins spécifiques de nos clients.",
@@ -1592,7 +1626,8 @@ export const produits = [{
         ],
         img: "/s18.png",
         "whyChoose": "EUREKA GLOBAL offre une expertise approfondie dans le domaine de la gouvernance politique et une approche personnalisée pour répondre aux besoins uniques de chaque client. En choisissant EUREKA GLOBAL, vous bénéficiez d'un partenariat solide pour renforcer votre gouvernance et optimiser votre performance organisationnelle.",
-        "contact": "Optimisez votre gouvernance politique avec notre solution Conseil Stratégique en Gouvernance. Contactez-nous dès maintenant pour une consultation personnalisée et découvrez comment nous pouvons vous aider à maximiser l'efficacité de votre gouvernance et à promouvoir une croissance économique durable."
+        "contact": "Optimisez votre gouvernance politique avec notre solution Conseil Stratégique en Gouvernance. Contactez-nous dès maintenant pour une consultation personnalisée et découvrez comment nous pouvons vous aider à maximiser l'efficacité de votre gouvernance et à promouvoir une croissance économique durable.",
+        meta:"Découvrez notre expertise en conseil stratégique pour améliorer la gouvernance et accompagner les personnalités politiques dans leurs réformes et leur croissance."
     }
 ]
 
@@ -1600,7 +1635,7 @@ export const produits = [{
 export const productItems = [{
         "title": "Pack CRÉATION",
         "subtitle": "D'ENTREPRISE",
-        id: "PCE2024",
+        id: "Pack-Creation-Entreprise",
         desc: "Concentrez-vous pleinement sur le développement de votre activité au démarrage grâce à notre pack complet dédié en Afrique. Nous prenons en charge l'intégralité du processus de création, des formalités administratives aux aspects juridiques et fiscaux.",
         img: "/s1.png",
 
@@ -1608,7 +1643,7 @@ export const productItems = [{
     {
         "title": "MONTAGE DE PROJETS ",
         "subtitle": "eT RECHERCHE DE FINANCEMENTs",
-        id: "MPRF2024",
+        id: "Montage-Projets-Financements",
         desc: "Transformez vos idées en projets concrets et obtenez les financements nécessaires grâce à notre expertise, innovation, et approche stratégique dédiée au montage de projets.",
         img: "/s22.jpeg",
 
@@ -1616,7 +1651,7 @@ export const productItems = [{
     {
         "title": "EXTERNALISATION",
         "subtitle": "JURIDIQUE & FISCALE",
-        id: "EJF2024",
+        id: "Externalisation-Juridique-Fiscale",
         desc: "Assurez la conformité et la tranquillité d'esprit en externalisant vos besoins juridiques et fiscaux à EUREKA GLOBAL, pour une gestion efficace et conforme.",
         img: "/s2.png",
 
@@ -1632,7 +1667,7 @@ export const productItems = [{
     {
         "title": "DUE DILIGENCE",
         "subtitle": "EXCELLENCE",
-        id: "DDE2024",
+        id: "Excellence-Diligence-Raisonnable",
         desc: "Explorez notre offre dédiée aux investisseurs cherchant à maximiser leurs rendements tout en minimisant les risques.",
         img: "/s4.png",
 
@@ -1641,7 +1676,7 @@ export const productItems = [{
     {
         "title": "PORTFOLIO",
         "subtitle": "ENHANCEMENT",
-        id: "PE2024",
+        id: "Amelioration-Portefeuille",
         desc: "Optimisez la performance de vos investissements existants et identifiez de nouvelles opportunités stratégiques grâce à notre expertise approfondie et notre gestion proactive de votre portefeuille.",
         img: "/s5.png",
 
@@ -1649,7 +1684,7 @@ export const productItems = [{
     {
         "title": "STARTER",
         "subtitle": "SUCCESS PACKAGE",
-        id: "SSP2024",
+        id: "starter-success",
         desc: "Rejoignez EUREKA GLOBAL pour bénéficier d'une expertise sur mesure pour démarrer votre projet d’entreprise et le faire décoller vers de nouveaux sommets. ",
         img: "/s6.png",
 
@@ -1657,7 +1692,7 @@ export const productItems = [{
     {
         "title": "ACCELERATION",
         "subtitle": "BOOST",
-        id: "AC2024",
+        id: "Boost-Acceleration",
         desc: "Rejoignez EUREKA GLOBAL et bénéficiez d'une expertise sur mesure pour transformer votre entreprise en une force opérationnelle sur le marché, propulsant votre présence digitale vers de nouveaux sommets. ",
         img: "/s7.png",
 
@@ -1665,7 +1700,7 @@ export const productItems = [{
     {
         "title": "ENTREPRISE EN ",
         "subtitle": "PLEINE ASCENSION",
-        id: "EEPA2024",
+        id: "Entreprise-Ascension",
         desc: "Rejoignez EUREKA GLOBAL et donnez à votre entreprise les outils nécessaires pour prospérer dans un environnement concurrentiel.",
         img: "/s8.png",
 
@@ -1673,7 +1708,7 @@ export const productItems = [{
     {
         "title": "CROISSANCE",
         "subtitle": "MAÎTRISÉE",
-        id: "CM2024",
+        id: "Croissance-Maitrisee",
         desc: "Plongez au cœur de notre offre pour les entreprises et stimulez votre développement de manière équilibrée et durable, en vous fournissant un conseil stratégique pour une croissance pérenne.",
         img: "/s9.png",
 
@@ -1681,7 +1716,7 @@ export const productItems = [{
     {
         "title": "OPTIMISATION",
         "subtitle": "OPERATIONNELLE",
-        id: "OO2024",
+        id: "Optimisation-Operationnelle",
         desc: "Optimisez constamment l'efficacité opérationnelle de votre entreprise en appliquant notre méthode KAIZEN, qui vise à améliorer continuellement vos processus.",
         img: "/s10.png",
 
@@ -1690,7 +1725,7 @@ export const productItems = [{
     {
         "title": "OPTIMISATION",
         "subtitle": "360",
-        id: "O3602024",
+        id: "Optimisation-360",
         desc: "Optez pour une solution holistique examinant tous les aspects de votre entreprise afin d'améliorer l'efficacité opérationnelle, de réduire les coûts et de maximiser la qualité des processus.",
         img: " /s11.png",
 
@@ -1700,7 +1735,7 @@ export const productItems = [{
     {
         "title": "ACCELERATOR",
         "subtitle": "BUNDLE",
-        id: "AB2024",
+        id: "Accelerateur-Entreprises",
         desc: "Votre pack complet comprenant un plan de marketing digital et de communication sur mesure, une formation en gestion et développement commercial, ainsi qu'un accompagnement à la transformation numérique.",
         img: "/s12.png",
 
@@ -1709,7 +1744,7 @@ export const productItems = [{
     {
         "title": "PERFORMANCE",
         "subtitle": "ESSENTALS",
-        id: "PEF2024",
+        id: "Performances-Essentielles",
         desc: "Découvrez comment Les Essentielles des Performances peuvent transformer votre entreprise et la propulser vers de nouveaux sommets.",
         img: "/s13.png",
 
@@ -1718,7 +1753,7 @@ export const productItems = [{
     {
         "title": "Boîte à outils pour",
         "subtitle": "l'Expansion des Marchés",
-        id: "MTE2024",
+        id: "Expansion-Marches",
         desc: "Découvrez comment notre solution Boîte à outils pour l'Expansion des Marchés peut concrétiser vos ambitions commerciales.",
         img: "/s14.png",
 
@@ -1727,7 +1762,7 @@ export const productItems = [{
     {
         "title": "Programme de",
         "subtitle": "refonte stratégique",
-        id: "SOP2024",
+        id: "Refonte-Stratégique",
         desc: "Notre Programme de transformation stratégique est conçue pour toute entreprise cherchant à atteindre de nouveaux sommets stratégiques et prospérer dans un monde en constante évolution",
         img: "/s15.png",
 
@@ -1736,7 +1771,7 @@ export const productItems = [{
     {
         "title": "Intégration d'un",
         "subtitle": "laboratoire interne d'innovation ",
-        id: "ILI2024",
+        id: "Laboratoire-Innovation",
         desc: "Plongez dans l'avenir de l'innovation et libérez le potentiel créatif de votre entreprise avec votre laboratoire d'innovation interne sur mesure.",
         img: "/s16.png",
 
@@ -1745,7 +1780,7 @@ export const productItems = [{
     {
         "title": "Évaluation de l'Impact",
         "subtitle": "des Personnes Publiques",
-        id: "PIA2024",
+        id: "Evaluation-Impact-Personnes-Publiques",
         desc: "Explorez dès maintenant comment notre solution peut transformer la manière dont les politiques sont conçues et mises en œuvre, pour un avenir plus éclairé et durable.",
         img: "/s17.png",
 
@@ -1754,7 +1789,7 @@ export const productItems = [{
     {
         "title": "Conseil Stratégique",
         "subtitle": "en Gouvernance",
-        id: "SAG2024",
+        id: "conseil-gouvernance",
         desc: "Plongez dans notre solution où l'expertise pointue rencontre l'innovation pour élever la gouvernance politique vers de nouveaux sommets de performance et de durabilité.",
         img: "/s18.png",
 

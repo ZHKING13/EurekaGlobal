@@ -57,7 +57,7 @@ function Preambule() {
                               transformer votre vision en réalité.
                           </p>
                           <div className="md:w-40 w-full">
-                              <Link to={"/preambule/investisseur"}>
+                              <Link to={"/preambule/Investisseurs"}>
                                   <Button
                                       size="lg"
                                       className="rounded-[45px] w-full"
@@ -101,7 +101,7 @@ function Preambule() {
                               efficacement dans votre parcours vers la réussite.
                           </p>
                           <div className="md:w-40 w-full">
-                              <Link to={"/preambule/startups"}>
+                              <Link to={"/preambule/Startups"}>
                                   <Button
                                       size="lg"
                                       className="rounded-[45px] w-full"
@@ -133,7 +133,7 @@ function Preambule() {
                               vos opérations.
                           </p>
                           <div className="md:w-40 w-full">
-                              <Link to={"/preambule/tres-petite-entreprise"}>
+                              <Link to={"/preambule/Tres-Petites-Entreprises"}>
                                   <Button
                                       size="lg"
                                       className="rounded-[45px] w-full"
@@ -178,7 +178,7 @@ function Preambule() {
                               assurer votre pérennité sur vos marchés.
                           </p>
                           <div className="md:w-40 w-full">
-                              <Link to={"/preambule/petite-moyenne-entreprise"}>
+                              <Link to={"/preambule/Petites-Moyennes-entreprises"}>
                                   <Button
                                       size="lg"
                                       className="rounded-[45px] w-full"
@@ -213,7 +213,7 @@ function Preambule() {
                               et une compétitivité renforcée.
                           </p>
                           <div className="md:w-40 w-full">
-                              <Link to={"/preambule/grande-entreprise"}>
+                              <Link to={"/preambule/Grandes-Entreprises"}>
                                   <Button
                                       size="lg"
                                       className="rounded-[45px] w-full"
@@ -261,7 +261,7 @@ function Preambule() {
                               façonnons l'avenir des nations.{" "}
                           </p>
                           <div className="md:w-40 w-full">
-                              <Link to={"/preambule/personnalite-publique"}>
+                              <Link to={"/preambule/Personnalites-Publiques"}>
                                   <Button
                                       size="lg"
                                       className="rounded-[45px] w-full"

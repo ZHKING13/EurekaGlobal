@@ -1,10 +1,14 @@
 /** @type {import('tailwindcss').Config} */
-const defaultTheme = require("tailwindcss/defaultTheme");
+// const defaultTheme = require("tailwindcss/defaultTheme");
 
-const colors = require("tailwindcss/colors");
-const {
-    default: flattenColorPalette,
-} = require("tailwindcss/lib/util/flattenColorPalette");
+// const colors = require("tailwindcss/colors");
+// const {
+//     default: flattenColorPalette,
+// } = require("tailwindcss/lib/util/flattenColorPalette");
+import defaultTheme from "tailwindcss/defaultTheme";
+import colors from "tailwindcss/colors";
+import flattenColorPalette from "tailwindcss/lib/util/flattenColorPalette.js";
+import tailwindAnimate from "tailwindcss-animate";
 
 module.exports = {
     darkMode: ["class"],

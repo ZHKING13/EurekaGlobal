@@ -16,17 +16,17 @@ import { FaFacebook, FaLinkedin, FaTwitter, FaWhatsapp } from "react-icons/fa";
 import { CiMail } from "react-icons/ci";
 import { cn } from "./lib/utils.js";
 function Root() {
-      const {
-          showDrawer,
-          toggleDrawer,
-          products,
-          formations,
-          addProduct,
-          removeProduct,
-          addFormation,
-          removeFormation,
+    const {
+        showDrawer,
+        toggleDrawer,
+        products,
+        formations,
+        addProduct,
+        removeProduct,
+        addFormation,
+        removeFormation,
     } = useStore();
-    const selectItem = [...products, ...formations]
+    const selectItem = [...products, ...formations];
     const [isModalOpen, setIsModalOpen] = useState(false);
     const showModal = () => {
         setIsModalOpen(true);
@@ -40,10 +40,10 @@ function Root() {
     return (
         <div className=" ">
             <div className="fixed z-50 container  top-2 left-0 right-0">
-              <div className="md:container">
-                  <NavBareMenu />
-              </div>
-          </div>
+                <div className="md:container">
+                    <NavBareMenu />
+                </div>
+            </div>
             <Modal
                 destroyOnClose
                 title="Demander un devis"
@@ -54,12 +54,19 @@ function Root() {
             >
                 <DevisForme handleCancel={handleCancel} />
             </Modal>
-            <Popover placement="left" content="Chattez avec nous instantanement">
-                <a href="https://wa.me/+2250788899937" target="_blank" className="w-[55px] z-50 h-[55px] cursor-pointer rounded-full flex items-center justify-center bg-green-600 fixed bottom-6 right-7">
-                        <FaWhatsapp  className="text-5xl transform -rotate-90 text-white  " />
+            <Popover
+                placement="left"
+                content="Chattez avec nous instantanement"
+            >
+                <a
+                    href="https://wa.me/+2250788899937"
+                    target="_blank"
+                    className="w-[55px] z-50 h-[55px] cursor-pointer rounded-full flex items-center justify-center bg-green-600 fixed bottom-6 right-7"
+                >
+                    <FaWhatsapp className="text-5xl transform -rotate-90 text-white  " />
                 </a>
             </Popover>
-         
+
             <Drawer
                 onClose={toggleDrawer}
                 open={showDrawer}
@@ -74,71 +81,119 @@ function Root() {
                         })}
                     {formations.length > 0 &&
                         formations.map((produit) => {
-                            return <ItemsCard type="formation" item={produit} />;
+                            return (
+                                <ItemsCard type="formation" item={produit} />
+                            );
                         })}
                 </div>
-                <Popover placement="left" content="Cliquez pour fermer votre panier">
-                     <div onClick={toggleDrawer} className={cn("fixed py-2 px-5 flex  text-white z-50 transform -rotate-90  bg-green-600 bottom-[40%] cursor-pointer   right-[347px]",!showDrawer && "hidden")}>
-                <FileTextOutlined className="mr-3 text-2xl transform rotate-90  " />
-                    <p>Mes selections</p>
-                    {/* custome badge */}
-                    {
-                        (products.length + formations.length) > 0 ? ( <div className={cn("rounded-full w-6 h-6 text-center flex justify-center items-center p-1 fixed top-[-10px] left-[-10px] bg-blue-700 transform rotate-90", )}>
-                        {products.length + formations.length}
-                    </div>) : (<div className="hidden"></div>)
-                   }
-            </div>
+                <Popover
+                    placement="left"
+                    content="Cliquez pour fermer votre panier"
+                >
+                    <div
+                        onClick={toggleDrawer}
+                        className={cn(
+                            "fixed py-2 px-5 flex  text-white z-50 transform -rotate-90  bg-green-600 bottom-[40%] cursor-pointer   right-[347px]",
+                            !showDrawer && "hidden"
+                        )}
+                    >
+                        <FileTextOutlined className="mr-3 text-2xl transform rotate-90  " />
+                        <p>Mes selections</p>
+                        {/* custome badge */}
+                        {products.length + formations.length > 0 ? (
+                            <div
+                                className={cn(
+                                    "rounded-full w-6 h-6 text-center flex justify-center items-center p-1 fixed top-[-10px] left-[-10px] bg-blue-700 transform rotate-90"
+                                )}
+                            >
+                                {products.length + formations.length}
+                            </div>
+                        ) : (
+                            <div className="hidden"></div>
+                        )}
+                    </div>
                 </Popover>
-                {
-                    (products.length + formations.length) > 0 ? (
-                        <div className="absolute bottom-5  w-full flex items-center justify-center">
-                            <Button onClick={showModal}>Demander un devis </Button>
-                        </div>
-                    ) : null
-               }
+                {products.length + formations.length > 0 ? (
+                    <div className="absolute bottom-5  w-full flex items-center justify-center">
+                        <Button onClick={showModal}>Demander un devis </Button>
+                    </div>
+                ) : null}
             </Drawer>
-           
+
             <div className="fixed  flex gap-2  text-white z-50 transform rotate-90  top-[24%] cursor-pointer  right-[-69px]">
-                <Popover placement="left" content="Suivez-nous sur Twitter" >
-                    <a target="_blank" href="https://twitter.com/EurekaGlobal_" className="p-1 bg-blue-600   rounded-sm">
-                        <FaTwitter  className="text-2xl transform -rotate-90 text-white  " />
+                <Popover placement="left" content="Suivez-nous sur Twitter">
+                    <a
+                        target="_blank"
+                        href="https://twitter.com/EurekaGlobal_"
+                        className="p-1 bg-blue-600   rounded-sm"
+                    >
+                        <FaTwitter className="text-2xl transform -rotate-90 text-white  " />
                     </a>
                 </Popover>
                 <Popover placement="left" content="Suivez-nous sur Facebook">
-                    <a target="_blank" href="https://www.facebook.com/GroupEurekaGlobal" className="p-1 bg-blue-900   rounded-sm">
-                        <FaFacebook  className="text-2xl transform -rotate-90 text-white  " />
+                    <a
+                        target="_blank"
+                        href="https://www.facebook.com/GroupEurekaGlobal"
+                        className="p-1 bg-blue-900   rounded-sm"
+                    >
+                        <FaFacebook className="text-2xl transform -rotate-90 text-white  " />
                     </a>
                 </Popover>
                 <Popover placement="left" content="Suivez-nous sur Linkedin">
-                    <a target="_blank"  href="https://www.linkedin.com/in/groupeurekaglobal/" className="p-1 bg-blue-700   rounded-sm">
-                        <FaLinkedin  className="text-2xl transform -rotate-90 text-white  " />
+                    <a
+                        target="_blank"
+                        href="https://www.linkedin.com/in/groupeurekaglobal/"
+                        className="p-1 bg-blue-700   rounded-sm"
+                    >
+                        <FaLinkedin className="text-2xl transform -rotate-90 text-white  " />
                     </a>
-                </Popover >
-                <Popover placement="left" content="Rejoignez notre communauté Whatsapp">
-                    <a target="_blank" href="https://whatsapp.com/channel/0029VaOkaQA42Dcodh6x3v0p" className="p-1 bg-green-600   rounded-sm">
-                        <FaWhatsapp  className="text-2xl transform -rotate-90 text-white  " />
+                </Popover>
+                <Popover
+                    placement="left"
+                    content="Rejoignez notre communauté Whatsapp"
+                >
+                    <a
+                        target="_blank"
+                        href="https://whatsapp.com/channel/0029VaOkaQA42Dcodh6x3v0p"
+                        className="p-1 bg-green-600   rounded-sm"
+                    >
+                        <FaWhatsapp className="text-2xl transform -rotate-90 text-white  " />
                     </a>
                 </Popover>
                 <Popover placement="left" content="Ecrivez-nous un mail">
-                    <a target="_blank" href="mailto:info@EurekaGlobal.co" className="p-1 bg-primary  rounded-sm">
-                        <CiMail  className="text-2xl transform -rotate-90 text-white  " />
+                    <a
+                        target="_blank"
+                        href="mailto:info@EurekaGlobal.site"
+                        className="p-1 bg-primary  rounded-sm"
+                    >
+                        <CiMail className="text-2xl transform -rotate-90 text-white  " />
                     </a>
                 </Popover>
             </div>
             <Popover placement="left" content="Cliquez pour voir votre panier">
-                <div onClick={toggleDrawer} className={cn("fixed py-2 px-5 flex  text-white z-50 transform -rotate-90  bg-green-600 bottom-[35%] cursor-pointer   right-[-65px]")}>
+                <div
+                    onClick={toggleDrawer}
+                    className={cn(
+                        "fixed py-2 px-5 flex  text-white z-50 transform -rotate-90  bg-green-600 bottom-[35%] cursor-pointer   right-[-65px]"
+                    )}
+                >
                     <FileTextOutlined className="mr-3 text-2xl transform rotate-90  " />
                     <p>Mes selections</p>
-                   {
-                            (products.length + formations.length) > 0 ? ( <div className={cn("rounded-full w-6 h-6 text-center flex justify-center items-center p-1 fixed top-[-10px] left-[-10px] bg-blue-700 transform rotate-90", )}>
+                    {products.length + formations.length > 0 ? (
+                        <div
+                            className={cn(
+                                "rounded-full w-6 h-6 text-center flex justify-center items-center p-1 fixed top-[-10px] left-[-10px] bg-blue-700 transform rotate-90"
+                            )}
+                        >
                             {products.length + formations.length}
-                        </div>) : (<div className="hidden"></div>)
-                       }
+                        </div>
+                    ) : (
+                        <div className="hidden"></div>
+                    )}
                 </div>
             </Popover>
-            
-            <ScrollToTop />
 
+            <ScrollToTop />
 
             <Outlet />
 

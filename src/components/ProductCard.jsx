@@ -14,11 +14,11 @@ const ProductCard = ({ item }) => {
                     </h5>
                 </div>
                 <p className="mb-3 text-sm font-normal text-gray-700 dark:text-gray-400">
-                   {replaceTextWithLogo(item.desc)}
+                    {replaceTextWithLogo(item.desc)}
                 </p>
                 <div className="w-full flex items-end justify-end">
                     <Link
-                        to={`/produits&services/${item.id}`}
+                        to={`/produits-services/${item.id}`}
                         className="inline-flex text-right items-center  hover:text-white duration-300 px-3 py-2 text-sm font-medium bg-primary  text-white rounded-lg hover:bg-secondary  focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                     >
                         Découvrir

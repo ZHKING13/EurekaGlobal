@@ -9,6 +9,7 @@ import { NavBareMenu } from "./components/NavBare";
 import Footer from "./components/Footer";
 import { Link, redirect, useNavigate } from "react-router-dom";
 import CtaSection from "./components/Cta";
+import SEO from "./components/SEO";
 
 export default function App() {
     const navigate = useNavigate();
@@ -17,6 +18,12 @@ export default function App() {
     };
     return (
         <div>
+            <SEO
+                title={"Acceuil"}
+                name="Eureka Global"
+                description="Découvrez comment Eureka Global, votre partenaire stratégique, expert en solutions sur mesure, conseil en transformation organisationnelle et formations professionnelles, peut vous aider à réussir grâce à l'innovation et au développement d'entreprise.
+"
+            />
             <section className="pt-20  md:h-[100vh] pb-5 container bg-primary text-white">
                 <div className="flex flex-col md:flex-row gap-8 w-full h-full">
                     <div
@@ -43,14 +50,14 @@ export default function App() {
                             entreprise vers l'excellence.
                         </p>
                         <Link to="/contact">
-                             <Button
-                            data-aos="fade-up"
-                            size="lg"
-                            variant="CTA"
-                            className="mt-4 px-7 rounded-[45px]"
-                        >
-                            Exprimez vos bésoins
-                        </Button>
+                            <Button
+                                data-aos="fade-up"
+                                size="lg"
+                                variant="CTA"
+                                className="mt-4 px-7 rounded-[45px]"
+                            >
+                                Exprimez vos bésoins
+                            </Button>
                         </Link>
                     </div>
                 </div>
@@ -90,10 +97,7 @@ export default function App() {
                             et précision.
                         </p>
                     </div>
-                    <div
-                        
-                        className="md:w-[45%] h-full w-full p-5"
-                    >
+                    <div className="md:w-[45%] h-full w-full p-5">
                         <img
                             className="h-full w-full object-contain"
                             src="./about.png"
@@ -242,8 +246,7 @@ export default function App() {
                 </div>
             </section>
             <section class="md:container mb-4">
-                
-            <CtaSection home/>
+                <CtaSection home />
             </section>
         </div>
     );
