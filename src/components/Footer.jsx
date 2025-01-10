@@ -220,7 +220,7 @@ function Footer() {
                                         color="#00B0F0FF"
                                         className="text-lg"
                                     />{" "}
-                                    www.EurekaGlobal.Co
+                                    www.EurekaGlobal.site
                                 </a>
                             </div>
                         </div>
