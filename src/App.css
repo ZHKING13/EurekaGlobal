@@ -1,5 +1,5 @@
 body {
-    font-family: "Manrope ",
+    font-family: "Manrope ";
 }
 
 .logo {
@@ -36,7 +36,7 @@ h1 {
     line-height: 30px;
     font-weight: 400;
     text-transform: uppercase;
-    color: #002267FF
+    color: #002267ff;
 }
 
 .textNormal {
@@ -114,3 +114,4 @@ h1 {
 .ant-form-item {
     margin-bottom: 0px !important;
 }
+
